@@ -376,14 +376,16 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - **2026 ❓:** Ideen: Cardholder (B-Kunden), Picnic Blanket (A-Kunden), eventuell Karandashi Pen. Zeigen wir das schon, als «in progress», oder erst nach dem Versand?
 - 🔒 Lieferanten bzw. Partner nur nennen, wenn freigegeben 📌 (A12)
 
-#### TEXT-ENTWURF Case «Weihnachtskampagnen» ✏️
-- **Stichworte:** Konzept · Geschenkauswahl · Verpackung · Karten
+#### TEXT-ENTWURF Case «Weihnachtskampagne 2026» ✏️
+**Entscheid ✅:** Auf der Website nur **2026** zeigen (Konzept, Design, Text eigenständig von Yana). 2025: Yana leitete die Kampagne mit einer Agentur (nur evtl. ein Satz). 2024 (mit Agentur) weglassen.
+- **Stichworte:** Konzept · Kartendesign · Text · Geschenkauswahl
 - **Ausgangslage:** Jedes Jahr bedankt sich CP Pump Systems zu Weihnachten mit einem Geschenk, abgestimmt auf drei Zielgruppen: A-Kunden, B-Kunden und Mitarbeitende.
-- **Meine Rolle:** Seit 2024 betreue ich die Weihnachtskampagne, von der Idee über die Auswahl der Geschenke bis zu Branding, Verpackung, Karte, Bestellung und Versand. 2024 arbeitete ich dafür noch mit einer Agentur zusammen, 2025 setzte ich die Kampagne eigenständig um.
-- **2024:** Für die B-Kunden ein Set aus Bienenwachstüchern, ein Geschenk mit Nachhaltigkeitsbezug. Die Tücher wurden in einer Werkstatt von Hand gefaltet und verpackt; dazu gestaltete ich Karte, Verpackung und Produktbeschreibung.
-- **2025:** Ein Multitool von Richartz im CP-Branding, mit eigener Verpackung und Karte. Für die Mitarbeitenden ein grossformatiges, gebrandetes Badetuch.
-- **2026:** ❓ zeigen oder nicht (Ideen: Cardholder, Picnic Blanket, Karandashi Pen)
-- **Ergebnis:** 📌 später
+- **Meine Rolle:** Nachdem ich die Kampagne 2025 zusammen mit einer Agentur geleitet hatte, setzte ich sie 2026 eigenständig um: vom Konzept über die Geschenkauswahl bis zu Kartendesign und Texten.
+- **Vorgehen:** Statt Geschenke selbst festzulegen, fragte ich zuerst den Verkauf und die Vertretungen: Welche Ideen kommen bei den Kunden an, und wie viele Geschenke braucht es? Die Favoriten verglich ich bei drei Anbietern nach Preis, Druckfläche, Lieferzeit und Herkunft.
+- **Umsetzung:** Picknickdecke für A-Kunden · RFID-Kartenhalter für B-Kunden · Weihnachtskarten in allen Sprachen, in Sie- und Du-Form · Mitarbeiterkarte auf Deutsch und Englisch · Texte für alle Karten
+- **Ergebnis:** 📌 später (Versand Ende 2026)
+- ❓ Offen: Ist das Schneekugel-Konzept (Pumpe in der Schneekugel, Zahlen-verbinden-Rätsel) das Kartenmotiv 2026? Mitarbeitergeschenk 2026?
+
 - **Funde aus Drive «Weihnachtskampagnen» (03.10.2026)** (nicht verwendet: Adresslisten, Preise, Rechnungen, Offerten):
   - 2025: Projektplan Juni–Dez mit einer Agentur (laut Plan: Konzept, Text, Layout, Verpackung bei der Agentur; Lektorat extern; Druck in Druckerei; Übersetzung EN/FR bei CP; Versand DE/FR direkt, Mitarbeitende persönlich; A-Gadget wird von Verkäufern persönlich übergeben; digitales Mailing an übrige Kunden/Agenten weltweit). Karten in vielen Varianten: A-Kunden Sie/Du, männlich/weiblich/neutral, EN personalisiert; Mitarbeiterkarten DE/EN. Badetücher (zweite Lieferung). Skizzen zum Weihnachtsmailing vorhanden (Prozessbilder!). ❓ Was war Yanas Anteil 2025 (vorher hiess es «eigenständig»)?
   - Konzept-Präsentation «Weihnachtsmailing» (Ideen & Konzept): Kartendesigns, Favorit «Schneekugel mit CP-Pumpe», Zahlen-verbinden-Rätsel (ergibt Pumpe oder XMAS), drei Wording-Varianten, Zeitplan. ❓ Von Yana? Welches Jahr? Umgesetzt?
