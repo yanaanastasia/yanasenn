@@ -376,6 +376,16 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - **2026 ❓:** Ideen: Cardholder (B-Kunden), Picnic Blanket (A-Kunden), eventuell Karandashi Pen. Zeigen wir das schon, als «in progress», oder erst nach dem Versand?
 - 🔒 Lieferanten bzw. Partner nur nennen, wenn freigegeben 📌 (A12)
 
+#### TEXT-ENTWURF Case «Weihnachtskampagnen» ✏️
+- **Stichworte:** Konzept · Geschenkauswahl · Verpackung · Karten
+- **Ausgangslage:** Jedes Jahr bedankt sich CP Pump Systems zu Weihnachten mit einem Geschenk, abgestimmt auf drei Zielgruppen: A-Kunden, B-Kunden und Mitarbeitende.
+- **Meine Rolle:** Seit 2024 betreue ich die Weihnachtskampagne, von der Idee über die Auswahl der Geschenke bis zu Branding, Verpackung, Karte, Bestellung und Versand. 2024 arbeitete ich dafür noch mit einer Agentur zusammen, 2025 setzte ich die Kampagne eigenständig um.
+- **2024:** Für die B-Kunden ein Set aus Bienenwachstüchern, ein Geschenk mit Nachhaltigkeitsbezug. Die Tücher wurden in einer Werkstatt von Hand gefaltet und verpackt; dazu gestaltete ich Karte, Verpackung und Produktbeschreibung.
+- **2025:** Ein Multitool von Richartz im CP-Branding, mit eigener Verpackung und Karte. Für die Mitarbeitenden ein grossformatiges, gebrandetes Badetuch.
+- **2026:** ❓ zeigen oder nicht (Ideen: Cardholder, Picnic Blanket, Karandashi Pen)
+- **Ergebnis:** 📌 später
+- ❓ Offen: A-Kunden-Geschenke 2024/2025? Was für eine Werkstatt (z. B. soziale Einrichtung)? 2025 Multitool für welche Zielgruppe?
+
 #### Case 4 · Branded Objects & Giveaways (CP + GOLDINGER)
 **Kernaussage ✏️:** «Branding extends beyond the screen.» Ein bildstarker Case mit wenig Text.
 
