@@ -50,20 +50,27 @@ Idea → Concept → Design → Organisation → Production → Execution → Co
 
 ---
 
-## 3. Sitemap
+## 3. Sitemap ✅
 
 ```
-/                Startseite (DE)     /en/              Home (EN)
-/arbeiten        Alle Projekte       /en/work
-/arbeiten/<case> Case Study          /en/work/<case>
-/ueber-mich      Über mich           /en/about
-/kontakt         Kontakt             /en/contact
-/impressum       Impressum           /en/imprint
-/datenschutz     Datenschutz         /en/privacy
+/                 Hi. (Startseite, DE)   /en/               Hi. (Home, EN)
+/portfolio        Alle Projekte          /en/portfolio
+/portfolio/<case> Case Study             /en/portfolio/<case>
+/services         Services               /en/services
+/ueber-mich       Über mich              /en/about
+/kontakt          Kontakt                /en/contact
+/impressum        Impressum              /en/imprint
+/datenschutz      Datenschutz            /en/privacy
 /404
 ```
 
-Navigation: **Arbeiten · Über mich · Kontakt** (EN: Work · About · Contact) und oben rechts der Sprachumschalter **DE / EN**. Der Name bzw. das Logo führt zur Startseite.
+**Menü ✅:** **Hi. · Portfolio · Services · Über mich · Kontakt**, oben rechts **DE / EN**
+(EN: Hi. · Portfolio · Services · About · Contact)
+
+**Aufteilung ✅ (Mischung aus Olivia und Louis):**
+- **Hi.** = Startseite mit *kurzer* Vorstellung (Foto, 2–3 Sätze), dann beste Projekte und eine kurze Services-Übersicht
+- **Über mich** = das *Ausführliche*: Arbeitsweise, Werdegang als Zeitstrahl (ersetzt einen eigenen «CV»-Menüpunkt), Ausbildung, Sprachen, Tools
+- **Services** = eigene Seite mit allen 8 Services
 
 ---
 
