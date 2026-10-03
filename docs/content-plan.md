@@ -408,7 +408,7 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - **Katalog ✅:** Den internen Katalog «Brochures & Gadgets» (Broschüren, Factsheets und Giveaways mit Artikelnummern, zum Bestellen für Events) habe ich erneuert und aktualisiert.
 - **GOLDINGER:** Mini-Fruchtgummis im eigenen Design, Autoaufkleber
 - **Bilder:** vorhandene Fotos im Ordner (Badetuch, Fussball, Lampen, Taschen, Stifte, Notizbuch, Golf, Box, Mappe); 📌 Yana macht neue Fotos im Büro; bis dahin Mockups als Platzhalter.
-- ❓ Offen: 3D-Ball und Dokumentenmappe: Design von Yana?
+- 📌 3D-Ball und Dokumentenmappe: Yana ist unsicher (evtl. neues Design bei Neubestellung). **Vorerst nicht als ihr Design erwähnen**, später in den Dateien prüfen.
 
 #### Case 4 · Branded Objects & Giveaways (CP + GOLDINGER)
 **Kernaussage ✏️:** «Branding extends beyond the screen.» Ein bildstarker Case mit wenig Text.
