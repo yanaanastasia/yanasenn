@@ -396,6 +396,18 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
   - 2026: interne Umfrage (April 2026) bei Verkauf/Ländern zu Geschenk-Ideen und Mengen; Vergleich von drei Lieferanten (Preis, Druckfläche, Lieferzeit, Herkunft). Entscheid: A-Kunden Picknickdecke, B-Kunden RFID-Kartenhalter; Karten in allen Sprachen, Sie/Du-Form; Mitarbeiterkarte DE/EN. Starkes «Vorgehen»-Beispiel (datenbasiert). ❓ 2026 zeigen?
 - ❓ Offen: A-Kunden-Geschenke 2024/2025? Was für eine Werkstatt (z. B. soziale Einrichtung)? 2025 Multitool für welche Zielgruppe?
 
+#### TEXT-ENTWURF Case «Giveaways und Werbeartikel» ✏️
+Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Give-Aways_2025 (Anbietervergleiche), Zeitplan Versand USA-Box, Katalog «CP Brochures & Gadgets» (Artikelnummern, zum Bestellen für Events). Nicht verwendet: Preise, Rechnungen, Offerten, Namen.
+- **Stichworte:** Auswahl · Branding · Produktion · Versand
+- **Ausgangslage:** An Messen, bei Kundenbesuchen und als Dankeschön braucht CP Werbeartikel, die zur Marke passen und gerne benutzt werden, für eigene Messen ebenso wie für Partner weltweit.
+- **Meine Rolle:** Ich wähle die Artikel aus, kümmere mich um Branding und Druckdaten, bestelle, organisiere Lagerung und Versand.
+- **Vorgehen:** Für neue Artikel vergleiche ich mehrere Anbieter, zum Beispiel bei Fruchtgummis nach Menge, Druckfläche, Lieferzeit und Zutaten. ❓ Einige Bestellungen klimaneutral über myClimate (Zertifikate im Ordner) – erwähnen?
+- **Sortiment (Auswahl):** SIGG-Flaschen und -Lunchboxen, Rucksäcke, Badetücher, Fussbälle, Golfbälle, Teleskoplampen, Notizbücher, Multitools, Victorinox-Taschenmesser, Kägi-Schokolade, Zuckersticks, Mehrwegbecher, Massstäbe, Universal-Ladestecker, Arbeits- und Messekleidung
+- **Logistik:** Material für Messen und Partner im Ausland, z. B. eine Box mit Broschüren und Giveaways für eine Messe in den USA, geplant mit Luft- oder Seefracht-Vorlauf.
+- **GOLDINGER:** Mini-Fruchtgummis im eigenen Design, Autoaufkleber
+- **Bilder:** vorhandene Fotos im Ordner (Badetuch, Fussball, Lampen, Taschen, Stifte, Notizbuch, Golf, Box, Mappe); 📌 Yana macht neue Fotos im Büro; bis dahin Mockups als Platzhalter.
+- ❓ Offen: Katalog «Brochures & Gadgets» von Yana erstellt? Kägi-Verpackung, 3D-Ball, Dokumentationsmappe: Design von Yana?
+
 #### Case 4 · Branded Objects & Giveaways (CP + GOLDINGER)
 **Kernaussage ✏️:** «Branding extends beyond the screen.» Ein bildstarker Case mit wenig Text.
 
