@@ -348,14 +348,14 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 | 2019 – 2022 | Berufsmaturität BM1, Richtung TALS (Technik, Architektur, Life Sciences), parallel zur Lehre | ✅ |
 | 08/2021 – 08/2023 | GOLDINGER Immobilien AG, Praktikum Marketing / Mediamatikerin | ✅ |
 | 01/2024 – heute | CP Pump Systems, Mitarbeiterin Marketing & Kommunikation | ✅ |
-| 01/2026 | Praxisausbildnerkurs (Schweiz) ❓ offizielle Bezeichnung laut Ausweis prüfen | ✅ |
+| 01/2026 | **Praxisbildnerin**, zB. Zentrum Bildung, Baden (Seminar mit Kursbestätigung) | ✅ |
 
 **Sprachen ✅:** Deutsch und Schweizerdeutsch (fliessend), Englisch C1, Französisch B1 (DELF ❓ Niveau prüfen), 
 **Auf der Website ✅ (Variante A):** nur Deutsch, Schweizerdeutsch, Englisch, Französisch. **Russisch und Herkunft werden nicht erwähnt** (Yanas Entscheid).
 
 **Tools ✅:** InDesign, Illustrator, Photoshop, Premiere Pro, Canva, TYPO3, Craft CMS, Elementor, Shopify, Meta Ads, Zoho One, Namecheap, ChatGPT, Claude
 
-**AI ✅ (nur auf Über mich, kein Service):** wird begleitend eingesetzt wie andere Tools, zur Unterstützung und Erleichterung im Alltag, Botschaft: Yana kennt die aktuellen Werkzeuge und arbeitet selbstverständlich damit. **Keine Einsatzbeispiele aufzählen** ✅ (zu vielseitig). Entwurf ✏️: «Selbstverständlich arbeite ich auch mit AI-Tools wie ChatGPT und Claude.»
+**AI ✅:** kein eigener Satz und kein Service. ChatGPT und Claude stehen einfach in der Tool-Liste wie Photoshop (eventuell gruppiert als «AI-Tools»).
 
 **Aktuelle Anstellung:** Muss nicht prominent erwähnt werden ✅. Empfehlung: CP-Projekte ehrlich als «in-house» kennzeichnen. In der Timeline steht «2024 –» ohne Kommentar. ❓ Vor dem Livegang den Arbeitsvertrag auf Nebenerwerb und Vertraulichkeit prüfen.
 
@@ -412,6 +412,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
   - https://www.pascalfrey.ch/ (nur Inhalt interessant, nicht Design)
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
 - [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
+- [ ] **Praxisbildnerin:** betreut Yana selbst Lernende bei CP? (nur erwähnen, wenn ja)
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Logo** gemeinsam ausdenken (Vorschlag bisher: Wortmarke «Yana Senn» und Monogramm «YS»)
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
