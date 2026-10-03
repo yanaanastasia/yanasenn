@@ -417,14 +417,26 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - Arbeitskleidung und Messekleidung ✅ 📌
 - GOLDINGER-Gummibärchen 2022 ✅ (Formen und Grafik gestaltet, für WEGA & Immozionale)
 
+#### TEXT-ENTWURF Case «Broschüren und Factsheets» ✏️
+- **Stichworte:** Konzept · Layout · Infografiken · Mehrsprachigkeit
+- **Kurz:** 10 Broschüren in bis zu neun Sprachversionen
+- **Ausgangslage:** Die Broschüren von CP Pump Systems waren über die Jahre gewachsen: unterschiedlich aufgebaut, teils mit Einklappfalte, mit verschiedenen InDesign-Strukturen und je nach Sprache mit anderen Inhalten. Das machte Pflege und Übersetzung aufwendig.
+- **Ziel:** Ein einheitliches, modulares Broschürensystem: gleicher Aufbau für alle Produktbereiche, identische Inhalte in jeder Sprache, DIN- und ANSI-Normen nebeneinander und ein konsistenter Markenauftritt.
+- **Meine Rolle:** Ich habe das Konzept dafür erstellt und die Broschüren überarbeitet, inhaltlich wie grafisch.
+- **Vorgehen:** Ein Standardformat ohne Einklappfalte, ein zentrales InDesign-Masterdokument mit festen Absatz-, Zeichen- und Tabellenformaten und eigenen Ebenen für Sprachen, eine einheitliche Terminologie und wiederkehrende Icons und Infografiken. Eine Pilotbroschüre dient als Referenz, danach folgen die übrigen Schritt für Schritt.
+- **Umsetzung:** Intensive Überarbeitung, vor allem von Company-Profil und Sortimentsbroschüre · neue Grafiken wie Weltkarte und Zeitstrahl · Übersetzungen mit einem Übersetzungsbüro, unter anderem ins Chinesische, Polnische, Tschechische und Slowakische · eigene US-Versionen im Letter-Format · Druckvorbereitung und Nachdrucke · Übersicht über alle Druck- und Digitalversionen
+- **Neu 2026:** Flyer «Keeping Molten Sulphur Warm», komplett von mir gestaltet; die Texte basieren auf bestehendem Material und sind mit dem Verkauf abgestimmt.
+- **Ergebnis:** 📌 später
+
 #### Fakten «Broschüren und Factsheets» ✅ (Yana, 03.10.2026)
 - Bestehende Broschüren (Layout stand), aber **intensiv überarbeitet**: viele Inhalte angepasst und ausgetauscht, vor allem **Company-Broschüre** und **Sortimentsbroschüre**.
 - **Neue Grafiken von Yana** erstellt und eingesetzt, z. B. **Weltkarte** und **Zeitstrahl** (nicht nur diese).
 - **Übersetzungen in viele Sprachen** koordiniert, zusammen mit einem Übersetzungsbüro, z. B. **Chinesisch, Polnisch** (wegen vieler Partner), u. a.
 - **Funde Drive «Broschüren» (03.10.2026):**
-  - «Konzept Broschüren» (Dez. 2025): Ausgangslage – Broschüren nicht vereinheitlicht (Aufbau, Layout teils mit Einklappfalte, InDesign-Struktur, Sprachen unterschiedlich). Ziel – einheitliches, modulares Konzept: konsistenter Markenauftritt, gleicher Aufbau für alle Produktbereiche, DIN- und ANSI-Normen, identischer Inhalt pro Sprache, einfachere Pflege und Übersetzung. Vorgehen – Standardformat ohne Einklappfalte, zentrales InDesign-Masterdokument mit Absatz-/Zeichen-/Tabellenformaten und Sprachebenen, einheitliche Terminologie, Sprachkonzept, wiederkehrende Icons und Infografiken, Pilotbroschüre, Rollout, Versionierung. ❓ Konzept von Yana?
+  - «Konzept Broschüren» (Dez. 2025): Ausgangslage – Broschüren nicht vereinheitlicht (Aufbau, Layout teils mit Einklappfalte, InDesign-Struktur, Sprachen unterschiedlich). Ziel – einheitliches, modulares Konzept: konsistenter Markenauftritt, gleicher Aufbau für alle Produktbereiche, DIN- und ANSI-Normen, identischer Inhalt pro Sprache, einfachere Pflege und Übersetzung. Vorgehen – Standardformat ohne Einklappfalte, zentrales InDesign-Masterdokument mit Absatz-/Zeichen-/Tabellenformaten und Sprachebenen, einheitliche Terminologie, Sprachkonzept, wiederkehrende Icons und Infografiken, Pilotbroschüre, Rollout, Versionierung. ✅ Konzept von Yana erstellt, Broschüren von ihr überarbeitet.
   - «Übersicht aller Broschüren» (Stand 2026): 10 Broschüren (Company Profile, Sortiment, Produktreihen) in bis zu **9 Sprachversionen**: DE, EN, en-USA (Letter-Format), FR, IT, PL, CN, CZ, SK; Druck- und Digitalversionen, Lager CH und USA. 2026 neu gedruckt: Sortiment CZ und SK, MKP IT, MKPL IT; Nachdruck EN. Company Profile mit neuem Zeitstrahl.
-  - Neuer Flyer «Keeping Molten Sulphur Warm» (Sept. 2026, EN) ❓ von Yana gestaltet/getextet?
+  - Neuer Flyer «Keeping Molten Sulphur Warm» (Sept. 2026, EN) ✅ komplett von Yana gestaltet; Texte aus bestehendem Material übernommen bzw. mit dem Verkauf abgestimmt.
+  - 📌 Weitere Flyer und Inserate folgen (später, Kachel «Anzeigen und Fachartikel»).
 - 📌 Yana legt Beispiele in Drive-Ordner «Broschüren».
 
 #### Case 5 · Print & Graphic Design (CP Pump Systems)
