@@ -413,7 +413,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
 - [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
 - [ ] **Praxisbildnerin:** betreut Yana selbst Lernende bei CP? (nur erwähnen, wenn ja)
-- [ ] **Fotografie** ✅ als Kompetenz: in der Ausbildung gelernt, zusätzlich ein Fotografie-Kurs über die Arbeit (❓ Name, Jahr). **Keine Fotos von Menschen zeigen** ✅ (Porträts nicht verwendbar). Zeigbar: **Produktfotos** ✅ (viele vorhanden), eventuell Gebäude, Exponate, Details. ❓ Eigener Service bzw. eigene Kachel oder Teil von «Content»?
+- [ ] **Fotografie** ✅ als Kompetenz: in der Ausbildung gelernt, zusätzlich 2026 ein Fotografie-Workshop bei CP (2 Tage, ein Fotograf kam ins Haus): Auffrischung und Post-Production bzw. Bildbearbeitung ✅. **Keine Fotos von Menschen zeigen** ✅ (Porträts nicht verwendbar). Zeigbar: **Produktfotos** ✅ (viele vorhanden), eventuell Gebäude, Exponate, Details. ❓ Eigener Service bzw. eigene Kachel oder Teil von «Content»?
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Logo** gemeinsam ausdenken (Vorschlag bisher: Wortmarke «Yana Senn» und Monogramm «YS»)
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
