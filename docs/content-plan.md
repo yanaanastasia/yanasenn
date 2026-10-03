@@ -125,6 +125,26 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 - Tools (dezent, sekundär)
 - Persönliches (optional): Reisen, Malteser ❓ ob gewünscht (Herkunft wird nicht erwähnt ✅)
 
+### Über mich, Entwurf 1 (DE) ✏️
+**Einleitung:** «Ich bin Yana Senn, Mediamatikerin EFZ aus der Region Zürich. Seit meiner Ausbildung arbeite ich an der Schnittstelle von Marketing, Gestaltung und Organisation. Am liebsten betreue ich Projekte von der ersten Idee bis zum letzten Detail.»
+
+**So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
+
+**Werdegang:**
+- 2024 – heute · CP Pump Systems · Marketing & Kommunikation
+- 2021 – 2023 · GOLDINGER Immobilien AG · Marketing (Praxisjahre der Lehre)
+- 2019 – 2023 · Mediamatikerin EFZ · SBW Neue Medien
+- 2019 – 2022 · Berufsmaturität BM1 · Technik, Architektur, Life Sciences
+- 2018 – 2019 · IT-Support ❓ (Firmenname; überhaupt aufführen?)
+
+**Weiterbildung:** 2026 Praxisbildnerin, zB. Zentrum Bildung · 2026 Fotografie-Workshop (inkl. Bildbearbeitung)
+
+**Sprachen:** Deutsch · Schweizerdeutsch · Englisch (C1) · Französisch (B1)
+
+**Tools:** Design: InDesign, Illustrator, Photoshop, Premiere Pro, Canva · Web: Craft CMS, TYPO3, Elementor, Shopify · Marketing: Meta Ads, Zoho One · AI: ChatGPT, Claude
+
+**Persönliches:** ❓ (Reisen, Malteser?)
+
 ### Contact
 - E-Mail ❓ (siehe Kapitel 8), LinkedIn ❓ URL
 - Optional ein kurzes Formular ❓
