@@ -98,7 +98,7 @@ Navigation: **Work · About · Contact** und ein Sprachumschalter **EN / DE**. D
 - Werdegang als Timeline (Kapitel 7)
 - Ausbildung, Sprachen
 - Tools (dezent, sekundär)
-- Persönliches (optional): Herkunft Kyiv/Ukraine, Reisen, Malteser ❓ ob gewünscht
+- Persönliches (optional): Reisen, Malteser ❓ ob gewünscht (Herkunft wird nicht erwähnt ✅)
 
 ### Contact
 - E-Mail ❓ (siehe Kapitel 8), LinkedIn ❓ URL
@@ -291,7 +291,8 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 | 08/2021 – 08/2023 | GOLDINGER Immobilien AG, Praktikum Marketing / Mediamatikerin | ✅ |
 | 01/2024 – heute | CP Pump Systems, Mitarbeiterin Marketing & Kommunikation | ✅ |
 
-**Sprachen ✅:** Deutsch und Schweizerdeutsch (fliessend), Englisch C1, Französisch B1 (DELF ❓ Niveau prüfen), Russisch C1 ✅ (Herkunft Ukraine) ❓ **Ob auf der Website erwähnen, entscheidet Yana** (Bedenken wegen Diskriminierung)
+**Sprachen ✅:** Deutsch und Schweizerdeutsch (fliessend), Englisch C1, Französisch B1 (DELF ❓ Niveau prüfen), 
+**Auf der Website ✅ (Variante A):** nur Deutsch, Schweizerdeutsch, Englisch, Französisch. **Russisch und Herkunft werden nicht erwähnt** (Yanas Entscheid).
 
 **Tools ✅:** InDesign, Illustrator, Photoshop, Premiere Pro, Canva, TYPO3, Craft CMS, Elementor, Shopify, Meta Ads, Zoho One, Namecheap, ChatGPT, Claude
 
@@ -362,4 +363,3 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 2. Monate der Allein-Phasen bei CP (für die Story in Case 2)
 3. Welche Services Yana anbieten will (Kapitel 5)
 4. Weitere Messen und Partner-Events: aufnehmen oder nicht (Case 2)
-7. Herkunftssprache: Ukrainisch und/oder Russisch?
