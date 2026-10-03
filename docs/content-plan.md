@@ -134,7 +134,11 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 - 1: «Hey, ich bin Yana. Ich arbeite eng mit Unternehmen zusammen, finde die passende Idee für ihre Marke und bringe sie zum Leben: am Messestand, in Kampagnen, in Print und online. Ich denke gerne vernetzt, behalte auch bei vielen Projekten gleichzeitig den Überblick und habe Freude an schönen Details.»
 - 2: «Hey, ich bin Yana – kreativ, organisiert und mit viel Freude an guten Ideen. Ich mache Marken sichtbar, dort wo Menschen ihnen begegnen: an internationalen Messen, in Kampagnen, in Print und online. Dabei lege ich Wert auf eine klare Strategie und eine Umsetzung, die bis ins Detail stimmt.»
 - 3: «Hey, ich bin Yana. Ich verbinde kreative Ideen mit klarer Organisation und bringe Marken dorthin, wo sie wirken: an Messen, in Kampagnen, in Print und online. Von der ersten Skizze bis zum letzten Detail.»
-- Optionaler persönlicher Schlusssatz: «Inspiration finde ich in gutem Design und auf Reisen in andere Kulturen.»
+- Persönliche Fakten ergänzt ✅: kocht gerne; künstlerisch begabt (📌 später einbauen); AI (📌 später einbauen). Wichtig: Persönliches nur kurz, nicht «too much».
+- Schlusssatz-Optionen ✏️ (einer oder keiner):
+  - a: «Inspiration finde ich in gutem Design und auf Reisen.»
+  - b: «Und wenn ich gerade nicht gestalte, stehe ich gerne in der Küche.»
+  - c: «Abschalten kann ich am besten beim Kochen und mit meinem kleinen Malteser.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
@@ -445,6 +449,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
 - [ ] **Praxisbildnerin:** betreut Yana selbst Lernende bei CP? (nur erwähnen, wenn ja)
 - [ ] **Fotografie** ✅ als Kompetenz: in der Ausbildung gelernt, zusätzlich 2026 ein Fotografie-Workshop bei CP (2 Tage, vor Ort bei CP): Auffrischung und Post-Production bzw. Bildbearbeitung ✅. **Keine Fotos von Menschen zeigen** ✅ (Porträts nicht verwendbar). Zeigbar: **Produktfotos** ✅ (viele vorhanden), eventuell Gebäude, Exponate, Details. ✅ Eigener Service «Fotografie» (allgemein) und eigene Kachel im Portfolio.
+- [ ] **Persönliches später einbauen:** künstlerische Begabung, AI
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Logo** gemeinsam ausdenken (Vorschlag bisher: Wortmarke «Yana Senn» und Monogramm «YS»)
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
