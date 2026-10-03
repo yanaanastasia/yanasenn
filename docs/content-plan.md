@@ -130,10 +130,10 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 
 **Titel ✅:** Marketing & Creative Communication
 
-**Einleitung:** Entwürfe 1–3 und A–C gefielen nicht. Vorbilder ✅: Olivia (sympathisch, lustig, konkrete persönliche Vorlieben am Schluss) und Louis' erster Absatz (sachlich, 3. Person; Studium/Werdegang gehört auf Über mich, nicht auf «Hi.»). Runde 3 ✏️:
-- 1 (Louis-Stil): «Yana Senn arbeitet an der Schnittstelle von Marketing und Gestaltung. Sie begleitet Unternehmen von der ersten Idee bis zur Umsetzung, bei Messeauftritten, Kampagnen, Print und Content.»
-- 2 (Olivia-Stil): «Hey. Ich bin Yana, eine kreative Organisatorin mit einem Faible für schöne Details. Ich denke Marketing gern vom ersten Entwurf bis zum fertigen Messestand. – Ich mag [Ding 1], [Ding 2] und meinen kleinen Malteser.» (❓ Platzhalter mit Yanas echten Vorlieben füllen)
-- 3 (Mischung): «Hey. Ich bin Yana, Marketing- und Kreativmensch aus der Region Zürich. Ich gestalte, plane und organisiere, am liebsten alles aus einer Hand. Dazwischen: Reisen, gutes Design und mein Malteser.»
+**Einleitung:** Runden 1–3 gefielen nicht. Vorbild ✅: Mischung aus Louis' erstem Absatz und Olivias sympathischem Ton. Persönliche Fakten ✅: kreativ; hat einen Hund (Malteser); ist vier Monate durch Asien gereist (Thailand, Indonesien, China, Japan, Korea), muss nicht im Detail genannt werden. Runde 4 ✏️:
+- A: «Hey. Ich bin Yana und mache Marketing, das man sehen und anfassen kann: Messestände, Kampagnen, Broschüren und Geschenke, die man gerne auspackt. Inspiration finde ich auf Reisen, zum Beispiel vier Monate quer durch Asien, und bei Spaziergängen mit meinem kleinen Malteser.»
+- B: «Yana Senn ist Marketing- und Kreativspezialistin aus der Region Zürich. Sie arbeitet eng mit Unternehmen zusammen und bringt deren Marke dorthin, wo Menschen ihr begegnen: an internationalen Messen, in Kampagnen, in Print und online.»
+- C: «Hey. Ich bin Yana, kreativ im Kopf und organisiert in der Umsetzung. Ich arbeite eng mit Unternehmen zusammen und sorge dafür, dass ihre Marke überall gut aussieht: am Messestand, in der Broschüre, im Weihnachtspaket. – Ausserdem liebe ich lange Reisen (vier Monate Asien!) und meinen kleinen Malteser.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
