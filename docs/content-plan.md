@@ -134,11 +134,18 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 - 1: «Hey, ich bin Yana. Ich arbeite eng mit Unternehmen zusammen, finde die passende Idee für ihre Marke und bringe sie zum Leben: am Messestand, in Kampagnen, in Print und online. Ich denke gerne vernetzt, behalte auch bei vielen Projekten gleichzeitig den Überblick und habe Freude an schönen Details.»
 - 2: «Hey, ich bin Yana – kreativ, organisiert und mit viel Freude an guten Ideen. Ich mache Marken sichtbar, dort wo Menschen ihnen begegnen: an internationalen Messen, in Kampagnen, in Print und online. Dabei lege ich Wert auf eine klare Strategie und eine Umsetzung, die bis ins Detail stimmt.»
 - 3: «Hey, ich bin Yana. Ich verbinde kreative Ideen mit klarer Organisation und bringe Marken dorthin, wo sie wirken: an Messen, in Kampagnen, in Print und online. Von der ersten Skizze bis zum letzten Detail.»
-- Persönliche Fakten ergänzt ✅: kocht gerne; künstlerisch begabt (📌 später einbauen); AI (📌 später einbauen). Wichtig: Persönliches nur kurz, nicht «too much».
-- Schlusssatz-Optionen ✏️ (einer oder keiner):
-  - a: «Inspiration finde ich in gutem Design und auf Reisen.»
-  - b: «Und wenn ich gerade nicht gestalte, stehe ich gerne in der Küche.»
-  - c: «Abschalten kann ich am besten beim Kochen und mit meinem kleinen Malteser.»
+- **Version 2 gewählt ✅**, wird verfeinert. Varianten ✏️:
+  - 2a: «Hey, ich bin Yana – kreativ, strukturiert und voller Ideen. Ich mache Marken dort sichtbar, wo Menschen ihnen begegnen: an internationalen Messen, in Kampagnen, in Print und online. Dabei verbinde ich eine klare Strategie mit einer Gestaltung, die bis ins Detail stimmt.»
+  - 2b: «Hey, ich bin Yana – eine kreative Denkerin mit Sinn für Struktur. Ich gebe Marken ein Gesicht, dort wo Menschen ihnen begegnen: am Messestand, in Kampagnen, in Print und online. Mir ist wichtig, dass Idee, Strategie und Gestaltung zusammenpassen, bis ins letzte Detail.»
+  - 2c: «Hey, ich bin Yana – kreativ, organisiert und mit viel Enthusiasmus für gute Ideen. Ich bringe Marken dorthin, wo sie erlebt werden: an internationale Messen, in Kampagnen, in Print und online. Ich denke gerne vernetzt und lege Wert auf eine Umsetzung, die bis ins Detail stimmt.»
+  - 2d: «Hey, ich bin Yana. Kreativ im Denken, klar in der Umsetzung. Ich mache Marken sichtbar, an internationalen Messen, in Kampagnen, in Print und online, und sorge dafür, dass Strategie und Gestaltung Hand in Hand gehen.»
+- Schlusssatz: Richtung a gefällt ✅, gewünscht auch ein Motto (leicht spirituell, kreativ). Varianten ✏️:
+  - i: «Inspiration finde ich überall: in gutem Design, auf Reisen und in den kleinen Dingen des Alltags.»
+  - ii: «Mein Motto: Schöne Dinge entstehen, wenn man mit offenen Augen durch die Welt geht.»
+  - iii: «Ich glaube daran, dass gute Ideen dort entstehen, wo Neugier auf Gestaltung trifft.»
+  - iv: «Jede Marke hat eine Geschichte. Ich erzähle sie gerne schön.»
+  - v: «Alles beginnt mit einer Idee, und die besten finde ich unterwegs.»
+- Persönliche Fakten ✅: kocht gerne; künstlerisch begabt (📌 später); AI (📌 später).
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
