@@ -430,6 +430,14 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - 📌 Weitere Factsheets von Yana folgen später.
 - **GOLDINGER im Ordner «Broschüren» ✅ gefunden** (Claude hatte zuerst nur Seite 1 der Dateiliste gelesen): Hausmagazin «Die IMMO-EXPERTEN», Ausgabe Februar 2023, 12 Seiten, erscheint 2× im Jahr ✅. Inhalt: Marktausblick 2023, Infoabende an 7 Standorten mit Anmeldetalon und QR-Code, aktuelle Immobilien und Neubauprojekte (S. 4–11), Gutschein für Gratis-Bewertung. Dazu Word-Texte «Editorial», «Ausblick 2023», «Infoabende» und ein älteres Hausmagazin (2022). ❓ Hat Yana auch Texte geschrieben oder nur Layout? Zuordnung: «Frühere Projekte» → Hausmagazin.
 
+#### TEXT-ENTWURF «GOLDINGER Hausmagazin» (Frühere Projekte) ✏️
+- **Stichworte:** Layout · Editorial · Print
+- **Kurz:** «Die IMMO-EXPERTEN», 12 Seiten, zweimal im Jahr
+- **Ausgangslage:** GOLDINGER Immobilien gab zweimal im Jahr ein eigenes Hausmagazin heraus. Es zeigte die aktuellen Immobilien und Neubauprojekte, lud zu den Infoabenden ein und lag teilweise Zeitungen in der Ostschweiz bei.
+- **Meine Rolle:** Ich gestaltete das Magazin. Die Inhalte legten wir gemeinsam mit meinem Vorgesetzten fest; Texte und Bilder kamen von den verschiedenen Standorten, und ich machte daraus ein durchgehendes Layout.
+- **Umsetzung (Ausgabe Februar 2023):** Marktausblick als Titelgeschichte · Infoabende an sieben Standorten mit Anmeldetalon und QR-Code · aktuelle Immobilien und Neubauprojekte auf acht Seiten · Gutschein für eine kostenlose Immobilienbewertung
+- ❓ Rolle bei den Texten bestätigen (Quelle für obige Formulierung: altes Portfolio).
+
 #### Fakten «Broschüren und Factsheets» ✅ (Yana, 03.10.2026)
 - Bestehende Broschüren (Layout stand), aber **intensiv überarbeitet**: viele Inhalte angepasst und ausgetauscht, vor allem **Company-Broschüre** und **Sortimentsbroschüre**.
 - **Neue Grafiken von Yana** erstellt und eingesetzt, z. B. **Weltkarte** und **Zeitstrahl** (nicht nur diese).
