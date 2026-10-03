@@ -140,24 +140,22 @@ Reserve: frühere Varianten 2a, 2c (siehe Git-Verlauf). Nicht verwenden: «Sinn 
 
 **Aufbau Über mich ✏️:** 1. kurzer Einstieg (Olivia-Stil) → 2. «Mein Weg» (Louis-Stil, kurz) → 3. Stationen → 4. Weiterbildung, Sprachen, Tools → 5. Kontakt
 
-**Text, Entwurf 1 ✏️**
-- Einstieg (allgemeiner, ohne «Messestand» ✅): «Ich liebe gute Ideen, schöne Gestaltung und Projekte, bei denen am Ende alles zusammenpasst. Zu meinen Stärken zähle ich Konzipieren, Gestalten, Organisieren und Umsetzen, von der ersten Idee bis zum fertigen Ergebnis.»
-- Mein Weg ✅ (gefällt Yana, Basis bleibt):
-  1. «Meine Ausbildung zur Mediamatikerin EFZ habe ich bei SBW Neue Medien gemacht, parallel dazu die technische Berufsmaturität. Dort habe ich gelernt, wie Gestaltung, Technik und Kommunikation zusammenspielen.»
-  2. «Mein Praktikum führte mich zu GOLDINGER Immobilien. Zwei Jahre lang betreute ich Social Media, fotografierte und filmte Immobilien, gestaltete das halbjährliche Hausmagazin und plante Kampagnen für Infoabende und Tage der offenen Tür. Als Abschlussarbeit entstanden animierte Erklärvideos.»
-  3. «Seit 2024 arbeite ich bei CP Pump Systems im Marketing. Über weite Strecken von 2024 und 2025 war ich dort allein für das Marketing verantwortlich, von internationalen Messen über Broschüren bis zu Website und Weihnachtskampagnen.»
-  4. «Erste Freelance-Aufträge habe ich schon 2023 umgesetzt. Heute unterstütze ich Unternehmen, die Marketing und Gestaltung aus einer Hand suchen.»
-- **Anfänge ✅ (Fakten von Yana):** als Kind mit eigener Digitalkamera viel fotografiert und gefilmt; Bilder schon als Kind bearbeitet (Paint, Gimp, Online-Editoren mit Stickern); bei der Schulzeitung dabei; war immer schon «die Kreative».
-- Feedback ✅: Einstieg gefällt, aber weitere Versionen gewünscht. Olivia- und Louis-Stil gefallen, Mischung nicht. Schülerzeitung nicht zu stark betonen. Aus Sicht von Auftraggebern schreiben: Yana soll kompetent und sympathisch wirken.
-- Einstieg, weitere Versionen ✏️:
-  - E2: «Ich denke in Bildern und plane in Schritten. So wird aus einer guten Idee ein Projekt, das auch im Alltag funktioniert, ob Kampagne, Broschüre oder Messeauftritt.»
-  - E3: «Gute Gestaltung allein reicht nicht, sie muss auch ankommen. Darum verbinde ich Kreativität mit Marketing-Verständnis und einer sorgfältigen Organisation, von der ersten Idee bis zum fertigen Ergebnis.»
-  - E3 und E4 gefallen ✅. Kombi-Vorschlag E3+E4 ✏️: «Ich mag es, wenn Ideen nicht nur gut aussehen, sondern auch ankommen. Darum verbinde ich Kreativität mit Marketing-Verständnis und einer sorgfältigen Organisation, von der ersten Idee bis zum fertigen Ergebnis.»
-  - E4: «Ich mag es, wenn Ideen nicht nur gut aussehen, sondern auch funktionieren. Dafür konzipiere, gestalte und organisiere ich und behalte das Ziel dabei immer im Blick.»
-- Anfänge, neue Versionen (Paint/Gimp nicht betonen ✅):
-  - O1 (Olivia-Stil): «Meine erste Digitalkamera hatte ich schon als Kind, und seither habe ich nie aufgehört, Dinge festzuhalten, zu bearbeiten und neu zu gestalten. Aus Spielerei mit Paint und Gimp wurde ein Beruf.»
-  - O2 (Louis-Stil) ✅ GEWÄHLT: «Angefangen hat alles mit einer kleinen Digitalkamera. Ich habe fotografiert, gefilmt und meine Bilder am Computer bearbeitet, lange bevor ich wusste, dass man daraus einen Beruf machen kann. Mit der Ausbildung zur Mediamatikerin wurde aus dieser Neugier mein Handwerk, und mit jedem Projekt kam mehr Marketing dazu.»
-  - O3 (Sicht der Auftraggeber): «Schon als Kind habe ich mit meiner Digitalkamera die Welt festgehalten und am Computer neu zusammengesetzt. Diese Neugier ist geblieben: Bei jedem Projekt frage ich mich, wie eine Idee am besten aussieht und wie sie bei den Menschen ankommt.»
+**Über mich: Text ✅ (vorerst final)**
+
+*Einstieg:* Ich mag es, wenn Ideen nicht nur gut aussehen, sondern auch ankommen. Darum verbinde ich Kreativität mit Marketing-Verständnis und einer sorgfältigen Organisation, von der ersten Idee bis zum fertigen Ergebnis.
+
+*Mein Weg:*
+Angefangen hat alles mit einer kleinen Digitalkamera. Ich habe fotografiert, gefilmt und meine Bilder am Computer bearbeitet, lange bevor ich wusste, dass man daraus einen Beruf machen kann. Mit der Ausbildung zur Mediamatikerin wurde aus dieser Neugier mein Handwerk, und mit jedem Projekt kam mehr Marketing dazu.
+
+Die Ausbildung bei SBW Neue Medien habe ich mit der technischen Berufsmaturität verbunden. Dort habe ich gelernt, wie Gestaltung, Technik und Kommunikation zusammenspielen. *(leicht angepasst, damit sich «Ausbildung zur Mediamatikerin» nicht wiederholt ✏️)*
+
+Mein Praktikum führte mich zu GOLDINGER Immobilien. Zwei Jahre lang betreute ich Social Media, fotografierte und filmte Immobilien, gestaltete das halbjährliche Hausmagazin und plante Kampagnen für Infoabende und Tage der offenen Tür. Als Abschlussarbeit entstanden animierte Erklärvideos.
+
+Seit 2024 arbeite ich bei CP Pump Systems im Marketing. Über weite Strecken von 2024 und 2025 war ich dort allein für das Marketing verantwortlich, von internationalen Messen über Broschüren bis zu Website und Weihnachtskampagnen.
+
+Erste Freelance-Aufträge habe ich schon 2023 umgesetzt. Heute unterstütze ich Unternehmen, die Marketing und Gestaltung aus einer Hand suchen.
+
+*(Verworfene Varianten: siehe Git-Verlauf. Anfänge-Fakten: Digitalkamera als Kind, Bildbearbeitung, Schulzeitung, «immer die Kreative»; Paint/Gimp und Schulzeitung nicht betonen.)*
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
