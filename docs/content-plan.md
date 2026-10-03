@@ -422,11 +422,13 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - **Kurz:** 10 Broschüren in bis zu neun Sprachversionen
 - **Ausgangslage:** Die Broschüren von CP Pump Systems waren über die Jahre gewachsen: unterschiedlich aufgebaut, teils mit Einklappfalte, mit verschiedenen InDesign-Strukturen und je nach Sprache mit anderen Inhalten. Das machte Pflege und Übersetzung aufwendig.
 - **Ziel:** Ein einheitliches, modulares Broschürensystem: gleicher Aufbau für alle Produktbereiche, identische Inhalte in jeder Sprache, DIN- und ANSI-Normen nebeneinander und ein konsistenter Markenauftritt.
-- **Meine Rolle:** Ich habe das Konzept dafür erstellt und die Broschüren überarbeitet, inhaltlich wie grafisch.
+- **Meine Rolle ✏️ (korrigiert):** Die Broschüren und ihr Grundkonzept bestanden bereits. Ich habe die Inhalte laufend erneuert und weiter ausgebaut und Ende 2025 ein Konzept zur Vereinheitlichung erarbeitet.
 - **Vorgehen:** Ein Standardformat ohne Einklappfalte, ein zentrales InDesign-Masterdokument mit festen Absatz-, Zeichen- und Tabellenformaten und eigenen Ebenen für Sprachen, eine einheitliche Terminologie und wiederkehrende Icons und Infografiken. Eine Pilotbroschüre dient als Referenz, danach folgen die übrigen Schritt für Schritt.
 - **Umsetzung:** Intensive Überarbeitung, vor allem von Company-Profil und Sortimentsbroschüre · neue Grafiken wie Weltkarte und Zeitstrahl · Übersetzungen mit einem Übersetzungsbüro, unter anderem ins Chinesische, Polnische, Tschechische und Slowakische · eigene US-Versionen im Letter-Format · Druckvorbereitung und Nachdrucke · Übersicht über alle Druck- und Digitalversionen
-- **Neu 2026:** Flyer «Keeping Molten Sulphur Warm», komplett von mir gestaltet; die Texte basieren auf bestehendem Material und sind mit dem Verkauf abgestimmt.
-- **Ergebnis:** 📌 später
+- **Neu 2026:** Factsheet «Keeping Molten Sulphur Warm», komplett von mir gestaltet; die Texte basieren auf bestehendem Material und sind mit dem Verkauf abgestimmt.
+- **Ergebnis-Vorschlag ✏️ (aus der Übersicht 2026):** Seit August 2026 liegen alle Broschüren in einer aktuellen Digitalversion vor; für neue Märkte kamen tschechische und slowakische Ausgaben dazu, gedruckt im September 2026. ❓ Feedback aus dem Verkauf?
+- 📌 Weitere Factsheets von Yana folgen später.
+- 📌 **GOLDINGER-Broschüren** (Immobilien-Verkaufsbroschüren, neue Objekte) sollen auch gezeigt werden – im Drive noch nicht vorhanden (Ordner «Goldinger» enthält nur Bilder des alten Portfolios); Yana lädt sie hoch. Zuordnung: Bereich «Frühere Projekte».
 
 #### Fakten «Broschüren und Factsheets» ✅ (Yana, 03.10.2026)
 - Bestehende Broschüren (Layout stand), aber **intensiv überarbeitet**: viele Inhalte angepasst und ausgetauscht, vor allem **Company-Broschüre** und **Sortimentsbroschüre**.
