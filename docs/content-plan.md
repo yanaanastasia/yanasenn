@@ -201,7 +201,8 @@ Schwerpunkt Gestaltung: Standdesign, Messewände, Mailing. Wie schon zuvor: Mail
 Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kommt): **20 Messen 2024–2026 in 5 Ländern** (DE, FR, US, UK, IN), davon 16 bereits durchgeführt (Stand 03.10.2026) und 9 in Phase 1.
 
 **Offen ❓**
-- Gegenüber dem ursprünglichen Briefing fehlen: Remstone Sulfur; die 2027-Liste (ACHEMA 2027, Chem France Lyon, ACHEMA Middle East Riyadh, Petro Plus Chemie Le Havre, P&V Dortmund 2027); Partner-Events mit Materialien/Giveaways (Atlas Sevilla, MMH, Expo Chemia Barcelona, InnoTrans, Korea Chem Seoul). Weglassen oder als «Weitere» aufnehmen?
+- **Entscheide ✅:** Nur die Messen aus der Liste oben. Remstone Sulfur gestrichen. Die 2027-Messen kommen nicht auf die Website (Yana ist dort wahrscheinlich nicht mehr dabei) 📌 im Hinterkopf behalten.
+- **Partner-Events ✅ aufnehmen** (Yana lieferte Marketingmaterial und Giveaways): Atlas (Sevilla), MMH ❓ (vollständiger Name und Ort), Expo Chemia (Barcelona), InnoTrans ❓ (Ort prüfen: InnoTrans findet in Berlin statt, im Briefing stand München), Korea Chem (Seoul). ❓ Jahr pro Event
 - Schreibweisen: Petrochymia / Petro-Chimie
 - Golf Event Thailand: ✅ weglassen
 
