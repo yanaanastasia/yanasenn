@@ -121,6 +121,7 @@ Abgeleitet aus der realen Arbeit; Yana entscheidet, was sie anbieten will.
 | Content: Photo, Video & Social | GOLDINGER Videos/Reels/Erklärvideos, Fotografie, LinkedIn |
 | Branded Merchandise | Giveaways, Gummibärchen, Arbeits- und Messekleidung |
 | Web & Digital | Craft CMS, TYPO3, SEO, Newsletter (Zoho), Meta Ads |
+| AI in Marketing & Content ✅ (Yana will das aufnehmen) | Arbeit mit ChatGPT und Claude ❓ (konkrete Einsatzbeispiele noch sammeln) |
 | Marketing Support | ❓ zum Beispiel «Interim-Marketing» für KMU (belegt durch die Phase, in der Yana das CP-Marketing allein geführt hat) |
 
 ❓ Welche Services will Yana wirklich anbieten, und für welche Kundschaft (zum Beispiel KMU, B2B-Industrie, Immobilien)?
@@ -268,7 +269,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 
 **Sprachen ✅:** Deutsch und Schweizerdeutsch (fliessend), Englisch C1, Französisch B1 (DELF ❓ Niveau prüfen), Ukrainisch ❓ (bzw. Russisch?) C1 / Herkunftssprache
 
-**Tools ✅:** InDesign, Illustrator, Photoshop, Premiere Pro, Canva, TYPO3, Craft CMS, Elementor, Shopify, Meta Ads, Zoho One, Namecheap
+**Tools ✅:** InDesign, Illustrator, Photoshop, Premiere Pro, Canva, TYPO3, Craft CMS, Elementor, Shopify, Meta Ads, Zoho One, Namecheap, ChatGPT, Claude
 
 **Aktuelle Anstellung:** Muss nicht prominent erwähnt werden ✅. Empfehlung: CP-Projekte ehrlich als «in-house» kennzeichnen. In der Timeline steht «2024 –» ohne Kommentar. ❓ Vor dem Livegang den Arbeitsvertrag auf Nebenerwerb und Vertraulichkeit prüfen.
 
@@ -301,13 +302,20 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
   - **oliviahug.ch:** Name zentriert in eleganter Serif, Portrait im Bogenrahmen, persönlicher Intro-Satz («Hey. Ich bin Olivia …»), Cases als grosse Bilder bzw. Slider mit Kurztext und Liste der Leistungen, viel Weissraum, ruhig.
   - **louisplant.ch:** ähnlicher Werdegang (Marketing in-house → Freelance). Grosse Bildcollage oben, Kurzprofil mit Portrait, «Selected Projects» als 2er-Raster, Services mit je einem Absatz und «Learn more», Projekte mit Kategorie und Jahr, Testimonials, Sprachumschalter.
   - **pascalfrey.ch (Inhalt):** nummerierte Kapitel («01 — Profil»), Faktenliste neben dem Portrait (Erfahrung, Aktuell, Standort), Expertise als nummerierte Liste mit je einem Satz, Arbeiten als typografischer Index mit Jahr (passt sehr gut zum Messe-Index).
-  - ❓ Welche Elemente gefallen Yana am besten?
+  - **Yanas Feedback ✅:**
+    - **Olivia** gefällt optisch am besten: übersichtlich, einfach, klare Reihenfolge (Foto → kurze Vorstellung → Arbeiten), dazu die dezente Animation im Hintergrund.
+    - **Louis:** Aufteilung gefällt (ähnlich wie Olivia), optisch aber weniger als Olivia.
+    - **Pascal:** Inhaltlich wertvoll, weil er detailliert erklärt, was er kann (inklusive AI), mit Strategie, Positionierung und Erfolgen. Sein Stil ist Yana aber zu viel.
+    - **YouTube-Screenshot:** gefällt optisch am meisten; Yana möchte so etwas mit ihrem eigenen Bild (freigestelltes Portrait im Hero).
+  - **Design-Richtung ✏️ (zur Bestätigung):** Hero im Stil des Screenshots mit eigenem Portrait, Rest der Seite ruhig und übersichtlich wie bei Olivia, Services aufgeteilt wie bei Louis, Texte so detailliert wie bei Pascal.
   - YouTube-Video (Design-Inspiration): https://www.youtube.com/watch?v=hTwbCmZhFNA
     Screenshot erhalten (Hero «I'm a Coder.»): sehr grosse fette Grotesk-Headline, ein Wort kursiv in Akzentfarbe (Terracotta), freigestelltes Portrait vor Himmel-Collage, Name und Rolle rechts mit Akzentlinie, runder Button «Hire Me», abgerundeter Rahmen, Akzentfarben-Varianten Terracotta / Salbei / Blau / Rost. ❓ Welche Elemente gefallen Yana?
   - https://www.louisplant.ch/ (Design)
   - https://www.oliviahug.ch/ (Design)
   - https://www.pascalfrey.ch/ (nur Inhalt interessant, nicht Design)
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
+- [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
+- [ ] **AI-Einsatz**: konkrete Beispiele sammeln, wofür Yana ChatGPT und Claude in der Arbeit nutzt
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
 
