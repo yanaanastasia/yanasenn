@@ -125,25 +125,33 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 - Tools (dezent, sekundär)
 - Persönliches (optional): Reisen, Malteser ❓ ob gewünscht (Herkunft wird nicht erwähnt ✅)
 
-### Über mich, Entwurf 1 (DE) ✏️
-**Einleitung:** «Ich bin Yana Senn, Mediamatikerin EFZ aus der Region Zürich. Seit meiner Ausbildung arbeite ich an der Schnittstelle von Marketing, Gestaltung und Organisation. Am liebsten betreue ich Projekte von der ersten Idee bis zum letzten Detail.»
+### Über mich, Entwurf 2 (DE) ✏️
+**Wichtig ✅:** Nicht «Mediamatikerin» als Titel (Ausbildung ist 3 Jahre her, Blick nach vorne). Stattdessen ein moderner Berufstitel, gern mehrere Begriffe (wie «Creative Director» bei Olivia, «Designer» bei Louis).
+
+**Titel-Varianten ❓:**
+- A: Marketing & Creative Communication
+- B: Marketing Managerin & Designerin
+- C: Marketing · Design · Projektmanagement
+
+**Einleitung (im Stil von Olivia):** «Hey, ich bin Yana. Ich verbinde Marketing, Gestaltung und Organisation und betreue Projekte am liebsten von der ersten Idee bis zum letzten Detail. Ob Messe, Kampagne oder Broschüre: Ich behalte den Überblick und packe selbst mit an.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
-**Werdegang:**
+**Werdegang ✅:**
 - 2024 – heute · CP Pump Systems · Marketing & Kommunikation
-- 2021 – 2023 · GOLDINGER Immobilien AG · Marketing (Praxisjahre der Lehre)
-- 2019 – 2023 · Mediamatikerin EFZ · SBW Neue Medien
-- 2019 – 2022 · Berufsmaturität BM1 · Technik, Architektur, Life Sciences
-- 2018 – 2019 · IT-Support ❓ (Firmenname; überhaupt aufführen?)
+- 2021 – 2023 · GOLDINGER Immobilien AG · Praktikum Marketing (Teil der Ausbildung bei SBW Neue Medien)
+- 2019 – 2023 · Ausbildung Mediamatikerin EFZ · SBW Neue Medien
+- 2019 – 2022 · Technische Berufsmaturität (BM1)
+- IT-Support 2018–2019 ✅ weggelassen
 
-**Weiterbildung:** 2026 Praxisbildnerin, zB. Zentrum Bildung · 2026 Fotografie-Workshop (inkl. Bildbearbeitung)
+**Weiterbildung ✅:** 2026 Praxisbildnerin, zB. Zentrum Bildung · 2026 Fotografie-Workshop mit Bildbearbeitung
 
-**Sprachen:** Deutsch · Schweizerdeutsch · Englisch (C1) · Französisch (B1)
+**Sprachen ✅:** Deutsch · Schweizerdeutsch · Englisch (fliessend) · Französisch (B1)
 
-**Tools:** Design: InDesign, Illustrator, Photoshop, Premiere Pro, Canva · Web: Craft CMS, TYPO3, Elementor, Shopify · Marketing: Meta Ads, Zoho One · AI: ChatGPT, Claude
+**Tools:** Design: InDesign, Illustrator, Photoshop, Premiere Pro, Canva, **CapCut** ✅ · Web: Craft CMS, TYPO3, Elementor, Shopify · Marketing: Meta Ads, Zoho One · AI: ChatGPT, Claude
+❓ Weitere Tools, die Yana eventuell kennt (nur aufnehmen, wenn sie bestätigt): Lightroom, After Effects, Adobe Express, Figma, WordPress, Mailchimp, Meta Business Suite, LinkedIn Campaign Manager, Midjourney, Gemini, Microsoft Copilot, Adobe Firefly, DeepL
 
-**Persönliches:** ❓ (Reisen, Malteser?)
+**Persönliches:** ❓
 
 ### Contact
 - E-Mail ❓ (siehe Kapitel 8), LinkedIn ❓ URL
