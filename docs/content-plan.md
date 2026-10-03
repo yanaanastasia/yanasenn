@@ -149,8 +149,15 @@ Reserve: frühere Varianten 2a, 2c (siehe Git-Verlauf). Nicht verwenden: «Sinn 
 
 **Sprachen ✅:** Deutsch · Schweizerdeutsch · Englisch (fliessend) · Französisch (B1)
 
-**Tools:** Design: InDesign, Illustrator, Photoshop, Premiere Pro, Canva, **CapCut** ✅ · Web: Craft CMS, TYPO3, Elementor, Shopify · Marketing: Meta Ads, Zoho One · AI: ChatGPT, Claude
-❓ Weitere Tools, die Yana eventuell kennt (nur aufnehmen, wenn sie bestätigt): Lightroom, After Effects, Adobe Express, Figma, WordPress, Mailchimp, Meta Business Suite, LinkedIn Campaign Manager, Midjourney, Gemini, Microsoft Copilot, Adobe Firefly, DeepL
+**Tools ✏️ (Vorschlag, nur sichere Kenntnisse zeigen):**
+- Design & Bild: InDesign, Illustrator, Photoshop, Lightroom, Acrobat, Canva
+- Video: Premiere Pro, CapCut
+- Web: Craft CMS, TYPO3, Elementor, Shopify
+- Marketing & Social: Meta Business Suite, Meta Ads, LinkedIn (❓ Campaign Manager), Zoho One
+- Office: Microsoft Office, Teams
+- AI: ChatGPT, Claude, Midjourney, DeepL
+
+Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordPress, Wix, Google Analytics, Gemini. Nicht gebraucht: Adobe Express. Namecheap weggelassen (Domain-Anbieter, kein Arbeitstool).
 
 **Persönliches:** ❓
 
