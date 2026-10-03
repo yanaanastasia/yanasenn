@@ -130,10 +130,10 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 
 **Titel ✅:** Marketing & Creative Communication
 
-**Einleitung:** Entwürfe 1–3 gefielen nicht (zu umgangssprachlich: «anpacken», «dranbleiben, bis alles sitzt»). Reisen/Malteser vorerst weglassen. Neue Runde ✏️:
-- A: «Hey, ich bin Yana – kreativ, strukturiert und mit viel Freude an guter Gestaltung. Ich verbinde Marketing, Design und Organisation und behalte bei Projekten das grosse Ganze genauso im Blick wie die Details.»
-- B: «Hey, ich bin Yana. Ich liebe schöne Dinge und gute Ideen und bringe beides zusammen: mit einem Gespür für Gestaltung, einem klaren Blick fürs Marketing und viel Sinn für Organisation.»
-- C: «Hey, ich bin Yana, eine kreative Marketing-Allrounderin mit viel Enthusiasmus. Ich denke Projekte ganzheitlich, von der Idee über die Gestaltung bis zur Umsetzung, und lege Wert auf Qualität bis ins Detail.»
+**Einleitung:** Entwürfe 1–3 und A–C gefielen nicht. Vorbilder ✅: Olivia (sympathisch, lustig, konkrete persönliche Vorlieben am Schluss) und Louis' erster Absatz (sachlich, 3. Person; Studium/Werdegang gehört auf Über mich, nicht auf «Hi.»). Runde 3 ✏️:
+- 1 (Louis-Stil): «Yana Senn arbeitet an der Schnittstelle von Marketing und Gestaltung. Sie begleitet Unternehmen von der ersten Idee bis zur Umsetzung, bei Messeauftritten, Kampagnen, Print und Content.»
+- 2 (Olivia-Stil): «Hey. Ich bin Yana, eine kreative Organisatorin mit einem Faible für schöne Details. Ich denke Marketing gern vom ersten Entwurf bis zum fertigen Messestand. – Ich mag [Ding 1], [Ding 2] und meinen kleinen Malteser.» (❓ Platzhalter mit Yanas echten Vorlieben füllen)
+- 3 (Mischung): «Hey. Ich bin Yana, Marketing- und Kreativmensch aus der Region Zürich. Ich gestalte, plane und organisiere, am liebsten alles aus einer Hand. Dazwischen: Reisen, gutes Design und mein Malteser.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
