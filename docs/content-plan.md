@@ -136,7 +136,7 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 
 ## 5. Services (Freelance-Angebot) ✅
 
-Alle 8 Services von Yana bestätigt (03.10.2026). **SEO wird nicht erwähnt** (weder bei den Services noch in den Cases).
+**7 Services** ✅ (AI ist kein eigener Service, sondern ein Werkzeug, siehe Über mich). **SEO wird nicht erwähnt** (weder bei den Services noch in den Cases).
 
 | Service | Belegt durch |
 |---|---|
@@ -146,7 +146,6 @@ Alle 8 Services von Yana bestätigt (03.10.2026). **SEO wird nicht erwähnt** (w
 | Content: Photo, Video & Social | GOLDINGER Videos/Reels/Erklärvideos, Fotografie, LinkedIn |
 | Branded Merchandise | Giveaways, Gummibärchen, Arbeits- und Messekleidung |
 | Web & Digital | Website-Pflege (Craft CMS, TYPO3), Newsletter (Zoho), Meta Ads |
-| AI in Marketing & Content | Arbeit mit ChatGPT und Claude ❓ (konkrete Einsatzbeispiele noch sammeln) |
 | Marketing Support auf Zeit | z. B. wenn eine Firma gerade niemanden fürs Marketing hat (belegt durch die Phase, in der Yana das CP-Marketing allein geführt hat) |
 
 ### Services-Texte, Entwurf 1 (DE) ✏️
@@ -156,8 +155,9 @@ Alle 8 Services von Yana bestätigt (03.10.2026). **SEO wird nicht erwähnt** (w
 4. **Content: Foto, Video, Social Media:** Ich fotografiere, filme und schneide Inhalte für Social Media und Website: Reels, Erklärvideos, Produkt-, Event- und Mitarbeiterfotos. Dazu Redaktionspläne und die Betreuung der Kanäle.
 5. **Werbeartikel und Giveaways:** Von der Auswahl über das Branding bis zur Bestellung: Giveaways, Firmengeschenke sowie Arbeits- und Messekleidung, die zur Marke passen.
 6. **Web und Digital:** Pflege von Websites in Craft CMS und TYPO3, Newsletter mit Zoho sowie Kampagnen mit Meta Ads.
-7. **AI in Marketing und Content:** Ich nutze ChatGPT und Claude in meiner täglichen Marketingarbeit. [Platzhalter: konkrete Beispiele von Yana]
-8. **Marketing-Unterstützung auf Zeit:** Wenn in Ihrem Team gerade jemand fürs Marketing fehlt, übernehme ich die laufenden Aufgaben, von Messen über Print bis zu Web. Bei CP Pump Systems habe ich das Marketing über weite Strecken von 2024 und 2025 allein geführt.
+7. **Verstärkung fürs Marketing** (Text gefällt noch nicht ganz, neue Varianten ✏️):
+   - A: Manchmal fehlt im Marketing einfach eine Person. Ich steige ein, übernehme die laufenden Projekte und sorge dafür, dass nichts liegen bleibt, von Messen über Print bis zu Web. Die Situation kenne ich selbst: Bei CP Pump Systems war ich 2024 und 2025 über weite Strecken allein für das Marketing verantwortlich.
+   - B: Ihr Marketing braucht für eine gewisse Zeit Verstärkung? Ich übernehme laufende Projekte und Aufgaben, von Messen über Print bis zu Web. Bei CP Pump Systems habe ich das Marketing 2024 und 2025 über weite Strecken allein geführt.
 
 ❓ Für welche Kundschaft (zum Beispiel KMU, B2B-Industrie, Immobilien)? 📌 später
 
@@ -350,11 +350,14 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 | 2019 – 2022 | Berufsmaturität BM1, Richtung TALS (Technik, Architektur, Life Sciences), parallel zur Lehre | ✅ |
 | 08/2021 – 08/2023 | GOLDINGER Immobilien AG, Praktikum Marketing / Mediamatikerin | ✅ |
 | 01/2024 – heute | CP Pump Systems, Mitarbeiterin Marketing & Kommunikation | ✅ |
+| ❓ Jahr | Kurs für Praxisausbildende (Berufsbildung) ❓ genaue Bezeichnung und Anbieter | ✅ |
 
 **Sprachen ✅:** Deutsch und Schweizerdeutsch (fliessend), Englisch C1, Französisch B1 (DELF ❓ Niveau prüfen), 
 **Auf der Website ✅ (Variante A):** nur Deutsch, Schweizerdeutsch, Englisch, Französisch. **Russisch und Herkunft werden nicht erwähnt** (Yanas Entscheid).
 
 **Tools ✅:** InDesign, Illustrator, Photoshop, Premiere Pro, Canva, TYPO3, Craft CMS, Elementor, Shopify, Meta Ads, Zoho One, Namecheap, ChatGPT, Claude
+
+**AI ✅ (nur auf Über mich, kein Service):** wird begleitend eingesetzt wie andere Tools, zur Unterstützung und Erleichterung im Alltag, z. B. für Zusammenfassungen und bei Texten. Botschaft: Yana kennt die aktuellen Werkzeuge und arbeitet selbstverständlich damit. Entwurf ✏️: «Im Alltag nutze ich auch AI-Tools wie ChatGPT und Claude, unterstützend, etwa für Zusammenfassungen oder bei Texten.»
 
 **Aktuelle Anstellung:** Muss nicht prominent erwähnt werden ✅. Empfehlung: CP-Projekte ehrlich als «in-house» kennzeichnen. In der Timeline steht «2024 –» ohne Kommentar. ❓ Vor dem Livegang den Arbeitsvertrag auf Nebenerwerb und Vertraulichkeit prüfen.
 
@@ -411,7 +414,6 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
   - https://www.pascalfrey.ch/ (nur Inhalt interessant, nicht Design)
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
 - [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
-- [ ] **AI-Einsatz**: konkrete Beispiele sammeln, wofür Yana ChatGPT und Claude in der Arbeit nutzt
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Logo** gemeinsam ausdenken (Vorschlag bisher: Wortmarke «Yana Senn» und Monogramm «YS»)
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
