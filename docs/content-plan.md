@@ -39,9 +39,11 @@ Die Startseite ist eine **Übersicht**; Details stehen auf den Unterseiten.
 2. **Kurz über mich:** 2–3 Sätze, Link «Mehr über mich» → Über mich
 3. **Ausgewählte Projekte:** 4–6 Kacheln, Klick → Case; Link «Ganzes Portfolio» → Portfolio
 4. **Services kurz:** die 8 Services als Stichworte, Link → Services
-5. **Kontakt-Aufruf:** «Haben Sie ein Projekt?» → Kontakt
+5. **Kontakt-Aufruf ganz unten** ✅: «Haben Sie ein Projekt?» mit E-Mail-Adresse und Button **«E-Mail kopieren»** (wie bei Louis), dazu Link zum Kontakt
 
-### Hero-Text, Entwurf 1 (DE) ✏️
+**Grundsatz ✅:** «Best of both worlds» aus Olivia und Louis, aber **nicht überladen**. Nur das Wichtigste, lieber weniger als mehr.
+
+### Hero-Text, Entwurf 1 (DE) ✅ Text gefällt Yana (Überschrift A oder B ❓)
 - **Rolle:** Marketing & Kreative Kommunikation · Zürich
 - **Überschrift**, Varianten (*kursiv* = farbiges Wort):
   - A: «Von der Idee bis zum *Follow-up*.»
