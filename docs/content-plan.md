@@ -60,7 +60,7 @@ Die Startseite ist eine **Übersicht**; Details stehen auf den Unterseiten.
 - **Kurze Einleitung:** 2–3 Sätze, wer Yana ist und was sie macht
 - **Button:** «Projekt anfragen»
 - Überschrift-Slogan: vorerst **Platzhalter**. Die Entwürfe A («Von der Idee bis zum Follow-up.») und B («Ich plane, gestalte und setze um.») haben Yana nicht überzeugt. 📌 Claude bringt später neue Vorschläge.
-- **Einleitung ✅:** dieselbe wie auf Über mich (Version Y + Motto), siehe Kapitel 4.
+- **Einleitung ✅:** Version Y + Motto (Text siehe Kapitel 4) – **nur auf «Hi.»**
 - **Rolle ✅:** Marketing & Creative Communication
 
 ### Prozess-Kette (wiederkehrendes Element)
@@ -130,9 +130,11 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 
 **Titel ✅:** Marketing & Creative Communication
 
-**Einleitung ✅ (Version Y, vorerst final):** «Hey, ich bin Yana – eine kreative Denkerin mit viel Enthusiasmus für gute Ideen. Ich gebe Marken ein Gesicht, dort wo Menschen ihnen begegnen: am Messestand, in Kampagnen, in Print und online. Mir ist wichtig, dass Idee, Strategie und Gestaltung zusammenpassen, bis ins letzte Detail.» + Motto: «Mein Motto: Schöne Dinge entstehen, wenn man mit offenen Augen durch die Welt geht.»
+**Einleitung für «Hi.» ✅ (Version Y, vorerst final; nicht auf Über mich wiederholen):** «Hey, ich bin Yana – eine kreative Denkerin mit viel Enthusiasmus für gute Ideen. Ich gebe Marken ein Gesicht, dort wo Menschen ihnen begegnen: am Messestand, in Kampagnen, in Print und online. Mir ist wichtig, dass Idee, Strategie und Gestaltung zusammenpassen, bis ins letzte Detail.» + Motto: «Mein Motto: Schöne Dinge entstehen, wenn man mit offenen Augen durch die Welt geht.»
 
 Reserve: frühere Varianten 2a, 2c (siehe Git-Verlauf). Nicht verwenden: «Sinn für Struktur», «Hand in Hand», «anpacken», «dranbleiben, bis alles sitzt», lange Reisen.
+
+**Über mich: eigener, ausführlicherer Text** 📌 noch schreiben (keine Wiederholung der Hi-Einleitung).
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
