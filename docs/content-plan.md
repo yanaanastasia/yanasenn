@@ -149,11 +149,11 @@ Reserve: frühere Varianten 2a, 2c (siehe Git-Verlauf). Nicht verwenden: «Sinn 
 
 **Sprachen ✅:** Deutsch · Schweizerdeutsch · Englisch (fliessend) · Französisch (B1)
 
-**Tools ✏️ (Vorschlag, nur sichere Kenntnisse zeigen):**
+**Tools ✅ (nur sichere Kenntnisse zeigen):**
 - Design & Bild: InDesign, Illustrator, Photoshop, Lightroom, Acrobat, Canva
 - Video: Premiere Pro, CapCut
 - Web: Craft CMS, TYPO3, Elementor, Shopify
-- Marketing & Social: Meta Business Suite, Meta Ads, LinkedIn (❓ Campaign Manager), Zoho One
+- Marketing & Social: Meta Business Suite, Meta Ads, LinkedIn, Zoho One
 - Office: Microsoft Office, Teams
 - AI: ChatGPT, Claude, Midjourney, DeepL
 
