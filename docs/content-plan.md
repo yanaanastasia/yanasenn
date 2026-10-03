@@ -426,7 +426,7 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - **Vorgehen:** Ein Standardformat ohne Einklappfalte, ein zentrales InDesign-Masterdokument mit festen Absatz-, Zeichen- und Tabellenformaten und eigenen Ebenen für Sprachen, eine einheitliche Terminologie und wiederkehrende Icons und Infografiken. Eine Pilotbroschüre dient als Referenz, danach folgen die übrigen Schritt für Schritt.
 - **Umsetzung:** Intensive Überarbeitung, vor allem von Company-Profil und Sortimentsbroschüre · neue Grafiken wie Weltkarte und Zeitstrahl · Übersetzungen mit einem Übersetzungsbüro, unter anderem ins Chinesische, Polnische, Tschechische und Slowakische · eigene US-Versionen im Letter-Format · Druckvorbereitung und Nachdrucke · Übersicht über alle Druck- und Digitalversionen
 - **Neu 2026:** Factsheet «Keeping Molten Sulphur Warm», komplett von mir gestaltet; die Texte basieren auf bestehendem Material und sind mit dem Verkauf abgestimmt.
-- **Ergebnis ✅ (Yana):** Die Broschüren werden gedruckt und vom Verkauf weltweit genutzt, bei Kundenterminen, an Messen und überall dort, wo Produkte vorgestellt werden. Zusätzlich stehen sie online als Download zur Verfügung; diese Versionen halte ich laufend aktuell. ❓ CZ/SK-Ausgaben 2026 zusätzlich erwähnen?
+- **Ergebnis ✅ (Yana):** Die Broschüren werden gedruckt und vom Verkauf weltweit genutzt, bei Kundenterminen, an Messen und überall dort, wo Produkte vorgestellt werden. Zusätzlich stehen sie online als Download zur Verfügung; diese Versionen halte ich laufend aktuell. Neu kamen 2026 Ausgaben auf Tschechisch und Slowakisch dazu. ✅
 - 📌 Weitere Factsheets von Yana folgen später.
 - **GOLDINGER im Ordner «Broschüren» ✅ gefunden** (Claude hatte zuerst nur Seite 1 der Dateiliste gelesen): Hausmagazin «Die IMMO-EXPERTEN», Ausgabe Februar 2023, 12 Seiten, erscheint 2× im Jahr ✅. Inhalt: Marktausblick 2023, Infoabende an 7 Standorten mit Anmeldetalon und QR-Code, aktuelle Immobilien und Neubauprojekte (S. 4–11), Gutschein für Gratis-Bewertung. Dazu Word-Texte «Editorial», «Ausblick 2023», «Infoabende» und ein älteres Hausmagazin (2022). ❓ Hat Yana auch Texte geschrieben oder nur Layout? Zuordnung: «Frühere Projekte» → Hausmagazin.
 
@@ -434,9 +434,8 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - **Stichworte:** Layout · Editorial · Print
 - **Kurz:** «Die IMMO-EXPERTEN», 12 Seiten, zweimal im Jahr
 - **Ausgangslage:** GOLDINGER Immobilien gab zweimal im Jahr ein eigenes Hausmagazin heraus. Es zeigte die aktuellen Immobilien und Neubauprojekte, lud zu den Infoabenden ein und lag teilweise Zeitungen in der Ostschweiz bei.
-- **Meine Rolle:** Ich gestaltete das Magazin. Die Inhalte legten wir gemeinsam mit meinem Vorgesetzten fest; Texte und Bilder kamen von den verschiedenen Standorten, und ich machte daraus ein durchgehendes Layout.
-- **Umsetzung (Ausgabe Februar 2023):** Marktausblick als Titelgeschichte · Infoabende an sieben Standorten mit Anmeldetalon und QR-Code · aktuelle Immobilien und Neubauprojekte auf acht Seiten · Gutschein für eine kostenlose Immobilienbewertung
-- ❓ Rolle bei den Texten bestätigen (Quelle für obige Formulierung: altes Portfolio).
+- **Meine Rolle ✅:** Ich gestaltete das Magazin und schrieb die Texte gemeinsam mit dem Verkaufsteam. Die Inhalte legten wir zusammen mit meinem Vorgesetzten fest; Bilder und Objektangaben kamen von den Standorten. Zudem organisierte ich die Verteilung als Zeitungsbeilage: In welchen Zeitungen erreichen wir unsere Zielgruppe, und wo wird das Magazin gestreut? So warb das Magazin auch für die Infoabende.
+- **Umsetzung (Ausgabe Februar 2023):** Marktausblick als Titelgeschichte · Infoabende an sieben Standorten mit Anmeldetalon und QR-Code · aktuelle Immobilien und Neubauprojekte auf acht Seiten · Gutschein für eine kostenlose Immobilienbewertung · Planung der Zeitungsbeilagen
 
 #### Fakten «Broschüren und Factsheets» ✅ (Yana, 03.10.2026)
 - Bestehende Broschüren (Layout stand), aber **intensiv überarbeitet**: viele Inhalte angepasst und ausgetauscht, vor allem **Company-Broschüre** und **Sortimentsbroschüre**.
