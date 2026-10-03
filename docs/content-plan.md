@@ -155,6 +155,31 @@ Alle 8 Services von Yana bestätigt (03.10.2026). **SEO wird nicht erwähnt** (w
 
 ## 6. Projekte
 
+### 6.0 Aufbau Portfolio-Seite ✅
+Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
+
+**Aktuell: CP Pump Systems (2024 bis heute)**
+1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
+2. Weihnachtskampagnen
+3. Giveaways und Werbeartikel (inkl. Arbeits- und Messekleidung)
+4. Broschüren und Factsheets
+5. Website und Newsletter
+6. Songkran-Grusskarte
+7. Anzeigen und Fachartikel (z. B. World Fertilizer)
+8. Infografiken, Karten und Fotografie
+
+**Frühere Projekte: GOLDINGER und Freelance (2021–2023)**
+1. Hausmagazin
+2. Social Media, Reels und Immobilienvideos
+3. Animierte Erklärvideos (IPA)
+4. Infoabende und Tage der offenen Tür
+5. Messen WEGA und Immozionale (mit Gummibärchen)
+6. BAILA BASILEA (Freelance)
+
+Company Tip Game 🔒 nur erwähnen (z. B. auf Über mich), keine eigene Kachel ✏️.
+Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden beim Schreiben den Kacheln oben zugeordnet.
+
+
 ### 6.1 Hauptcases (Selected Work)
 
 #### Case 1 · ACHEMA Frankfurt 2024 (CP Pump Systems)
