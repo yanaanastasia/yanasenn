@@ -157,8 +157,16 @@ Alle 8 Services von Yana bestätigt (03.10.2026). **SEO wird nicht erwähnt** (w
 **Kernaussage ✏️:** Ein internationales Messeprogramm in fünf Ländern. 2024–2025 hat Yana es weitgehend allein von der Anmeldung bis zum Follow-up betreut; ab 2026 lag ihr Schwerpunkt auf Gestaltung und Kommunikation.
 
 **Phase 1: 2024–2025, weitgehend allein ✅**
-Kontext: Nach einigen Monaten mit der Marketingleiterin ist Yana ca. ein halbes Jahr allein, dann kehrt die Leiterin für einige Monate zurück, danach ist Yana **fast ein ganzes Jahr allein** verantwortlich für das Marketing.
-❓ Genaue Monate für die Story.
+Zeitachse ✅ (ungefähr, aus Yanas Erinnerung):
+- 01/2024: Start bei CP, zusammen mit der Marketingleiterin
+- ca. 03/2024 – ca. 11/2024: **Yana allein** verantwortlich für das Marketing
+- ca. 11/2024 – ca. 02–03/2025: wieder zusammen
+- ca. 03–04/2025 – ca. 11/2025: **Yana wieder allein**
+- ab 2026: wieder mit Leitung
+
+**Darstellung ✅:** nicht plakativ. Keine Gründe nennen (Krankheit, Kündigung der Kollegin sind privat und gehören nicht auf die Website). Nur sachlich formulieren, Vorschlag ✏️:
+- EN: «For long stretches of 2024 and 2025, I was solely responsible for CP Pump Systems' marketing — from trade fairs to print, web and campaigns.»
+- DE: «Über weite Strecken von 2024 und 2025 war ich allein für das Marketing von CP Pump Systems verantwortlich – von Messen über Print bis zu Web und Kampagnen.»
 
 **Phase 2: ab 2026, wieder mit Leitung ✅**
 Schwerpunkt Gestaltung: Standdesign, Messewände, Mailing. Wie schon zuvor: Mailing, Leads zusammentragen, E-Mail-Banner.
