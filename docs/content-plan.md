@@ -19,7 +19,7 @@ Stand: 03.10.2026 · Grundriss, wird laufend verfeinert.
 |---|---|---|
 | Ziel | Freelance-Portfolio: Firmen sehen Projekte und fragen Yana für eigene Projekte an | ✅ |
 | Positionierung | Marketing + Creative + Projektmanagement aus einer Hand, end-to-end | ✅ |
-| Sprachen | Zweisprachig **Englisch / Deutsch** mit Umschalter | ✅ |
+| Sprachen | **Deutsch ist die Hauptsprache** (Startseite öffnet auf Deutsch), oben ein Umschalter **DE / EN** für Englisch | ✅ |
 | Standort | Zürich | ✅ |
 | Bilder | Farbig, kein Schwarz-Weiss-Look | ✅ |
 | Schriften | Kostenlose Schriften mit freier kommerzieller Lizenz, selbst gehostet | ✅ |
@@ -53,17 +53,17 @@ Idea → Concept → Design → Organisation → Production → Execution → Co
 ## 3. Sitemap
 
 ```
-/            Home (EN)            /de/            Home (DE)
-/work        Alle Projekte        /de/work
-/work/<case> Case Study           /de/work/<case>
-/about       Über mich            /de/about
-/contact     Kontakt              /de/contact
-/imprint     Impressum            /de/impressum
-/privacy     Datenschutz          /de/datenschutz
+/                Startseite (DE)     /en/              Home (EN)
+/arbeiten        Alle Projekte       /en/work
+/arbeiten/<case> Case Study          /en/work/<case>
+/ueber-mich      Über mich           /en/about
+/kontakt         Kontakt             /en/contact
+/impressum       Impressum           /en/imprint
+/datenschutz     Datenschutz         /en/privacy
 /404
 ```
 
-Navigation: **Work · About · Contact** und ein Sprachumschalter **EN / DE**. Der Name bzw. das Logo führt zur Startseite.
+Navigation: **Arbeiten · Über mich · Kontakt** (EN: Work · About · Contact) und oben rechts der Sprachumschalter **DE / EN**. Der Name bzw. das Logo führt zur Startseite.
 
 ---
 

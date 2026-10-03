@@ -1,6 +1,6 @@
 # yanasenn.ch – Portfolio Yana Senn
 
-Freelance-Portfolio (Marketing, Creative Communication, Design, Trade Fairs). Zweisprachig EN/DE.
+Freelance-Portfolio (Marketing, Creative Communication, Design, Trade Fairs). Zweisprachig: Deutsch (Hauptsprache) mit Umschalter auf Englisch.
 
 ## Arbeitsregeln
 - **Keine erfundenen Fakten**, Zahlen, Resultate oder Verantwortlichkeiten. Einzige Quelle: `docs/content-plan.md` (nur ✅-Einträge sind freigegeben).
