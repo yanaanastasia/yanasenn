@@ -202,7 +202,22 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 
 **Offen ❓**
 - **Entscheide ✅:** Nur die Messen aus der Liste oben. Remstone Sulfur gestrichen. Die 2027-Messen kommen nicht auf die Website (Yana ist dort wahrscheinlich nicht mehr dabei) 📌 im Hinterkopf behalten.
-- **Partner-Events ✅ aufnehmen** (Yana lieferte Marketingmaterial und Giveaways): Atlas (Sevilla), MMH ❓ (vollständiger Name und Ort), Expo Chemia (Barcelona), InnoTrans ❓ (Ort prüfen: InnoTrans findet in Berlin statt, im Briefing stand München), Korea Chem (Seoul). ❓ Jahr pro Event
+- **Partner-Events ✅** (Yana lieferte Marketingmaterial und Giveaways für Partner/Vertretungen; Liste von Yana, ersetzt die Liste aus dem ersten Briefing):
+
+| Datum | Land | Partner | Messe | Ort |
+|---|---|---|---|---|
+| 2024 | TR | Metrans | Turkchem | ❓ |
+| 22.04.2025 | KR | Dongil | Korea Inter-Battery Exhibition | Seoul |
+| 03.06.2025 | ES | Atlas | Pumps and Valves | Bilbao |
+| 09.07.2025 | JP | Gadelius | Japan Tokyo Pharm Expo | Tokyo |
+| 17.09.2025 | JP | ❓ | Inchem Japan | Tokyo |
+| 31.03.2026 | KR | Dongil | Korea Chem | Seoul |
+| 04.05.2026 | DE | VDMA | IFAT | München |
+| 02.06.2026 | ES | Atlas | Expoquimia | Barcelona |
+| 20.10.2026 | ES | Atlas | MMH | Sevilla · bevorstehend |
+
+  - «InnoTrans» aus dem ersten Briefing war ein Versehen ✅ gestrichen.
+  - 📌 Partnernamen (Metrans, Dongil, Atlas, Gadelius, VDMA) nur nennen, wenn freigegeben (A12); sonst nur Messe und Ort.
 - Schreibweisen: Petrochymia / Petro-Chimie
 - Golf Event Thailand: ✅ weglassen
 
@@ -237,7 +252,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - Posts, Reels, Stories (Erlebnisberichte, Fragerunden, Umfragen, Bewerbung der Infoabende), Mitarbeitervorstellungen, Infografiken
 - **Immobilienvideos:** Aufnahmen, Rundgänge, Schnitt, Reels ❓ (Luftaufnahmen: eigene Drohne oder Fremdmaterial?)
 - **Interview-Reels** mit Fachleuten (Makler, Bewirtschafter)
-- **Animierte Erklärvideos** ❓ (im alten Portfolio als «IPA» notiert, also Abschlussarbeit? bitte bestätigen)
+- **Animierte Erklärvideos** ✅ = Yanas **IPA (Abschlussarbeit der Lehre)**
 - **Hausmagazin** ❓ (halbjährlich laut altem Text, jährlich laut aktueller Aussage): Inhalte mit Vorgesetztem festgelegt, Texte und Bilder von den Standorten, Layout von Yana, Druck, teilweise Zeitungsbeilage
 - **Infoabende 2023:** Meta-Ads (Fokus Ostschweiz, 4 Wochen Laufzeit, Ziel Anmeldungen) und Printinserate in Ostschweizer Zeitungen (Offerte bis Übermittlung)
 - **Tag der offenen Tür (TDOT) 2023:** Vermarktungsstrategie für schwer verkäufliche bzw. Spezialobjekte; Printinserate, Flyer in Büros, Instagram-Kampagnen über Meta; Organisation in Absprache mit Verkäufern
@@ -254,8 +269,8 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
 - **Songkran Greeting Card:** Grusskarte zum thailändischen Neujahr für die Partner- bzw. Tochterfirma in Thailand ❓ (Jahr, Format, Rolle)
 - **Company Tip Game** 🔒: nur erwähnen
-- **Animated Explainer Videos** (GOLDINGER) ❓ eventuell als eigene Card, wenn stark
-- **BAILA BASILEA 2023:** Videoflyer für Instagram Story einer Halloween-Party in Basel ❓ (Auftrag ausserhalb von GOLDINGER? Das wäre ein guter Freelance-Beleg.)
+- **Animated Explainer Videos** (GOLDINGER, IPA ✅) eigene Card
+- **BAILA BASILEA 2023:** Videoflyer für die Instagram Story einer Halloween-Party in Basel ✅ **Freelance-Auftrag** (erster Freelance-Beleg)
 - **Flyer:** TDOT GOLDINGER, Skatepark-Eröffnung ❓ (für wen?)
 - **Visual Content:** Infografiken, World Maps, Timelines, Zahlenstrahlen, Icons, Fotografie (Mitarbeitende, Gebäude, Outdoor, Event, Messe, Exponate)
 
@@ -347,6 +362,5 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 2. Monate der Allein-Phasen bei CP (für die Story in Case 2)
 3. Welche Services Yana anbieten will (Kapitel 5)
 4. Weitere Messen und Partner-Events: aufnehmen oder nicht (Case 2)
-5. Erklärvideos = IPA? BAILA BASILEA = eigener Auftrag?
 6. Hausmagazin: jährlich oder halbjährlich?
 7. Herkunftssprache: Ukrainisch und/oder Russisch?
