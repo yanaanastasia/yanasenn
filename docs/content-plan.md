@@ -109,9 +109,9 @@ Navigation: **Work · About · Contact** und ein Sprachumschalter **EN / DE**. D
 
 ---
 
-## 5. Services (Freelance-Angebot) ✏️
+## 5. Services (Freelance-Angebot) ✅
 
-Abgeleitet aus der realen Arbeit; Yana entscheidet, was sie anbieten will.
+Alle 8 Services von Yana bestätigt (03.10.2026). **SEO wird nicht erwähnt** (weder bei den Services noch in den Cases).
 
 | Service | Belegt durch |
 |---|---|
@@ -120,11 +120,11 @@ Abgeleitet aus der realen Arbeit; Yana entscheidet, was sie anbieten will.
 | Print & Graphic Design | Broschüren, Factsheets, Poster, Anzeigen, Hausmagazin, Bautafeln |
 | Content: Photo, Video & Social | GOLDINGER Videos/Reels/Erklärvideos, Fotografie, LinkedIn |
 | Branded Merchandise | Giveaways, Gummibärchen, Arbeits- und Messekleidung |
-| Web & Digital | Craft CMS, TYPO3, SEO, Newsletter (Zoho), Meta Ads |
-| AI in Marketing & Content ✅ (Yana will das aufnehmen) | Arbeit mit ChatGPT und Claude ❓ (konkrete Einsatzbeispiele noch sammeln) |
-| Marketing Support | ❓ zum Beispiel «Interim-Marketing» für KMU (belegt durch die Phase, in der Yana das CP-Marketing allein geführt hat) |
+| Web & Digital | Website-Pflege (Craft CMS, TYPO3), Newsletter (Zoho), Meta Ads |
+| AI in Marketing & Content | Arbeit mit ChatGPT und Claude ❓ (konkrete Einsatzbeispiele noch sammeln) |
+| Marketing Support auf Zeit | z. B. wenn eine Firma gerade niemanden fürs Marketing hat (belegt durch die Phase, in der Yana das CP-Marketing allein geführt hat) |
 
-❓ Welche Services will Yana wirklich anbieten, und für welche Kundschaft (zum Beispiel KMU, B2B-Industrie, Immobilien)?
+❓ Für welche Kundschaft (zum Beispiel KMU, B2B-Industrie, Immobilien)? 📌 später
 
 ---
 
@@ -242,7 +242,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - Alte Texte sind teils sehr blumig («faszinierend», «renommiert») und werden im neuen Ton neu geschrieben.
 
 ### 6.2 Kleinere Cards
-- **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), SEO-Optimierung, Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
+- **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
 - **Songkran Greeting Card:** Grusskarte zum thailändischen Neujahr für die Partner- bzw. Tochterfirma in Thailand ❓ (Jahr, Format, Rolle)
 - **Company Tip Game** 🔒: nur erwähnen
 - **Animated Explainer Videos** (GOLDINGER) ❓ eventuell als eigene Card, wenn stark
