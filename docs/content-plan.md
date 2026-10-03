@@ -430,14 +430,23 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - 📌 Weitere Factsheets von Yana folgen später.
 - **GOLDINGER im Ordner «Broschüren» ✅ gefunden** (Claude hatte zuerst nur Seite 1 der Dateiliste gelesen): Hausmagazin «Die IMMO-EXPERTEN», Ausgabe Februar 2023, 12 Seiten, erscheint 2× im Jahr ✅. Inhalt: Marktausblick 2023, Infoabende an 7 Standorten mit Anmeldetalon und QR-Code, aktuelle Immobilien und Neubauprojekte (S. 4–11), Gutschein für Gratis-Bewertung. Dazu Word-Texte «Editorial», «Ausblick 2023», «Infoabende» und ein älteres Hausmagazin (2022). ❓ Hat Yana auch Texte geschrieben oder nur Layout? Zuordnung: «Frühere Projekte» → Hausmagazin.
 
-#### TEXT-ENTWURF «Website und Newsletter» (CP) ✏️
-Fakten ✅ (Yana, 03.10.2026): Website **nicht erstellt, sondern gepflegt** (Craft CMS; Website-Agentur verantwortlich für Technik). Struktur geprüft auf cp-pumps.com: DE/EN/FR/CN, News/Blog, Karriere/offene Stellen, Messen, Downloads, Videos, Showroom, Pumpenanfrage, Kontakte pro Land.
+#### TEXT-ENTWURF «Website und Newsletter» (CP) ✏️ – Version 2 (ausführlicher)
+Fakten ✅ (Yana): Website nicht erstellt, sondern gepflegt; News-Beiträge geschrieben; neue Mitarbeitende (Fototermine organisiert, vorgestellt); Formulare/Service-Seiten mit der Agentur nach Feedback überarbeitet; Downloads laufend erneuert; Weltkarte bei neuen Standorten angepasst; Stellenanzeigen vom HR aufgeschaltet/entfernt; Newsletter und Social Media via Zoho One (LinkedIn, Facebook).
+Auf cp-pumps.com gesehen (03.10.2026), ❓ ob Yana das pflegt: Messekalender mit Standnummern und «Gratis-Ticket sichern»; Blogbeiträge pro Messe; Produktbeiträge (z. B. «Sofort verfügbare Pumpensysteme», «saures Prozesswasser»); Download-Bibliothek (Broschüren, Explosionszeichnungen, Zertifikate, AGB); Videoseite; 360°-Showroom; Kontaktseiten pro Land; Karriereseiten inkl. Lernende; Sprachen DE/EN/FR/CN.
 - **Stichworte:** Craft CMS · Content · Newsletter · LinkedIn
-- **Ausgangslage:** Die Website von CP Pump Systems ist in vier Sprachen online und wird von einer Agentur technisch betreut. Damit sie aktuell bleibt, braucht es laufende Pflege.
-- **Meine Rolle:** Ich halte die Website inhaltlich auf dem neusten Stand, von News bis Downloads.
-- **Umsetzung:** News- und Blogbeiträge schreiben, z. B. zu Messen, Projekten und neuen Mitarbeitenden · Fototermine für neue Mitarbeitende organisieren · Downloads laufend erneuern (Broschüren, Factsheets) · Weltkarte bei neuen Standorten anpassen · Stellenanzeigen vom HR aufschalten und wieder entfernen · Service-Seiten und Formulare zusammen mit der Agentur überarbeiten, auf Basis von Feedback · Newsletter und Social Media über Zoho One, vor allem LinkedIn und Facebook
-- **Bei GOLDINGER:** Website-Pflege in TYPO3: Inhalte austauschen, Bilder auswählen, Texte anpassen (→ in Kachel «Social Media, Reels und Immobilienvideos» erwähnen)
+- **Ausgangslage:** Die Website von CP Pump Systems ist das digitale Schaufenster für Kunden, Partner und Bewerbende weltweit, in Deutsch, Englisch, Französisch und Chinesisch. Technisch betreut sie eine Agentur; damit sie lebendig und aktuell bleibt, braucht es jemanden, der sie inhaltlich pflegt.
+- **Meine Rolle:** Ich bin für die Inhalte der Website verantwortlich: Ich schreibe Beiträge, halte Seiten und Downloads aktuell und sorge dafür, dass Website, Newsletter und Social Media dieselbe Geschichte erzählen.
+- **Umsetzung:**
+  - *News und Blog:* Beiträge zu Messen, Produkten und Unternehmensthemen, inklusive Messekalender mit Standnummern ❓
+  - *Team:* neue Mitarbeitende vorstellen, Fototermine organisieren
+  - *Downloads:* Broschüren, Factsheets und Explosionszeichnungen in allen Sprachen laufend erneuern
+  - *Unternehmen:* Weltkarte bei neuen Standorten anpassen, Kontaktseiten pro Land ❓
+  - *Karriere:* Stellenanzeigen vom HR aufschalten und wieder entfernen
+  - *Service und Formulare:* zusammen mit der Agentur überarbeitet, auf Basis von Feedback
+  - *Newsletter und Social Media:* Versand und Posts über Zoho One, vor allem LinkedIn und Facebook
+- **Zusammenspiel ✏️:** Eine Messe zum Beispiel taucht bei mir an mehreren Orten auf: im Messekalender, als Blogbeitrag, im Newsletter, auf LinkedIn und in der E-Mail-Signatur. ❓
 - **Ergebnis:** 📌 später (z. B. LinkedIn-Follower-Entwicklung)
+- **GOLDINGER:** Website-Pflege in TYPO3 (Inhalte austauschen, Bilder wählen, Texte anpassen) → in Kachel «Social Media, Reels und Immobilienvideos». Yana kann animierte Erklärvideos und gute Reels liefern 📌.
 
 #### TEXT-ENTWURF «GOLDINGER Hausmagazin» (Frühere Projekte) ✏️
 - **Stichworte:** Layout · Editorial · Print
