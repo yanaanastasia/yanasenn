@@ -152,10 +152,11 @@ Reserve: frühere Varianten 2a, 2c (siehe Git-Verlauf). Nicht verwenden: «Sinn 
 - Einstieg, weitere Versionen ✏️:
   - E2: «Ich denke in Bildern und plane in Schritten. So wird aus einer guten Idee ein Projekt, das auch im Alltag funktioniert, ob Kampagne, Broschüre oder Messeauftritt.»
   - E3: «Gute Gestaltung allein reicht nicht, sie muss auch ankommen. Darum verbinde ich Kreativität mit Marketing-Verständnis und einer sorgfältigen Organisation, von der ersten Idee bis zum fertigen Ergebnis.»
+  - E3 und E4 gefallen ✅. Kombi-Vorschlag E3+E4 ✏️: «Ich mag es, wenn Ideen nicht nur gut aussehen, sondern auch ankommen. Darum verbinde ich Kreativität mit Marketing-Verständnis und einer sorgfältigen Organisation, von der ersten Idee bis zum fertigen Ergebnis.»
   - E4: «Ich mag es, wenn Ideen nicht nur gut aussehen, sondern auch funktionieren. Dafür konzipiere, gestalte und organisiere ich und behalte das Ziel dabei immer im Blick.»
-- Anfänge, neue Versionen ✏️:
+- Anfänge, neue Versionen (Paint/Gimp nicht betonen ✅):
   - O1 (Olivia-Stil): «Meine erste Digitalkamera hatte ich schon als Kind, und seither habe ich nie aufgehört, Dinge festzuhalten, zu bearbeiten und neu zu gestalten. Aus Spielerei mit Paint und Gimp wurde ein Beruf.»
-  - O2 (Louis-Stil): «Angefangen hat alles mit einer kleinen Digitalkamera. Ich habe fotografiert, gefilmt und meine Bilder am Computer bearbeitet, lange bevor ich wusste, dass man daraus einen Beruf machen kann. Mit der Ausbildung zur Mediamatikerin wurde aus dieser Neugier mein Handwerk, und mit jedem Projekt kam mehr Marketing dazu.»
+  - O2 (Louis-Stil) ✅ GEWÄHLT: «Angefangen hat alles mit einer kleinen Digitalkamera. Ich habe fotografiert, gefilmt und meine Bilder am Computer bearbeitet, lange bevor ich wusste, dass man daraus einen Beruf machen kann. Mit der Ausbildung zur Mediamatikerin wurde aus dieser Neugier mein Handwerk, und mit jedem Projekt kam mehr Marketing dazu.»
   - O3 (Sicht der Auftraggeber): «Schon als Kind habe ich mit meiner Digitalkamera die Welt festgehalten und am Computer neu zusammengesetzt. Diese Neugier ist geblieben: Bei jedem Projekt frage ich mich, wie eine Idee am besten aussieht und wie sie bei den Menschen ankommt.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
