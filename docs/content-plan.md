@@ -128,12 +128,12 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 ### Über mich, Entwurf 2 (DE) ✏️
 **Wichtig ✅:** Nicht «Mediamatikerin» als Titel (Ausbildung ist 3 Jahre her, Blick nach vorne). Stattdessen ein moderner Berufstitel, gern mehrere Begriffe (wie «Creative Director» bei Olivia, «Designer» bei Louis).
 
-**Titel-Varianten ❓:**
-- A: Marketing & Creative Communication
-- B: Marketing Managerin & Designerin
-- C: Marketing · Design · Projektmanagement
+**Titel ✅:** Marketing & Creative Communication
 
-**Einleitung (im Stil von Olivia):** «Hey, ich bin Yana. Ich verbinde Marketing, Gestaltung und Organisation und betreue Projekte am liebsten von der ersten Idee bis zum letzten Detail. Ob Messe, Kampagne oder Broschüre: Ich behalte den Überblick und packe selbst mit an.»
+**Einleitung:** Entwurf 2 gefiel nicht (zu viel). Gewünscht ✅: mehr Persönlichkeit, kreativ, enthusiastisch, Freude an schönen Dingen. Drei Richtungen ✏️:
+- 1 (warm): «Hey, ich bin Yana. Ich bin kreativ, packe gern an und liebe es, wenn aus einer Idee etwas Echtes entsteht: ein Messestand, eine Kampagne, ein schön verpacktes Geschenk. Privat begeistern mich Reisen, neue Kulturen und mein kleiner Malteser.»
+- 2 (kurz): «Hey, ich bin Yana. Kreativ, neugierig und mit viel Freude an schönen Dingen. In meiner Arbeit verbinde ich Marketing und Gestaltung und bleibe dran, bis alles sitzt.»
+- 3 (leicht): «Hey, ich bin Yana. Ich mag gute Ideen, schöne Details und Projekte, bei denen am Schluss alles zusammenpasst. Dafür denke ich mit, gestalte selbst und organisiere, was es braucht. Und wenn ich nicht an einem Projekt arbeite, bin ich auf Reisen oder mit meinem Malteser unterwegs.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
