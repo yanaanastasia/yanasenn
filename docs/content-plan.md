@@ -257,6 +257,12 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 - **Meine Rolle:** 2024 und 2025 habe ich die Messen über weite Strecken allein betreut, von der Anmeldung bis zum Follow-up. Seit 2026 liegt mein Schwerpunkt auf der Gestaltung: Standdesign, Messewände und Mailings. Leads und E-Mail-Banner gehören weiterhin zu meinen Aufgaben.
 - **Vorgehen:** ❓ (Yanas Input: Wie plant sie eine Messe?)
 - **Umsetzung:** Anmeldung und Planung · Standkonzept und Standdesign · Möbel, Banner und Messewände · Giveaways · Einladungen und Mailings · Personalplanung und Badges · E-Mail-Signaturen und -Banner · Logistik, Versand und Aufbau · Koordination vor Ort · Erfassung der Leads und Follow-up
+- **Logistik ✅ (Yana, 03.10.2026):** Transport und Versand von Messematerial organisiert, zusammen mit der Exportabteilung; Messekisten anfertigen lassen; Zwischenlagerung zwischen Messen.
+- **Messeboxen USA ✅:** Zwei Boxen für die US-Messen konzipiert, organisiert und in die USA verschickt, inkl. Suche nach einem Lagerplatz:
+  1. *Standbox:* aufklappbar, steht mitten auf dem Stand; Rundum-Design von Yana; darin Broschüren, Werbeartikel und Jacken des Teams; in den USA eingelagert und bei jeder Messe wiederverwendet.
+  2. *Transport- und Lagerbox:* für alle Werbeartikel und Messematerialien; zwischen den Messen eingelagert, nicht auf dem Stand.
+  Dateien im Drive «Giveaways/CP»: «Box vorne», «Box hinten», «Zeitplan Versand USA Box», «Aufbewahrungskiste für Werbeartikel».
+- 📌 **Wunsch Yana:** Nicht nur ACHEMA zeigen, sondern **mehrere Messen**, besonders jene, bei denen sie vor Ort dabei war → Thema für die nächste Sitzung (Liste der Messen vor Ort, je 1–2 Sätze und Bilder).
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
   - *Ausgangslage:* Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2'800 Ausstellern aus über 50 Nationen. CP Pump Systems war vom 10. bis 14. Juni mit einem 108 m² grossen Stand in Halle 8 vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
   - *Ziel:* Bestehende Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.
@@ -587,6 +593,7 @@ Auf cp-pumps.com gesehen (03.10.2026), ❓ ob Yana das pflegt: Messekalender mit
 - [ ] **Praxisbildnerin:** betreut Yana selbst Lernende bei CP? (nur erwähnen, wenn ja)
 - [ ] **Fotografie** ✅ als Kompetenz: in der Ausbildung gelernt, zusätzlich 2026 ein Fotografie-Workshop bei CP (2 Tage, vor Ort bei CP): Auffrischung und Post-Production bzw. Bildbearbeitung ✅. **Keine Fotos von Menschen zeigen** ✅ (Porträts nicht verwendbar). Zeigbar: **Produktfotos** ✅ (viele vorhanden), eventuell Gebäude, Exponate, Details. ✅ Eigener Service «Fotografie» (allgemein) und eigene Kachel im Portfolio.
 - [ ] **Persönliches später einbauen:** künstlerische Begabung, AI
+- [ ] **Mehrere Messen zeigen** (vor Ort dabei) – nächste Sitzung
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Logo** gemeinsam ausdenken (Vorschlag bisher: Wortmarke «Yana Senn» und Monogramm «YS»)
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
