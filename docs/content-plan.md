@@ -37,7 +37,19 @@ Stand: 03.10.2026 · Grundriss, wird laufend verfeinert.
 Die Startseite ist eine **Übersicht**; Details stehen auf den Unterseiten.
 1. **Hero:** Name, Rolle, grosse Überschrift (ein Wort farbig), Foto Nr. 27 freigestellt, Button «Projekt anfragen»
 2. **Kurz über mich:** 2–3 Sätze, Link «Mehr über mich» → Über mich
-3. **Ausgewählte Projekte:** 4–6 Kacheln, Klick → Case; Link «Ganzes Portfolio» → Portfolio
+3. **Ausgewählte Projekte ✅** (6 Kacheln, nur aktuelle Arbeit bei CP; Klick → Case; Link «Ganzes Portfolio» → Portfolio).
+   Regel: **Jede Kachel = ein Projekt**, darunter Stichworte, was Yana gemacht hat (Print usw. ist ein Stichwort, keine eigene Kachel).
+
+   | Projekt | Stichworte |
+   |---|---|
+   | Internationale Messen 2024–2026 (**ACHEMA 2024 als Höhepunkt darin**, keine eigene Kachel) | Organisation · Standdesign · Mailings |
+   | Weihnachtskampagnen | Konzept · Verpackung · Karten |
+   | Giveaways und Werbeartikel | Auswahl · Branding · Produktion |
+   | Broschüren und Factsheets | Layout · Grafik · Druck |
+   | Website und Newsletter | Craft CMS · Zoho · LinkedIn |
+   | Songkran-Grusskarte | Konzept · Gestaltung |
+
+   **GOLDINGER** steht nicht auf «Hi.», sondern auf der Portfolio-Seite unter **«Frühere Projekte»** ✅ (Fokus auf neuere Arbeit). Die Auswahl kann später noch angepasst werden.
 4. **Services kurz:** die 8 Services als Stichworte, Link → Services
 5. **Kontakt-Aufruf ganz unten** ✅: «Haben Sie ein Projekt?» mit E-Mail-Adresse und Button **«E-Mail kopieren»** (wie bei Louis), dazu Link zum Kontakt
 
