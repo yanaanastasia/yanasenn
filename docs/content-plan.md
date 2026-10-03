@@ -31,22 +31,26 @@ Stand: 03.10.2026 · Grundriss, wird laufend verfeinert.
 
 ---
 
-## 2. Positionierung & Hero (Entwürfe ✏️)
+## 2. Positionierung & Hero
 
-**Titelzeile (Vorschläge)**
-- EN: *Marketing & Creative Communication* / DE: *Marketing & Kreative Kommunikation*
-- EN: *Marketing · Design · Projects — end to end*
+### Aufbau «Hi.» (Startseite) ✅
+Die Startseite ist eine **Übersicht**; Details stehen auf den Unterseiten.
+1. **Hero:** Name, Rolle, grosse Überschrift (ein Wort farbig), Foto Nr. 27 freigestellt, Button «Projekt anfragen»
+2. **Kurz über mich:** 2–3 Sätze, Link «Mehr über mich» → Über mich
+3. **Ausgewählte Projekte:** 4–6 Kacheln, Klick → Case; Link «Ganzes Portfolio» → Portfolio
+4. **Services kurz:** die 8 Services als Stichworte, Link → Services
+5. **Kontakt-Aufruf:** «Haben Sie ein Projekt?» → Kontakt
 
-**Hero-Text (Varianten)**
-1. EN: «I plan, design and deliver marketing — from the first idea to the last follow-up.»
-   DE: «Ich plane, gestalte und setze Marketing um – von der ersten Idee bis zum Follow-up.»
-2. EN: «Trade fairs, campaigns, print and content. Conceived, designed and delivered from one hand.»
-   DE: «Messen, Kampagnen, Print und Content. Konzipiert, gestaltet und umgesetzt aus einer Hand.»
-3. EN: «Marketing, design and project management in one person. Based in Zurich.»
-   DE: «Marketing, Gestaltung und Projektmanagement in einer Person. Aus Zürich.»
+### Hero-Text, Entwurf 1 (DE) ✏️
+- **Rolle:** Marketing & Kreative Kommunikation · Zürich
+- **Überschrift**, Varianten (*kursiv* = farbiges Wort):
+  - A: «Von der Idee bis zum *Follow-up*.»
+  - B: «Ich plane, gestalte und *setze um*.»
+- **Text:** «Ich bin Yana Senn, Mediamatikerin EFZ mit Schwerpunkt Marketing und Gestaltung. Ich betreue Projekte von der ersten Idee bis zur Umsetzung: internationale Messen, Kampagnen, Print, Content und Video. Für Unternehmen, die Konzept, Design und Organisation in einer Hand haben möchten.»
+- **Button:** «Projekt anfragen»
 
-**Prozess-Kette (wiederkehrendes Element)**
-Idea → Concept → Design → Organisation → Production → Execution → Communication → Follow-up
+### Prozess-Kette (wiederkehrendes Element)
+Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
 ---
 
@@ -360,6 +364,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
 - [ ] **AI-Einsatz**: konkrete Beispiele sammeln, wofür Yana ChatGPT und Claude in der Arbeit nutzt
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
+- [ ] **Logo** gemeinsam ausdenken (Vorschlag bisher: Wortmarke «Yana Senn» und Monogramm «YS»)
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
 
 ---
