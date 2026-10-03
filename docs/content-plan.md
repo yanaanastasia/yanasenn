@@ -277,7 +277,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 ## 8. Kontakt & Impressum
 
 - Name: **Yana Senn** ✅
-- E-Mail-Optionen: `yana.senn1@gmail.com` oder iCloud-Adresse ❓ (genaue Schreibweise). Empfehlung: eine eigene Domain-Adresse wie `hello@yanasenn.ch` (bei one.com prüfen, ob E-Mail im Paket enthalten ist)
+- E-Mail: `yana.senn1@gmail.com` ✅ (vorläufig; später eventuell eigene Domain-Adresse wie `hello@yanasenn.ch` 📌)
 - Impressum: Yana Senn, Ort ❓ (Spracherkennung ergab «Gilsdorf», bitte Schreibweise prüfen), E-Mail
 - LinkedIn-URL ❓
 - Telefon: ❓ (Empfehlung: nein)
