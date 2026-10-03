@@ -297,7 +297,11 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - [ ] **A12 Partner- und Lieferantennamen**: was genannt werden darf
 - [ ] **Personen auf Fotos** unkenntlich machen, wo keine Einwilligung vorliegt
 - [ ] **About-Text** gemeinsam schreiben (der alte Text ist zu blumig; «About me kopiert» stammt von einer anderen Person und wird **nicht** verwendet)
-- [ ] **Referenzen**: oliviahug.ch ✅; YouTube-Video und weitere Links noch schicken
+- [ ] **Referenzen** ✅ erhalten, noch nicht analysiert (Netzwerk blockiert):
+  - YouTube-Video (Design-Inspiration): https://www.youtube.com/watch?v=hTwbCmZhFNA
+  - https://www.louisplant.ch/ (Design)
+  - https://www.oliviahug.ch/ (Design)
+  - https://www.pascalfrey.ch/ (nur Inhalt interessant, nicht Design)
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
