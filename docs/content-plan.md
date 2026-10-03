@@ -43,13 +43,13 @@ Die Startseite ist eine **Übersicht**; Details stehen auf den Unterseiten.
 
 **Grundsatz ✅:** «Best of both worlds» aus Olivia und Louis, aber **nicht überladen**. Nur das Wichtigste, lieber weniger als mehr.
 
-### Hero-Text, Entwurf 1 (DE) ✅ Text gefällt Yana (Überschrift A oder B ❓)
-- **Rolle:** Marketing & Kreative Kommunikation · Zürich
-- **Überschrift**, Varianten (*kursiv* = farbiges Wort):
-  - A: «Von der Idee bis zum *Follow-up*.»
-  - B: «Ich plane, gestalte und *setze um*.»
-- **Text:** «Ich bin Yana Senn, Mediamatikerin EFZ mit Schwerpunkt Marketing und Gestaltung. Ich betreue Projekte von der ersten Idee bis zur Umsetzung: internationale Messen, Kampagnen, Print, Content und Video. Für Unternehmen, die Konzept, Design und Organisation in einer Hand haben möchten.»
+### Hero ✅ Aufbau
+- **Gross:** Name «Yana Senn»
+- **Darunter:** Job bzw. Rolle, z. B. «Marketing & Kreative Kommunikation» ✏️ (Wortlaut noch offen)
+- **Kurze Einleitung:** 2–3 Sätze, wer Yana ist und was sie macht
 - **Button:** «Projekt anfragen»
+- Überschrift-Slogan: vorerst **Platzhalter**. Die Entwürfe A («Von der Idee bis zum Follow-up.») und B («Ich plane, gestalte und setze um.») haben Yana nicht überzeugt. 📌 Claude bringt später neue Vorschläge.
+- Einleitung, Entwurf ✏️: «Ich bin Yana Senn, Mediamatikerin EFZ mit Schwerpunkt Marketing und Gestaltung. Ich betreue Projekte von der ersten Idee bis zur Umsetzung: internationale Messen, Kampagnen, Print, Content und Video. Für Unternehmen, die Konzept, Design und Organisation in einer Hand haben möchten.»
 
 ### Prozess-Kette (wiederkehrendes Element)
 Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
