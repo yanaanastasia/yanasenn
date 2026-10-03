@@ -278,7 +278,9 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 
 - Name: **Yana Senn** ✅
 - E-Mail: `yana.senn1@gmail.com` ✅ (vorläufig; später eventuell eigene Domain-Adresse wie `hello@yanasenn.ch` 📌)
-- Impressum: Yana Senn, Ort ❓ (Spracherkennung ergab «Gilsdorf», bitte Schreibweise prüfen), E-Mail
+- Website-Text: «based in Zurich» ✅
+- Impressum vorerst: **Yana Senn, Dielsdorf ZH**, E-Mail ✅ (so wenig Privates wie möglich)
+- 📌 Vor dem Livegang nochmals entscheiden: volle Adresse oder Geschäfts- bzw. Postfachadresse (UWG Art. 3 verlangt eine Kontaktadresse; Datenschutzerklärung ebenso)
 - LinkedIn-URL ❓
 - Telefon: ❓ (Empfehlung: nein)
 - CV-Download: ❓
