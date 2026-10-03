@@ -130,10 +130,10 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 
 **Titel ✅:** Marketing & Creative Communication
 
-**Einleitung:** Entwurf 2 gefiel nicht (zu viel). Gewünscht ✅: mehr Persönlichkeit, kreativ, enthusiastisch, Freude an schönen Dingen. Drei Richtungen ✏️:
-- 1 (warm): «Hey, ich bin Yana. Ich bin kreativ, packe gern an und liebe es, wenn aus einer Idee etwas Echtes entsteht: ein Messestand, eine Kampagne, ein schön verpacktes Geschenk. Privat begeistern mich Reisen, neue Kulturen und mein kleiner Malteser.»
-- 2 (kurz): «Hey, ich bin Yana. Kreativ, neugierig und mit viel Freude an schönen Dingen. In meiner Arbeit verbinde ich Marketing und Gestaltung und bleibe dran, bis alles sitzt.»
-- 3 (leicht): «Hey, ich bin Yana. Ich mag gute Ideen, schöne Details und Projekte, bei denen am Schluss alles zusammenpasst. Dafür denke ich mit, gestalte selbst und organisiere, was es braucht. Und wenn ich nicht an einem Projekt arbeite, bin ich auf Reisen oder mit meinem Malteser unterwegs.»
+**Einleitung:** Entwürfe 1–3 gefielen nicht (zu umgangssprachlich: «anpacken», «dranbleiben, bis alles sitzt»). Reisen/Malteser vorerst weglassen. Neue Runde ✏️:
+- A: «Hey, ich bin Yana – kreativ, strukturiert und mit viel Freude an guter Gestaltung. Ich verbinde Marketing, Design und Organisation und behalte bei Projekten das grosse Ganze genauso im Blick wie die Details.»
+- B: «Hey, ich bin Yana. Ich liebe schöne Dinge und gute Ideen und bringe beides zusammen: mit einem Gespür für Gestaltung, einem klaren Blick fürs Marketing und viel Sinn für Organisation.»
+- C: «Hey, ich bin Yana, eine kreative Marketing-Allrounderin mit viel Enthusiasmus. Ich denke Projekte ganzheitlich, von der Idee über die Gestaltung bis zur Umsetzung, und lege Wert auf Qualität bis ins Detail.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
