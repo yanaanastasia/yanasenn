@@ -249,6 +249,17 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 
 ### 6.1 Hauptcases (Selected Work)
 
+#### TEXT-ENTWURF Case «Internationale Messen 2024–2026» ✏️
+- **Titel:** Internationale Messen 2024–2026
+- **Stichworte:** Organisation · Standdesign · Mailings · Logistik
+- **Kurz:** 20 Messen in fünf Ländern, dazu Material für neun Partnerauftritte. ❓ (Zahl erst final, wenn alle 2026er-Messen durchgeführt sind)
+- **Ausgangslage:** CP Pump Systems ist an Fachmessen für Chemie, Petrochemie, Düngemittel und Pumpentechnik präsent, in Deutschland, Frankreich, Grossbritannien, den USA und Indien. Dazu kommen Messen von Partnern in Spanien, Japan, Korea und der Türkei, für die CP Marketingmaterial und Giveaways liefert.
+- **Meine Rolle:** 2024 und 2025 habe ich die Messen über weite Strecken allein betreut, von der Anmeldung bis zum Follow-up. Seit 2026 liegt mein Schwerpunkt auf der Gestaltung: Standdesign, Messewände und Mailings. Leads und E-Mail-Banner gehören weiterhin zu meinen Aufgaben.
+- **Vorgehen:** ❓ (Yanas Input: Wie plant sie eine Messe?)
+- **Umsetzung:** Anmeldung und Planung · Standkonzept und Standdesign · Möbel, Banner und Messewände · Giveaways · Einladungen und Mailings · Personalplanung und Badges · E-Mail-Signaturen und -Banner · Logistik, Versand und Aufbau · Koordination vor Ort · Erfassung der Leads und Follow-up
+- **Höhepunkt ACHEMA 2024:** Die grösste Messe im Programm, mit 108 m² Standfläche und zwölf Personen am Stand. Für Standbau, Konstruktion, Logistikplan und Montage arbeitete ich mit einer Agentur zusammen ❓ (Name nennen?). Ich plante die Hotels für Standteam und Besuchende aus der eigenen Firma, gestaltete die Infopanels zu den Exponaten, setzte das Mailing um und erfasste die Leads in einem System.
+- **Ergebnis:** 📌 später (Zahlen/Resultate)
+
 #### Case 1 · ACHEMA Frankfurt 2024 (CP Pump Systems)
 **Kernaussage ✏️:** Grösste Messe des Programms. Yana koordinierte Organisation, Team, Hotel, Material und Kommunikation; Bau und Konstruktion lagen bei der Agentur.
 
