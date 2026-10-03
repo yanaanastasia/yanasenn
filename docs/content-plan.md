@@ -141,13 +141,17 @@ Reserve: frühere Varianten 2a, 2c (siehe Git-Verlauf). Nicht verwenden: «Sinn 
 **Aufbau Über mich ✏️:** 1. kurzer Einstieg (Olivia-Stil) → 2. «Mein Weg» (Louis-Stil, kurz) → 3. Stationen → 4. Weiterbildung, Sprachen, Tools → 5. Kontakt
 
 **Text, Entwurf 1 ✏️**
-- Einstieg: «Ich liebe gute Ideen, schöne Gestaltung und Projekte, bei denen am Ende alles zusammenpasst. Zu meinen Stärken zähle ich Konzipieren, Gestalten, Organisieren und Umsetzen, vom ersten Entwurf bis zum fertigen Messestand.»
-- Mein Weg:
+- Einstieg (allgemeiner, ohne «Messestand» ✅): «Ich liebe gute Ideen, schöne Gestaltung und Projekte, bei denen am Ende alles zusammenpasst. Zu meinen Stärken zähle ich Konzipieren, Gestalten, Organisieren und Umsetzen, von der ersten Idee bis zum fertigen Ergebnis.»
+- Mein Weg ✅ (gefällt Yana, Basis bleibt):
   1. «Meine Ausbildung zur Mediamatikerin EFZ habe ich bei SBW Neue Medien gemacht, parallel dazu die technische Berufsmaturität. Dort habe ich gelernt, wie Gestaltung, Technik und Kommunikation zusammenspielen.»
   2. «Mein Praktikum führte mich zu GOLDINGER Immobilien. Zwei Jahre lang betreute ich Social Media, fotografierte und filmte Immobilien, gestaltete das halbjährliche Hausmagazin und plante Kampagnen für Infoabende und Tage der offenen Tür. Als Abschlussarbeit entstanden animierte Erklärvideos.»
   3. «Seit 2024 arbeite ich bei CP Pump Systems im Marketing. Über weite Strecken von 2024 und 2025 war ich dort allein für das Marketing verantwortlich, von internationalen Messen über Broschüren bis zu Website und Weihnachtskampagnen.»
   4. «Erste Freelance-Aufträge habe ich schon 2023 umgesetzt. Heute unterstütze ich Unternehmen, die Marketing und Gestaltung aus einer Hand suchen.»
-- ❓ Optional wie bei Louis: Wie hat alles angefangen (z. B. erste kreative Projekte als Kind/Jugendliche)?
+- **Anfänge ✅ (Fakten von Yana):** als Kind mit eigener Digitalkamera viel fotografiert und gefilmt; Bilder schon als Kind bearbeitet (Paint, Gimp, Online-Editoren mit Stickern); bei der Schulzeitung dabei; war immer schon «die Kreative».
+- Anfangs-Text, Varianten ✏️:
+  - Olivia-Stil: «Kreativ war ich schon immer: Mit meiner ersten Digitalkamera habe ich als Kind alles fotografiert, was mir vor die Linse kam, und die Bilder danach mit Paint und Gimp bearbeitet.»
+  - Louis-Stil: «Angefangen hat alles mit einer kleinen Digitalkamera. Als Kind habe ich damit fotografiert und gefilmt und die Bilder danach am Computer bearbeitet, mit Paint, Gimp und Online-Editoren voller Sticker. Später war ich bei der Schulzeitung dabei, und ich war immer schon die Kreative. Mit der Ausbildung zur Mediamatikerin wurde daraus ein Beruf.»
+  - Mischung: «Ich war schon immer die Kreative: als Kind mit meiner ersten Digitalkamera und Paint, später bei der Schulzeitung. Heute verbinde ich diese Freude an Gestaltung mit Marketing und Organisation.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
