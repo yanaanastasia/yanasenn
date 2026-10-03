@@ -417,6 +417,12 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - Arbeitskleidung und Messekleidung ✅ 📌
 - GOLDINGER-Gummibärchen 2022 ✅ (Formen und Grafik gestaltet, für WEGA & Immozionale)
 
+#### Fakten «Broschüren und Factsheets» ✅ (Yana, 03.10.2026)
+- Bestehende Broschüren (Layout stand), aber **intensiv überarbeitet**: viele Inhalte angepasst und ausgetauscht, vor allem **Company-Broschüre** und **Sortimentsbroschüre**.
+- **Neue Grafiken von Yana** erstellt und eingesetzt, z. B. **Weltkarte** und **Zeitstrahl** (nicht nur diese).
+- **Übersetzungen in viele Sprachen** koordiniert, zusammen mit einem Übersetzungsbüro, z. B. **Chinesisch, Polnisch** (wegen vieler Partner), u. a.
+- 📌 Yana legt Beispiele in Drive-Ordner «Broschüren».
+
 #### Case 5 · Print & Graphic Design (CP Pump Systems)
 **Kernaussage ✏️:** Von der Produktbroschüre bis zum Messeplakat: Konzeption, Layout, Bild, Reinzeichnung und Druckabwicklung.
 
