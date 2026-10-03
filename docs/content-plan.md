@@ -134,7 +134,20 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 
 Reserve: frühere Varianten 2a, 2c (siehe Git-Verlauf). Nicht verwenden: «Sinn für Struktur», «Hand in Hand», «anpacken», «dranbleiben, bis alles sitzt», lange Reisen.
 
-**Über mich: eigener, ausführlicherer Text** 📌 noch schreiben (keine Wiederholung der Hi-Einleitung).
+**Über mich: Referenzen angeschaut ✅**
+- Louis: Einleitung (wer, wo, was) → Geschichte «Mein Weg in die Medienwelt» (von den Anfängen bis heute) → Lebenslauf → Story zum Logo → Aktuelles → Kontakt mit «E-Mail kopieren»
+- Olivia: sehr kurzer, knackiger Einstieg («Ich habe Ideen, liebe Design und gute Werbung … Zu meinen Skills zähle ich das Konzepten, Gestalten, Planen, Denken und Abliefern.») → Stationen → Education → Awards → Kunden
+
+**Aufbau Über mich ✏️:** 1. kurzer Einstieg (Olivia-Stil) → 2. «Mein Weg» (Louis-Stil, kurz) → 3. Stationen → 4. Weiterbildung, Sprachen, Tools → 5. Kontakt
+
+**Text, Entwurf 1 ✏️**
+- Einstieg: «Ich liebe gute Ideen, schöne Gestaltung und Projekte, bei denen am Ende alles zusammenpasst. Zu meinen Stärken zähle ich Konzipieren, Gestalten, Organisieren und Umsetzen, vom ersten Entwurf bis zum fertigen Messestand.»
+- Mein Weg:
+  1. «Meine Ausbildung zur Mediamatikerin EFZ habe ich bei SBW Neue Medien gemacht, parallel dazu die technische Berufsmaturität. Dort habe ich gelernt, wie Gestaltung, Technik und Kommunikation zusammenspielen.»
+  2. «Mein Praktikum führte mich zu GOLDINGER Immobilien. Zwei Jahre lang betreute ich Social Media, fotografierte und filmte Immobilien, gestaltete das halbjährliche Hausmagazin und plante Kampagnen für Infoabende und Tage der offenen Tür. Als Abschlussarbeit entstanden animierte Erklärvideos.»
+  3. «Seit 2024 arbeite ich bei CP Pump Systems im Marketing. Über weite Strecken von 2024 und 2025 war ich dort allein für das Marketing verantwortlich, von internationalen Messen über Broschüren bis zu Website und Weihnachtskampagnen.»
+  4. «Erste Freelance-Aufträge habe ich schon 2023 umgesetzt. Heute unterstütze ich Unternehmen, die Marketing und Gestaltung aus einer Hand suchen.»
+- ❓ Optional wie bei Louis: Wie hat alles angefangen (z. B. erste kreative Projekte als Kind/Jugendliche)?
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
