@@ -430,6 +430,15 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - 📌 Weitere Factsheets von Yana folgen später.
 - **GOLDINGER im Ordner «Broschüren» ✅ gefunden** (Claude hatte zuerst nur Seite 1 der Dateiliste gelesen): Hausmagazin «Die IMMO-EXPERTEN», Ausgabe Februar 2023, 12 Seiten, erscheint 2× im Jahr ✅. Inhalt: Marktausblick 2023, Infoabende an 7 Standorten mit Anmeldetalon und QR-Code, aktuelle Immobilien und Neubauprojekte (S. 4–11), Gutschein für Gratis-Bewertung. Dazu Word-Texte «Editorial», «Ausblick 2023», «Infoabende» und ein älteres Hausmagazin (2022). ❓ Hat Yana auch Texte geschrieben oder nur Layout? Zuordnung: «Frühere Projekte» → Hausmagazin.
 
+#### TEXT-ENTWURF «Website und Newsletter» (CP) ✏️
+Fakten ✅ (Yana, 03.10.2026): Website **nicht erstellt, sondern gepflegt** (Craft CMS; Website-Agentur verantwortlich für Technik). Struktur geprüft auf cp-pumps.com: DE/EN/FR/CN, News/Blog, Karriere/offene Stellen, Messen, Downloads, Videos, Showroom, Pumpenanfrage, Kontakte pro Land.
+- **Stichworte:** Craft CMS · Content · Newsletter · LinkedIn
+- **Ausgangslage:** Die Website von CP Pump Systems ist in vier Sprachen online und wird von einer Agentur technisch betreut. Damit sie aktuell bleibt, braucht es laufende Pflege.
+- **Meine Rolle:** Ich halte die Website inhaltlich auf dem neusten Stand, von News bis Downloads.
+- **Umsetzung:** News- und Blogbeiträge schreiben, z. B. zu Messen, Projekten und neuen Mitarbeitenden · Fototermine für neue Mitarbeitende organisieren · Downloads laufend erneuern (Broschüren, Factsheets) · Weltkarte bei neuen Standorten anpassen · Stellenanzeigen vom HR aufschalten und wieder entfernen · Service-Seiten und Formulare zusammen mit der Agentur überarbeiten, auf Basis von Feedback · Newsletter und Social Media über Zoho One, vor allem LinkedIn und Facebook
+- **Bei GOLDINGER:** Website-Pflege in TYPO3: Inhalte austauschen, Bilder auswählen, Texte anpassen (→ in Kachel «Social Media, Reels und Immobilienvideos» erwähnen)
+- **Ergebnis:** 📌 später (z. B. LinkedIn-Follower-Entwicklung)
+
 #### TEXT-ENTWURF «GOLDINGER Hausmagazin» (Frühere Projekte) ✏️
 - **Stichworte:** Layout · Editorial · Print
 - **Kurz:** «Die IMMO-EXPERTEN», 12 Seiten, zweimal im Jahr
