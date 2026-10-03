@@ -253,7 +253,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - **Immobilienvideos:** Aufnahmen, Rundgänge, Schnitt, Reels ❓ (Luftaufnahmen: eigene Drohne oder Fremdmaterial?)
 - **Interview-Reels** mit Fachleuten (Makler, Bewirtschafter)
 - **Animierte Erklärvideos** ✅ = Yanas **IPA (Abschlussarbeit der Lehre)**
-- **Hausmagazin** ❓ (halbjährlich laut altem Text, jährlich laut aktueller Aussage): Inhalte mit Vorgesetztem festgelegt, Texte und Bilder von den Standorten, Layout von Yana, Druck, teilweise Zeitungsbeilage
+- **Hausmagazin** ✅ halbjährlich (gemäss altem Portfolio-Text): Inhalte mit Vorgesetztem festgelegt, Texte und Bilder von den Standorten, Layout von Yana, Druck, teilweise Zeitungsbeilage
 - **Infoabende 2023:** Meta-Ads (Fokus Ostschweiz, 4 Wochen Laufzeit, Ziel Anmeldungen) und Printinserate in Ostschweizer Zeitungen (Offerte bis Übermittlung)
 - **Tag der offenen Tür (TDOT) 2023:** Vermarktungsstrategie für schwer verkäufliche bzw. Spezialobjekte; Printinserate, Flyer in Büros, Instagram-Kampagnen über Meta; Organisation in Absprache mit Verkäufern
 - **WEGA & Immozionale 2022:** Messewände neu gestaltet, Gummibärchen, Printstrategie (wöchentliche Inserate, Flyer)
@@ -291,7 +291,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 | 08/2021 – 08/2023 | GOLDINGER Immobilien AG, Praktikum Marketing / Mediamatikerin | ✅ |
 | 01/2024 – heute | CP Pump Systems, Mitarbeiterin Marketing & Kommunikation | ✅ |
 
-**Sprachen ✅:** Deutsch und Schweizerdeutsch (fliessend), Englisch C1, Französisch B1 (DELF ❓ Niveau prüfen), Ukrainisch ❓ (bzw. Russisch?) C1 / Herkunftssprache
+**Sprachen ✅:** Deutsch und Schweizerdeutsch (fliessend), Englisch C1, Französisch B1 (DELF ❓ Niveau prüfen), Russisch C1 ✅ (Herkunft Ukraine) ❓ **Ob auf der Website erwähnen, entscheidet Yana** (Bedenken wegen Diskriminierung)
 
 **Tools ✅:** InDesign, Illustrator, Photoshop, Premiere Pro, Canva, TYPO3, Craft CMS, Elementor, Shopify, Meta Ads, Zoho One, Namecheap, ChatGPT, Claude
 
@@ -362,5 +362,4 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 2. Monate der Allein-Phasen bei CP (für die Story in Case 2)
 3. Welche Services Yana anbieten will (Kapitel 5)
 4. Weitere Messen und Partner-Events: aufnehmen oder nicht (Case 2)
-6. Hausmagazin: jährlich oder halbjährlich?
 7. Herkunftssprache: Ukrainisch und/oder Russisch?
