@@ -130,10 +130,11 @@ Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung �
 
 **Titel ✅:** Marketing & Creative Communication
 
-**Einleitung:** Runden 1–3 gefielen nicht. Vorbild ✅: Mischung aus Louis' erstem Absatz und Olivias sympathischem Ton. Persönliche Fakten ✅: kreativ; hat einen Hund (Malteser); ist vier Monate durch Asien gereist (Thailand, Indonesien, China, Japan, Korea), muss nicht im Detail genannt werden. Runde 4 ✏️:
-- A: «Hey. Ich bin Yana und mache Marketing, das man sehen und anfassen kann: Messestände, Kampagnen, Broschüren und Geschenke, die man gerne auspackt. Inspiration finde ich auf Reisen, zum Beispiel vier Monate quer durch Asien, und bei Spaziergängen mit meinem kleinen Malteser.»
-- B: «Yana Senn ist Marketing- und Kreativspezialistin aus der Region Zürich. Sie arbeitet eng mit Unternehmen zusammen und bringt deren Marke dorthin, wo Menschen ihr begegnen: an internationalen Messen, in Kampagnen, in Print und online.»
-- C: «Hey. Ich bin Yana, kreativ im Kopf und organisiert in der Umsetzung. Ich arbeite eng mit Unternehmen zusammen und sorge dafür, dass ihre Marke überall gut aussieht: am Messestand, in der Broschüre, im Weihnachtspaket. – Ausserdem liebe ich lange Reisen (vier Monate Asien!) und meinen kleinen Malteser.»
+**Einleitung:** Runden 1–4 gefielen nicht. Anforderungen ✅: **Ich-Form**, sympathisch, aber kompetent; Skills klar erkennbar; Persönlichkeit nur dezent (lange Reisen wirken abschreckend). Gute Vorbilder: Louis' «create a clear and distinctive visual language and bring it to life across websites, campaigns and print»; Olivias «kreative Teamplayerin mit viel Enthusiasmus und guten Ideen», «ich denke gerne vernetzt», «lege Wert auf eine gute Strategie». Runde 5 ✏️:
+- 1: «Hey, ich bin Yana. Ich arbeite eng mit Unternehmen zusammen, finde die passende Idee für ihre Marke und bringe sie zum Leben: am Messestand, in Kampagnen, in Print und online. Ich denke gerne vernetzt, behalte auch bei vielen Projekten gleichzeitig den Überblick und habe Freude an schönen Details.»
+- 2: «Hey, ich bin Yana – kreativ, organisiert und mit viel Freude an guten Ideen. Ich mache Marken sichtbar, dort wo Menschen ihnen begegnen: an internationalen Messen, in Kampagnen, in Print und online. Dabei lege ich Wert auf eine klare Strategie und eine Umsetzung, die bis ins Detail stimmt.»
+- 3: «Hey, ich bin Yana. Ich verbinde kreative Ideen mit klarer Organisation und bringe Marken dorthin, wo sie wirken: an Messen, in Kampagnen, in Print und online. Von der ersten Skizze bis zum letzten Detail.»
+- Optionaler persönlicher Schlusssatz: «Inspiration finde ich in gutem Design und auf Reisen in andere Kulturen.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
