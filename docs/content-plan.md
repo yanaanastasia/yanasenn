@@ -401,12 +401,14 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - **Stichworte:** Auswahl · Branding · Produktion · Versand
 - **Ausgangslage:** An Messen, bei Kundenbesuchen und als Dankeschön braucht CP Werbeartikel, die zur Marke passen und gerne benutzt werden, für eigene Messen ebenso wie für Partner weltweit.
 - **Meine Rolle:** Ich wähle die Artikel aus, kümmere mich um Branding und Druckdaten, bestelle, organisiere Lagerung und Versand.
-- **Vorgehen:** Für neue Artikel vergleiche ich mehrere Anbieter, zum Beispiel bei Fruchtgummis nach Menge, Druckfläche, Lieferzeit und Zutaten. ❓ Einige Bestellungen klimaneutral über myClimate (Zertifikate im Ordner) – erwähnen?
+- **Vorgehen:** Für neue Artikel vergleiche ich mehrere Anbieter, zum Beispiel bei Fruchtgummis nach Menge, Druckfläche, Lieferzeit und Zutaten. Einen Teil der Bestellungen habe ich klimaneutral über myClimate abgewickelt. ✅
 - **Sortiment (Auswahl):** SIGG-Flaschen und -Lunchboxen, Rucksäcke, Badetücher, Fussbälle, Golfbälle, Teleskoplampen, Notizbücher, Multitools, Victorinox-Taschenmesser, Kägi-Schokolade, Zuckersticks, Mehrwegbecher, Massstäbe, Universal-Ladestecker, Arbeits- und Messekleidung
 - **Logistik:** Material für Messen und Partner im Ausland, z. B. eine Box mit Broschüren und Giveaways für eine Messe in den USA, geplant mit Luft- oder Seefracht-Vorlauf.
+- **Eigene Gestaltung ✅:** Verpackung für die Kägi-Schokolade (Design von Yana)
+- **Katalog ✅:** Den internen Katalog «Brochures & Gadgets» (Broschüren, Factsheets und Giveaways mit Artikelnummern, zum Bestellen für Events) habe ich erneuert und aktualisiert.
 - **GOLDINGER:** Mini-Fruchtgummis im eigenen Design, Autoaufkleber
 - **Bilder:** vorhandene Fotos im Ordner (Badetuch, Fussball, Lampen, Taschen, Stifte, Notizbuch, Golf, Box, Mappe); 📌 Yana macht neue Fotos im Büro; bis dahin Mockups als Platzhalter.
-- ❓ Offen: Katalog «Brochures & Gadgets» von Yana erstellt? Kägi-Verpackung, 3D-Ball, Dokumentationsmappe: Design von Yana?
+- ❓ Offen: 3D-Ball und Dokumentenmappe: Design von Yana?
 
 #### Case 4 · Branded Objects & Giveaways (CP + GOLDINGER)
 **Kernaussage ✏️:** «Branding extends beyond the screen.» Ein bildstarker Case mit wenig Text.
