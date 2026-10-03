@@ -148,10 +148,15 @@ Reserve: frühere Varianten 2a, 2c (siehe Git-Verlauf). Nicht verwenden: «Sinn 
   3. «Seit 2024 arbeite ich bei CP Pump Systems im Marketing. Über weite Strecken von 2024 und 2025 war ich dort allein für das Marketing verantwortlich, von internationalen Messen über Broschüren bis zu Website und Weihnachtskampagnen.»
   4. «Erste Freelance-Aufträge habe ich schon 2023 umgesetzt. Heute unterstütze ich Unternehmen, die Marketing und Gestaltung aus einer Hand suchen.»
 - **Anfänge ✅ (Fakten von Yana):** als Kind mit eigener Digitalkamera viel fotografiert und gefilmt; Bilder schon als Kind bearbeitet (Paint, Gimp, Online-Editoren mit Stickern); bei der Schulzeitung dabei; war immer schon «die Kreative».
-- Anfangs-Text, Varianten ✏️:
-  - Olivia-Stil: «Kreativ war ich schon immer: Mit meiner ersten Digitalkamera habe ich als Kind alles fotografiert, was mir vor die Linse kam, und die Bilder danach mit Paint und Gimp bearbeitet.»
-  - Louis-Stil: «Angefangen hat alles mit einer kleinen Digitalkamera. Als Kind habe ich damit fotografiert und gefilmt und die Bilder danach am Computer bearbeitet, mit Paint, Gimp und Online-Editoren voller Sticker. Später war ich bei der Schulzeitung dabei, und ich war immer schon die Kreative. Mit der Ausbildung zur Mediamatikerin wurde daraus ein Beruf.»
-  - Mischung: «Ich war schon immer die Kreative: als Kind mit meiner ersten Digitalkamera und Paint, später bei der Schulzeitung. Heute verbinde ich diese Freude an Gestaltung mit Marketing und Organisation.»
+- Feedback ✅: Einstieg gefällt, aber weitere Versionen gewünscht. Olivia- und Louis-Stil gefallen, Mischung nicht. Schülerzeitung nicht zu stark betonen. Aus Sicht von Auftraggebern schreiben: Yana soll kompetent und sympathisch wirken.
+- Einstieg, weitere Versionen ✏️:
+  - E2: «Ich denke in Bildern und plane in Schritten. So wird aus einer guten Idee ein Projekt, das auch im Alltag funktioniert, ob Kampagne, Broschüre oder Messeauftritt.»
+  - E3: «Gute Gestaltung allein reicht nicht, sie muss auch ankommen. Darum verbinde ich Kreativität mit Marketing-Verständnis und einer sorgfältigen Organisation, von der ersten Idee bis zum fertigen Ergebnis.»
+  - E4: «Ich mag es, wenn Ideen nicht nur gut aussehen, sondern auch funktionieren. Dafür konzipiere, gestalte und organisiere ich und behalte das Ziel dabei immer im Blick.»
+- Anfänge, neue Versionen ✏️:
+  - O1 (Olivia-Stil): «Meine erste Digitalkamera hatte ich schon als Kind, und seither habe ich nie aufgehört, Dinge festzuhalten, zu bearbeiten und neu zu gestalten. Aus Spielerei mit Paint und Gimp wurde ein Beruf.»
+  - O2 (Louis-Stil): «Angefangen hat alles mit einer kleinen Digitalkamera. Ich habe fotografiert, gefilmt und meine Bilder am Computer bearbeitet, lange bevor ich wusste, dass man daraus einen Beruf machen kann. Mit der Ausbildung zur Mediamatikerin wurde aus dieser Neugier mein Handwerk, und mit jedem Projekt kam mehr Marketing dazu.»
+  - O3 (Sicht der Auftraggeber): «Schon als Kind habe ich mit meiner Digitalkamera die Welt festgehalten und am Computer neu zusammengesetzt. Diese Neugier ist geblieben: Bei jedem Projekt frage ich mich, wie eine Idee am besten aussieht und wie sie bei den Menschen ankommt.»
 
 **So arbeite ich:** Idee → Konzept → Gestaltung → Organisation → Produktion → Umsetzung → Kommunikation → Follow-up
 
