@@ -260,6 +260,17 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 - **Höhepunkt ACHEMA 2024:** Die grösste Messe im Programm, mit 108 m² Standfläche und zwölf Personen am Stand. Für Standbau, Konstruktion, Logistikplan und Montage arbeitete ich mit einer Agentur zusammen ❓ (Name nennen?). Ich plante die Hotels für Standteam und Besuchende aus der eigenen Firma, gestaltete die Infopanels zu den Exponaten, setzte das Mailing um und erfasste die Leads in einem System.
 - **Ergebnis:** 📌 später (Zahlen/Resultate)
 
+#### ACHEMA 2024: Funde aus Yanas Drive-Ordner (03.10.2026) — ❓ Autorschaft/Rolle je Punkt noch von Yana bestätigen
+Gelesen: Messekonzept (Jan 2024, Ersteller-Kürzel nicht Yana), Ablaufplan Projekt, Ablaufplan Kommunikationsplan, Messebriefing DE (Mai 2024). **Nicht verwendet:** Budget, Rechnungen, Lead-Ziele/KPIs, Namen und Telefonnummern von Mitarbeitenden.
+- Öffentliche Fakten: 10.–14.06.2024, Frankfurt, Halle 8, Stand F28
+- Messemotto: «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
+- Einladungskampagne: 3 Mailings, Reminder, Dankesmail; Kunden konnten vorab ein Geschenk wählen und am Stand abholen (Ablauf über Infostand und Verkauf)
+- Standerlebnis: «Buzzer Game» (Wettbewerb: schnellste Pumpenmontage, mit Foliendruck für den Buzzer-Tisch), Live-Demo am Demogerät, Display mit Einzelteilen, Catering und Bar
+- Giveaways: Säckchen mit Schweizer Schokolade (Swissness), Gadgets (Memo, Schreiber, Mehrwegbecher)
+- Team: Messebriefing mit Hallenplan, Schicht- bzw. Dienstplänen pro Tag, Dresscode (CP-Hemden blau/weiss nach Tag), Namensschilder, Hotel und Anreise mit ÖV, Auf- und Abbau
+- Leads: überarbeitetes Lead-Formular
+- Weitere Dateien: E-Mail-Banner, Namensschilder, Standlayout-Anpassungen, Konzept der Agentur, Bekleidung, Katalogeintrag/Medienpaket, Shipment
+
 #### Case 1 · ACHEMA Frankfurt 2024 (CP Pump Systems)
 **Kernaussage ✏️:** Grösste Messe des Programms. Yana koordinierte Organisation, Team, Hotel, Material und Kommunikation; Bau und Konstruktion lagen bei der Agentur.
 
