@@ -149,6 +149,16 @@ Alle 8 Services von Yana bestätigt (03.10.2026). **SEO wird nicht erwähnt** (w
 | AI in Marketing & Content | Arbeit mit ChatGPT und Claude ❓ (konkrete Einsatzbeispiele noch sammeln) |
 | Marketing Support auf Zeit | z. B. wenn eine Firma gerade niemanden fürs Marketing hat (belegt durch die Phase, in der Yana das CP-Marketing allein geführt hat) |
 
+### Services-Texte, Entwurf 1 (DE) ✏️
+1. **Messe- und Eventmanagement:** Ich plane und organisiere Messeauftritte von der Anmeldung bis zum Follow-up: Standkonzept, Standdesign, Material, Logistik, Team- und Hotelplanung sowie die Erfassung der Leads. Erfahrung aus Messen in Deutschland, Frankreich, Grossbritannien und den USA.
+2. **Kampagnen und Firmengeschenke:** Ich entwickle Kampagnen zu Anlässen wie Weihnachten oder Neujahr, von der Idee über Zielgruppen und Geschenkauswahl bis zu Branding, Verpackung, Karte und Versand.
+3. **Print- und Grafikdesign:** Broschüren, Factsheets, Flyer, Anzeigen, Poster und Messegrafiken. Vom Layout bis zu den fertigen Druckdaten und der Abwicklung mit der Druckerei.
+4. **Content: Foto, Video, Social Media:** Ich fotografiere, filme und schneide Inhalte für Social Media und Website: Reels, Erklärvideos, Produkt-, Event- und Mitarbeiterfotos. Dazu Redaktionspläne und die Betreuung der Kanäle.
+5. **Werbeartikel und Giveaways:** Von der Auswahl über das Branding bis zur Bestellung: Giveaways, Firmengeschenke sowie Arbeits- und Messekleidung, die zur Marke passen.
+6. **Web und Digital:** Pflege von Websites in Craft CMS und TYPO3, Newsletter mit Zoho sowie Kampagnen mit Meta Ads.
+7. **AI in Marketing und Content:** Ich nutze ChatGPT und Claude in meiner täglichen Marketingarbeit. [Platzhalter: konkrete Beispiele von Yana]
+8. **Marketing-Unterstützung auf Zeit:** Wenn in Ihrem Team gerade jemand fürs Marketing fehlt, übernehme ich die laufenden Aufgaben, von Messen über Print bis zu Web. Bei CP Pump Systems habe ich das Marketing über weite Strecken von 2024 und 2025 allein geführt.
+
 ❓ Für welche Kundschaft (zum Beispiel KMU, B2B-Industrie, Immobilien)? 📌 später
 
 ---
