@@ -257,10 +257,11 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 - **Meine Rolle:** 2024 und 2025 habe ich die Messen über weite Strecken allein betreut, von der Anmeldung bis zum Follow-up. Seit 2026 liegt mein Schwerpunkt auf der Gestaltung: Standdesign, Messewände und Mailings. Leads und E-Mail-Banner gehören weiterhin zu meinen Aufgaben.
 - **Vorgehen:** ❓ (Yanas Input: Wie plant sie eine Messe?)
 - **Umsetzung:** Anmeldung und Planung · Standkonzept und Standdesign · Möbel, Banner und Messewände · Giveaways · Einladungen und Mailings · Personalplanung und Badges · E-Mail-Signaturen und -Banner · Logistik, Versand und Aufbau · Koordination vor Ort · Erfassung der Leads und Follow-up
-- **Höhepunkt ACHEMA 2024:** Die grösste Messe im Programm, mit 108 m² Standfläche und zwölf Personen am Stand. Für Standbau, Konstruktion, Logistikplan und Montage arbeitete ich mit einer Agentur zusammen ❓ (Name nennen?). Ich plante die Hotels für Standteam und Besuchende aus der eigenen Firma, gestaltete die Infopanels zu den Exponaten, setzte das Mailing um und erfasste die Leads in einem System.
+- **Höhepunkt ACHEMA 2024 ✏️:** Die grösste Messe im Programm: 10.–14. Juni 2024 in Frankfurt, 108 m² Standfläche, zwölf Personen am Stand. Ich übernahm das laufende Projekt im Frühling 2024 und führte es bis zur Messe zu Ende. Dazu gehörten die Einladungskampagne mit drei Mailings, Reminder und Dankesmail, bei der Kunden vorab ein Geschenk wählen und am Stand abholen konnten; das Buzzer Game, ein Wettbewerb um die schnellste Pumpenmontage; Schweizer Schokolade als Giveaway; die Infopanels zu den Exponaten; Namensschilder, Dresscode und Hotelplanung; ein Messebriefing mit Schichtplänen für das ganze Team sowie die Erfassung der Leads. Standbau, Konstruktion und Montage lagen bei einer Agentur ❓ (Name nennen?).
 - **Ergebnis:** 📌 später (Zahlen/Resultate)
 
-#### ACHEMA 2024: Funde aus Yanas Drive-Ordner (03.10.2026) — ❓ Autorschaft/Rolle je Punkt noch von Yana bestätigen
+#### ACHEMA 2024: Funde aus Yanas Drive-Ordner (03.10.2026)
+**Rolle ✅:** Die Marketingleiterin hatte das Projekt begonnen (u. a. Messekonzept Jan 2024). Nach ihrem Ausfall übernahm Yana das laufende Projekt, überarbeitete, verbesserte und vollendete alles bis zur Messe. Ausnahme: Leistungen der Agentur (Standbau, Konstruktion, Logistikplan, Montage).
 Gelesen: Messekonzept (Jan 2024, Ersteller-Kürzel nicht Yana), Ablaufplan Projekt, Ablaufplan Kommunikationsplan, Messebriefing DE (Mai 2024). **Nicht verwendet:** Budget, Rechnungen, Lead-Ziele/KPIs, Namen und Telefonnummern von Mitarbeitenden.
 - Öffentliche Fakten: 10.–14.06.2024, Frankfurt, Halle 8, Stand F28
 - Messemotto: «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
