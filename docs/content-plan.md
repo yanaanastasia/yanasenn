@@ -273,11 +273,16 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 - 📌 **Wunsch Yana:** Nicht nur ACHEMA zeigen, sondern **mehrere Messen**, besonders jene, bei denen sie vor Ort dabei war → Thema für die nächste Sitzung (Liste der Messen vor Ort, je 1–2 Sätze und Bilder).
 - **Highlight TPS Houston 2024 ✏️ (vor Ort):**
   - Fakten ✅: Yanas erste Messe in den USA; sie flog nach Houston. Anderer Markt, anderes Publikum, andere Organisation als in Europa (lockerer, weniger strukturiert). Problem: Lieferung kam nicht wie vereinbart, am Telefon wusste niemand Bescheid → lange Abklärungen, am Ende konnte alles aufgebaut werden. Yanas Aufgaben: Aufbau, Organisation, an der Messe Kundengespräche, Firmenpräsentation, Kundenessen. Die Verkäufer sind Hauptansprechpersonen für die Produkte. Standdesign von Yana.
-  - Text ✏️ (strukturiert, Version 3):
+  - Zusätzliche Fakten ✅ (Yana, 04.10.2026): Vorbereitung umfasste Standdesign, Standbox und Transportkiste (USA), Miete eines Lagers in den USA (Material bleibt dort, kein Hin- und Herschicken), Messebriefing fürs Team (macht Yana vor jeder Messe), Mailing und Werbung im Vorfeld.
+  - Text ✏️ (strukturiert, Version 4):
     - *Ausgangslage:* Meine erste Messe in den USA: ein anderer Markt, mit anderem Publikum und anderen Abläufen als in Europa.
-    - *Meine Rolle:* Standdesign, Organisation und Aufbau, vor Ort im Standteam.
+    - *Meine Rolle:* Planung, Standdesign, Organisation und Aufbau, vor Ort im Standteam.
+    - *Vorbereitung:* Ich gestaltete den Stand und entwickelte für die US-Messen eine aufklappbare Standbox und eine Transportkiste. Damit das Material nicht für jede Messe über den Atlantik reisen muss, mieteten wir ein Lager in den USA. Im Vorfeld liefen Mailing und Werbung, und das Team erhielt von mir ein Messebriefing mit allen wichtigen Informationen.
     - *Herausforderung:* Die Lieferung kam nicht wie vereinbart. Ich verfolgte die Sendung nach und klärte mit den Beteiligten die Optionen, bis alles aufgebaut werden konnte.
     - *Vor Ort:* Kundengespräche, Firmenpräsentationen und Kundenessen; unsere Verkäufer erklärten die Produkte im Detail.
+    - *Nachbereitung:* Erfassung der Leads und Follow-up ❓ (Standard bei jeder Messe – bestätigen)
+- **Regel ✅:** Bei jedem Messe-Highlight die ganze Kette zeigen: Vorbereitung (Design, Material, Logistik, Lager, Briefing, Mailing/Werbung) → Herausforderung → vor Ort → Nachbereitung. Nichts davon weglassen.
+
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
   - *Ausgangslage:* Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2'800 Ausstellern aus über 50 Nationen. CP Pump Systems war vom 10. bis 14. Juni mit einem 108 m² grossen Stand in Halle 8 vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
   - *Ziel:* Bestehende Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.
