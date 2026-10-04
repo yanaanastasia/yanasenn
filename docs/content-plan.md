@@ -386,7 +386,8 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
     - «Die ChemUK im NEC Birmingham ist die Fachmesse der britischen Chemie- und Prozessindustrie, mit Schwerpunkten von Prozessinnovation und Green Chemistry bis zu Sicherheit, Compliance und Digitalisierung. 2026 stellten wir dort aus, mit dem Ziel, unsere Präsenz im britischen Markt zu stärken.»
     - «Zur Vorbereitung gehörte eine Analyse der Aussteller: Welche Hersteller und Distributoren sind vor Ort, und wo stehen sie im Vergleich zu CP? Für den Stand in der Process & Chemical Engineering Zone gestaltete ich Rückwand und Blenden mit Weltkarte und Swiss-Made-Zeichen sowie eine Anzeige mit unseren Kernargumenten: Schweizer Qualität und geringer Wartungsaufwand. Gezeigt haben wir sieben Exponate aus fünf Baureihen, von der Magnetkupplungspumpe bis zur Pumpe für Bio- und Pharmaanwendungen.»
     - «Im Vorfeld machten wir die Teilnahme mit E-Mail-Banner, E-Mail-Signatur, einem Eintrag in den Show News und einem Social-Media-Beitrag bekannt. Für das Team erstellte ich das Messebriefing und übertrug die Fragen aus unserem Lead-Formular in die Scan-App des Veranstalters.»
-  - *Meine Aufgaben ✏️:* Standdesign (Rückwand, Blenden) · Anzeige · E-Mail-Banner · E-Mail-Signatur · Social-Media-Beitrag · Messebriefing · Lead-Fragen für die Scan-App · ❓ Konkurrenzanalyse
+  - *Meine Aufgaben ✏️:* Standdesign (Rückwand, Blenden) · Anzeige · E-Mail-Banner · E-Mail-Signatur · Social-Media-Beitrag · Messebriefing · Lead-Fragen für die Scan-App
+  - ✅ Konkurrenzanalyse nicht von Yana (bleibt nur als «wir» im Text).
   - *Bilder (Vorschlag):* Stand mit Rückwand und Exponaten (IMG_8299), Anzeige, E-Mail-Banner.
 - **Messe: Leuna-Dialog 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: zu wenig aussagekräftig) → nur in Liste/Karte.
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
