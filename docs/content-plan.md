@@ -552,6 +552,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
   - ✅ **Darstellung (Yana 04.10.2026):** Partnermessen nur in Messeliste und Karte, ohne eigenen Eintrag, gekennzeichnet mit «am Stand eines Partners» (EN: «at a partner's booth»); auf der Karte optisch von den eigenen Messen unterschieden.
   - «InnoTrans» aus dem ersten Briefing war ein Versehen ✅ gestrichen.
   - ✅ **Partnernamen nicht nennen** (Yana 04.10.2026): nur Messe, Ort, Land und Datum.
+  - ✅ **Kurzzeile pro Partnermesse** (Yana 04.10.2026): kein eigener Eintrag, aber pro Messe eine Zeile mit Art der Messe (Branche) und was wir hingeschickt haben. Format ✏️: «Expoquimia · Barcelona, Spanien · Juni 2026 · Fachmesse für Chemie · Exponate, Broschüren, Giveaways». Quelle: Drive-Ordner der Partnermessen (noch offen).
   - ✅ **Einleitung zur Partnerliste** (Fakten von Yana 04.10.2026: Exponate, Marketingmaterial usw. an die Partner geschickt). Textentwurf ✏️:
     - DE: «Auch an Messen unserer Partner und Vertretungen weltweit war CP präsent. Dafür stellte ich Exponate, Broschüren, Giveaways und weiteres Marketingmaterial zusammen und organisierte den Versand an den jeweiligen Stand.»
     - EN: «CP was also present at trade fairs of our partners and representatives worldwide. For these, I put together exhibits, brochures, giveaways and other marketing material and organised shipping to each booth.»
