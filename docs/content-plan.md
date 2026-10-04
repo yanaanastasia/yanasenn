@@ -396,8 +396,9 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
     - «Die ChemE Show in Houston ist eine neue, jährliche Fachmesse für die Chemie-, Pharma- und biobasierte Industrie Nordamerikas, entstanden aus einer Partnerschaft von Gulf Energy Information und DECHEMA, dem Veranstalter der ACHEMA. Im Juni 2026 waren wir mit einem eigenen Stand im George R. Brown Convention Center vertreten.»
     - «Auf dem kompakten Stand zeigten wir unsere Pumpen auf Podesten im CP-Design, darunter ein Schnittmodell, ergänzt durch einen Prospektständer. Giveaways kamen aus unserem Lager in Houston.»
     - «Im Vorfeld luden wir Kunden mit einem Mailing und einem Rabattcode zur Messe ein. Für das Team vor Ort erstellte ich das englische Messebriefing und übertrug die Fragen aus unserem Lead-Formular in die Lead-App des Veranstalters.»
-  - *Meine Aufgaben ✏️:* Messebriefing (EN) · Lead-Fragen für die App · [offen: Einladungsbanner]
-  - *Bilder (Vorschlag):* Stand mit Schnittmodell (Image (20)_kopie, Personen unkenntlich machen oder zuschneiden), Podest mit Pumpe und Prospektständer (Image (27)_kopie, ebenso), Einladungsbanner (29.png).
+  - *Meine Aufgaben ✏️:* Messebriefing (EN) · Lead-Fragen für die App
+  - ✅ Einladungsbanner «Join us at ChemE Show 26» stammt vom Veranstalter (Yana 04.10.2026) → nicht als eigene Arbeit, nicht als Bild.
+  - *Bilder (Vorschlag):* Stand mit Schnittmodell (Image (20)_kopie, Personen unkenntlich machen oder zuschneiden), Podest mit Pumpe und Prospektständer (Image (27)_kopie, ebenso).
 - **Messe: Yncoris Hausmesse Hürth 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: überspringen) → nur in Liste/Karte.
 - **Messe: Leuna-Dialog 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: zu wenig aussagekräftig) → nur in Liste/Karte.
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
