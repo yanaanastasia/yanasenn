@@ -269,6 +269,8 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   4. Partner-Messen als kleine Liste
   5. Logistik und Messeboxen USA
   - 📌 Yana lädt pro Messe ein Stand-Foto oder Standdesign hoch (Drive «Messen», Unterordner pro Messe).
+- **Interaktive Weltkarte ✅ (Wunsch Yana, 04.10.2026):** Auf der Messe-Seite eine klickbare Weltkarte. Klick auf ein Land (z. B. USA, Frankreich) zeigt alle Messen in diesem Land; Klick auf eine Messe öffnet die Details: Datum, Ort, Stand-Bilder, was Yana gemacht hat, Transport/Logistik, Besonderheiten. Alle Messen zeigen, auch kleine. (Technisch: SVG-Karte in Astro, barrierefrei mit Liste als Alternative.)
+- **Vorlage pro Messe ✏️:** Kurzinfo (Datum, Ort, Stand) · Meine Aufgaben · Transport/Logistik · Besonderheit · 2–4 Bilder
 - ✅ **Vor Ort war Yana bei:** ACHEMA Frankfurt 2024 und TPS Houston 2024 (beides grosse Messen mit internationalem Publikum; spannend, um Partner und Kunden kennenzulernen und andere Firmen bzw. die Konkurrenz zu sehen).
 - 📌 **Wunsch Yana:** Nicht nur ACHEMA zeigen, sondern **mehrere Messen**, besonders jene, bei denen sie vor Ort dabei war → Thema für die nächste Sitzung (Liste der Messen vor Ort, je 1–2 Sätze und Bilder).
 - **Highlight TPS Houston 2024 ✏️ (vor Ort):**
@@ -617,7 +619,7 @@ Auf cp-pumps.com gesehen (03.10.2026), ❓ ob Yana das pflegt: Messekalender mit
 - [ ] **Praxisbildnerin:** betreut Yana selbst Lernende bei CP? (nur erwähnen, wenn ja)
 - [ ] **Fotografie** ✅ als Kompetenz: in der Ausbildung gelernt, zusätzlich 2026 ein Fotografie-Workshop bei CP (2 Tage, vor Ort bei CP): Auffrischung und Post-Production bzw. Bildbearbeitung ✅. **Keine Fotos von Menschen zeigen** ✅ (Porträts nicht verwendbar). Zeigbar: **Produktfotos** ✅ (viele vorhanden), eventuell Gebäude, Exponate, Details. ✅ Eigener Service «Fotografie» (allgemein) und eigene Kachel im Portfolio.
 - [ ] **Persönliches später einbauen:** künstlerische Begabung, AI
-- [ ] **Mehrere Messen zeigen** (vor Ort dabei) – nächste Sitzung
+- [ ] **Alle Messen einzeln erfassen** (Vorlage pro Messe, Weltkarte) – läuft
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Logo** gemeinsam ausdenken (Vorschlag bisher: Wortmarke «Yana Senn» und Monogramm «YS»)
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
