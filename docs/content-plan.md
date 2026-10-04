@@ -536,18 +536,40 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 - **Entscheide ✅:** Nur die Messen aus der Liste oben. Remstone Sulfur gestrichen. Die 2027-Messen kommen nicht auf die Website (Yana ist dort wahrscheinlich nicht mehr dabei) 📌 im Hinterkopf behalten.
 - **Partner-Events ✅** (Yana lieferte Marketingmaterial und Giveaways für Partner/Vertretungen; Liste von Yana, ersetzt die Liste aus dem ersten Briefing):
 
-| Datum | Land | Partner | Messe | Ort |
+| Datum | Land | Partner (nicht veröffentlichen) | Messe | Ort |
 |---|---|---|---|---|
-| 2024 | TR | Metrans | Turkchem | ❓ |
-| 16.09.2025 | US | ❓ | TPS – Turbomachinery & Pump Symposium | Houston |
-| 22.04.2025 | KR | Dongil | Korea Inter-Battery Exhibition | Seoul |
-| 03.06.2025 | ES | Atlas | Pumps and Valves | Bilbao |
-| 09.07.2025 | JP | Gadelius | Japan Tokyo Pharm Expo | Tokyo |
-| 17.09.2025 | JP | ❓ | Inchem Japan | Tokyo |
-| 31.03.2026 | KR | Dongil | Korea Chem | Seoul |
-| 04.05.2026 | DE | VDMA | IFAT | München |
-| 02.06.2026 | ES | Atlas | Expoquimia | Barcelona |
-| 20.10.2026 | ES | Atlas | MMH | Sevilla · bevorstehend |
+| 27.–29.11.2024 | TR | Metrans | Turkchem | ❓ (Stadt nicht in den Quellen) |
+| ❓ Feb. 2025 | DE ❓ | Gielink (NL) | ❓ Anlass bei/mit Lanxess, unklar | ❓ |
+| 05.–07.03.2025 | KR | Dongil | InterBattery | Seoul, COEX |
+| 22.–25.04.2025 | KR | Dongil | Korea Chem (mit Korea Pharm) | Seoul ❓ |
+| 27.–30.05.2025 | IT | Exonder | Pharmintech | Mailand |
+| 03.–05.06.2025 | ES | Atlas | Pumps & Valves | Bilbao |
+| 09.–11.07.2025 | JP | Gadelius | Japan Pharm | Tokio |
+| 17.–19.09.2025 | JP | Gadelius | Inchem | Tokio |
+| 16.09.2025 | US | ❓ | TPS – Turbomachinery & Pump Symposium | Houston (kein Ordner) |
+| 31.03.–03.04.2026 | KR | Dongil | Korea Chem | Seoul, KINTEX |
+| 04.–07.05.2026 | DE | VDMA | IFAT (VDMA-Gemeinschaftsstand) | München ❓ Einordnung offen |
+| 02.–06.06.2026 | ES | Atlas | Expoquimia | Barcelona |
+| Okt. 2026 | ES | Atlas | MMH (Bergbaumesse) | Sevilla · bevorstehend |
+
+Quelle: Drive «Messen/Partnermessen», alle Unterordner gelesen (04.10.2026). Korrekturen gegenüber der alten Liste: «Korea Inter-Battery 22.04.2025» war Korea Chem 2025; InterBattery war im März 2025. Neu dazu: Pharmintech Mailand 2025 und Gielink/Lanxess. Zuständigkeit laut Quellen: Turkchem 2024 und Japan Pharm 2025 direkt an Yana adressiert; Gielink, InterBattery, Korea Chem 2025, Pharmintech, Bilbao mit Kürzel SAB (Leiterin bis April 2025); ab Nov. 2025 Koordination über Leiterin NIM. Deshalb pro Messe in der «wir»-Form schreiben.
+
+**Absätze zum Aufklappen ✏️ (Entwurf, «wir»-Form, ohne Partnernamen):**
+- **Turkchem 2024 (Türkei):** «An der Turkchem im November 2024 stellte unser Partner in der Türkei auf einem 90 m² grossen Stand aus, grösser als im Vorjahr. Wie schon im Jahr davor schickten wir Schnittmodelle unserer Magnetkupplungspumpen MKP und MKPL, dazu englische Broschüren, Factsheets und Giveaways. Die Versanddokumente stimmten wir vorab mit der Logistik des Partners ab, damit die Einfuhr in die Türkei reibungslos lief.»
+- **InterBattery 2025 (Seoul):** «Die InterBattery in Seoul ist die Fachmesse der Batterieindustrie. Unser Partner in Korea zeigte dort im März 2025 eine MKP und eine MKPL in Ex-Ausführung auf unseren CP-Podesten, ergänzt durch englische Broschüren und Schweizer Schokolade als Giveaway. Die Exponate blieben im Anschluss in Korea für die nächste Messe.»
+- **Korea Chem 2025 (Seoul):** «Nur sieben Wochen später folgte die Korea Chem, die Fachmesse der koreanischen Chemieindustrie, die gemeinsam mit einer Pharmamesse stattfand. Die Exponate der InterBattery blieben dafür vor Ort; aus der Schweiz kamen Broschüren zu MKP, MKP-Bio und MKPL. Danach gingen die Pumpen per Luftfracht zurück in die Schweiz.»
+- **Pharmintech 2025 (Mailand):** «Die Pharmintech in Mailand gehört zu den wichtigen Messen des italienischen Pharmamarkts. Für unseren Partner in Italien, der seine Präsenz in diesem Markt ausbauen wollte, stellten wir ein MKP-Bio-Set auf Podest bereit, dazu englische Broschüren mit Schwerpunkt MKP-Bio, Explosionszeichnungen und Giveaways.»
+- **Pumps & Valves 2025 (Bilbao):** «An der Pumps & Valves in Bilbao war unser Partner in Spanien vertreten. Wir schickten ein Schnittmodell der PFA-ausgekleideten MKPL auf einem fahrbaren Podest, englische Broschüren, Explosionszeichnungen und Giveaways.»
+- **Japan Pharm 2025 (Tokio):** «Die Japan Pharm in Tokio richtet sich an die Pharmaindustrie. Ein neuer Partner in Japan stellte dort im Juli 2025 aus, noch bevor die Partnerschaft vertraglich besiegelt war. Für den Auftritt organisierten wir zwei MKP-Bio-Pumpen samt Versand nach Japan, englische Broschüren und Explosionszeichnungen sowie Schweizer Schokolade, die als Zeichen für Swiss Made schon an den Messen in Korea gut ankam.»
+- **Inchem 2025 (Tokio):** «Zwei Monate später folgte mit der Inchem in Tokio eine Chemiemesse ❓. Wir schickten zwei Schnittmodelle der MKP, englische Broschüren, Giveaways und Schokolade; die Exponate kamen danach per Luftfracht zurück in die Schweiz.»
+- **Korea Chem 2026 (Seoul):** «2026 war unser Partner in Korea erneut an der Korea Chem, diesmal im KINTEX in Seoul. Die Vorbereitung übernahm das Marketing in der Schweiz: E-Mail-Banner, Exponate, Broschüren und Versand per Luftfracht. Weil Demopumpen in diesem Jahr an vielen Messen gefragt waren, stellten wir eine passende Kombination aus MKPL und vertikal montierter MKP zusammen. Am Stand warben koreanische Poster für unsere Magnetkupplungspumpen.»
+- **Expoquimia 2026 (Barcelona):** «An der Expoquimia in Barcelona zeigte unser Partner in Spanien eine grosse MKPL 150-125-315 und daneben die zerlegten Bauteile, von der PFA-Auskleidung bis zur Magnetkupplung. Wir lieferten die Pumpe, Firmenbroschüren und Giveaways bis zum Lager des Partners.»
+- **MMH 2026 (Sevilla):** «Für die Bergbaumesse MMH in Sevilla bereiten wir eine MKPL auf fahrbarem Podest und Giveaways vor. Es ist das erste Mal, dass CP über einen Partner an einer Bergbaumesse vertreten ist ❓.»
+- **IFAT 2026 (München):** offen, siehe Frage (eigener Auftritt am VDMA-Gemeinschaftsstand zum Thema Textilrecycling, zwei MKP-Schnittmodelle, deutsche Broschüren, E-Mail-Banner).
+- **Gielink/Lanxess 2025:** Anlass unklar (nur Broschüren und Giveaways in die Niederlande, keine Exponate) → Yana fragen oder weglassen.
+- **TPS Houston 2025:** kein Ordner → nur in Liste/Karte.
+
+**Bilder (Vorschlag):** InterBattery IMG_4223 und IMG_4224 (CP-Podeste, keine Personen); Expoquimia «Image 2026-06-03 at 10.49.32» (zerlegte Bauteile, keine Personen); Korea Chem 2026 IMG_0029 (Personen zuschneiden); Turkchem-Fotos nur zugeschnitten (überall Personen).
 
   - ✅ **Darstellung (Yana 04.10.2026):** Partnermessen nur in Messeliste und Karte, ohne eigenen Eintrag, gekennzeichnet mit «am Stand eines Partners» (EN: «at a partner's booth»); auf der Karte optisch von den eigenen Messen unterschieden.
   - «InnoTrans» aus dem ersten Briefing war ein Versehen ✅ gestrichen.
