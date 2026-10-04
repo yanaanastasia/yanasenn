@@ -306,6 +306,7 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
     - «Zur Vorbereitung gehörten die Standplanung, drei Exponate, Broschüren und Explosionszeichnungen auf Deutsch, Giveaways sowie der Versand über den Messespediteur, inklusive Einfuhr nach Deutschland. Im Vorfeld luden wir mit E-Mail-Bannern zum kostenlosen Messeticket ein und kündigten unseren Auftritt auf LinkedIn an. Kundinnen und Kunden konnten sich vorab für ein Geschenk anmelden und es am Stand abholen. Ein Messebriefing bereitete das Standteam auf Ablauf, Dresscode, Catering und Lead-Erfassung vor.»
     - *Meine Aufgaben:* Standbuchung · Standdesign · Standplanung · Exponate und Material · Versand · E-Mail-Banner · LinkedIn-Posts · Messebriefing · Lead-Formular
   - **Ton-Regel ✅ (04.10.2026):** Messe-Texte in der «wir»-Form (als Firma), nicht «ich, ich». Yanas eigene Leistung steht kurz unter «Meine Aufgaben».
+  - **Ausnahme ✅ (Yana 04.10.2026):** TPS Houston 2024 und Petrochymia 2024 hat Yana komplett allein umgesetzt → diese Texte bleiben in der «ich»-Form, kein Umschreiben.
   - *Bilder ✅:* 4 Fotos vom Aufbautag (18.02.2025), Standdesign-Freigabe, E-Mail-Banner.
   - ✅ LinkedIn-Posts: schreibt Yana grundsätzlich selbst (gilt für alle Messen, Yana 04.10.2026).
 - **Messe: The Fertilizer Show (TFS) Orlando 2025 ✏️** (Quelle: Drive «Messen/TFS Orlando 2025», alle Seiten und Unterordner gelesen; nicht verwendet: Budget, Preise, Rechnungen, Namen, Kontaktdaten, Passwörter)
