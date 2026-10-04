@@ -273,7 +273,11 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 - 📌 **Wunsch Yana:** Nicht nur ACHEMA zeigen, sondern **mehrere Messen**, besonders jene, bei denen sie vor Ort dabei war → Thema für die nächste Sitzung (Liste der Messen vor Ort, je 1–2 Sätze und Bilder).
 - **Highlight TPS Houston 2024 ✏️ (vor Ort):**
   - Fakten ✅: Yanas erste Messe in den USA; sie flog nach Houston. Anderer Markt, anderes Publikum, andere Organisation als in Europa (lockerer, weniger strukturiert). Problem: Lieferung kam nicht wie vereinbart, am Telefon wusste niemand Bescheid → lange Abklärungen, am Ende konnte alles aufgebaut werden. Yanas Aufgaben: Aufbau, Organisation, an der Messe Kundengespräche, Firmenpräsentation, Kundenessen. Die Verkäufer sind Hauptansprechpersonen für die Produkte. Standdesign von Yana.
-  - Text ✏️: «Meine erste Messe in den USA, und ein Einblick in einen ganz anderen Markt: anderes Publikum, andere Abläufe, ein lockerer Umgang mit Organisation. Als die Lieferung nicht wie vereinbart ankam und am Telefon niemand Auskunft geben konnte, hiess es: nachhaken, klären, improvisieren. Am Ende stand der Stand. Vor Ort kümmerte ich mich um Aufbau und Organisation, führte Kundengespräche, präsentierte das Unternehmen und begleitete Kundenessen, während unsere Verkäufer die Produkte im Detail erklärten. Das Standdesign stammte von mir.»
+  - Text ✏️ (strukturiert, Version 3):
+    - *Ausgangslage:* Meine erste Messe in den USA: ein anderer Markt, mit anderem Publikum und anderen Abläufen als in Europa.
+    - *Meine Rolle:* Standdesign, Organisation und Aufbau, vor Ort im Standteam.
+    - *Herausforderung:* Die Lieferung kam nicht wie vereinbart. Ich verfolgte die Sendung nach und klärte mit den Beteiligten die Optionen, bis alles aufgebaut werden konnte.
+    - *Vor Ort:* Kundengespräche, Firmenpräsentationen und Kundenessen; unsere Verkäufer erklärten die Produkte im Detail.
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
   - *Ausgangslage:* Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2'800 Ausstellern aus über 50 Nationen. CP Pump Systems war vom 10. bis 14. Juni mit einem 108 m² grossen Stand in Halle 8 vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
   - *Ziel:* Bestehende Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.
