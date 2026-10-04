@@ -548,7 +548,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 | 17.–19.09.2025 | JP | Gadelius | Inchem | Tokio |
 | 16.09.2025 | US | ❓ | TPS – Turbomachinery & Pump Symposium | Houston (kein Ordner) |
 | 31.03.–03.04.2026 | KR | Dongil | Korea Chem | Seoul, KINTEX |
-| 04.–07.05.2026 | DE | VDMA | IFAT (VDMA-Gemeinschaftsstand) | München ❓ Einordnung offen |
+| 04.–07.05.2026 | DE | VDMA | IFAT (Stand des VDMA) | München |
 | 02.–06.06.2026 | ES | Atlas | Expoquimia | Barcelona |
 | Okt. 2026 | ES | Atlas | MMH (Bergbaumesse) | Sevilla · bevorstehend |
 
@@ -565,7 +565,7 @@ Quelle: Drive «Messen/Partnermessen», alle Unterordner gelesen (04.10.2026). K
 - **Korea Chem 2026 (Seoul):** «2026 war unser Partner in Korea erneut an der Korea Chem, diesmal im KINTEX in Seoul. Die Vorbereitung übernahm das Marketing in der Schweiz: E-Mail-Banner, Exponate, Broschüren und Versand per Luftfracht. Weil Demopumpen in diesem Jahr an vielen Messen gefragt waren, stellten wir eine passende Kombination aus MKPL und vertikal montierter MKP zusammen. Am Stand warben koreanische Poster für unsere Magnetkupplungspumpen.»
 - **Expoquimia 2026 (Barcelona):** «An der Expoquimia in Barcelona zeigte unser Partner in Spanien eine grosse MKPL 150-125-315 und daneben die zerlegten Bauteile, von der PFA-Auskleidung bis zur Magnetkupplung. Wir lieferten die Pumpe, Firmenbroschüren und Giveaways bis zum Lager des Partners.»
 - **MMH 2026 (Sevilla):** «Für die Bergbaumesse MMH in Sevilla bereiten wir eine MKPL auf fahrbarem Podest und Giveaways vor. Es ist das erste Mal, dass CP über einen Partner an einer Bergbaumesse vertreten ist ❓.»
-- **IFAT 2026 (München):** offen, siehe Frage (eigener Auftritt am VDMA-Gemeinschaftsstand zum Thema Textilrecycling, zwei MKP-Schnittmodelle, deutsche Broschüren, E-Mail-Banner).
+- **IFAT 2026 (München):** ✅ Partnermesse (Yana 04.10.2026: Stand des VDMA, CP nicht selbst Aussteller; ein CP-Kollege besuchte und unterstützte den Stand). «An der IFAT in München, der Weltleitmesse für Wasser-, Abwasser- und Kreislaufwirtschaft ❓, waren wir am Stand des VDMA vertreten, der sich dem Thema Textilrecycling widmete. Dafür stellten wir zwei Schnittmodelle der MKP auf einem Podest bereit, dazu deutsche Broschüren und Giveaways; ein Kollege aus unserem Team unterstützte den Stand vor Ort. Im Vorfeld luden wir mit einem E-Mail-Banner zum kostenlosen Messebesuch ein.»
 - **Gielink/Lanxess 2025:** Anlass unklar (nur Broschüren und Giveaways in die Niederlande, keine Exponate) → Yana fragen oder weglassen.
 - **TPS Houston 2025:** kein Ordner → nur in Liste/Karte.
 
