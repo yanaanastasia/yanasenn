@@ -389,6 +389,15 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   - *Meine Aufgaben ✏️:* Standdesign (Rückwand, Blenden) · Anzeige · E-Mail-Banner · E-Mail-Signatur · Social-Media-Beitrag · Messebriefing · Lead-Fragen für die Scan-App
   - ✅ Konkurrenzanalyse nicht von Yana (bleibt nur als «wir» im Text).
   - *Bilder (Vorschlag):* Stand mit Rückwand und Exponaten (IMG_8299), Anzeige, E-Mail-Banner.
+- **Messe: ChemE Show by ACHEMA Houston 2026 ✏️** (Quelle: Drive «Messen/ChemE by ACHEMA», alle Seiten und Unterordner gelesen; nicht verwendet: Lead-Liste, Rechnung/Bestellung, Hotelreservation, Preise, Namen)
+  - *Kurz:* 9.–10. Juni 2026 · George R. Brown Convention Center, Houston, Exhibit Hall A3 · Booth 507 · Standardstand 10' × 10'
+  - *Funde:* Phase 2 (Leiterin NIM: Anmeldung, Firmenbeschrieb für das Messeprogramm); neue jährliche Veranstaltung, Partnerschaft von Gulf Energy Information und DECHEMA (Veranstalter der ACHEMA), Teil des ACHEMA-Ökosystems; Zielgruppe: Chemie-, Pharma- und biobasierte Wertschöpfungskette in Nordamerika; Schwerpunkte Verfahrenstechnik und Biotech, Downstream, Nachhaltigkeit und Wasserstoff, digitale Transformation; Briefing EN (1.6.2026) mit Lead-Erfassung per Cvent-App (Fragen wie im Lead-Formular: Branche, Medium, Produkte, To-dos); Giveaways aus dem Lager in Houston, Verpflegung durch den Verkauf; Einladungs-Mail an Kunden; Banner «Join us at ChemE Show 26» mit Rabattcode (29.png); Fotos: zwei weisse Podeste mit CP-Logo, Schnittmodell, Pumpe, Prospektständer.
+  - *Text ✏️ (Entwurf):*
+    - «Die ChemE Show in Houston ist eine neue, jährliche Fachmesse für die Chemie-, Pharma- und biobasierte Industrie Nordamerikas, entstanden aus einer Partnerschaft von Gulf Energy Information und DECHEMA, dem Veranstalter der ACHEMA. Im Juni 2026 waren wir mit einem eigenen Stand im George R. Brown Convention Center vertreten.»
+    - «Auf dem kompakten Stand zeigten wir unsere Pumpen auf Podesten im CP-Design, darunter ein Schnittmodell, ergänzt durch einen Prospektständer. Giveaways kamen aus unserem Lager in Houston.»
+    - «Im Vorfeld luden wir Kunden mit einem Mailing und einem Rabattcode zur Messe ein. Für das Team vor Ort erstellte ich das englische Messebriefing und übertrug die Fragen aus unserem Lead-Formular in die Lead-App des Veranstalters.»
+  - *Meine Aufgaben ✏️:* Messebriefing (EN) · Lead-Fragen für die App · [offen: Einladungsbanner]
+  - *Bilder (Vorschlag):* Stand mit Schnittmodell (Image (20)_kopie, Personen unkenntlich machen oder zuschneiden), Podest mit Pumpe und Prospektständer (Image (27)_kopie, ebenso), Einladungsbanner (29.png).
 - **Messe: Yncoris Hausmesse Hürth 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: überspringen) → nur in Liste/Karte.
 - **Messe: Leuna-Dialog 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: zu wenig aussagekräftig) → nur in Liste/Karte.
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
