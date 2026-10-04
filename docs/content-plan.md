@@ -375,9 +375,9 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   - *Text ✏️ (Entwurf):*
     - «Der DK Hub Global vereint in Dunkerque drei Fachmessen unter einem Dach: Industrissime, Genead und Pharma+Agro. Er richtet sich an die Industrie in Nordfrankreich und den Benelux-Ländern, von Chemie und Energie bis zur Pharma- und Lebensmittelindustrie.»
     - «Für den Stand führte ich das Design der Pétro+Chimie weiter und aktualisierte die Weltkarte unserer Standorte. Neu gestaltete ich die Tür der Standkabine mit einem grossformatigen Anlagenfoto. Über das Kommunikationspaket des Veranstalters waren wir mit einer ganzseitigen Anzeige im Katalog und mit Web-Bannern präsent; beides gestaltete ich, die Anzeige auf Französisch mit unseren drei ausgestellten Pumpenbaureihen.»
-    - «Eine besondere Aktion war die Verteilung von Goodie-Bags direkt am Eingang: pro Messetag eine Kiste mit 60 Säckli, damit Besucherinnen und Besucher an beiden Tagen eine CP-Tasche durch die Messe trugen. Für das Team erstellte ich das Messebriefing auf Französisch.»
-  - *Meine Aufgaben ✏️:* Standdesign (Rückwände, Blenden, Kabinentür, Weltkarte) · Katalog-Anzeige und Web-Banner · E-Mail-Banner · E-Mail-Signatur · Messebriefing (FR) · Mitarbeit bei Buchung, Möbeln und Versand
-  - ❓ Goodie-Bags: deine Idee/Organisation oder von der Kollegin (ELS)? Mailing mit Gratis-Tickets von dir gestaltet?
+    - «Im Marketingteam entwickelten wir zudem eine besondere Aktion: Goodie-Bags direkt am Eingang, mit einer Kiste pro Messetag mit 60 Säckli, damit Besucherinnen und Besucher an beiden Tagen eine CP-Tasche durch die Messe trugen. Für das Team erstellte ich das Messebriefing auf Französisch.»
+  - *Meine Aufgaben ✏️:* Standdesign (Rückwände, Blenden, Kabinentür, Weltkarte) · Katalog-Anzeige und Web-Banner · E-Mail-Banner · E-Mail-Signatur · Messebriefing (FR) · Idee der Goodie-Bag-Aktion (gemeinsam im Team) · Mitarbeit bei Buchung, Möbeln und Versand
+  - ✅ Goodie-Bags: gemeinsame Idee im Team (Yana 04.10.2026).
   - *Bilder (Vorschlag):* Stand mit Kabinentür und Weltkarte (IMG_20260519_135159), Katalog-Anzeige, E-Mail-Banner.
 - **Messe: Leuna-Dialog 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: zu wenig aussagekräftig) → nur in Liste/Karte.
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
