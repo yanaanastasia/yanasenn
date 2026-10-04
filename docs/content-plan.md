@@ -277,7 +277,7 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   - Text ✏️ (strukturiert, Version 4):
     - *Ausgangslage:* Meine erste Messe in den USA: ein anderer Markt, mit anderem Publikum und anderen Abläufen als in Europa.
     - *Meine Rolle:* Planung, Standdesign, Organisation und Aufbau, vor Ort im Standteam.
-    - *Vorbereitung:* Ich gestaltete den Stand und entwickelte für die US-Messen eine aufklappbare Standbox und eine Transportkiste. Damit das Material nicht für jede Messe über den Atlantik reisen muss, mieteten wir ein Lager in den USA. Im Vorfeld liefen Mailing und Werbung, und das Team erhielt von mir ein Messebriefing mit allen wichtigen Informationen.
+    - *Vorbereitung:* Ich gestaltete den Stand und entwickelte für die US-Messen eine aufklappbare Standbox und eine Transportkiste. Damit das Material nicht für jede Messe über den Atlantik reisen muss, mieteten wir ein Lager in den USA. Im Vorfeld liefen Mailing, E-Mail-Banner und geschaltete Werbung, und das Team erhielt von mir ein Messebriefing mit allen wichtigen Informationen.
     - *Herausforderung:* Die Lieferung kam nicht wie vereinbart. Ich verfolgte die Sendung nach und klärte mit den Beteiligten die Optionen, bis alles aufgebaut werden konnte.
     - *Vor Ort:* Kundengespräche, Firmenpräsentationen und Kundenessen; unsere Verkäufer erklärten die Produkte im Detail.
     - *Nachbereitung:* Erfassung der Leads und Follow-up ❓ (Standard bei jeder Messe – bestätigen)
