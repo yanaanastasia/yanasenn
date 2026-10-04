@@ -289,6 +289,12 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 - **Ton-Regel ✅:** professionell und gepflegt formulieren; keine saloppen Wendungen (z. B. nicht «aufgeräumter Stand», «Hauch Swissness», «am Ende stand der Stand»).
 - **Regel ✅:** Bei jedem Messe-Highlight die ganze Kette zeigen: Vorbereitung (Design, Material, Logistik, Lager, Briefing, Mailing/Werbung) → Herausforderung → vor Ort → Nachbereitung. Nichts davon weglassen.
 
+- **Messe: Petrochymia 2024 ✏️** (Quelle: Drive «Messen/Petrochymia 24» + Yana; nicht verwendet: Preise, Rechnungen, Bankdaten)
+  - *Kurz:* 27.–28. November 2024 · Martigues, Frankreich · Stand E8-F7 · 12 m² Standfläche, drei Seiten offen
+  - *Meine Aufgaben:* Anmeldung und Standbuchung · Standdesign und Druck der Standwände · Möbel · Exponate (MKP, MKPL, MKTP) · Material in französischer Sprache (Broschüren, Explosionszeichnungen) · Giveaways · Versandauftrag · Logistik vor Ort
+  - *Logistik (Erklärung von Yana, sauber formuliert):* Bei den französischen Messen dieses Veranstalters läuft die Logistik über einen Partner des Veranstalters. Unser Material gelangte deshalb nicht direkt an die Messe: Gemeinsam mit unserer Exportabteilung liessen wir es zunächst ins Lager des Partners in Frankreich bringen. Von dort wurde es zur Messe geliefert, am Stand per Stapler abgeladen und während der Messe zwischengelagert. Nach Messeschluss ging alles denselben Weg zurück: ins Lager und anschliessend zurück zu uns in die Schweiz.
+  - *Text ✏️:* «Eine kompakte Fachmesse für die Chemie- und Petrochemie-Industrie in Südfrankreich. Für den 12 m² grossen Stand gestaltete ich die Standwände, organisierte Möbel und Exponate und stellte das Material in französischer Sprache zusammen, von den Broschüren bis zu den Explosionszeichnungen. Anspruchsvoll war die Logistik: Sie lief über einen Partner des Veranstalters. Gemeinsam mit unserer Exportabteilung brachten wir das Material zuerst in dessen Lager in Frankreich; von dort ging es an die Messe und nach Messeschluss auf demselben Weg zurück in die Schweiz.»
+  - *Bilder:* 📌 Stand-Fotos (Ordner «Messestand» enthält nur Rechnungen; Fotos nachliefern?)
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
   - *Ausgangslage:* Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2'800 Ausstellern aus über 50 Nationen. CP Pump Systems war vom 10. bis 14. Juni mit einem 108 m² grossen Stand in Halle 8 vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
   - *Ziel:* Bestehende Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.
@@ -358,7 +364,7 @@ Schwerpunkt Gestaltung: Standdesign, Messewände, Mailing. Wie schon zuvor: Mail
 |---|---|---|---|---|
 | 2024 ❓ | DE | ACHEMA | Frankfurt | 1 |
 | 2024 ❓ | US | TPS – Turbomachinery & Pump Symposium | Houston | 1 |
-| 27.–28.11.2024 | FR | Petrochymia | ❓ Ort | 1 |
+| 27.–28.11.2024 | FR | Petrochymia | Martigues | 1 |
 | 19.02.2025 | DE | Pumps & Valves | Dortmund | 1 |
 | 08.04.2025 | US | TFS – The Fertilizer Show | Orlando | 1 |
 | 24.04.2025 | DE | Leuna Dialog | Leuna | 1 |
