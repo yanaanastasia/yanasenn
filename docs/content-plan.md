@@ -714,7 +714,9 @@ Auf cp-pumps.com gesehen (03.10.2026), ❓ ob Yana das pflegt: Messekalender mit
 - EN: «Advertising: Print & Digital»
 - Unterteilung innerhalb des Cases: **Print** (Anzeigen in Messekatalogen und Fachzeitschriften) · **Fachartikel** (redaktionelle Beiträge) · **Digital** (E-Mail-Banner, Web-Banner, Signatur-Anzeigen, Sammelbanner, Social Ads)
 - Abgrenzung: Broschüren und Factsheets bleiben eigener Case; Messe-Banner werden hier nur gebündelt gezeigt, Details stehen bei den Messen.
-- Quelle: ein Drive-Ordner «Werbung» mit Unterordnern «Print», «Fachartikel», «Digital» (offen)
+- Quelle ✅ (Yana 04.10.2026): Drive-Ordner «Werbung» mit «Print» und «Digital», Rest lose im Hauptordner; dazu Material aus den Messe-Ordnern (Anzeigen, Banner) und aus Yanas altem Portfolio (GOLDINGER, Print). Claude ordnet zu.
+- Broschüren gehören thematisch zu Print (Yana) → beim Sortieren entscheiden, ob «Broschüren und Factsheets» eigener Case bleibt oder Teil von Print wird.
+- 📌 GOLDINGER: viele Redesigns von Yana → als **Vorher/Nachher** zeigen (Idee Yana 04.10.2026).
 
 ### 6.2 Kleinere Cards
 - **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
