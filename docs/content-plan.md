@@ -389,6 +389,7 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   - *Meine Aufgaben ✏️:* Standdesign (Rückwand, Blenden) · Anzeige · E-Mail-Banner · E-Mail-Signatur · Social-Media-Beitrag · Messebriefing · Lead-Fragen für die Scan-App
   - ✅ Konkurrenzanalyse nicht von Yana (bleibt nur als «wir» im Text).
   - *Bilder (Vorschlag):* Stand mit Rückwand und Exponaten (IMG_8299), Anzeige, E-Mail-Banner.
+- **Messe: Yncoris Hausmesse Hürth 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: überspringen) → nur in Liste/Karte.
 - **Messe: Leuna-Dialog 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: zu wenig aussagekräftig) → nur in Liste/Karte.
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
   - *Ausgangslage:* Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2'800 Ausstellern aus über 50 Nationen. CP Pump Systems war vom 10. bis 14. Juni mit einem 108 m² grossen Stand in Halle 8 vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
