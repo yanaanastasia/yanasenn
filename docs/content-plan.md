@@ -540,7 +540,6 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 | Datum | Land | Partner (nicht veröffentlichen) | Messe | Ort |
 |---|---|---|---|---|
 | 27.–29.11.2024 | TR | Metrans | Turkchem | ❓ (Stadt nicht in den Quellen) |
-| ❓ Feb. 2025 | DE ❓ | Gielink (NL) | ❓ Anlass bei/mit Lanxess, unklar | ❓ |
 | 05.–07.03.2025 | KR | Dongil | InterBattery | Seoul, COEX |
 | 22.–25.04.2025 | KR | Dongil | Korea Chem (mit Korea Pharm) | Seoul ❓ |
 | 27.–30.05.2025 | IT | Exonder | Pharmintech | Mailand |
@@ -567,7 +566,7 @@ Quelle: Drive «Messen/Partnermessen», alle Unterordner gelesen (04.10.2026). K
 - **Expoquimia 2026 (Barcelona):** «An der Expoquimia in Barcelona zeigte der Partner in Spanien eine grosse MKPL 150-125-315 und daneben die zerlegten Bauteile, von der PFA-Auskleidung bis zur Magnetkupplung. Pumpe, Firmenbroschüren und Giveaways kamen aus der Schweiz bis ins Lager des Partners.»
 - **MMH 2026 (Sevilla):** «Für die Bergbaumesse MMH in Sevilla stehen eine MKPL auf fahrbarem Podest und Giveaways bereit. Es ist das erste Mal, dass CP über einen Partner an einer Bergbaumesse vertreten ist ❓.»
 - **IFAT 2026 (München):** ✅ Partnermesse (Yana 04.10.2026: Stand des VDMA, CP nicht selbst Aussteller; ein CP-Kollege besuchte und unterstützte den Stand). «An der IFAT in München war CP am Stand des VDMA vertreten, der sich dem Thema Textilrecycling widmete. Zwei Schnittmodelle der MKP auf einem Podest, deutsche Broschüren und Giveaways kamen aus der Schweiz; ein Kollege aus dem CP-Team unterstützte den Stand vor Ort. Im Vorfeld lud ein E-Mail-Banner zum kostenlosen Messebesuch ein.»
-- **Gielink/Lanxess 2025:** Anlass unklar (nur Broschüren und Giveaways in die Niederlande, keine Exponate) → Yana fragen oder weglassen.
+- **Gielink/Lanxess 2025:** ✅ weglassen (Yana 04.10.2026: Anlass unbekannt).
 - **TPS Houston 2025:** kein Ordner → nur in Liste/Karte.
 
 **Bilder (Vorschlag):** InterBattery IMG_4223 und IMG_4224 (CP-Podeste, keine Personen); Expoquimia «Image 2026-06-03 at 10.49.32» (zerlegte Bauteile, keine Personen); Korea Chem 2026 IMG_0029 (Personen zuschneiden); Turkchem-Fotos nur zugeschnitten (überall Personen).
@@ -717,6 +716,7 @@ Auf cp-pumps.com gesehen (03.10.2026), ❓ ob Yana das pflegt: Messekalender mit
 - Quelle ✅ (Yana 04.10.2026): Drive-Ordner «Werbung» mit «Print» und «Digital», Rest lose im Hauptordner; dazu Material aus den Messe-Ordnern (Anzeigen, Banner) und aus Yanas altem Portfolio (GOLDINGER, Print). Claude ordnet zu.
 - Broschüren gehören thematisch zu Print (Yana) → beim Sortieren entscheiden, ob «Broschüren und Factsheets» eigener Case bleibt oder Teil von Print wird.
 - 📌 GOLDINGER: viele Redesigns von Yana → als **Vorher/Nachher** zeigen (Idee Yana 04.10.2026).
+- ✅ Yanas altes Portfolio liegt im GOLDINGER-Ordner in Drive → als Quelle nutzen, Inhalte je nach Eignung übernehmen. Ablage ist nicht sauber sortiert → Claude sucht passende Sachen selbst zusammen.
 
 ### 6.2 Kleinere Cards
 - **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
