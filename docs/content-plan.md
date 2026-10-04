@@ -303,10 +303,10 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
     - (Version 2: «wir»-Form auf Wunsch von Yana; ihre Rolle steht in «Meine Aufgaben»)
     - «Die Pumps & Valves in Dortmund ist eine Fachmesse für industrielle Pumpen, Armaturen und Prozesstechnik, mit Besucherinnen und Besuchern aus Chemie, Pharma, Energie und Wasserwirtschaft. Wir waren mit einem 20 m² grossen Eckstand vertreten. Die beiden Standwände zeigten auf der einen Seite das Motiv ‹cleaner pumps, cleaner planet™›, auf der anderen die Kernbotschaft ‹Safety first: Magnetic driven pumps, hermetically sealed› mit einer Weltkarte unserer Standorte.»
     - «Zur Vorbereitung gehörten die Standplanung, drei Exponate, Broschüren und Explosionszeichnungen auf Deutsch, Giveaways sowie der Versand über den Messespediteur, inklusive Einfuhr nach Deutschland. Im Vorfeld luden wir mit E-Mail-Bannern zum kostenlosen Messeticket ein und kündigten unseren Auftritt auf LinkedIn an. Kundinnen und Kunden konnten sich vorab für ein Geschenk anmelden und es am Stand abholen. Ein Messebriefing bereitete das Standteam auf Ablauf, Dresscode, Catering und Lead-Erfassung vor.»
-    - *Meine Aufgaben:* Standbuchung · Standdesign · Standplanung · Exponate und Material · Versand · E-Mail-Banner · Messebriefing · Lead-Formular
+    - *Meine Aufgaben:* Standbuchung · Standdesign · Standplanung · Exponate und Material · Versand · E-Mail-Banner · LinkedIn-Posts · Messebriefing · Lead-Formular
   - **Ton-Regel ✅ (04.10.2026):** Messe-Texte in der «wir»-Form (als Firma), nicht «ich, ich». Yanas eigene Leistung steht kurz unter «Meine Aufgaben».
   - *Bilder ✅:* 4 Fotos vom Aufbautag (18.02.2025), Standdesign-Freigabe, E-Mail-Banner.
-  - ❓ LinkedIn-Posts: von Yana geschrieben?
+  - ✅ LinkedIn-Posts: schreibt Yana grundsätzlich selbst (gilt für alle Messen, Yana 04.10.2026).
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
   - *Ausgangslage:* Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2'800 Ausstellern aus über 50 Nationen. CP Pump Systems war vom 10. bis 14. Juni mit einem 108 m² grossen Stand in Halle 8 vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
   - *Ziel:* Bestehende Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.
