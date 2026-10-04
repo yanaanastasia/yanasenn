@@ -262,6 +262,13 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   1. *Standbox:* aufklappbar, steht mitten auf dem Stand; Rundum-Design von Yana; darin Broschüren, Werbeartikel und Jacken des Teams; in den USA eingelagert und bei jeder Messe wiederverwendet.
   2. *Transport- und Lagerbox:* für alle Werbeartikel und Messematerialien; zwischen den Messen eingelagert, nicht auf dem Stand.
   Dateien im Drive «Giveaways/CP»: «Box vorne», «Box hinten», «Zeitplan Versand USA Box», «Aufbewahrungskiste für Werbeartikel».
+- **Messe-Archiv ✅ (Wunsch Yana, 04.10.2026):** Auf der Projektseite «Internationale Messen» kommen **alle Messen** vor, nicht nur ACHEMA. Nicht auf der Startseite. Aufbau ✏️:
+  1. Einleitung + Rolle (Phase 1 / Phase 2)
+  2. Höhepunkt ACHEMA 2024 (ausführlich)
+  3. **Messe-Archiv als Raster:** pro Messe eine Karte mit Stand-Foto bzw. Standdesign, Name, Ort, Datum, Land und einer Zeile «Meine Aufgaben». Standard-Zeile ✏️: 2024–2025 «Organisation von A bis Z, Material, Mailing, Leads»; 2026 «Standdesign, Messewände, Mailing, Leads»; vor Ort: Zusatz «vor Ort im Standteam». Yana korrigiert Abweichungen.
+  4. Partner-Messen als kleine Liste
+  5. Logistik und Messeboxen USA
+  - 📌 Yana lädt pro Messe ein Stand-Foto oder Standdesign hoch (Drive «Messen», Unterordner pro Messe).
 - ✅ **Vor Ort war Yana bei:** ACHEMA Frankfurt 2024 und TPS Houston 2024 (beides grosse Messen mit internationalem Publikum; spannend, um Partner und Kunden kennenzulernen und andere Firmen bzw. die Konkurrenz zu sehen).
 - 📌 **Wunsch Yana:** Nicht nur ACHEMA zeigen, sondern **mehrere Messen**, besonders jene, bei denen sie vor Ort dabei war → Thema für die nächste Sitzung (Liste der Messen vor Ort, je 1–2 Sätze und Bilder).
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
