@@ -369,6 +369,7 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   - *Meine Aufgaben ✏️:* Standdesign (Rückwand, Weltkarte) · Standplanung · E-Mail-Banner · E-Mail-Signatur · Social-Media-Grafik und Beiträge · Messebriefing · Lead-Fragen für die Scan-App · Namensschilder
   - ✅ Anlagenfoto: Yana weiss nicht, ob es das Referenzprojekt zeigt → neutral als «Foto einer Industrieanlage» beschreiben. Kundenname nicht nennen.
   - *Bilder (Vorschlag):* Stand mit Rückwand und Weltkarte (IMG_6076_kopie), E-Mail-Banner.
+- **Messe: Leuna-Dialog 2026 ✅ kein eigener Eintrag** (Yana 04.10.2026: zu wenig aussagekräftig) → nur in Liste/Karte.
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
   - *Ausgangslage:* Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2'800 Ausstellern aus über 50 Nationen. CP Pump Systems war vom 10. bis 14. Juni mit einem 108 m² grossen Stand in Halle 8 vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
   - *Ziel:* Bestehende Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.
