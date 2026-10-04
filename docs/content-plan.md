@@ -710,6 +710,12 @@ Auf cp-pumps.com gesehen (03.10.2026), ❓ ob Yana das pflegt: Messekalender mit
 - Altes Portfolio und Videos vom anderen PC 📌
 - Alte Texte sind teils sehr blumig («faszinierend», «renommiert») und werden im neuen Ton neu geschrieben.
 
+#### Case «Werbung: Print & Digital» ✏️ (Name-Vorschlag, ersetzt «Anzeigen & Fachartikel»; Yana 04.10.2026: zu eng)
+- EN: «Advertising: Print & Digital»
+- Unterteilung innerhalb des Cases: **Print** (Anzeigen in Messekatalogen und Fachzeitschriften) · **Fachartikel** (redaktionelle Beiträge) · **Digital** (E-Mail-Banner, Web-Banner, Signatur-Anzeigen, Sammelbanner, Social Ads)
+- Abgrenzung: Broschüren und Factsheets bleiben eigener Case; Messe-Banner werden hier nur gebündelt gezeigt, Details stehen bei den Messen.
+- Quelle: ein Drive-Ordner «Werbung» mit Unterordnern «Print», «Fachartikel», «Digital» (offen)
+
 ### 6.2 Kleinere Cards
 - **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
 - **Songkran Greeting Card:** Grusskarte zum thailändischen Neujahr für die Partner- bzw. Tochterfirma in Thailand ❓ (Jahr, Format, Rolle)
