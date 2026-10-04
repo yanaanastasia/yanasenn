@@ -516,7 +516,6 @@ Schwerpunkt Gestaltung: Standdesign, Messewände, Mailing. Wie schon zuvor: Mail
 | 19.02.2025 | DE | Pumps & Valves | Dortmund | 1 |
 | 08.04.2025 | US | TFS – The Fertilizer Show | Orlando | 1 |
 | 24.04.2025 | DE | Leuna Dialog | Leuna | 1 |
-| 16.09.2025 | US | TPS – Turbomachinery & Pump Symposium | Houston | 1 |
 | 03.11.2025 | US | CRU – Sulphur + Sulphuric Acid | The Woodlands | 1 |
 | 19.11.2025 | FR | Petro-Chimie | Le Havre | 1 |
 | 26.01.2026 | US | FLA – Fertilizer Latino Americano | Miami | 2 |
@@ -531,7 +530,7 @@ Schwerpunkt Gestaltung: Standdesign, Messewände, Mailing. Wie schon zuvor: Mail
 | 25.11.2026 | FR | Petrochymia | Martigues | 2 · bevorstehend |
 | 16.12.2026 | IN | Dahej Industrial Expo | Gujarat | 2 · bevorstehend |
 
-Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kommt): **20 Messen 2024–2026 in 5 Ländern** (DE, FR, US, UK, IN), davon 16 bereits durchgeführt (Stand 03.10.2026) und 9 in Phase 1.
+Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kommt): **19 eigene Messen 2024–2026 in 5 Ländern** (DE, FR, US, UK, IN), davon 15 bereits durchgeführt (Stand 04.10.2026) und 8 in Phase 1. (TPS Houston 2025 am 04.10.2026 zu den Partnermessen verschoben.)
 
 **Offen ❓**
 - **Entscheide ✅:** Nur die Messen aus der Liste oben. Remstone Sulfur gestrichen. Die 2027-Messen kommen nicht auf die Website (Yana ist dort wahrscheinlich nicht mehr dabei) 📌 im Hinterkopf behalten.
@@ -540,6 +539,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 | Datum | Land | Partner | Messe | Ort |
 |---|---|---|---|---|
 | 2024 | TR | Metrans | Turkchem | ❓ |
+| 16.09.2025 | US | ❓ | TPS – Turbomachinery & Pump Symposium | Houston |
 | 22.04.2025 | KR | Dongil | Korea Inter-Battery Exhibition | Seoul |
 | 03.06.2025 | ES | Atlas | Pumps and Valves | Bilbao |
 | 09.07.2025 | JP | Gadelius | Japan Tokyo Pharm Expo | Tokyo |
@@ -549,6 +549,7 @@ Abgeleitet aus dieser Liste (❓ bitte bestätigen, bevor es auf die Website kom
 | 02.06.2026 | ES | Atlas | Expoquimia | Barcelona |
 | 20.10.2026 | ES | Atlas | MMH | Sevilla · bevorstehend |
 
+  - ✅ **Darstellung (Yana 04.10.2026):** Partnermessen nur in Messeliste und Karte, ohne eigenen Eintrag, gekennzeichnet mit «am Stand eines Partners» (EN: «at a partner's booth»); auf der Karte optisch von den eigenen Messen unterschieden.
   - «InnoTrans» aus dem ersten Briefing war ein Versehen ✅ gestrichen.
   - 📌 Partnernamen (Metrans, Dongil, Atlas, Gadelius, VDMA) nur nennen, wenn freigegeben (A12); sonst nur Messe und Ort.
 - Schreibweisen: Petrochymia / Petro-Chimie
