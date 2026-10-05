@@ -739,6 +739,11 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - 📌 GOLDINGER: viele Redesigns von Yana → als **Vorher/Nachher** zeigen (Idee Yana 04.10.2026).
 - ✅ Yanas altes Portfolio liegt im GOLDINGER-Ordner in Drive → als Quelle nutzen, Inhalte je nach Eignung übernehmen. Ablage ist nicht sauber sortiert → Claude sucht passende Sachen selbst zusammen.
 
+#### Neu ✅ (Yana 05.10.2026): Raumgestaltung bei CP
+- Sitzungszimmer neu eingerichtet: Möbel ausgesucht, Lieferung organisiert, Wände dekoriert; Auswahl nach Farbpaletten, zusammen mit der Möbelfirma. Ein weiteres Zimmer ebenso. ❓ Jahr, Fotos vorher/nachher, Name/Funktion des zweiten Zimmers, Farbkonzept (CP-Farben?).
+- Einordnung ✏️: kleine Card oder Teil eines Cases «Markenauftritt im Raum» (zusammen mit Messesystem?) → später entscheiden.
+- Hinweis: Im Ordner «Werbung» lag «Bild_Sitzungszimmer_DEF.png» (0 Byte, leer) und Treppenhaus-Layouts von 2023 (SAB/Agentur, nicht Yana).
+
 ### 6.2 Kleinere Cards
 - **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
 - **Songkran Greeting Card:** Grusskarte zum thailändischen Neujahr für die Partner- bzw. Tochterfirma in Thailand ❓ (Jahr, Format, Rolle)
