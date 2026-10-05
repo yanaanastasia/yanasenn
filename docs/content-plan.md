@@ -242,6 +242,7 @@ Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digita
 4. Infoabende und Tage der offenen Tür
 5. Messen WEGA und Immozionale (mit Gummibärchen)
 6. BAILA BASILEA (Freelance)
+7. ✏️ Vorschlag neu: **Redesigns Print (Vorher/Nachher)** – Faltmappe, Flyer, Inserate, Messewände
 
 Company Tip Game 🔒 nur erwähnen (z. B. auf Über mich), keine eigene Kachel ✏️.
 Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden beim Schreiben den Kacheln oben zugeordnet.
@@ -766,6 +767,21 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Print: Inserate, Broschüren, Bautafeln/Aussenplakate, Flyer, Texte
 - Website-Pflege mit TYPO3
 - Entwicklung und Analyse von Kampagnen, Evaluation von Partnern und Lieferanten
+
+#### TEXT-ENTWURF «GOLDINGER Redesigns Print» (Frühere Projekte, Kachel 7) ✏️
+- **Stichworte:** Redesign · Print · Corporate Design
+- **Kurz:** Faltmappe, Flyer, Inserate und Messewände in einer klaren Linie
+- **Ausgangslage:** Viele Printmittel von GOLDINGER stammten aus früheren Jahren und wirkten uneinheitlich: weisse Felder mit kleinen Bildern, Bordeaux-Titel, Goldlinien und teils noch der alte Firmenname «Immobilien Treuhand AG».
+- **Meine Rolle ✏️:** Ich gestaltete die bestehenden Printmittel neu und brachte sie in eine gemeinsame Linie: grosse Bilder, kräftiges Blau, klare Typografie und gut sichtbare Handlungsaufforderungen wie QR-Code, Anmeldung oder Gutschein.
+- **Vorher/Nachher:**
+  - *Faltmappe:* 2022 → 2023, ein durchgehendes Panoramabild statt getrennter Felder, Textflächen über dem Bild, Innenseite neu gesetzt, Texte aktualisiert.
+  - *Flyer Wertermittlung:* 2019 → 2023, aus dem Flyer mit Diagramm wurde eine Klappkarte mit Antwortkarte und Gutschein.
+  - *Messewände WEGA:* 2019 → 2022/2023, königsblaue Paneele mit klaren Botschaften statt kleiner Objektplakate.
+  - *Inserate:* Entwicklung 2022 → 2023, von textlastigen Anzeigen zu einem System mit Datumsfeldern, Siegel und blauer Fusszeile; die Infoabende-Serie in drei Formaten für mehrere Regionalausgaben.
+- **Hinter den Kulissen:** Ablauf für Inserate von der Offerte bis zum Gut zum Druck und ein Streuplan nach Kalenderwoche und Zeitung.
+- **Bilder:** Vorher/Nachher-Schieberegler pro Paar (Code-Phase 📌).
+
+**Videos (Ergänzung Kachel 2/3, Funde Drive 05.10.2026):** zwei animierte Erklärvideos («Immobilienverkauf bei GOLDINGER», «Stiller Verkauf»), Reels (u. a. «Jahresvorsätze», Interview-Reel mit einer Fachperson), mehrere Objekt- und Rundgangvideos. Für die Website komprimieren; Person im Interview-Reel nur mit Einverständnis zeigen.
 
 **Offen ❓**
 - Altes Portfolio und Videos vom anderen PC 📌
