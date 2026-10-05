@@ -798,6 +798,17 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Altes Portfolio und Videos vom anderen PC 📌
 - Alte Texte sind teils sehr blumig («faszinierend», «renommiert») und werden im neuen Ton neu geschrieben.
 
+#### TEXT-ENTWURF Case «Fotografie» (CP Pump Systems) ✏️
+- **Stichworte:** Produktfotografie · Reportage · Bildbearbeitung
+- **Kurz:** Bilder für Broschüren, Website, Messen und Wände, von der Aufnahme bis zur Druckdatei
+- **Meine Rolle ✏️:** Ich fotografiere Produkte, Gebäude, Events, Messeauftritte und Mitarbeitende und bearbeite die Bilder bis zum fertigen Einsatz auf der Website, in Print und auf Social Media (Service-Text ✅).
+- **Beispiele (Drive):**
+  - *Mitarbeitende bei der Arbeit (Aug. 2026) ✅ von Yana:* PFA-Auskleidung am Ofen, CAD und Simulation, CAM-Programmierung; in Farbe und Schwarzweiss bearbeitet und als Wandbilder gedruckt. Kantinenplakate mit neuen Fotos ✅.
+  - *Reportage Maschinenlieferung (Mai 2026):* neue Bearbeitungszentren werden per Kran und Tieflader angeliefert und eingebracht; rund 30 ausgewählte Bilder (Ordner «FAV») plus Videoclips. ❓ von Yana fotografiert/gefilmt? Wofür verwendet (News-Beitrag, Social Media)?
+  - *Produktfotos:* viele vorhanden ✅ (Pumpen freigestellt, Details wie Laufrad oder Spalttopf). ❓ welche selbst fotografiert?
+- **Weiterbildung:** 2026 Fotografie-Workshop mit Bildbearbeitung (2 Tage, vor Ort bei CP) ✅.
+- **Bilder 📌:** Auswahl später; erkennbare Personen nur mit Einverständnis.
+
 #### TEXT-ENTWURF Case «Raumgestaltung: die Marke im Gebäude» (CP Pump Systems) ✏️
 - **Stichworte:** Raumkonzept · Wandgestaltung · Fotografie · Produktion
 - **Kurz:** Sitzungszimmer, Lounge und Abteilungen im Erscheinungsbild von CP
@@ -945,7 +956,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
 - [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
 - [ ] **Praxisbildnerin:** betreut Yana selbst Lernende bei CP? (nur erwähnen, wenn ja)
-- [ ] **Fotografie** ✅ als Kompetenz: in der Ausbildung gelernt, zusätzlich 2026 ein Fotografie-Workshop bei CP (2 Tage, vor Ort bei CP): Auffrischung und Post-Production bzw. Bildbearbeitung ✅. **Keine Fotos von Menschen zeigen** ✅ (Porträts nicht verwendbar). Zeigbar: **Produktfotos** ✅ (viele vorhanden), eventuell Gebäude, Exponate, Details. ✅ Eigener Service «Fotografie» (allgemein) und eigene Kachel im Portfolio.
+- [ ] **Fotografie** ✅ als Kompetenz: in der Ausbildung gelernt, zusätzlich 2026 ein Fotografie-Workshop bei CP (2 Tage, vor Ort bei CP): Auffrischung und Post-Production bzw. Bildbearbeitung ✅. ~~Keine Fotos von Menschen zeigen~~ → ✅ geändert (Yana 05.10.2026): Mitarbeitende bei der Arbeit vorerst aufnehmen, nur mit Einverständnis; Porträts weiterhin nicht. Zeigbar: **Produktfotos** ✅ (viele vorhanden), eventuell Gebäude, Exponate, Details. ✅ Eigener Service «Fotografie» (allgemein) und eigene Kachel im Portfolio.
 - [ ] **Persönliches später einbauen:** künstlerische Begabung, AI
 - [ ] **Messematerial als eigenes Thema (Kategorie oder Abschnitt) ✅ Fakten von Yana 04.10.2026:** Neben Print hat Yana auch Messemöbel und -material entwickelt: Konzept für die Möbel, Messebox(en), Transportboxen, Roll-ups, Messeaufsteller. CP-Podeste: lange vor den Phase-2-Messen hergestellt, Yana war mit dem Hersteller in Kontakt (Hersteller noch bestätigen; im Transkript unklar), später punktuell Anpassungen und Nachbestellungen, z. B. ein Podest mit Ersatzteilen (evtl. folgt mehr). Gilt für alle Messen; bei der Erfassung der Messen nicht einzeln aufführen, erst nach dem Messe-Durchgang ausarbeiten.
   - Vorschlag ✏️ (04.10.2026): kein eigenes Projekt, sondern ein Abschnitt «Messesystem & Messematerial» innerhalb von Messen & Events. Bestehende Punkte «Messeboxen USA» und «Ein Messesystem für die USA» dort zusammenführen. In den einzelnen Messe-Einträgen das Material nur kurz nennen (z. B. «unsere CP-Podeste»), die Details stehen einmal im Abschnitt → nichts doppelt.
