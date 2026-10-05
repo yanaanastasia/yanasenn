@@ -232,7 +232,7 @@ Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digita
 5. Website und Newsletter
 6. Songkran-Grusskarte
 7. Werbung: Print & Digital (ehemals «Anzeigen und Fachartikel», z. B. World Fertilizer)
-8. Fotografie (nur Produkte, Gebäude, Details, keine Menschen)
+8. Fotografie (Produkte, Gebäude, Details und ✅ vorerst auch Mitarbeitende bei der Arbeit, nur mit Einverständnis; kann später wieder entfernt werden, Yana 05.10.2026)
 9. Infografiken und Karten
 10. ✅ Raumgestaltung: die Marke im Gebäude (eigener Case, Yana 05.10.2026)
 
