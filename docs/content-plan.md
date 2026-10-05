@@ -242,7 +242,7 @@ Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digita
 4. Infoabende und Tage der offenen Tür
 5. Messen WEGA und Immozionale (mit Gummibärchen)
 6. BAILA BASILEA (Freelance)
-7. ✏️ Vorschlag neu: **Redesigns Print (Vorher/Nachher)** – Faltmappe, Flyer, Inserate, Messewände
+7. ✅ **Redesigns Print (Vorher/Nachher)** – Faltmappe, Flyer, Inserate, Messewände
 
 Company Tip Game 🔒 nur erwähnen (z. B. auf Über mich), keine eigene Kachel ✏️.
 Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden beim Schreiben den Kacheln oben zugeordnet.
@@ -772,7 +772,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Stichworte:** Redesign · Print · Corporate Design
 - **Kurz:** Faltmappe, Flyer, Inserate und Messewände in einer klaren Linie
 - **Ausgangslage:** Viele Printmittel von GOLDINGER stammten aus früheren Jahren und wirkten uneinheitlich: weisse Felder mit kleinen Bildern, Bordeaux-Titel, Goldlinien und teils noch der alte Firmenname «Immobilien Treuhand AG».
-- **Meine Rolle ✏️:** Ich gestaltete die bestehenden Printmittel neu und brachte sie in eine gemeinsame Linie: grosse Bilder, kräftiges Blau, klare Typografie und gut sichtbare Handlungsaufforderungen wie QR-Code, Anmeldung oder Gutschein.
+- **Meine Rolle ✅:** Ich gestaltete die bestehenden Printmittel neu und brachte sie in eine gemeinsame Linie: grosse Bilder, kräftiges Blau, klare Typografie und gut sichtbare Handlungsaufforderungen wie QR-Code, Anmeldung oder Gutschein.
 - **Vorher/Nachher:**
   - *Faltmappe:* 2022 → 2023, ein durchgehendes Panoramabild statt getrennter Felder, Textflächen über dem Bild, Innenseite neu gesetzt, Texte aktualisiert.
   - *Flyer Wertermittlung:* 2019 → 2023, aus dem Flyer mit Diagramm wurde eine Klappkarte mit Antwortkarte und Gutschein.
