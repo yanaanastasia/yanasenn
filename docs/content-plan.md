@@ -700,8 +700,8 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
   - S. 4 · PREMIUM-Objekte · S. 5–8 · KAUFEN (Objektraster) · S. 9–11 · PROJEKTE (Neubauprojekte)
   - S. 12 · GUTSCHEIN für die kostenlose Wertermittlung und Anmeldetalon Infoabend
 - ✅ **Yana 05.10.2026: alle 12 Seiten zeigen, als Online-Magazin zum Durchblättern** (Blätteransicht mit Doppelseiten, Pfeile/Wischen, Vollbild; auf dem Handy Einzelseiten). Umsetzung erst in der Code-Phase 📌: Seiten als optimierte Bilder (WebP, zwei Grössen), ohne externen Dienst, mit Tastatur bedienbar, `prefers-reduced-motion` ohne Umblätter-Animation, Alternativtext pro Seite.
-- ❓ Datenschutz bei voller Lesbarkeit: Preise, Namen und Direktnummern von Mitarbeitenden, Personen auf den Infoabend-Fotos → in den Seitenbildern retuschieren/unkenntlich machen (Vorschlag Claude).
-- **Achtung beim Zeigen:** Objektpreise, Namen und direkte Telefonnummern von Mitarbeitenden sowie Personen auf den Infoabend-Fotos nicht lesbar zeigen (klein, unscharf oder zugeschnitten). Text des Editorials nicht als Yanas Text ausgeben (gezeichnet von den Verwaltungsräten).
+- ✅ **Yana 05.10.2026: Seiten unverändert zeigen, wie gedruckt** (keine Retusche von Preisen, Namen, Nummern oder Fotos), da das Magazin so öffentlich verteilt wurde. Ausnahme gilt nur für das Hausmagazin.
+- **Hinweis:** Text des Editorials nicht als Yanas Text ausgeben (gezeichnet von den Verwaltungsräten).
 
 #### Fakten «Broschüren und Factsheets» ✅ (Yana, 03.10.2026)
 - Bestehende Broschüren (Layout stand), aber **intensiv überarbeitet**: viele Inhalte angepasst und ausgetauscht, vor allem **Company-Broschüre** und **Sortimentsbroschüre**.
