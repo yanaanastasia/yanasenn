@@ -687,13 +687,13 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 - **CP Weihnachten 2026 (Ergänzung):** finale Karten 1.10.2026: A- und B-Kunden je Du/Sie, 6-seitig A5, DE/EN/FR; Mitarbeitende 4-seitig DE/EN; blaues Cover, verschneite Berge, Rentierschlitten mit Pumpe, Rätsel «Strich für Strich zur Lösung», Rückseite mit sechs Standorten; Geschenke: Picknickdecke (A-Kunden, Mitarbeitende), RFID-Kartenhalter (B-Kunden); Umfrage im Verkauf (April/Mai 2026, 22 Ideen bewertet), Lieferantenvergleich, Druckerei selbst organisiert (2025 noch über Agentur). Koordination Druck/Umfrage laut E-Mails Leiterin NIM. ✅ Yana: Karten komplett gestaltet und getextet, Austausch mit Druckereien, im Team mitgeholfen. ✅ Französisch bewusst «vous» auch in der Du-Form (Yana 05.10.2026: in Frankreich siezt man Kundschaft auch per Du-Ansprache, ausser enge Beziehung).
 - **CP Songkran 2026:** Skizzen Nr. 1–6, Agentur-Offerte zur Umsetzung «einer der drei Kundenskizzen», Druck über Flyeralarm. ✅ **Yana 05.10.2026: Songkran komplett von Yana.**
 
-#### TEXT-ENTWURF «Songkran-Grusskarte 2026» ✏️
+#### TEXT-ENTWURF «Songkran-Grusskarte 2026» ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Konzept · Illustration · Print
 - **Kurz:** Grusskarte zum thailändischen Neujahr für die Tochterfirma in Thailand
 - **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems hat in Thailand eine Tochterfirma; die Karte ging an sie (✅ Yana 05.10.2026).
 - **Meine Rolle ✅:** Die Karte lag komplett bei mir: Ideen und Skizzen, Gestaltung, Druckvorbereitung und Bestellung.
 - **Umsetzung:** Sechs Skizzen als Ausgangspunkt (Jan. 2026), daraus zwei Entwürfe. Motiv: zwei Pagoden mit der thailändischen und der Schweizer Flagge, die Thailand und die Schweiz verbinden; dazu Wasserspritzer, Blüten und Sonne auf einem Verlauf von Gelb zu Blau, mit CP-Logo und «Happy Songkran Festival». Druck über eine Online-Druckerei (Feb. 2026).
-- **Kontext:** Zum Fest bestellte die Tochterfirma in Thailand zusätzlich ein Wellness-Geschenkset mit CP-Logo (März 2026, Abstimmung zur Farbe der Logo-Banderole mit Marketing). ❓ Teil von Yanas Arbeit oder nur Kontext?
+- **Wellness-Set:** ✅ weglassen (Yana 05.10.2026: nicht ihre Arbeit).
 - **Bilder:** Skizzen und finale Karte (Vorderseite) 📌; aus Thumbs bekannt, Originale noch suchen.
 - Nicht verwenden: Preise, Bestellnummern, Adressen, Namen und Telefonnummern aus den E-Mails.
 - **CP weitere:** Lieferzeiten-Flyer DE/EN; Molten-Sulphur-Anwendungsblatt; Sammelbanner Messen DE/EN/FR; Panels zur Firmengeschichte (Aug. 2026, vermutlich Wandpaneele); Weltkarte mit Farbvarianten (schwarz, hellgrün, grün, grau, blau) → Auswahl → Sprachversionen (guter Prozess); Fotoshooting Betrieb Aug. 2026 und Mai 2026 (Dateien zu gross, nicht angesehen); Firmenprofil-Präsentation 2026 (77 MB, nicht angesehen).
