@@ -724,6 +724,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Personen:** viele Storys/Posts mit Mitarbeitenden und Kundschaft → nicht ohne Einverständnis verwenden.
 
 - ✅ **Yana 05.10.2026:** Bei GOLDINGER viele Videos gemacht (nicht nur WEGA); **Faltmappen neu gestaltet**; **Inserate neu gestaltet**; alles mit Redesign aufnehmen (Vorher/Nachher). GOLDINGER-Teil ausführlicher darstellen.
+  - Videos in Drive «Goldinger/Inhalt 2024» (2023): «Immobilienverkauf» (Erklärvideo), «Stiller Verkauf» (Erklärvideo), «jahresvorsätze» (Reel), «Interview Samira» (Reel-Interview), mehrere Objekt-/Rundgangvideos (MP4/MOV, 18–53 MB; für die Website später komprimieren). Faltmappen: in Drive noch nicht gefunden ❓ (alt und neu nötig für Vorher/Nachher). Inserate: Vorher-Versionen bisher nur Sunneberg-Flyer 2019 ❓.
 
 #### Case 6 · GOLDINGER Immobilien: Content, Campaigns & Print (2021–2023)
 **Kernaussage ✏️:** Zwei Praxisjahre im Immobilienmarketing: Social Media, Fotografie, Video und Print für Verkauf, Events und Marke.
