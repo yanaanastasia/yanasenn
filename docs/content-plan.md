@@ -731,6 +731,12 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
     - *Vorher/Nachher Flyer:* vorher 2019 «Schnellbewertung A5» (blauer Balken, Goldlinie, Bordeaux-Titel) und Sunneberg-Flyer; nachher Infoabend-Flyer 2022 und Grünblick-Flyer 2023 (klares Blau-Weiss).
     - *Inserate:* alle aus Yanas Zeit (2022–2023), kein älteres GOLDINGER-Inserat in Drive. Entwicklung sichtbar: HEV 2022 textlastig → HEV 2023 und Infoabende 2023 mit klarem Blau-Weiss-System (Datums-Pills, Siegel «Eintritt frei», blaue Fusszeile mit Logo und Partnerbank). ❓ Gibt es Inserate von vor 2021 als Vorher?
     - *Social Media:* Entwicklung innerhalb Yanas Zeit: Ende 2021 Gold/Senf + Blau (Canva) → 2022/2023 klares Königsblau-Weiss.
+  - **Nachtrag Upload 05.10.2026 (Ordner Werbung/Print):**
+    - *Faltmappe ✅ gefunden:* «Goldinger_Mappe_2022.pdf» (vorher) und «Goldinger_Mappe_2023.pdf» (nachher, Feb. 2023), je Aussen- und Innenseite, A4-Mappe mit Einstecklasche. **Vorher:** einzelne Felder mit unterschiedlichen Bildern (Altbau-Fassade mit Herbstlaub, Wohnraum), Text in schmaler blauer Spalte, Adressen als Block. **Nachher:** ein durchgehendes Panoramabild (moderner Neubau im Abendlicht) über Rücken, Vorder- und Rückseite, halbtransparente Textflächen, Standorte als Leiste oben, Innenseite «Unser Leistungsspektrum» neu gesetzt. Auch der Einleitungstext ist neu (u. a. «Mitarbeitende», «Kundinnen und Kunden»). ❓ Mappe 2022 = alte Version (nicht von Yana)? Neuer Text auch von Yana?
+    - *Flyer Wertermittlung:* vorher «Online Schnellbewertung KL V2» (2019, vor Yanas Zeit: Bordeaux-Titel, Diagramm) → nachher «Flyer Gutschein Wertermittlung FF 2023» (Jan. 2023, Klappkarte mit Antwortkarte, Teamfoto, goldener Gutschein).
+    - *Flyer Infoveranstaltungen:* 2022 (weiss, Siegel, Teamfoto) → 2023 (Gebäudefoto als Hintergrund, blaue Diagonale, Banner «Eintritt frei», QR-Anmeldung). Beide aus Yanas Zeit → Entwicklung, kein Vorher/Nachher im engeren Sinn.
+    - *Neubauprojekt Sonnenhof:* Flyer 2023 (Juni), Blau-Weiss-System mit Visualisierungen und QR-Code.
+    - *Nicht geöffnet (≥ 6 MB):* «Maklerbroschüre Janette 2023» (persönliche Maklerbroschüre, Name nicht veröffentlichen), «Hausmagazin Februar 2023 final» (bekannt).
     - *Nicht verwenden:* «Hausmagazin.pdf» ist ein internes Kostenblatt (nicht das Magazin); Offerten, Rechnungen, Messewand Kradolf (Preise); Visitenkarte und HEV 2023 (direkte Telefonnummern von Personen, nur unkenntlich); Fotos mit erkennbaren Personen.
 
 #### Case 6 · GOLDINGER Immobilien: Content, Campaigns & Print (2021–2023)
