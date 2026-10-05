@@ -693,6 +693,14 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 - **Ausgangslage:** GOLDINGER Immobilien gab zweimal im Jahr ein eigenes Hausmagazin heraus. Es zeigte die aktuellen Immobilien und Neubauprojekte, lud zu den Infoabenden ein und lag teilweise Zeitungen in der Ostschweiz bei.
 - **Meine Rolle ✅:** Ich gestaltete das Magazin und schrieb die Texte gemeinsam mit dem Verkaufsteam. Die Inhalte legten wir zusammen mit meinem Vorgesetzten fest; Bilder und Objektangaben kamen von den Standorten. Zudem organisierte ich die Verteilung als Zeitungsbeilage: In welchen Zeitungen erreichen wir unsere Zielgruppe, und wo wird das Magazin gestreut? So warb das Magazin auch für die Infoabende.
 - **Umsetzung (Ausgabe Februar 2023):** Marktausblick als Titelgeschichte · Infoabende an sieben Standorten mit Anmeldetalon und QR-Code · aktuelle Immobilien und Neubauprojekte auf acht Seiten · Gutschein für eine kostenlose Immobilienbewertung · Planung der Zeitungsbeilagen
+- ✅ **Yana 05.10.2026:** Hausmagazin von Yana gemacht; eine Ausgabe zeigen, das PDF darf verwendet werden.
+- **Gezeigte Ausgabe: Februar 2023** (A4, 12 Seiten; gelesen aus «Hausmagazin-2023-komp.pdf», 1,5 MB; Druck-PDF «Hausmagazin Februar 2023 final» 20 MB nicht geöffnet). Aufbau mit festem Seitenkopf (blaue Linie, Rubrik in Versalien, goldinger.ch in der Fusszeile):
+  - S. 1 · Titel «Ausblick auf das Jahr 2023» mit Editorial der Verwaltungsräte und Inhaltsübersicht
+  - S. 2–3 · NEWS «Alles rund um unsere Infoabende», Termine, QR-Code, Partnerbank, Leistungsübersicht
+  - S. 4 · PREMIUM-Objekte · S. 5–8 · KAUFEN (Objektraster) · S. 9–11 · PROJEKTE (Neubauprojekte)
+  - S. 12 · GUTSCHEIN für die kostenlose Wertermittlung und Anmeldetalon Infoabend
+- **Bildauswahl Vorschlag:** Titelseite, Doppelseite NEWS, eine Seite KAUFEN (Raster zeigt das System), eine Doppelseite PROJEKTE, Rückseite GUTSCHEIN.
+- **Achtung beim Zeigen:** Objektpreise, Namen und direkte Telefonnummern von Mitarbeitenden sowie Personen auf den Infoabend-Fotos nicht lesbar zeigen (klein, unscharf oder zugeschnitten). Text des Editorials nicht als Yanas Text ausgeben (gezeichnet von den Verwaltungsräten).
 
 #### Fakten «Broschüren und Factsheets» ✅ (Yana, 03.10.2026)
 - Bestehende Broschüren (Layout stand), aber **intensiv überarbeitet**: viele Inhalte angepasst und ausgetauscht, vor allem **Company-Broschüre** und **Sortimentsbroschüre**.
