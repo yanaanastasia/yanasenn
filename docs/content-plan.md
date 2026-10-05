@@ -818,7 +818,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - ✅ Yanas altes Portfolio liegt im GOLDINGER-Ordner in Drive → als Quelle nutzen, Inhalte je nach Eignung übernehmen. Ablage ist nicht sauber sortiert → Claude sucht passende Sachen selbst zusammen.
 
 #### Neu ✅ (Yana 05.10.2026): Raumgestaltung bei CP
-- Sitzungszimmer neu eingerichtet: Möbel ausgesucht, Lieferung organisiert, Wände dekoriert; Auswahl nach Farbpaletten, zusammen mit der Möbelfirma. Ein weiteres Zimmer ebenso. ❓ Jahr, Fotos vorher/nachher, Name/Funktion des zweiten Zimmers, Farbkonzept (CP-Farben?).
+- Sitzungszimmer neu eingerichtet (2024): Möbel ausgesucht, Lieferung organisiert, Wandgestaltung gestaltet (Layouts von Yana ✅); Auswahl nach Farbpaletten, zusammen mit der Möbelfirma. Ein weiteres Zimmer ebenso (laut Ideenskizze Lounge). ❓ Fotos vom fertigen Raum.
 - Einordnung ✏️: kleine Card oder Teil eines Cases «Markenauftritt im Raum» (zusammen mit Messesystem?) → später entscheiden.
 - Hinweis: Im Ordner «Werbung» lag «Bild_Sitzungszimmer_DEF.png» (0 Byte, leer) und Treppenhaus-Layouts von 2023 (SAB/Agentur, nicht Yana).
 
@@ -826,12 +826,12 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - 2024: Wandgestaltung über Fella (Offerte Mai 2024, Projekt «Sitzungszimmer», adressiert an Yana): Digitaldruck-Tapete 4,33 × 2,53 m, Montage vor Ort, optional magnetisches Whiteboard unter der Tapete.
 - Layouts (Juni/Juli 2024): Foto des bestehenden Raums + Layout 1–3; Birkenwald-Wandbild mit «cleaner pumps, cleaner planet™», Logo- und Claim-Paneele im Fensterband (V2).
 - Möbel über Haworth: Ideenskizze für zwei Räume (Jan. 2024), Showroom-Besuch Zürich (Feb. 2024), Stuhlübersicht, Renderings (Mai 2024: Lounge vor dem Birkenwald-Wandbild mit hellgrünen Stühlen, Sitzungszimmer mit grünen Stühlen und blau-grünen Wandpaneelen), Auftrag Juli 2024, Lieferung Juli/Aug. 2024 (Lieferkoordination durch Yana). Möbelauswahl laut E-Mails mit CEO und SAB.
-- ❓ Hat Yana die Layouts gestaltet? Gibt es Fotos vom fertigen Raum (für Vorher/Nachher)?
+- ✅ Layouts der Wandgestaltung von Yana (Yana 05.10.2026). ❓ Fotos vom fertigen Raum (für Vorher/Nachher)?
 - **Kantinen-Plakate (Update 2026):** Agentur-Original (2021–2024) → interne Aktualisierungen Jan.–Mai 2026 mit neuen Mitarbeitenden → Produktion als 5 Stoffbilder 895 × 1280 mm (Offerte Fella Juni 2026 an Yana). Viele erkennbare Mitarbeitende → nur mit Einverständnis zeigen.
 
 ### 6.2 Kleinere Cards
 - **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
-- **Songkran Greeting Card:** Grusskarte zum thailändischen Neujahr für die Partner- bzw. Tochterfirma in Thailand ❓ (Jahr, Format, Rolle)
+- **Songkran Greeting Card:** ✅ 2026, Grusskarte für die Tochterfirma in Thailand, komplett von Yana (siehe Text-Entwurf)
 - **Company Tip Game** 🔒: nur erwähnen
 - **Animated Explainer Videos** (GOLDINGER, IPA ✅) eigene Card
 - **BAILA BASILEA 2023:** Videoflyer für die Instagram Story einer Halloween-Party in Basel ✅ **Freelance-Auftrag** (erster Freelance-Beleg)
