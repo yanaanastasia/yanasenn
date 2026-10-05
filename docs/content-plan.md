@@ -916,6 +916,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
   - https://www.louisplant.ch/ (Design)
   - https://www.oliviahug.ch/ (Design)
   - https://www.pascalfrey.ch/ (nur Inhalt interessant, nicht Design)
+- [ ] **Fotos Sitzungszimmer und Lounge (fertig eingerichtet)** in Drive hochladen – Yana macht das am 06.10.2026; Claude erinnert, falls nichts kommt.
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
 - [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
 - [ ] **Praxisbildnerin:** betreut Yana selbst Lernende bei CP? (nur erwähnen, wenn ja)
