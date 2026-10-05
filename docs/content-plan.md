@@ -797,6 +797,17 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Altes Portfolio und Videos vom anderen PC 📌
 - Alte Texte sind teils sehr blumig («faszinierend», «renommiert») und werden im neuen Ton neu geschrieben.
 
+#### TEXT-ENTWURF Case «Infografiken & Karten» (CP Pump Systems) ✏️
+- **Stichworte:** Informationsdesign · Illustration · Mehrsprachigkeit
+- **Kurz:** Weltkarte und Firmengeschichte als wiederverwendbare Grafiken für Broschüren, Messen und Website
+- **Ausgangslage:** CP Pump Systems ist mit Standorten, Tochterfirmen und Partnern weltweit tätig und blickt auf eine lange Firmengeschichte zurück. Beides sollte auf einen Blick verständlich sein, in mehreren Sprachen und für ganz unterschiedliche Formate.
+- **Meine Rolle ✅ (Regel: Design ab 2024 von Yana; Fakten Yana 03.10.2026: neue Grafiken wie Weltkarte und Zeitstrahl):** Ich entwickelte die Weltkarte und den Zeitstrahl, von den ersten Entwürfen bis zu den fertigen Sprachversionen.
+- **Weltkarte:** Standorte und Tochterfirmen (Schweiz, Deutschland, Frankreich, USA, Republik Korea, Thailand) sowie Mitarbeitende in weiteren Ländern, mit Legende «CP Pump Systems» und «Partner». Erste Fassung Dez. 2025, laufend aktualisiert (Stand 2026). Mehrere Farbvarianten getestet (Blau, Grün, Hellgrün, Grau, Schwarz) und je nach Einsatz gewählt: flächig in CP-Blau für Messewände, als feines Punktraster in Grün oder Grau für Broschüren. Eigene Fassung mit allen Messen. Sprachversionen DE, EN, FR, PL u. a. Eingesetzt auf Messewänden (u. a. Dortmund 2026, Le Havre, ChemUK, Martigues), in Broschüren und auf der Website.
+- **Zeitstrahl «Firmengeschichte»:** zwei A4-Seiten, «passioniert – swiss made – innovativ», Meilensteine von der Gründung bis heute als Schlangenlinie mit grünen Jahreszahlen und Bildern (Produkte, Maschinen, Gebäude, Flaggen für neue Märkte). Im Company Profile eingesetzt. Sprachversionen DE, EN, FR, IT, PL, CN sowie US-Version; Stand bis 2026, Ausblick bis 2027.
+- **Weitere ✏️:** Icons und Infografiken für das Broschürenkonzept (wiederkehrende Elemente), Explosionszeichnung (Molten Sulphur). ❓ Panels zur Firmengeschichte (Aug. 2026, Dateien «Technik Entwicklung», «PFA», «CAM»): gehört das hierher?
+- **Bilder 📌:** Weltkarte in zwei Varianten (Messewand blau, Broschüre Punktraster), Farbvarianten als Prozessbild, Zeitstrahl Seite 1, Stand mit Weltkarte.
+- **Hinweis:** Laut Zeitstrahl 2026 wurde das Representative Office in Thailand in eine Branch umfirmiert; im Songkran-Text steht «Tochterfirma» (Yana). Formulierung «Niederlassung» wäre neutral ❓.
+
 #### Case «Werbung: Print & Digital» ✏️ (Name-Vorschlag, ersetzt «Anzeigen & Fachartikel»; Yana 04.10.2026: zu eng)
 - EN: «Advertising: Print & Digital»
 - Unterteilung innerhalb des Cases: **Print** (Anzeigen in Messekatalogen und Fachzeitschriften) · **Fachartikel** (redaktionelle Beiträge) · **Digital** (E-Mail-Banner, Web-Banner, Signatur-Anzeigen, Sammelbanner, Social Ads)
