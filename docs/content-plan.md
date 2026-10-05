@@ -779,6 +779,17 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Website-Pflege mit TYPO3
 - Entwicklung und Analyse von Kampagnen, Evaluation von Partnern und Lieferanten
 
+#### TEXT-ENTWURF «GOLDINGER Infoabende und Tage der offenen Tür» (Frühere Projekte, Kachel 4) ✏️
+- **Stichworte:** Kampagnenplanung · Print · Meta Ads · Event
+- **Kurz:** Kampagnen, die Menschen an Infoabende und in Neubauprojekte bringen
+- **Ausgangslage:** GOLDINGER lud jedes Frühjahr zu kostenlosen Infoabenden rund um Immobilien im Alter, Steuern und Verkauf ein, an sieben Standorten in der Ostschweiz und gemeinsam mit den Kantonalbanken. Die Zielgruppe ist eher älter und liest vor allem Zeitung. Für Neubauprojekte und schwer verkäufliche Objekte kamen Tage der offenen Tür dazu.
+- **Meine Rolle ✏️:** Ich plante die Kampagnen und setzte sie um: von der Offertanfrage bei den Zeitungen über Gestaltung und Streuplan bis zu Anzeigen auf Meta und Storys auf Instagram.
+- **Infoabende 2023:** Inserate als Serie in drei Formaten für mehrere Regionalausgaben, je mit der passenden Partnerbank · Flyer · Einladung mit Anmeldetalon und QR-Code im Hausmagazin · Meta-Anzeigen mit Fokus Ostschweiz während vier Wochen · Instagram-Storys mit Countdown. Schwerpunkt auf Print, weil die Zielgruppe wenig auf Social Media unterwegs ist.
+- **Tag der offenen Tür 2023:** Vermarktung eines Neubauprojekts (Grünblick): Logo und Flyer, Inserate, Flyer in den Büros, Instagram-Kampagne über Meta; Organisation in Absprache mit dem Verkauf.
+- **Hinter den Kulissen:** Ablauf für Inserate (Offerte → Prüfung → Gestaltung → Gut zum Druck → Rechnungskontrolle) und Streuplan nach Kalenderwoche und Zeitung.
+- **Bilder 📌:** Inserate-Serie Infoabende (drei Formate), Infoabend-Flyer 2023, Grünblick-Logo und -Flyer, Story-Beispiel ohne erkennbare Personen.
+- Nicht verwenden: Preise, Namen und Telefonnummern von Mitarbeitenden, Fotos mit erkennbaren Gästen.
+
 #### TEXT-ENTWURF «GOLDINGER Redesigns Print» (Frühere Projekte, Kachel 7) ✏️
 - **Stichworte:** Redesign · Print · Corporate Design
 - **Kurz:** Faltmappe, Flyer, Inserate und Messewände in einer klaren Linie
