@@ -231,9 +231,10 @@ Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digita
 4. Broschüren und Factsheets
 5. Website und Newsletter
 6. Songkran-Grusskarte
-7. Anzeigen und Fachartikel (z. B. World Fertilizer)
+7. Werbung: Print & Digital (ehemals «Anzeigen und Fachartikel», z. B. World Fertilizer)
 8. Fotografie (nur Produkte, Gebäude, Details, keine Menschen)
 9. Infografiken und Karten
+10. ✅ Raumgestaltung: die Marke im Gebäude (eigener Case, Yana 05.10.2026)
 
 **Frühere Projekte: GOLDINGER und Freelance (2021–2023)**
 1. Hausmagazin
@@ -797,6 +798,17 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Altes Portfolio und Videos vom anderen PC 📌
 - Alte Texte sind teils sehr blumig («faszinierend», «renommiert») und werden im neuen Ton neu geschrieben.
 
+#### TEXT-ENTWURF Case «Raumgestaltung: die Marke im Gebäude» (CP Pump Systems) ✏️
+- **Stichworte:** Raumkonzept · Wandgestaltung · Fotografie · Produktion
+- **Kurz:** Sitzungszimmer, Lounge und Abteilungen im Erscheinungsbild von CP
+- **Ausgangslage:** Die Marke CP sollte nicht nur an Messen und in Broschüren sichtbar sein, sondern auch im eigenen Gebäude: dort, wo Kundschaft empfangen wird, und dort, wo die Mitarbeitenden täglich arbeiten.
+- **Meine Rolle ✅:** Ich gestaltete die Wände der Räume, wählte zusammen mit der Möbelfirma die Einrichtung nach Farbpaletten aus und organisierte die Lieferung. Für die Abteilungen fotografierte ich die Mitarbeitenden bei der Arbeit und gestaltete daraus Wandbilder und Paneele.
+- **Sitzungszimmer und Lounge (2024):** Wandbild mit Birkenwald und dem Claim «cleaner pumps, cleaner planet™» als Digitaldruck-Tapete, Logo- und Claim-Paneele im Fensterband; mehrere Layout-Varianten bis zur finalen Version. Möbel in Grün- und Blautönen passend zum Wandbild, ausgewählt nach Showroom-Besuch und Renderings der Möbelfirma.
+- **Abteilungen (2026):** Wandbilder und Paneele für die Abteilungen, unter anderem PFA-Auskleidung, CAM sowie Technik und Entwicklung: eigene Fotos, bearbeitet in Farbe und Schwarzweiss, kombiniert mit Produkt- und Betriebsbildern und Grafiken wie der Weltkarte.
+- **Kantine (2026):** bestehende Plakate mit Mitarbeitenden aktualisiert und als Stoffbilder produziert.
+- **Bilder 📌:** Raum vorher (Foto vorhanden), Layout-Varianten, Rendering, fertiger Raum (❓ Fotos folgen, Yana 06.10.2026), Paneele der Abteilungen. Erkennbare Mitarbeitende nur mit Einverständnis.
+- Nicht verwenden: Preise, Offerten, Namen von Lieferanten und Mitarbeitenden.
+
 #### TEXT-ENTWURF Case «Infografiken & Karten» (CP Pump Systems) ✏️
 - **Stichworte:** Informationsdesign · Illustration · Mehrsprachigkeit
 - **Kurz:** Weltkarte und Firmengeschichte als wiederverwendbare Grafiken für Broschüren, Messen und Website
@@ -832,7 +844,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 
 #### Neu ✅ (Yana 05.10.2026): Raumgestaltung bei CP
 - Sitzungszimmer neu eingerichtet (2024): Möbel ausgesucht, Lieferung organisiert, Wandgestaltung gestaltet (Layouts von Yana ✅); Auswahl nach Farbpaletten, zusammen mit der Möbelfirma. Ein weiteres Zimmer ebenso (laut Ideenskizze Lounge). ❓ Fotos vom fertigen Raum.
-- Einordnung ✏️: kleine Card oder Teil eines Cases «Markenauftritt im Raum» (zusammen mit Messesystem?) → später entscheiden.
+- Einordnung ✅ (Yana 05.10.2026): **eigener Case** «Raumgestaltung: die Marke im Gebäude», siehe Text-Entwurf unten.
 - Hinweis: Im Ordner «Werbung» lag «Bild_Sitzungszimmer_DEF.png» (0 Byte, leer) und Treppenhaus-Layouts von 2023 (SAB/Agentur, nicht Yana).
 
 #### Funde Raumgestaltung Sitzungszimmer (Drive «Werbung», 05.10.2026) ✏️
