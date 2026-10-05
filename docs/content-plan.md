@@ -689,8 +689,8 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 
 #### TEXT-ENTWURF «Songkran-Grusskarte 2026» ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Konzept · Illustration · Print
-- **Kurz:** Grusskarte zum thailändischen Neujahr für die Tochterfirma in Thailand
-- **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems hat in Thailand eine Tochterfirma; die Karte ging an sie (✅ Yana 05.10.2026).
+- **Kurz:** Grusskarte zum thailändischen Neujahr für die Niederlassung in Thailand
+- **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems hat in Thailand eine Niederlassung (Branch); die Karte ging an das Team dort (✅ Yana 05.10.2026: Branch stimmt).
 - **Meine Rolle ✅:** Die Karte lag komplett bei mir: Ideen und Skizzen, Gestaltung, Druckvorbereitung und Bestellung.
 - **Umsetzung:** Sechs Skizzen als Ausgangspunkt (Jan. 2026), daraus zwei Entwürfe. Motiv: zwei Pagoden mit der thailändischen und der Schweizer Flagge, die Thailand und die Schweiz verbinden; dazu Wasserspritzer, Blüten und Sonne auf einem Verlauf von Gelb zu Blau, mit CP-Logo und «Happy Songkran Festival». Druck über eine Online-Druckerei (Feb. 2026).
 - **Wellness-Set:** ✅ weglassen (Yana 05.10.2026: nicht ihre Arbeit).
@@ -802,11 +802,11 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Kurz:** Weltkarte und Firmengeschichte als wiederverwendbare Grafiken für Broschüren, Messen und Website
 - **Ausgangslage:** CP Pump Systems ist mit Standorten, Tochterfirmen und Partnern weltweit tätig und blickt auf eine lange Firmengeschichte zurück. Beides sollte auf einen Blick verständlich sein, in mehreren Sprachen und für ganz unterschiedliche Formate.
 - **Meine Rolle ✅ (Regel: Design ab 2024 von Yana; Fakten Yana 03.10.2026: neue Grafiken wie Weltkarte und Zeitstrahl):** Ich entwickelte die Weltkarte und den Zeitstrahl, von den ersten Entwürfen bis zu den fertigen Sprachversionen.
-- **Weltkarte:** Standorte und Tochterfirmen (Schweiz, Deutschland, Frankreich, USA, Republik Korea, Thailand) sowie Mitarbeitende in weiteren Ländern, mit Legende «CP Pump Systems» und «Partner». Erste Fassung Dez. 2025, laufend aktualisiert (Stand 2026). Mehrere Farbvarianten getestet (Blau, Grün, Hellgrün, Grau, Schwarz) und je nach Einsatz gewählt: flächig in CP-Blau für Messewände, als feines Punktraster in Grün oder Grau für Broschüren. Eigene Fassung mit allen Messen. Sprachversionen DE, EN, FR, PL u. a. Eingesetzt auf Messewänden (u. a. Dortmund 2026, Le Havre, ChemUK, Martigues), in Broschüren und auf der Website.
+- **Weltkarte:** Standorte, Tochterfirmen und Niederlassungen (Schweiz, Deutschland, Frankreich, USA, Republik Korea, Thailand) sowie Mitarbeitende in weiteren Ländern, mit Legende «CP Pump Systems» und «Partner». Erste Fassung Dez. 2025, laufend aktualisiert (Stand 2026). Mehrere Farbvarianten getestet (Blau, Grün, Hellgrün, Grau, Schwarz) und je nach Einsatz gewählt: flächig in CP-Blau für Messewände, als feines Punktraster in Grün oder Grau für Broschüren. Eigene Fassung mit allen Messen. Sprachversionen DE, EN, FR, PL u. a. Eingesetzt auf Messewänden (u. a. Dortmund 2026, Le Havre, ChemUK, Martigues), in Broschüren und auf der Website.
 - **Zeitstrahl «Firmengeschichte»:** zwei A4-Seiten, «passioniert – swiss made – innovativ», Meilensteine von der Gründung bis heute als Schlangenlinie mit grünen Jahreszahlen und Bildern (Produkte, Maschinen, Gebäude, Flaggen für neue Märkte). Im Company Profile eingesetzt. Sprachversionen DE, EN, FR, IT, PL, CN sowie US-Version; Stand bis 2026, Ausblick bis 2027.
 - **Weitere ✏️:** Icons und Infografiken für das Broschürenkonzept (wiederkehrende Elemente), Explosionszeichnung (Molten Sulphur). ❓ Panels zur Firmengeschichte (Aug. 2026, Dateien «Technik Entwicklung», «PFA», «CAM»): gehört das hierher?
 - **Bilder 📌:** Weltkarte in zwei Varianten (Messewand blau, Broschüre Punktraster), Farbvarianten als Prozessbild, Zeitstrahl Seite 1, Stand mit Weltkarte.
-- **Hinweis:** Laut Zeitstrahl 2026 wurde das Representative Office in Thailand in eine Branch umfirmiert; im Songkran-Text steht «Tochterfirma» (Yana). Formulierung «Niederlassung» wäre neutral ❓.
+- ✅ Thailand = Niederlassung (Branch), nicht Tochterfirma (Yana 05.10.2026); Songkran-Text angepasst.
 
 #### Case «Werbung: Print & Digital» ✏️ (Name-Vorschlag, ersetzt «Anzeigen & Fachartikel»; Yana 04.10.2026: zu eng)
 - EN: «Advertising: Print & Digital»
@@ -842,7 +842,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 
 ### 6.2 Kleinere Cards
 - **Digital & Web, CP:** Craft CMS (Updates, Content, Bilder, Formulare), Newsletter und Social via Zoho One, LinkedIn/Facebook, Blogposts
-- **Songkran Greeting Card:** ✅ 2026, Grusskarte für die Tochterfirma in Thailand, komplett von Yana (siehe Text-Entwurf)
+- **Songkran Greeting Card:** ✅ 2026, Grusskarte für die Niederlassung in Thailand, komplett von Yana (siehe Text-Entwurf)
 - **Company Tip Game** 🔒: nur erwähnen
 - **Animated Explainer Videos** (GOLDINGER, IPA ✅) eigene Card
 - **BAILA BASILEA 2023:** Videoflyer für die Instagram Story einer Halloween-Party in Basel ✅ **Freelance-Auftrag** (erster Freelance-Beleg)
