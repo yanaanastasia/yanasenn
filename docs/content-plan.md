@@ -662,6 +662,22 @@ Auf cp-pumps.com gesehen (03.10.2026), ❓ ob Yana das pflegt: Messekalender mit
 - **Ergebnis:** 📌 später (z. B. LinkedIn-Follower-Entwicklung)
 - **GOLDINGER:** Website-Pflege in TYPO3 (Inhalte austauschen, Bilder wählen, Texte anpassen) → in Kachel «Social Media, Reels und Immobilienvideos». Yana kann animierte Erklärvideos und gute Reels liefern 📌.
 
+#### Funde CP-Website News/Blog (05.10.2026, cp-pumps.com/de/blog, alle Kategorien gelesen) ✏️
+Beiträge ab Yanas Start (2024–2026); ❓ welche hat Yana geschrieben (Yana: «teilweise»):
+- 30.04.2024 Neuer Meilenstein: Südkoreanische Tochterfirma erweitert internationales Netzwerk (kurz)
+- 16.05.2024 Magnetgekuppelte Pumpe zur Reaktorumwälzung in der chemischen Industrie (~425 Wörter)
+- 16.05.2024 Ist Ihre Pumpe bakteriendicht? Hygienepumpen in Food und Pharma (~300 Wörter)
+- 16.05.2024 Keramisch ausgekleidete Pumpe gegen Abrasion (~370 Wörter)
+- 25.03.2025 Angehende Chemie- und Pharmatechnologen besuchten die CP Pumpen AG (~230 Wörter)
+- 01.04.2025 Grossauftrag für die CP Pumpen GmbH (~170 Wörter)
+- 13.01.2026 Erfolgreiche Projektumsetzung 2024/2025: keramisch ausgekleidete ET-Pumpen gegen Abrasion (~350 Wörter)
+- 23.01.2026 Messe-Ankündigungen FLA Miami, Korea Chem, Pumps & Valves Dortmund (je ~110–130 Wörter)
+- 16./17.03.2026 Messe-Ankündigungen IFAT München, ChemUK, DK Hub Global
+- 21.04.2026 Sofort verfügbare Pumpensysteme (kurz, zum Lieferzeiten-Flyer)
+- 22.04.2026 Dichtungslose Magnetkupplungspumpen für saures Prozesswasser (Referenz Düngemittelproduktion, ~280 Wörter; = Blogbeitrag aus Ordner «Werbung»)
+- 25.06.2026 Messe-Ankündigung CRU Sulphur + Sulphuric Acid Berlin
+Vor 2024 (nicht Yana): Beiträge 2019–2023.
+
 #### TEXT-ENTWURF «GOLDINGER Hausmagazin» (Frühere Projekte) ✏️
 - **Stichworte:** Layout · Editorial · Print
 - **Kurz:** «Die IMMO-EXPERTEN», 12 Seiten, zweimal im Jahr
