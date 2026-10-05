@@ -802,10 +802,10 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Stichworte:** Raumkonzept · Wandgestaltung · Fotografie · Produktion
 - **Kurz:** Sitzungszimmer, Lounge und Abteilungen im Erscheinungsbild von CP
 - **Ausgangslage:** Die Marke CP sollte nicht nur an Messen und in Broschüren sichtbar sein, sondern auch im eigenen Gebäude: dort, wo Kundschaft empfangen wird, und dort, wo die Mitarbeitenden täglich arbeiten.
-- **Meine Rolle ✅:** Ich gestaltete die Wände der Räume, wählte zusammen mit der Möbelfirma die Einrichtung nach Farbpaletten aus und organisierte die Lieferung. Für die Abteilungen fotografierte ich die Mitarbeitenden bei der Arbeit und gestaltete daraus Wandbilder und Paneele.
+- **Meine Rolle ✅:** Ich gestaltete die Wände der Räume, wählte zusammen mit der Möbelfirma die Einrichtung nach Farbpaletten aus und organisierte die Lieferung. Für die Abteilungen fotografierte ich die Mitarbeitenden bei der Arbeit und gestaltete daraus Wandbilder und Paneele. Die Plakate in der Kantine aktualisierte ich mit neuen Fotos und liess sie als Stoffbilder produzieren.
 - **Sitzungszimmer und Lounge (2024):** Wandbild mit Birkenwald und dem Claim «cleaner pumps, cleaner planet™» als Digitaldruck-Tapete, Logo- und Claim-Paneele im Fensterband; mehrere Layout-Varianten bis zur finalen Version. Möbel in Grün- und Blautönen passend zum Wandbild, ausgewählt nach Showroom-Besuch und Renderings der Möbelfirma.
 - **Abteilungen (2026):** Wandbilder und Paneele für die Abteilungen, unter anderem PFA-Auskleidung, CAM sowie Technik und Entwicklung: eigene Fotos, bearbeitet in Farbe und Schwarzweiss, kombiniert mit Produkt- und Betriebsbildern und Grafiken wie der Weltkarte.
-- **Kantine (2026):** bestehende Plakate mit Mitarbeitenden aktualisiert und als Stoffbilder produziert.
+- **Kantine (2026) ✅ (Yana 05.10.2026):** bestehende Plakate mit Mitarbeitenden von Yana aktualisiert, mit neuen, von ihr geschossenen Fotos, und als Stoffbilder produziert.
 - **Bilder 📌:** Raum vorher (Foto vorhanden), Layout-Varianten, Rendering, fertiger Raum (❓ Fotos folgen, Yana 06.10.2026), Paneele der Abteilungen. Erkennbare Mitarbeitende nur mit Einverständnis.
 - Nicht verwenden: Preise, Offerten, Namen von Lieferanten und Mitarbeitenden.
 
