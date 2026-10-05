@@ -685,7 +685,17 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 - **GOLDINGER weitere Print:** Jahresessen-Einladungen Okt. 2021 (Farb-/Designvarianten, Entwürfe); Visitenkarte; Anmeldetalon Infoabende 2023; Hausmagazin Frühling 2023 (Editorial, Infoabende-Text 2022 vs. 2023, Ausblick 2023; Editorial mit Vermerk «Wortwahl Winkler» ❓ externe Texterin?); Lieferspezifikationen für Zeitungsbeilagen (Hausmagazin als Beilage).
 - **GOLDINGER WEGA:** Stand 2022 (dunkelblaue Paneele, Objektfotos, Theke) = **«vorher»**; neu 2023 = «wände neu.jpg» = **«nachher»**; Anmeldung und Messeplan WEGA 2023 (28.9.–2.10.2023); Messewand Kradolf (Neubauprojekt, Feb. 2023). Sunneberg-Flyer 2019 = vor Yanas Zeit (evtl. Referenz für den alten Stil).
 - **CP Weihnachten 2026 (Ergänzung):** finale Karten 1.10.2026: A- und B-Kunden je Du/Sie, 6-seitig A5, DE/EN/FR; Mitarbeitende 4-seitig DE/EN; blaues Cover, verschneite Berge, Rentierschlitten mit Pumpe, Rätsel «Strich für Strich zur Lösung», Rückseite mit sechs Standorten; Geschenke: Picknickdecke (A-Kunden, Mitarbeitende), RFID-Kartenhalter (B-Kunden); Umfrage im Verkauf (April/Mai 2026, 22 Ideen bewertet), Lieferantenvergleich, Druckerei selbst organisiert (2025 noch über Agentur). Koordination Druck/Umfrage laut E-Mails Leiterin NIM. ✅ Yana: Karten komplett gestaltet und getextet, Austausch mit Druckereien, im Team mitgeholfen. ✅ Französisch bewusst «vous» auch in der Du-Form (Yana 05.10.2026: in Frankreich siezt man Kundschaft auch per Du-Ansprache, ausser enge Beziehung).
-- **CP Songkran 2026:** Skizzen Nr. 1–6, Agentur-Offerte zur Umsetzung «einer der drei Kundenskizzen», Druck über Flyeralarm; finale Karte fehlt ❓ wer hat skizziert/gestaltet.
+- **CP Songkran 2026:** Skizzen Nr. 1–6, Agentur-Offerte zur Umsetzung «einer der drei Kundenskizzen», Druck über Flyeralarm. ✅ **Yana 05.10.2026: Songkran komplett von Yana.**
+
+#### TEXT-ENTWURF «Songkran-Grusskarte 2026» ✏️
+- **Stichworte:** Konzept · Illustration · Print
+- **Kurz:** Grusskarte zum thailändischen Neujahr
+- **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems ist mit einer Vertretung in Bangkok in Thailand präsent. ❓ Empfänger der Karte (Kundschaft in Thailand, Partner, Team?).
+- **Meine Rolle ✅:** Die Karte lag komplett bei mir: Ideen und Skizzen, Gestaltung, Druckvorbereitung und Bestellung.
+- **Umsetzung:** Sechs Skizzen als Ausgangspunkt (Jan. 2026), daraus zwei Entwürfe. Motiv: zwei Pagoden mit der thailändischen und der Schweizer Flagge, die Thailand und die Schweiz verbinden; dazu Wasserspritzer, Blüten und Sonne auf einem Verlauf von Gelb zu Blau, mit CP-Logo und «Happy Songkran Festival». Druck über eine Online-Druckerei (Feb. 2026).
+- **Kontext:** Zum Fest bestellte die Vertretung in Thailand zusätzlich ein Wellness-Geschenkset mit CP-Logo (März 2026, Abstimmung zur Farbe der Logo-Banderole mit Marketing). ❓ Teil von Yanas Arbeit oder nur Kontext?
+- **Bilder:** Skizzen und finale Karte (Vorderseite) 📌; aus Thumbs bekannt, Originale noch suchen.
+- Nicht verwenden: Preise, Bestellnummern, Adressen, Namen und Telefonnummern aus den E-Mails.
 - **CP weitere:** Lieferzeiten-Flyer DE/EN; Molten-Sulphur-Anwendungsblatt; Sammelbanner Messen DE/EN/FR; Panels zur Firmengeschichte (Aug. 2026, vermutlich Wandpaneele); Weltkarte mit Farbvarianten (schwarz, hellgrün, grün, grau, blau) → Auswahl → Sprachversionen (guter Prozess); Fotoshooting Betrieb Aug. 2026 und Mai 2026 (Dateien zu gross, nicht angesehen); Firmenprofil-Präsentation 2026 (77 MB, nicht angesehen).
 
 #### TEXT-ENTWURF «GOLDINGER Hausmagazin» (Frühere Projekte) ✏️
