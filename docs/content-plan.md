@@ -689,11 +689,11 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 
 #### TEXT-ENTWURF «Songkran-Grusskarte 2026» ✏️
 - **Stichworte:** Konzept · Illustration · Print
-- **Kurz:** Grusskarte zum thailändischen Neujahr
-- **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems ist mit einer Vertretung in Bangkok in Thailand präsent. ❓ Empfänger der Karte (Kundschaft in Thailand, Partner, Team?).
+- **Kurz:** Grusskarte zum thailändischen Neujahr für die Tochterfirma in Thailand
+- **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems hat in Thailand eine Tochterfirma; die Karte ging an sie (✅ Yana 05.10.2026).
 - **Meine Rolle ✅:** Die Karte lag komplett bei mir: Ideen und Skizzen, Gestaltung, Druckvorbereitung und Bestellung.
 - **Umsetzung:** Sechs Skizzen als Ausgangspunkt (Jan. 2026), daraus zwei Entwürfe. Motiv: zwei Pagoden mit der thailändischen und der Schweizer Flagge, die Thailand und die Schweiz verbinden; dazu Wasserspritzer, Blüten und Sonne auf einem Verlauf von Gelb zu Blau, mit CP-Logo und «Happy Songkran Festival». Druck über eine Online-Druckerei (Feb. 2026).
-- **Kontext:** Zum Fest bestellte die Vertretung in Thailand zusätzlich ein Wellness-Geschenkset mit CP-Logo (März 2026, Abstimmung zur Farbe der Logo-Banderole mit Marketing). ❓ Teil von Yanas Arbeit oder nur Kontext?
+- **Kontext:** Zum Fest bestellte die Tochterfirma in Thailand zusätzlich ein Wellness-Geschenkset mit CP-Logo (März 2026, Abstimmung zur Farbe der Logo-Banderole mit Marketing). ❓ Teil von Yanas Arbeit oder nur Kontext?
 - **Bilder:** Skizzen und finale Karte (Vorderseite) 📌; aus Thumbs bekannt, Originale noch suchen.
 - Nicht verwenden: Preise, Bestellnummern, Adressen, Namen und Telefonnummern aus den E-Mails.
 - **CP weitere:** Lieferzeiten-Flyer DE/EN; Molten-Sulphur-Anwendungsblatt; Sammelbanner Messen DE/EN/FR; Panels zur Firmengeschichte (Aug. 2026, vermutlich Wandpaneele); Weltkarte mit Farbvarianten (schwarz, hellgrün, grün, grau, blau) → Auswahl → Sprachversionen (guter Prozess); Fotoshooting Betrieb Aug. 2026 und Mai 2026 (Dateien zu gross, nicht angesehen); Firmenprofil-Präsentation 2026 (77 MB, nicht angesehen).
