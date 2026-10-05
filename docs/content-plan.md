@@ -917,6 +917,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 ---
 
 ## 9. Merkliste für später 📌
+- ✅ **Texte bleiben änderbar (Yana 05.10.2026):** Freigegebene Texte (✅) gelten als Arbeitsstand. Wenn die Website im Gesamtbild steht, gehen wir alle Texte nochmals durch und passen an, was nicht gefällt.
 
 - [ ] **Resultate und messbare Werte** pro Case einholen (Leads, Teilnehmende, Anmeldungen, Reichweiten, Stückzahlen, Feedback)
 - [ ] **LinkedIn-Follower-Entwicklung** (Yana ist sehr aktiv, Wachstum belegen: Zeitraum, Zahlen von–bis, persönliches Profil oder CP-Seite?)
