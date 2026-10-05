@@ -851,14 +851,14 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
   - *Stärkste Stücke:* Molten-Sulphur-Serie (Broschüre, Anzeige, Flyer) · Lieferzeiten-Flyer · Weltkarte und Zeitstrahl · HEV-Anzeige 2023 · Infoabende-Serie · Grünblick-Flyer und Logo · 1.-August-Grafik.
   - *Vorschlag Gliederung Case «Werbung: Print & Digital»:* Print-Anzeigen (CP + GOLDINGER) · Fachartikel & PR (CP) · Digitale Werbung (Banner, Social, Signaturen). Molten-Sulphur-Serie als durchgehende Kampagne (Anzeige → Roll-up → Rückwand → Broschüre) prominent zeigen. Weltkarte, Zeitstrahl, Icons → Case «Infografiken & Karten». Songkran → kleine Card.
 #### TEXT-ENTWURF Case «Werbung: Print & Digital» (CP Pump Systems) ✏️
-- **Stichworte:** Anzeigen · Kampagne · Banner
+- **Stichworte:** Anzeigen · Kampagne · Banner · Anwendungsbericht
 - **Kurz:** Eine Botschaft, viele Formate: von der Fachzeitschrift bis zur E-Mail-Signatur
 - **Ausgangslage:** CP Pump Systems wirbt dort, wo Fachleute aus Chemie, Düngemittel- und Prozessindustrie lesen und sich informieren: in Fachzeitschriften, Messekatalogen, auf Fachportalen und per E-Mail. Jede Anzeige muss in Sekunden zeigen, welches Problem die Pumpen lösen.
 - **Meine Rolle ✏️ (Regel: Design ab 2024 von Yana):** Ich gestalte die Anzeigen und digitalen Werbemittel von der ersten Headline-Variante bis zur Druckdatei und passe sie für jedes Format und jede Sprache an.
 - **Leitkampagne «Molten Sulphur» (2025–2026):** Anzeige in World Fertilizer «Sulphur at the perfect temperature» (Sept. 2025, drei Headline-Varianten im Entwurf) → Roll-up → Messe-Rückwand «Keep Your Molten Sulphur Flowing» (CRU Berlin 2026) → Broschüre, Flyer und US-Letter-Version (Sept. 2026). Eine Botschaft, durchgehend erzählt.
 - **Weitere Print-Anzeigen:** Katalog-Anzeigen der Messen (u. a. Petrochymia, ChemUK); Flyer «Sofort verfügbare Pumpensysteme» (DE/EN, April 2026).
 - **Digital:** E-Mail-Banner und -Signaturen zu jeder Messe, Web-Banner für Messeportale, Sammelbanner «Nos prochains salons professionnels» (DE/EN/FR, Sept. 2026), LinkedIn-Grafiken und -Texte (u. a. «Happy Birthday Schwiiz!» zum 1. August).
-- **Fachartikel:** ✅ EUREKA auslassen (Yana 05.10.2026). Blogbeitrag zu dichtungslosen Pumpen für saures Prozesswasser (Mai 2026, DE/EN/FR) ❓ Yanas Anteil.
+- **Anwendungsbericht ✅ (Yana 05.10.2026: von Yana, fachliche Unterstützung beim Text durch das Verkaufsteam):** «Dichtungslose Magnetkupplungspumpen für die Förderung von saurem Prozesswasser» (Website-Blog, April/Mai 2026, DE/EN/FR): Referenzprojekt aus der Düngemittelproduktion, drei MKP-Pumpen für ein Pondwasser-Rückführungssystem; Aufbau Ausgangslage → Lösung → Gründe → technische Kennwerte. Formulierung im Case: «Den Anwendungsbericht verfasste ich mit fachlicher Unterstützung des Verkaufsteams und veröffentlichte ihn in drei Sprachen.» EUREKA auslassen ✅.
 - **GOLDINGER-Inserate** stehen im Case «Redesigns Print» (Frühere Projekte), nicht hier.
 - **Bilder 📌:** Anzeige World Fertilizer mit Headline-Varianten, Kampagnenstrecke Molten Sulphur (Anzeige, Rückwand, Broschüre nebeneinander), Banner-Set einer Messe, Sammelbanner.
 - 📌 GOLDINGER: viele Redesigns von Yana → als **Vorher/Nachher** zeigen (Idee Yana 04.10.2026).
