@@ -466,14 +466,11 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   - *Idee und Vorgehen:* Eine Einladungskampagne sollte Kunden gezielt an den Stand bringen: Drei Mailings, ein Reminder und eine Dankesmail luden dazu ein, vorab ein Geschenk zu wählen und es am Stand persönlich abzuholen. Vor Ort sorgten ein Buzzer Game, ein Wettbewerb um die schnellste Pumpenmontage, und eine Live-Demo für Gespräche. Schweizer Schokolade als Giveaway sowie Schweizer Fleisch und Käseplätzchen im Catering unterstrichen die Herkunft von CP.
   - *Umsetzung:* Mailings und Einladungsmanagement · Geschenk-Ablauf am Stand · Infopanels zu den Exponaten · Folie für den Buzzer-Tisch · Giveaways · Namensschilder und Dresscode · Hotel und Anreise für Standteam und Besuchende · Messebriefing mit Schichtplänen · Lead-Formular und Erfassung der Leads
   - *Ergebnis:* 📌 später (Zahlen von Yana)
-  - *Bilder ✏️ (Vorschlag 06.10.2026, Quelle Drive «Achema», Fotos «CP-Pumpen-Achema24-PVM-Production-web-1…9», professioneller Messefotograf → Bildrechte/Credit klären 📌):*
-    - Titelbild: Standübersicht mit Rundbanner (web-5; Alternative web-4), Personen nur klein im Hintergrund
-    - Buzzer Game: Hände an der Pumpe, roter Buzzer (web-3), keine Gesichter
-    - Exponat: blaue Pumpe aufgeschnitten (web-8), Hintergrund unscharf
-    - Eigene Arbeit: E-Mail-Banner «Halle 8, Stand F28» (DE) · Folie Buzzer-Tisch (1800 × 2200 mm)
-    - Nicht verwenden: Bilder mit erkennbaren Gesichtern (web-1, 2, 6, 7, 9), ausser mit Einverständnis
-    - ✅ Feedback Yana 06.10.2026: **möglichst wenige Gesichter** → Personen im Titelbild (web-4/5) unscharf machen oder zuschneiden; web-8 auf die Pumpe zuschneiden.
-    - ✅ **Panels und Folien als Mockup** zeigen, nicht als flache Druckdatei (z. B. Panel im Raum, Folie auf dem Tisch), dazu ein **Ausschnitt aus dem Standfoto, der zeigt, wo sie hängen** (z. B. Panel «Safety first» oben aus web-9, ohne Personen). Gilt als Regel für alle Messen: Druckdateien von Wänden, Panels, Roll-ups → Mockup + Einsatz-Foto. 📌 Mockups in der Bild-/Designphase erstellen.
+  - *Bilder ✏️ v2 (06.10.2026, nach Feedback Yana: weniger Bilder, wenig Gesichter, «wie eine Idee lebendig wird»):*
+    1. **Plan → Realität** (Schieberegler): isometrischer Standplan der Standbau-Agentur (Konzept-PDF S. 3, ohne Agenturnamen) neben dem fertigen Stand (Foto web-4; Personen von hinten sind okay, erkennbare Gesichter unscharf).
+    2. **Detail:** Buzzer Game, nur Hände an der Pumpe (web-3).
+    3. **Eigene Arbeit:** E-Mail-Banner «Halle 8, Stand F28».
+    - Quelle Fotos: professioneller Messefotograf → Bildrechte/Credit klären 📌.
 - **Ergebnis:** 📌 später (Zahlen/Resultate)
 
 #### ACHEMA 2024: Funde aus Yanas Drive-Ordner (03.10.2026)
@@ -1003,6 +1000,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 ---
 
 ## 9. Merkliste für später 📌
+- ✅ **Bild-Regeln (Yana 06.10.2026):** pro Projekt **wenige, starke Bilder (max. 3–4)**; Erzählung **«Idee → Umsetzung → Detail»** (Skizze, Plan, Mockup oder Entwurf neben dem fertigen Ergebnis, gerne als Schieberegler); **keine erkennbaren Gesichter** (Personen von hinten sind okay, sonst unscharf/zuschneiden); Druckdateien von Wänden, Panels, Folien, Roll-ups als **Mockup**, ergänzt durch einen Ausschnitt, wo sie im Einsatz sind.
 - ✅ **Texte bleiben änderbar (Yana 05.10.2026):** Freigegebene Texte (✅) gelten als Arbeitsstand. Wenn die Website im Gesamtbild steht, gehen wir alle Texte nochmals durch und passen an, was nicht gefällt.
 
 - [ ] **Resultate und messbare Werte** pro Case einholen (Leads, Teilnehmende, Anmeldungen, Reichweiten, Stückzahlen, Feedback)
