@@ -60,7 +60,8 @@ figure{margin:0;display:grid;gap:8px;min-width:0}
 dialog{border:0;border-radius:14px;padding:0;max-width:min(1100px,94vw);width:100%;background:var(--surface);color:var(--ink)}
 dialog::backdrop{background:rgba(10,14,12,.75)}
 .lb{display:grid;gap:12px;padding:16px}
-.lb img{max-height:72vh;object-fit:contain;background:#fff;border-radius:6px}
+.lbScroll{max-height:74vh;overflow:auto;border-radius:6px;background:#fff}
+.lbScroll img{max-width:820px;margin:0 auto}
 .lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
 .lbBar button{font:500 .9rem var(--body);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
@@ -107,8 +108,8 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
         <figure><div class="frame wide"><img src="img/banner.jpg" alt="E-Mail-Banner zur ACHEMA 2024"></div><figcaption class="cap">E-Mail-Banner der Einladung</figcaption></figure>
       </div>
       <button class="tabletBtn" data-gallery="mail" aria-haspopup="dialog">
-        <div class="tablet mailframe"><div class="frame"><img src="img/mail3.jpg" alt="Mailing zur ACHEMA 2024: Einladung mit Geschenkwahl"></div></div>
-        <span class="open">Mailing ansehen</span>
+        <div class="tablet mailframe"><div class="frame"><img src="img/mail3_full.jpg" alt="Mailing zur ACHEMA 2024: Einladung mit Geschenkwahl"></div></div>
+        <span class="open">Ganzes Mailing ansehen</span>
       </button>
     </div>
   </section>
@@ -202,7 +203,7 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
 
 <dialog id="lb" aria-label="Messebriefing">
   <div class="lb">
-    <img id="lbImg" src="" alt="">
+    <div class="lbScroll" id="lbScroll"><img id="lbImg" src="" alt=""></div>
     <div class="lbBar">
       <span id="lbCap"></span>
       <button id="prev">Zurück</button><button id="next">Weiter</button><button id="close">Schliessen</button>
@@ -214,11 +215,11 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
 <script>
 const G={
  briefing:[["img/br_plan.jpg","Standplan"],["img/br_ablauf.jpg","Ablauf der Geschenk-Abholung"],["img/br_dresscode.jpg","Dresscode in den CP-Farben"],["img/br_swiss.jpg","Verpflegung mit Swissness"],["img/br_lead.jpg","Lead-Erfassung"]],
- mail:[["img/mail3.jpg","Mailing 3, englische Version"],["img/banner.jpg","E-Mail-Banner"]],
+ mail:[["img/mail3_full.jpg","Mailing 3, englische Version (zum Scrollen)"],["img/banner.jpg","E-Mail-Banner"]],
  ball:[["img/ballmuster.jpg","Das Muster"],["img/ballvorlage.jpg","Die Vorlage mit 32 Feldern"],["img/ball.jpg","Das fertige Design"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
-function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
+function show(){document.getElementById("lbScroll").scrollTop=0;im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
 function open(g,n){pages=G[g];i=n||0;th.style.gridTemplateColumns=`repeat(${pages.length},minmax(0,120px))`;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
 document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
 document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
