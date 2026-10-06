@@ -66,15 +66,36 @@ dialog::backdrop{background:rgba(10,14,12,.75)}
 .lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
 .lbBar button{font:700 .9rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
 .thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:6px}
-.thumbs button{all:unset;cursor:pointer;border-radius:4px;overflow:hidden;border:2px solid transparent;aspect-ratio:3/4;background:#fff}
-.thumbs button[aria-current="true"]{border-color:var(--accent)}.thumbs img{width:100%;height:100%;object-fit:cover}
+.thumbs button{all:unset;cursor:pointer;border-radius:4px;overflow:hidden;border:2px solid transparent;aspect-ratio:1;background:#fff}
+.thumbs button[aria-current="true"]{border-color:var(--accent)}.thumbs img{width:100%;height:100%;object-fit:contain}
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:stretch}
+.fs{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.fs b{font:700 1.7rem/1 var(--font);color:var(--ink)}.fs.hl b{color:var(--accent)}.fs span{font-size:.88rem;color:var(--muted)}
+.fa{display:flex;align-items:center;color:var(--muted);font-size:1.3rem}
+.ideas{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.idea figcaption{font-size:.82rem;color:var(--muted);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.idea.chosen .frame{outline:3px solid var(--accent);outline-offset:-3px}.idea.chosen figcaption{color:var(--ink);font-weight:700}
+.idea figcaption span{font-size:.7rem;background:var(--accent);color:#fff;border-radius:99px;padding:1px 8px;font-weight:700}
+.frame.sq{aspect-ratio:1}.frame.sq.contain img{padding:6px}
+.tablet{background:#222;border-radius:18px;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,.18)}.tablet .frame{border-radius:8px}
+.cardsel{display:grid;gap:12px}
+.cardBtn{all:unset;cursor:pointer;display:grid;gap:6px;font-size:.82rem;color:var(--muted);text-align:center}
+.cardBtn img{aspect-ratio:875/1241;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:4px;box-shadow:0 4px 14px rgba(0,0,0,.08);transition:transform .2s}
+.cardBtn:hover img,.cardBtn:focus-visible img{transform:translateY(-3px);outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.cardBtn img{transition:none}}
+.linkBtn{all:unset;cursor:pointer;justify-self:end;font-weight:700;color:var(--accent);font-size:.92rem}
+.linkBtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.specs div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.specs b{font-size:1.15rem}.specs span{font-size:.88rem;color:var(--muted)}
+@media (max-width:760px){.flow{grid-template-columns:1fr}.fa{justify-content:center;transform:rotate(90deg)}.ideas{grid-template-columns:repeat(3,1fr)}.specs{grid-template-columns:1fr 1fr}}
 ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
 @media (max-width:760px){.split,.g2,.sv{grid-template-columns:1fr}.g3{grid-template-columns:1fr 1fr}.bar{grid-template-columns:120px 1fr 40px}}
 </style>
 
 <div class="wrap">
-  <p class="note">Entwurf zur Anordnung. Die Karten sind die Druckdateien mit Seriendruck-Feldern; Anrede und Name werden pro Empfängerin und Empfänger eingesetzt. Versand im Dezember 2026.</p>
+  <p class="note">Entwurf zur Anordnung. Auf den Karten stehen Platzhalternamen («Frau Muster», «Anna»); im Druck wurden Anrede und Name per Seriendruck eingesetzt. Konzept-Präsentation aus dem Original nachgebaut. Versand im Dezember 2026.</p>
 
   <header class="hero">
     <p class="eyebrow">Kampagne · CP Pump Systems</p>
@@ -82,7 +103,7 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
     <div class="frame"><img src="img/hero.jpg" alt="Weihnachtskarte 2026: Vorderseite mit Rentierschlitten und CP-Pumpe, daneben die Innenseite"></div>
     <p class="lead">Jedes Jahr bedankt sich CP Pump Systems zu Weihnachten mit einem Geschenk, abgestimmt auf drei Zielgruppen: A-Kunden, B-Kunden und Mitarbeitende.</p>
     <p>2026 arbeitete ich im Team an der Kampagne mit. Gestaltung und Texte der Karten lagen komplett bei mir, ebenso die Abstimmung mit den Druckereien. Zudem holte ich die Offerten ein und koordinierte Bestellung und Lieferanten.</p>
-    <div class="facts"><span><b>3</b> Zielgruppen</span><span><b>3</b> Sprachen</span><span><b>Sie- und Du-Form</b></span><span><b>16</b> Antworten in der Umfrage</span></div>
+    <div class="facts"><span><b>3</b> Zielgruppen</span><span><b>3</b> Sprachen</span><span><b>Sie- und Du-Form</b></span><span><b>6</b> Kartensorten</span></div>
   </header>
 
   <section class="chapter">
@@ -91,14 +112,17 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
       <h2>Was bei der Kundschaft ankommt, weiss der Verkauf</h2>
       <p>Statt die Geschenke einfach festzulegen, fragte das Team zuerst den Verkauf und die Vertretungen: Welche Ideen kommen bei den Kunden an, und wie viele Geschenke braucht es? Die Favoriten wurden danach bei drei Anbietern nach Preis, Druckfläche, Lieferzeit und Herkunft verglichen. Ich holte die Offerten ein und koordinierte die Anbieter bis zur Lieferung.</p>
     </div>
-    <div class="survey" role="group" aria-label="Ergebnis der Umfrage">
-      <div class="legend"><span><i style="background:var(--accent)"></i>gewählt</span><span><i style="background:var(--soft)"></i>weitere Ideen</span></div>
-      <div class="sv">
-        <div><h3>Geschenkideen A-Kunden</h3><p class="sub">Anteil der Bewertungen 4 oder 5 von 5</p><div id="svA"></div></div>
-        <div><h3>Geschenkideen B-Kunden</h3><p class="sub">Anteil der Bewertungen 4 oder 5 von 5</p><div id="svB"></div></div>
-      </div>
-      <p class="cap">Umfrage im April 2026 bei Verkauf und Ländern, 16 Antworten. Jede Idee wurde von 1 bis 5 bewertet.</p>
+    <div class="flow">
+      <div class="fs"><b>18</b><span>Geschenkideen gesammelt, mit Bild und Eckdaten</span></div>
+      <div class="fa" aria-hidden="true">→</div>
+      <div class="fs"><b>Umfrage</b><span>Verkauf und Länder bewerten die Ideen und nennen den Bedarf</span></div>
+      <div class="fa" aria-hidden="true">→</div>
+      <div class="fs"><b>10 × 3</b><span>Favoriten bei drei Anbietern verglichen, nach acht Kriterien</span></div>
+      <div class="fa" aria-hidden="true">→</div>
+      <div class="fs hl"><b>2</b><span>Geschenke gewählt: Picknickdecke und Kartenhalter</span></div>
     </div>
+    <div class="ideas"><figure class="idea"><div class="frame sq contain"><img src="img/idee_1.jpg" alt="Tagungsmappe"></div><figcaption>Tagungsmappe</figcaption></figure><figure class="idea chosen"><div class="frame sq contain"><img src="img/idee_4.jpg" alt="Picknickdecke"></div><figcaption>Picknickdecke<span>gewählt</span></figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_5.jpg" alt="Kuscheldecke"></div><figcaption>Kuscheldecke</figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_6.jpg" alt="Untersetzer"></div><figcaption>Untersetzer</figcaption></figure><figure class="idea chosen"><div class="frame sq contain"><img src="img/idee_9.jpg" alt="Kartenhalter"></div><figcaption>Kartenhalter<span>gewählt</span></figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_12.jpg" alt="Mütze"></div><figcaption>Mütze</figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_13.jpg" alt="Handschuhe"></div><figcaption>Handschuhe</figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_14.jpg" alt="Multitool"></div><figcaption>Multitool</figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_15.jpg" alt="Handwärmer"></div><figcaption>Handwärmer</figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_16.jpg" alt="Brillenputztuch"></div><figcaption>Brillenputztuch</figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_20.jpg" alt="Adventskalender"></div><figcaption>Adventskalender</figcaption></figure><figure class="idea"><div class="frame sq contain"><img src="img/idee_22.jpg" alt="Tischkalender"></div><figcaption>Tischkalender</figcaption></figure></div>
+    <p class="cap">Auszug aus der Ideensammlung. Verglichen wurden Preis, Druckfläche, Grösse, Gewicht, Lieferzeit, Herkunftsland, Druckart und Material.</p>
   </section>
 
   <section class="chapter">
@@ -135,18 +159,28 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
     </div>
     <div class="split" style="align-items:center">
       <div class="text">
+        <h2>Das Konzept</h2>
+        <p>Am Anfang stand eine Konzept-Präsentation: Moodboards zu möglichen Kartendesigns, die Idee mit dem Zahlen-verbinden-Rätsel, drei Varianten für den Innentext und ein Zeitplan bis zum Versand. Im Konzept war die Schneekugel mit Pumpe der Favorit; umgesetzt wurde schliesslich der Schlitten, der die Pumpe durch die Nacht zieht.</p>
+      </div>
+      <button class="tabletBtn" data-gallery="konzept" aria-haspopup="dialog">
+        <div class="tablet"><div class="frame"><img src="img/konzept_k1.jpg" alt="Titelseite der Konzept-Präsentation Weihnachtsmailing"></div></div>
+        <span class="open">Konzept ansehen · 8 Seiten</span>
+      </button>
+    </div>
+    <div class="split" style="align-items:center">
+      <div class="text">
         <h2>Drei Zielgruppen, eigene Worte</h2>
         <p>Ich habe alle Texte geschrieben: für A-Kunden «Zeit für Dankbarkeit», für B-Kunden «Die schönste Zeit des Jahres» und für die Mitarbeitenden «Gemeinsam stark». Die Kundenkarten gibt es auf Deutsch, Englisch und Französisch, jeweils in der Sie- und der Du-Form, die Mitarbeiterkarte auf Deutsch und Englisch.</p>
         <p>Die Karten sind mit Anrede und Namen personalisiert, per Seriendruck.</p>
       </div>
-      <button class="tabletBtn" data-gallery="karten" aria-haspopup="dialog">
-        <div class="g3" style="gap:10px">
-          <div class="frame portrait contain"><img src="img/karteA-5.jpg" alt="Innenseite A-Kunden: Zeit für Dankbarkeit"></div>
-          <div class="frame portrait contain"><img src="img/karteB-5.jpg" alt="Innenseite B-Kunden: Die schönste Zeit des Jahres"></div>
-          <div class="frame portrait contain"><img src="img/karteMA-4.jpg" alt="Innenseite Mitarbeitende: Gemeinsam stark"></div>
+      <div class="cardsel">
+        <div class="g3" style="gap:12px">
+          <button class="cardBtn" data-gallery="karten" data-n="2" aria-label="Karte A-Kunden gross ansehen"><img src="img/karteA-5.jpg" alt="Innenseite A-Kunden: Zeit für Dankbarkeit"><span>A-Kunden</span></button>
+          <button class="cardBtn" data-gallery="karten" data-n="5" aria-label="Karte B-Kunden gross ansehen"><img src="img/karteB-5.jpg" alt="Innenseite B-Kunden: Die schönste Zeit des Jahres"><span>B-Kunden</span></button>
+          <button class="cardBtn" data-gallery="karten" data-n="10" aria-label="Karte Mitarbeitende gross ansehen"><img src="img/karteMA-4.jpg" alt="Innenseite Mitarbeitende: Gemeinsam stark"><span>Mitarbeitende</span></button>
         </div>
-        <span class="open">Alle Karten ansehen</span>
-      </button>
+        <button class="linkBtn" data-gallery="karten" data-n="0">Alle 13 Kartenseiten ansehen →</button>
+      </div>
     </div>
   </section>
 
@@ -173,11 +207,17 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
       <h2>Vom Druck bis zum Versand</h2>
       <p>Dazu kamen die Druckvorbereitung mit der Druckerei für Karten, Adressetiketten und Couverts, die Bestellung der Geschenke und die Organisation des Versands.</p>
     </div>
+    <div class="specs">
+      <div><b>A5, 6-seitig</b><span>Kundenkarte mit Wickelfalz, Mitarbeiterkarte 4-seitig</span></div>
+      <div><b>300 g/m²</b><span>FSC-zertifiziertes Papier, 4-farbig gedruckt</span></div>
+      <div><b>Personalisiert</b><span>Anrede und Name pro Karte im Seriendruck</span></div>
+      <div><b>Komplett-Set</b><span>Karten, Adressetiketten und Couverts C5 aus einer Hand</span></div>
+    </div>
   </section>
 
   <section class="chapter">
     <p class="eyebrow">Meine Aufgaben</p>
-    <ul class="tasks"><li>Kartendesign</li><li>Illustration</li><li>Texte in drei Zielgruppen</li><li>Sie- und Du-Form</li><li>Seriendruck</li><li>Abstimmung mit den Druckereien</li><li>Offerten</li><li>Koordination der Lieferanten</li><li>Bestellung</li><li>Versand</li></ul>
+    <ul class="tasks"><li>Konzept</li><li>Kartendesign</li><li>Illustration</li><li>Texte in drei Zielgruppen</li><li>Sie- und Du-Form</li><li>Seriendruck</li><li>Abstimmung mit den Druckereien</li><li>Ideensammlung</li><li>Offerten und Anbietervergleich</li><li>Koordination der Lieferanten</li><li>Bestellung</li><li>Versand</li></ul>
   </section>
 </div>
 
@@ -190,18 +230,13 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
 </dialog>
 
 <script>
-// Umfrage: Anzahl Bewertungen 4 oder 5 (von 16)
-const A=[["Picknickdecke",9,1],["Tagungsmappe",8],["Notizbuch A4",7],["Schneidebrett",7],["Kühltasche",7],["Kuscheldecke",4],["Untersetzer",3]];
-const B=[["Kartenhalter",8,1],["Tischkalender",7],["Mütze",6],["Multitool",6],["Handschuhe",4],["Brillenputztuch",4],["Handwärmer",2],["Mausmatte",2]];
-function bars(id,d){document.getElementById(id).innerHTML=d.map(([n,v,w])=>`<div class="bar${w?' win':''}" title="${n}: ${v} von 16 Antworten mit 4 oder 5"><span>${n}</span><span class="t"><i style="width:${v/16*100}%"></i></span><b>${Math.round(v/16*100)} %</b></div>`).join('')}
-bars('svA',A);bars('svB',B);
 
 // Galerie
-const G={karten:[["img/karteA-3.jpg","Vorderseite Kundenkarte"],["img/karteA-4.jpg","Rätsel-Seite"],["img/karteA-5.jpg","A-Kunden · Deutsch · Zeit für Dankbarkeit"],["img/karteA-1.jpg","A-Kunden · Englisch · Time for Gratitude"],["img/karteA-6.jpg","A-Kunden · Französisch · Le temps de la gratitude"],["img/karteB-5.jpg","B-Kunden · Deutsch · Die schönste Zeit des Jahres"],["img/karteB-1.jpg","B-Kunden · Englisch · The Most Wonderful Time of the Year"],["img/karteB-6.jpg","B-Kunden · Französisch · La plus belle période de l’année"],["img/karteA-2.jpg","Rückseite mit allen Standorten"],["img/karteMA-2.jpg","Mitarbeitende · Vorderseite"],["img/karteMA-4.jpg","Mitarbeitende · Deutsch · Gemeinsam stark"],["img/karteMA-3.jpg","Mitarbeitende · Englisch · Stronger Together"],["img/karteMA-1.jpg","Mitarbeitende · Rätsel und Rückseite"]]};
+const G={konzept:[["img/konzept_k1.jpg","Titelseite"],["img/konzept_k2.jpg","Moodboard: grafisch und festlich"],["img/konzept_k3.jpg","Moodboard: Winterwelten in 3D"],["img/konzept_k4.jpg","Moodboard: Geschenk und Schneekugel"],["img/konzept_k5.jpg","Zahlen-verbinden-Rätsel"],["img/konzept_k6.jpg","Textvorschläge"],["img/konzept_k7.jpg","Favorit im Konzept"],["img/konzept_k8.jpg","Zeitplan"]],karten:[["img/karteA-3.jpg","Vorderseite Kundenkarte"],["img/karteA-4.jpg","Rätsel-Seite"],["img/karteA-5.jpg","A-Kunden · Deutsch · Zeit für Dankbarkeit"],["img/karteA-1.jpg","A-Kunden · Englisch · Time for Gratitude"],["img/karteA-6.jpg","A-Kunden · Französisch · Le temps de la gratitude"],["img/karteB-5.jpg","B-Kunden · Deutsch · Die schönste Zeit des Jahres"],["img/karteB-1.jpg","B-Kunden · Englisch · The Most Wonderful Time of the Year"],["img/karteB-6.jpg","B-Kunden · Französisch · La plus belle période de l’année"],["img/karteA-2.jpg","Rückseite mit allen Standorten"],["img/karteMA-2.jpg","Mitarbeitende · Vorderseite"],["img/karteMA-4.jpg","Mitarbeitende · Deutsch · Gemeinsam stark"],["img/karteMA-3.jpg","Mitarbeitende · Englisch · Stronger Together"],["img/karteMA-1.jpg","Mitarbeitende · Rätsel und Rückseite"]]};
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
 function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
 function open(g,n){pages=G[g];i=n||0;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
-document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery)));
+document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
 document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
 document.getElementById('next').onclick=()=>{i=(i+1)%pages.length;show()};
 document.getElementById('close').onclick=()=>d.close();
