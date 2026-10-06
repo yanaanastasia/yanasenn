@@ -224,15 +224,28 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag neu (Yana 06.10.2026: keine GOLDINGER-Sammelkachel, sinnvoll nach Themen unterteilen):** Kacheln nicht nach Arbeitgeber gruppieren, sondern nach Thema (passend zu den Filtern). Jede Kachel trägt eine Zeile mit Auftraggeber und Jahr (z. B. «CP Pump Systems · 2026», «GOLDINGER Immobilien · 2023», «Freelance · 2023», «Kursprojekt»). Neuere Arbeit steht jeweils zuerst.
-- **Messen:** Internationale Messen 2024–2026 (CP) · Messen WEGA und Immozionale (GOLDINGER)
-- **Kampagnen:** Weihnachtskampagne 2026 (CP) · Songkran-Grusskarte (CP) · Infoabende und Tage der offenen Tür (GOLDINGER)
-- **Print:** Broschüren und Factsheets (CP) · Werbung: Print & Digital (CP) · Hausmagazin als Online-Magazin (GOLDINGER) · Redesigns Print, Vorher/Nachher (GOLDINGER) · Infografiken und Karten (CP)
-- **Video & Content:** Fotografie (CP) · Social Media, Reels und Immobilienvideos (GOLDINGER) · Animierte Erklärvideos, IPA (GOLDINGER) · Halloween-Videoflyer BAILA BASILEA (Freelance)
-- **Digital:** Website und Newsletter (CP)
-- **Marke im Raum & Objekte:** Raumgestaltung (CP) · Giveaways und Werbeartikel (CP und GOLDINGER, inkl. Fruchtgummis)
-- **Kursprojekt:** Trailer Park – Street Food (Markenidentität)
-- Folge: Die Liste «Frühere Projekte» und der Entscheid in Kap. 2 (GOLDINGER unter «Frühere Projekte») würden ersetzt; auf «Hi.» bleibt der Fokus auf neuerer Arbeit.
+**✏️ Vorschlag v2 (Yana 06.10.2026: keine GOLDINGER-Sammelkachel; Filter nach Art, z. B. Print):** Alle Kacheln in **einem Raster**, gefiltert **nach Art der Arbeit**. Eine Kachel kann mehrere Filter tragen (z. B. Infoabende = Print + Digital & Social). Auf jeder Kachel eine kleine Zeile mit Auftraggeber und Jahr («CP Pump Systems · 2026», «GOLDINGER Immobilien · 2023», «Freelance · 2023», «Kursprojekt»). Neuere Arbeit zuerst.
+- **Filter:** Alle · Messen & Events · Print · Digital & Social · Video & Foto · Raum & Objekte (ersetzt «Kampagnen» als Filter, weil Kampagne keine Art ist)
+- **Zuordnung:**
+  - Internationale Messen 2024–2026 (CP) → Messen & Events · Print
+  - WEGA und Immozionale (GOLDINGER) → Messen & Events · Print
+  - Weihnachtskampagne 2026 (CP) → Print · Raum & Objekte
+  - Songkran-Grusskarte (CP) → Print
+  - Infoabende und Tage der offenen Tür (GOLDINGER) → Messen & Events · Print · Digital & Social
+  - Broschüren und Factsheets (CP) → Print
+  - Werbung: Print & Digital (CP) → Print · Digital & Social
+  - Infografiken und Karten (CP) → Print · Digital & Social
+  - Hausmagazin, Online-Magazin (GOLDINGER) → Print
+  - Redesigns Print, Vorher/Nachher (GOLDINGER) → Print
+  - Website und Newsletter (CP) → Digital & Social
+  - Social Media, Reels und Immobilienvideos (GOLDINGER) → Digital & Social · Video & Foto
+  - Animierte Erklärvideos, IPA (GOLDINGER) → Video & Foto
+  - Halloween-Videoflyer BAILA BASILEA (Freelance) → Video & Foto · Digital & Social
+  - Fotografie (CP) → Video & Foto
+  - Raumgestaltung (CP) → Raum & Objekte · Video & Foto
+  - Giveaways und Werbeartikel (CP und GOLDINGER) → Raum & Objekte
+  - Trailer Park – Street Food (Kursprojekt) → Print · Raum & Objekte
+- Folge: «Frühere Projekte» als eigener Bereich entfällt; Filter in 6.0 werden ersetzt.
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
