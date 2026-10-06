@@ -790,6 +790,16 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Bilder 📌:** Inserate-Serie Infoabende (drei Formate), Infoabend-Flyer 2023, Grünblick-Flyer (ohne Logo als eigene Leistung), Story-Beispiel ohne erkennbare Personen.
 - Nicht verwenden: Preise, Namen und Telefonnummern von Mitarbeitenden, Fotos mit erkennbaren Gästen.
 
+#### TEXT-ENTWURF «GOLDINGER Messen WEGA und Immozionale» (Frühere Projekte, Kachel 5) ✏️
+- **Stichworte:** Messestand · Print · Giveaway · Video
+- **Kurz:** Ein neuer Messeauftritt für die regionalen Publikumsmessen
+- **Ausgangslage:** GOLDINGER war jedes Jahr an der WEGA und an der Immozionale vertreten. Der bisherige Stand zeigte viele kleine Objektplakate und wirkte unruhig. Gleichzeitig sollte die eher ältere Zielgruppe schon vor der Messe erfahren, dass sie am Stand ihre Immobilie bewerten lassen kann.
+- **Meine Rolle ✏️:** Ich gestaltete die Messewände neu, entwarf ein Mockup des Stands, plante die Werbung vor der Messe und gestaltete die Fruchtgummis als Giveaway.
+- **Umsetzung:** Königsblaue Paneele mit klaren Botschaften wie «Jetzt Immobilie direkt am Stand bewerten», Neubauprojekte und Geschäftsbereiche (2022/2023) · Inserate in den Wochen vor der Messe mit dem Angebot einer Immobilien-Bewertung in fünf Minuten am Stand, dazu Flyer in den Büros · Fruchtgummis in eigener Form und Grafik (2022 gelb/schwarz, 2023 blau) · ❓ Videos von der Messe.
+- **Vorher/Nachher:** siehe Kachel «Redesigns Print» (Messewände 2019 → 2022/2023).
+- **Bilder 📌:** Standfoto bzw. Mockup 2023 (ohne Personen), Wände neu, Inserat WEGA 2022, Fruchtgummi-Säckli.
+- Nicht verwenden: Preise (Wand «Kradolf»), Rechnungen, Anmeldungen, Fotos mit erkennbaren Gästen.
+
 #### TEXT-ENTWURF «GOLDINGER Redesigns Print» (Frühere Projekte, Kachel 7) ✏️
 - **Stichworte:** Redesign · Print · Corporate Design
 - **Kurz:** Faltmappe, Flyer, Inserate und Messewände in einer klaren Linie
