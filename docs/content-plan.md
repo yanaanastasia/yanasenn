@@ -992,7 +992,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - 📌 Vor dem Livegang nochmals entscheiden: volle Adresse oder Geschäfts- bzw. Postfachadresse (UWG Art. 3 verlangt eine Kontaktadresse; Datenschutzerklärung ebenso)
 - LinkedIn: `https://www.linkedin.com/in/yana-senn-331436173` ✅ (Yana 06.10.2026; Zusatz «?originalSubdomain=ch» weggelassen)
 - Telefon: ❓ (Empfehlung: nein)
-- CV-Download: ❓
+- CV-Download: ✅ nein (Yana 06.10.2026)
 
 ---
 
