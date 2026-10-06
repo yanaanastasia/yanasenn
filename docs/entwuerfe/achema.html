@@ -1,138 +1,188 @@
 <title>ACHEMA 2024 Projektseite</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap">
 <style>
-/* Layout: Entwurf einer Projektseite – grosses Titelbild, dann Kapitel Einladung, Plan → Stand, Am Stand, Hinter den Kulissen */
+/* Layout: Projektseite – Titelbild, Kapitel Einladung, Skizze → Stand, Am Stand, Briefing (Galerie zum Aufklappen), Aufgaben. Bilder pro Reihe immer gleich gross. */
 :root{
   --bg:#f7f8f6; --surface:#ffffff; --ink:#1b2320; --muted:#5d6964; --line:#dde2de; --accent:#1f5fa8; --green:#6aab2e;
   --display:"Fraunces", Georgia, serif; --body:"Instrument Sans", system-ui, sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--green:#9fd36a;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--green:#9fd36a;color-scheme:dark}
-body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body)}
-.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:72px}
-.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:80px}
+.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:0}
 h1{font:600 clamp(2.2rem,5vw,3.6rem)/1.05 var(--display);margin:0;text-wrap:balance}
 h2{font:600 clamp(1.5rem,3vw,2rem)/1.15 var(--display);margin:0;text-wrap:balance}
 .eyebrow{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0}
 p{margin:0;max-width:62ch}
-.lead{font-size:1.15rem;color:var(--ink)}
-.muted{color:var(--muted)}
-img{display:block;width:100%;height:auto;border-radius:6px}
+.lead{font-size:1.15rem}
+img{display:block;width:100%;height:auto}
+figure{margin:0;display:grid;gap:8px;min-width:0}
+.cap{font-size:.82rem;color:var(--muted)}
 .hero{display:grid;gap:22px}
-.hero img{aspect-ratio:16/8;object-fit:cover}
+.hero .frame{aspect-ratio:16/9}
 .facts{display:flex;flex-wrap:wrap;gap:8px 28px;font-size:.92rem;color:var(--muted)}
 .facts b{color:var(--ink);font-weight:600}
-.chapter{display:grid;gap:22px}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
-.split{display:grid;grid-template-columns:5fr 7fr;gap:36px;align-items:start}
-@media (max-width:760px){.two,.split{grid-template-columns:1fr}}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;display:grid;gap:10px;min-width:0}
-.cap{font-size:.82rem;color:var(--muted)}
-/* Vergleich Plan / Realität */
-.unused-compare{position:relative;overflow:hidden;border-radius:6px;aspect-ratio:16/9;background:#fff}
-.compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:0}
-.compare .top{clip-path:inset(0 calc(100% - var(--pos,50%)) 0 0)}
-.compare .top img{object-fit:contain;background:#fff}
-.compare .bar{position:absolute;top:0;bottom:0;left:var(--pos,50%);width:2px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
-.compare .lbl{position:absolute;top:10px;font-size:.75rem;background:rgba(0,0,0,.55);color:#fff;padding:3px 8px;border-radius:99px}
-.compare input{position:absolute;inset:auto 0 10px 0;width:60%;margin:0 auto;left:0;right:0}
+.chapter{display:grid;gap:24px}
+.text{display:grid;gap:14px}
+.split{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:start}
+/* Einheitliche Bildraster: alle Bilder einer Reihe gleich gross */
+.g2,.g3,.g5{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g5{grid-template-columns:repeat(5,1fr)}
+.frame{aspect-ratio:4/3;overflow:hidden;border-radius:6px;background:var(--surface)}
+.frame img{width:100%;height:100%;object-fit:cover}
+.frame.contain{background:#fff;border:1px solid var(--line)}
+.frame.contain img{object-fit:contain;padding:10px;box-sizing:border-box}
+.frame.portrait{aspect-ratio:3/4}
+.frame.tall{aspect-ratio:2/5.5}
+.frame.wide{aspect-ratio:auto}
+.frame.wide img{height:auto}
+.real{outline:3px solid var(--green);outline-offset:-3px}
+@media (max-width:760px){
+  .split,.g2{grid-template-columns:1fr}
+  .g3{grid-template-columns:1fr 1fr}
+  .g3 figure:first-child{grid-column:1/-1}
+  .g5{grid-template-columns:repeat(5,72%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+  .g5 figure{scroll-snap-align:start}
+}
+/* Briefing als Tablet zum Aufklappen */
+.tabletBtn{all:unset;cursor:pointer;display:grid;gap:10px;position:relative}
 .tablet{background:#222;border-radius:22px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.18)}
-.tablet img{border-radius:8px;background:#fff}
+.tablet .frame{border-radius:8px;background:#fff}
+.tablet .frame img{object-fit:contain}
+.tabletBtn .open{position:absolute;right:28px;bottom:28px;background:var(--accent);color:#fff;font:600 .9rem var(--body);padding:8px 14px;border-radius:99px}
+.tabletBtn:focus-visible .tablet{outline:3px solid var(--accent);outline-offset:4px}
+.tabletBtn:hover .open{filter:brightness(1.1)}
+dialog{border:0;border-radius:14px;padding:0;max-width:min(1100px,94vw);width:100%;background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(10,14,12,.75)}
+.lb{display:grid;gap:12px;padding:16px}
+.lb img{max-height:72vh;object-fit:contain;background:#fff;border-radius:6px}
+.lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
+.lbBar button{font:500 .9rem var(--body);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.lbBar button:focus-visible{outline:2px solid var(--accent)}
+.thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+.thumbs button{all:unset;cursor:pointer;border-radius:6px;overflow:hidden;border:2px solid transparent;aspect-ratio:4/3;background:#fff}
+.thumbs button[aria-current="true"]{border-color:var(--accent)}
+.thumbs img{width:100%;height:100%;object-fit:contain}
 ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
-.gifts{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.gifts img{aspect-ratio:1;object-fit:contain;background:var(--surface)}
 </style>
 
 <div class="wrap">
-  <p class="note">Entwurf zur Anordnung. Gesichter werden für die echte Seite unscharf gemacht.</p>
+  <p class="note">Entwurf zur Anordnung, Version 7. Gesichter werden für die echte Seite unscharf gemacht. Die Briefing-Seiten sind aus dem Original nachgebaut (ohne Namen, Hotel und Schichtpläne).</p>
 
   <header class="hero">
     <p class="eyebrow">Messen · CP Pump Systems</p>
     <h1>ACHEMA 2024 in Frankfurt</h1>
-    <img src="img/stand.jpg" alt="Der CP-Stand an der ACHEMA 2024 mit rundem Banner">
+    <div class="frame"><img src="img/hero.jpg" alt="Der CP-Stand an der ACHEMA 2024 mit rundem Banner und Exponaten"></div>
     <p class="lead">Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2800 Ausstellern aus über 50 Nationen. CP Pump Systems war fünf Tage lang mit einem eigenen Stand vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition».</p>
-    <p>Im Frühling 2024 übernahm ich das laufende Projekt. Ich überarbeitete die Planung und koordinierte den Auftritt bis zum letzten Messetag: von der Einladung der Kundschaft über Material, Versand und Verpflegung bis zum Team am Stand.</p>
-    <div class="card"><p class="eyebrow">Ziel</p><p>Bestehende Kundinnen und Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.</p></div>
+    <p>Im Frühling 2024 übernahm ich das laufende Projekt, überarbeitete die Planung und führte den Auftritt bis zum letzten Messetag: von der Einladung der Kundschaft über Material, Versand und Verpflegung bis zum Team am Stand.</p>
     <div class="facts"><span><b>108 m²</b> Stand</span><span><b>Halle 8</b> Frankfurt</span><span><b>10.–14. Juni</b> 2024</span><span><b>12</b> Personen am Stand</span></div>
   </header>
 
   <section class="chapter">
     <p class="eyebrow">1 · Die Einladung</p>
     <div class="split">
-      <div style="display:grid;gap:14px">
+      <div class="text">
         <h2>Ein Geschenk als Grund für den Besuch</h2>
-        <p>Eine Einladung allein bringt noch niemanden an den Stand. Deshalb verband die Kampagne die Einladung mit einem Geschenk: Drei Mailings, ein Reminder und eine Dankesmail luden die Kundschaft ein, vorab ein Geschenk zu wählen und es an der Messe persönlich abzuholen.</p>
+        <p>Die Einladung verband den Messebesuch mit einem Geschenk: Drei Mailings, ein Reminder und eine Dankesmail luden die Kundschaft ein, vorab ein Geschenk zu wählen und es an der Messe persönlich abzuholen.</p>
         <p>Zur Wahl standen eine SIGG-Flasche, ein Badetuch und ein Fussball, passend zur Fussball-EM in Deutschland, die am letzten Messetag begann. Den Ball gestaltete ich selbst: vom Muster über die Vorlage mit 32 Feldern bis zum fertigen Design in den Farben von CP.</p>
-        <p>Am Stand übergab die zuständige Verkäuferin oder der zuständige Verkäufer das Geschenk persönlich. So wurde aus der Abholung ein Gespräch.</p>
+        <p>Am Stand übergab die zuständige Verkäuferin oder der zuständige Verkäufer das Geschenk persönlich. So wurde aus jeder Abholung ein Gespräch.</p>
       </div>
       <div style="display:grid;gap:16px">
-        <img src="img/banner.jpg" alt="E-Mail-Banner zur ACHEMA 2024">
-        <div class="gifts" style="grid-template-columns:repeat(3,1fr)">
-          <figure style="margin:0"><img src="img/ballmuster.jpg" alt="Muster eines Fussballs" style="aspect-ratio:3/4;object-fit:cover"><figcaption class="cap">Muster</figcaption></figure>
-          <figure style="margin:0"><img src="img/ballvorlage.jpg" alt="Vorlage mit 32 Panels" style="aspect-ratio:3/4;object-fit:cover"><figcaption class="cap">Vorlage mit 32 Panels</figcaption></figure>
-          <figure style="margin:0"><img src="img/ball.jpg" alt="Fussball im CP-Design" style="aspect-ratio:3/4;object-fit:contain;background:#fff"><figcaption class="cap">Eigenes Design</figcaption></figure>
-        </div>
-        <figure style="margin:0"><img src="img/geschenke.jpg" alt="Die drei Geschenke: SIGG-Flasche, Badetuch und Fussball mit CP-Logo" style="background:#fff;border:1px solid var(--line)"><figcaption class="cap">Zur Wahl: SIGG-Flasche, Badetuch oder Fussball</figcaption></figure>
+        <figure><div class="frame wide"><img src="img/banner.jpg" alt="E-Mail-Banner zur ACHEMA 2024"></div><figcaption class="cap">E-Mail-Banner der Einladung</figcaption></figure>
+        <figure><div class="frame wide contain"><img src="img/geschenke.jpg" alt="Die drei Geschenke: SIGG-Flasche, Badetuch und Fussball mit CP-Logo"></div><figcaption class="cap">Zur Wahl: SIGG-Flasche, Badetuch oder Fussball</figcaption></figure>
       </div>
+    </div>
+    <div class="g3">
+      <figure><div class="frame portrait"><img src="img/ballmuster.jpg" alt="Muster eines Fussballs"></div><figcaption class="cap">1 · Das Muster</figcaption></figure>
+      <figure><div class="frame portrait"><img src="img/ballvorlage.jpg" alt="Druckvorlage mit 32 Feldern"></div><figcaption class="cap">2 · Die Vorlage mit 32 Feldern</figcaption></figure>
+      <figure><div class="frame portrait contain"><img src="img/ball.jpg" alt="Fussball im CP-Design"></div><figcaption class="cap">3 · Das fertige Design</figcaption></figure>
     </div>
   </section>
 
   <section class="chapter">
-    <p class="eyebrow">2 · Vom Plan zum Stand</p>
-    <h2>Von der Skizze zum fertigen Stand</h2>
-    <p>Auf 108 m² in Halle 8 entstanden vier Produktinseln mit Exponaten und Info-Stelen, dazu ein Bereich für Gespräche und Verpflegung. Die Planung stimmte ich mit der Standbau-Agentur ab, bis zum Aufbau vor Ort.</p>
-    <div class="two">
-      <figure style="margin:0"><img src="img/skizze.jpg" alt="Skizze des Stands aus der Planung" style="background:#fff;border:1px solid var(--line)"><figcaption class="cap">Skizze aus der Planung</figcaption></figure>
-      <figure style="margin:0"><img src="img/stand.jpg" alt="Der fertige Stand" style="aspect-ratio:4/3;object-fit:cover"><figcaption class="cap">Der fertige Stand an der ACHEMA</figcaption></figure>
+    <p class="eyebrow">2 · Von der Skizze zum Stand</p>
+    <div class="text">
+      <h2>Aus der Planung wird ein Stand</h2>
+      <p>Auf 108 m² in Halle 8 entstanden vier Produktinseln mit Exponaten und Info-Stelen, dazu ein Bereich für Gespräche und Verpflegung. Die Planung stimmte ich mit einer Standbau-Agentur ab, bis zum Aufbau vor Ort.</p>
     </div>
-    <p class="cap">Standbau durch eine Agentur, Planung und Koordination durch mich.</p>
+    <div class="g2">
+      <figure><div class="frame contain"><img src="img/skizze.jpg" alt="Skizze des Stands aus der Planung"></div><figcaption class="cap">Die Skizze aus der Planung</figcaption></figure>
+      <figure><div class="frame"><img src="img/stand.jpg" alt="Der fertige Stand an der ACHEMA"></div><figcaption class="cap">Der fertige Stand an der ACHEMA</figcaption></figure>
+    </div>
   </section>
 
   <section class="chapter">
     <p class="eyebrow">3 · Am Stand</p>
-    <h2>Gespräche statt Prospekte</h2>
-    <p>Am Montagetisch hiess es: Wer setzt die Pumpenteile am schnellsten zusammen? Ein Buzzer stoppte die Zeit. Das Spiel stand bewusst im Inneren des Stands und wurde vom Verkauf begleitet, damit die richtigen Gespräche entstehen. Eine Live-Demo am Demogerät zeigte, wie die Pumpen arbeiten.</p>
-    <p>Auch die Verpflegung erzählte von der Herkunft: Schweizer Schokolade als Giveaway, dazu Schweizer Fleisch und Käse im Catering.</p>
-    <div class="two">
-      <figure style="margin:0"><img src="img/buzzer.jpg" alt="Buzzer Game: Pumpe montieren auf Zeit"><figcaption class="cap">Buzzer Game: Wer montiert die Pumpe am schnellsten?</figcaption></figure>
-      <figure style="margin:0"><img src="img/pumpe.jpg" alt="Aufgeschnittene Pumpe als Exponat"><figcaption class="cap">Exponate mit Infopanels</figcaption></figure>
+    <div class="text">
+      <h2>Ein Stand, der zum Mitmachen einlädt</h2>
+      <p>Am Montagetisch hiess es: Wer setzt die Pumpenteile am schnellsten zusammen? Ein Buzzer stoppte die Zeit. Das Spiel stand bewusst im Inneren des Stands und wurde vom Verkauf begleitet, so entstanden die richtigen Gespräche. Eine Live-Demo am Demogerät zeigte, wie die Pumpen arbeiten.</p>
+      <p>Auch die Verpflegung erzählte von der Herkunft: Schweizer Schokolade als Giveaway, dazu Schweizer Fleisch und Käse im Catering. Der Stand war gut besucht, und die Live-Demonstrationen kamen gut an.</p>
     </div>
-    <div class="split" style="grid-template-columns:8fr 3fr;align-items:end">
-      <figure style="margin:0"><img src="img/stelen_mockup.jpg" alt="Vier Info-Stelen zu den Exponaten als Mockup"><figcaption class="cap">Info-Stelen zu den Exponaten, 800 × 2200 mm. Texte für 2024 überarbeitet.</figcaption></figure>
-      <figure style="margin:0"><img src="img/stele_real.jpg" alt="Stele MKP Reactor am Stand"><figcaption class="cap">Im Einsatz am Stand</figcaption></figure>
+    <div class="g3">
+      <figure><div class="frame"><img src="img/montage_test.jpg" alt="Pumpengehäuse beim Test des Montagetischs im Büro"></div><figcaption class="cap">Der Montagetisch im Test, Januar 2024</figcaption></figure>
+      <figure><div class="frame"><img src="img/buzzer.jpg" alt="Buzzer Game: Pumpe montieren auf Zeit"></div><figcaption class="cap">Am Stand: Wer montiert am schnellsten?</figcaption></figure>
+      <figure><div class="frame"><img src="img/pumpe.jpg" alt="Aufgeschnittene Pumpe als Exponat"></div><figcaption class="cap">Exponate zum Anfassen</figcaption></figure>
+    </div>
+    <div class="text">
+      <h2>Info-Stelen: Entwurf und Einsatz</h2>
+      <p>Zu jeder Produktinsel gehörte eine Info-Stele, 800 × 2200 mm. Für 2024 überarbeitete ich die Texte und gab die Druckdaten frei. Rechts eine Stele im Einsatz am Stand.</p>
+    </div>
+    <div class="g5">
+      <figure><div class="frame tall contain"><img src="img/stele1.jpg" alt="Info-Stele 1"></div><figcaption class="cap">Stele 1</figcaption></figure>
+      <figure><div class="frame tall contain"><img src="img/stele2.jpg" alt="Info-Stele 2"></div><figcaption class="cap">Stele 2</figcaption></figure>
+      <figure><div class="frame tall contain"><img src="img/stele3.jpg" alt="Info-Stele 3"></div><figcaption class="cap">Stele 3</figcaption></figure>
+      <figure><div class="frame tall contain"><img src="img/stele4.jpg" alt="Info-Stele 4"></div><figcaption class="cap">Stele 4</figcaption></figure>
+      <figure><div class="frame tall real"><img src="img/stele_real.jpg" alt="Info-Stele MKP Reactor am Stand"></div><figcaption class="cap">Im Einsatz am Stand</figcaption></figure>
     </div>
   </section>
 
   <section class="chapter">
     <p class="eyebrow">4 · Hinter den Kulissen</p>
-    <div class="split">
-      <div style="display:grid;gap:14px">
+    <div class="split" style="align-items:center">
+      <div class="text">
         <h2>Das Messebriefing</h2>
-        <p>Damit am Stand alles reibungslos läuft, erhielt das ganze Team ein ausführliches Briefing: Fakten zur Messe, Standplan, Ablauf der Geschenk-Abholung, Schichtpläne, Anreise und Hotel, Dresscode in den CP-Farben und ein überarbeitetes Lead-Formular.</p>
-        <p>Dazu kamen Hotelzimmer für das Standteam und für Besuchende aus dem eigenen Unternehmen sowie der Versand der Exponate und des Materials nach Frankfurt.</p>
+        <p>Damit am Stand alles reibungslos lief, erhielt das ganze Team ein ausführliches Briefing: Fakten zur Messe, Standplan, Ablauf der Geschenk-Abholung, Schichtpläne, Anreise und Hotel, Dresscode in den CP-Farben und ein überarbeitetes Lead-Formular.</p>
+        <p>Dazu organisierte ich Hotelzimmer für das Standteam und für Besuchende aus dem eigenen Unternehmen sowie den Versand der Exponate und des Materials nach Frankfurt.</p>
       </div>
-      <div class="two">
-        <div class="tablet"><img src="img/plan.jpg" alt="Standplan aus dem Briefing"></div>
-        <div class="tablet"><img src="img/lead.jpg" alt="Lead-Formular"></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="chapter">
-    <p class="eyebrow">5 · Rückblick</p>
-    <div class="split">
-      <h2>Was ich mitnehme</h2>
-      <div style="display:grid;gap:12px">
-        <p>Nach der Messe hielt ich fest, was gut lief und was wir verbessern. Der Stand war gut besucht, es gab viele konstruktive Gespräche, und die Live-Demonstrationen kamen gut an.</p>
-        <p>Für die nächsten Messen hielt ich drei Punkte fest: Geschenke vor der Ausgabe im Briefing klar regeln, die Mengen im Catering genauer planen und Restaurants früher reservieren.</p>
-      </div>
+      <button class="tabletBtn" id="openBriefing" aria-haspopup="dialog">
+        <div class="tablet"><div class="frame"><img src="img/br_ablauf.jpg" alt="Seite aus dem Messebriefing: Ablauf der Geschenk-Abholung"></div></div>
+        <span class="open">Briefing ansehen · 5 Seiten</span>
+      </button>
     </div>
   </section>
 
   <section class="chapter">
     <p class="eyebrow">Meine Aufgaben</p>
-    <ul class="tasks"><li>Gesamtverantwortung</li><li>Planung und Koordination</li><li>Einladungskampagne</li><li>Geschenk-Ablauf</li><li>Infopanels</li><li>Giveaways</li><li>Hotel und Anreise</li><li>Versand</li><li>Verpflegung</li><li>Messebriefing</li><li>Lead-Formular</li><li>Standteam vor Ort</li></ul>
+    <ul class="tasks"><li>Gesamtverantwortung</li><li>Planung und Koordination</li><li>Einladungskampagne</li><li>Geschenk-Ablauf</li><li>Fussball-Design</li><li>Info-Stelen</li><li>Giveaways</li><li>Hotel und Anreise</li><li>Versand von Exponaten und Material</li><li>Verpflegung am Stand</li><li>Messebriefing</li><li>Lead-Formular</li><li>Standteam vor Ort</li></ul>
   </section>
 </div>
 
+<dialog id="lb" aria-label="Messebriefing">
+  <div class="lb">
+    <img id="lbImg" src="" alt="">
+    <div class="lbBar">
+      <span id="lbCap"></span>
+      <button id="prev">Zurück</button><button id="next">Weiter</button><button id="close">Schliessen</button>
+    </div>
+    <div class="thumbs" id="thumbs"></div>
+  </div>
+</dialog>
+
+<script>
+const pages=[["img/br_plan.jpg","Standplan"],["img/br_ablauf.jpg","Ablauf der Geschenk-Abholung"],["img/br_dresscode.jpg","Dresscode in den CP-Farben"],["img/br_swiss.jpg","Verpflegung mit Swissness"],["img/br_lead.jpg","Lead-Erfassung"]];
+let i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
+th.innerHTML=pages.map(([s,a],n)=>`<button data-n="${n}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');
+function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
+document.getElementById('openBriefing').onclick=()=>{i=0;show();d.showModal()};
+document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
+document.getElementById('next').onclick=()=>{i=(i+1)%pages.length;show()};
+document.getElementById('close').onclick=()=>d.close();
+th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.n;show()}};
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+d.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+</script>
