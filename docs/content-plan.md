@@ -183,7 +183,7 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 **Persönliches:** ❓
 
 ### Contact
-- E-Mail ❓ (siehe Kapitel 8), LinkedIn ❓ URL
+- E-Mail ✅ und LinkedIn ✅ (siehe Kapitel 8)
 - Optional ein kurzes Formular ❓
 
 ### Impressum / Datenschutz
@@ -990,7 +990,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Website-Text: «based in Zurich» ✅
 - Impressum vorerst: **Yana Senn, Dielsdorf ZH**, E-Mail ✅ (so wenig Privates wie möglich)
 - 📌 Vor dem Livegang nochmals entscheiden: volle Adresse oder Geschäfts- bzw. Postfachadresse (UWG Art. 3 verlangt eine Kontaktadresse; Datenschutzerklärung ebenso)
-- LinkedIn-URL ❓
+- LinkedIn: `https://www.linkedin.com/in/yana-senn-331436173` ✅ (Yana 06.10.2026; Zusatz «?originalSubdomain=ch» weggelassen)
 - Telefon: ❓ (Empfehlung: nein)
 - CV-Download: ❓
 
