@@ -215,11 +215,11 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
 <script>
 const G={
  briefing:[["img/br_plan.jpg","Standplan"],["img/br_ablauf.jpg","Ablauf der Geschenk-Abholung"],["img/br_dresscode.jpg","Dresscode in den CP-Farben"],["img/br_swiss.jpg","Verpflegung mit Swissness"],["img/br_lead.jpg","Lead-Erfassung"]],
- mail:[["img/mail1_de.jpg","Mailing 1, Deutsch (zum Scrollen)"],["img/mail3_de.jpg","Mailing 3, Deutsch (zum Scrollen)"],["img/mail3_full.jpg","Mailing 3, Englisch (zum Scrollen)"],["img/banner.jpg","E-Mail-Banner"]],
+ mail:[["img/mail1_de.jpg","Mailing 1 · Deutsch"],["img/mail2_de.jpg","Mailing 2 · Deutsch"],["img/mail2_en.jpg","Mailing 2 · Englisch"],["img/mail2_fr.jpg","Mailing 2 · Französisch"],["img/mail3_de.jpg","Mailing 3 · Deutsch"],["img/mail3_en.jpg","Mailing 3 · Englisch"],["img/dank_de.jpg","Dankesmail nach der Messe · Deutsch"],["img/banner.jpg","E-Mail-Banner"]],
  ball:[["img/ballmuster.jpg","Das Muster"],["img/ballvorlage.jpg","Die Vorlage mit 32 Feldern"],["img/ball.jpg","Das fertige Design"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
-function show(){document.getElementById("lbScroll").scrollTop=0;im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
+function show(){im.onload=()=>{cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}${im.naturalHeight>im.naturalWidth*1.5?' · zum Scrollen':''}`};document.getElementById("lbScroll").scrollTop=0;im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}${im.naturalHeight>im.naturalWidth*1.5?" · zum Lesen scrollen":""}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
 function open(g,n){pages=G[g];i=n||0;th.style.gridTemplateColumns=`repeat(${pages.length},minmax(0,120px))`;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
 document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
 document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
