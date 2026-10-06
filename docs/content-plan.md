@@ -991,7 +991,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Impressum vorerst: **Yana Senn, Dielsdorf ZH**, E-Mail ✅ (so wenig Privates wie möglich)
 - 📌 Vor dem Livegang nochmals entscheiden: volle Adresse oder Geschäfts- bzw. Postfachadresse (UWG Art. 3 verlangt eine Kontaktadresse; Datenschutzerklärung ebenso)
 - LinkedIn: `https://www.linkedin.com/in/yana-senn-331436173` ✅ (Yana 06.10.2026; Zusatz «?originalSubdomain=ch» weggelassen)
-- Telefon: ❓ (Empfehlung: nein)
+- Telefon: ✅ nicht auf der Website; Kontakt per E-Mail (yana.senn1@gmail.com), Telefon nur auf Anfrage (Yana 06.10.2026)
 - CV-Download: ✅ ja, vorerst einbauen (Yana 06.10.2026; kann später wieder entfernt werden). 📌 Aktuellen Lebenslauf als PDF von Yana nötig; vor dem Hochladen private Angaben prüfen (Adresse, Geburtsdatum, Telefon).
 
 ---
