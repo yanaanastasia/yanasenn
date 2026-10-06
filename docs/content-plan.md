@@ -631,7 +631,7 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 
 - CP-Giveaways ✅ (Liste aus dem Briefing): Backpacks, Bath Towels, Biberli, Cups, Fruit Gummies, Footballs, Golf Balls, Helmets, Coffee Cups, Kegi, Tape, Travel Items, Pens, Memos, Meter, Swiss Tool, Notepads, Notebooks, Folders, Post-its, Umbrellas, SIGG Lunchboxes & Bottles, Sports Backpacks, Metal Straws, Telescopic Lamps, Tote Bags, Universal Travel Chargers, USB Sticks, Victorinox, Sugar Sticks
 - Arbeitskleidung und Messekleidung ✅ 📌
-- GOLDINGER-Gummibärchen 2022 ✅ (Formen und Grafik gestaltet, für WEGA & Immozionale)
+- GOLDINGER-Fruchtgummis ✅ (Formen und Grafik gestaltet, 2022 gelb/schwarz, 2023 blau, für WEGA & Immozionale) → ✅ **auch separat zeigen** (Yana 06.10.2026): eigenes Beispiel in diesem Case, zusätzlich zur Messe-Kachel.
 
 #### TEXT-ENTWURF Case «Broschüren und Factsheets» ✏️
 - **Stichworte:** Konzept · Layout · Infografiken · Mehrsprachigkeit
@@ -790,12 +790,12 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Bilder 📌:** Inserate-Serie Infoabende (drei Formate), Infoabend-Flyer 2023, Grünblick-Flyer (ohne Logo als eigene Leistung), Story-Beispiel ohne erkennbare Personen.
 - Nicht verwenden: Preise, Namen und Telefonnummern von Mitarbeitenden, Fotos mit erkennbaren Gästen.
 
-#### TEXT-ENTWURF «GOLDINGER Messen WEGA und Immozionale» (Frühere Projekte, Kachel 5) ✏️
+#### TEXT-ENTWURF «GOLDINGER Messen WEGA und Immozionale» (Frühere Projekte, Kachel 5) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Messestand · Print · Giveaway · Video
 - **Kurz:** Ein neuer Messeauftritt für die regionalen Publikumsmessen
 - **Ausgangslage:** GOLDINGER war jedes Jahr an der WEGA und an der Immozionale vertreten. Der bisherige Stand stammte aus früheren Jahren und zeigte vor allem viele kleine Objektplakate. Gleichzeitig sollte die eher ältere Zielgruppe schon vor der Messe erfahren, dass sie am Stand ihre Immobilie bewerten lassen kann.
-- **Meine Rolle ✏️:** Ich gestaltete die Messewände neu, entwarf ein Mockup des Stands, plante die Werbung vor der Messe und gestaltete die Fruchtgummis als Giveaway.
-- **Umsetzung:** Königsblaue Paneele mit klaren Botschaften wie «Jetzt Immobilie direkt am Stand bewerten», Neubauprojekte und Geschäftsbereiche (2022/2023) · Inserate in den Wochen vor der Messe mit dem Angebot einer Immobilien-Bewertung in fünf Minuten am Stand, dazu Flyer in den Büros · Fruchtgummis in eigener Form und Grafik (2022 gelb/schwarz, 2023 blau) · ❓ Videos von der Messe.
+- **Meine Rolle ✅:** Ich gestaltete die Messewände neu, entwarf ein Mockup des Stands, plante die Werbung vor der Messe und gestaltete die Fruchtgummis als Giveaway.
+- **Umsetzung:** Königsblaue Paneele mit klaren Botschaften wie «Jetzt Immobilie direkt am Stand bewerten», Neubauprojekte und Geschäftsbereiche (2022/2023) · Inserate in den Wochen vor der Messe mit dem Angebot einer Immobilien-Bewertung in fünf Minuten am Stand, dazu Flyer in den Büros · Fruchtgummis in eigener Form und Grafik (2022 gelb/schwarz, 2023 blau; zusätzlich separat im Case Giveaways) · ❓ Videos von der Messe.
 - **Vorher/Nachher:** siehe Kachel «Redesigns Print» (Messewände 2019 → 2022/2023).
 - **Bilder 📌:** Standfoto bzw. Mockup 2023 (ohne Personen), Wände neu, Inserat WEGA 2022, Fruchtgummi-Säckli.
 - Nicht verwenden: Preise (Wand «Kradolf»), Rechnungen, Anmeldungen, Fotos mit erkennbaren Gästen.
