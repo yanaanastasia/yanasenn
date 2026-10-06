@@ -463,14 +463,15 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   - *Ziel:* Bestehende Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.
   - *Meine Aufgaben:* Gesamtverantwortung nach Übernahme des laufenden Projekts im Frühling 2024 · Überarbeitung der Planung · Gesamtkoordination bis zur Messe · Einladungskampagne · Geschenk-Ablauf · Infopanels · Giveaways · Hotel und Anreise · Versand von Exponaten und Material · Verpflegung am Stand · Messebriefing · Lead-Formular · Standteam vor Ort
   - *Hinweis im Text (neutral):* Standdesign, Standbau und Montage lagen bei einer Agentur.
-  - *Idee und Vorgehen:* Eine Einladungskampagne sollte Kunden gezielt an den Stand bringen: Drei Mailings, ein Reminder und eine Dankesmail luden dazu ein, vorab ein Geschenk zu wählen und es am Stand persönlich abzuholen. Vor Ort sorgten ein Buzzer Game, ein Wettbewerb um die schnellste Pumpenmontage, und eine Live-Demo für Gespräche. Schweizer Schokolade als Giveaway sowie Schweizer Fleisch und Käseplätzchen im Catering unterstrichen die Herkunft von CP.
+  - *Idee und Vorgehen:* Eine Einladungskampagne sollte Kunden gezielt an den Stand bringen: Drei Mailings, ein Reminder und eine Dankesmail luden dazu ein, vorab ein Geschenk zu wählen und es am Stand persönlich abzuholen. Zur Auswahl stand unter anderem ein Fussball im CP-Stil, passend zur Fussball-EM, die kurz nach der Messe in Deutschland begann. Vor Ort sorgten ein Buzzer Game, ein Wettbewerb um die schnellste Pumpenmontage, und eine Live-Demo für Gespräche. Schweizer Schokolade als Giveaway sowie Schweizer Fleisch und Käseplätzchen im Catering unterstrichen die Herkunft von CP.
   - *Umsetzung:* Mailings und Einladungsmanagement · Geschenk-Ablauf am Stand · Infopanels zu den Exponaten · Folie für den Buzzer-Tisch · Giveaways · Namensschilder und Dresscode · Hotel und Anreise für Standteam und Besuchende · Messebriefing mit Schichtplänen · Lead-Formular und Erfassung der Leads
   - *Ergebnis:* 📌 später (Zahlen von Yana)
-  - *Bilder ✏️ v2 (06.10.2026, nach Feedback Yana: weniger Bilder, wenig Gesichter, «wie eine Idee lebendig wird»):*
-    1. **Plan → Realität** (Schieberegler): isometrischer Standplan der Standbau-Agentur (Konzept-PDF S. 3, ohne Agenturnamen) neben dem fertigen Stand (Foto web-4; Personen von hinten sind okay, erkennbare Gesichter unscharf).
-    2. **Detail:** Buzzer Game, nur Hände an der Pumpe (web-3).
-    3. **Eigene Arbeit:** E-Mail-Banner «Halle 8, Stand F28».
-    - Quelle Fotos: professioneller Messefotograf → Bildrechte/Credit klären 📌.
+  - *Bilder ✏️ v3 (06.10.2026, Geschichte «Einladung → Idee → Realität → hinter den Kulissen»):*
+    1. **Einladung:** Mailing mit Geschenkwahl, dazu der Fussball im CP-Stil (✅ Yana 06.10.2026: Geschenk zur Fussball-Zeit, im Mailing auswählbar; Juni 2024 = Fussball-EM in Deutschland, kurz nach der ACHEMA) und Schweizer Schokolade. ❓ Screenshot des Mailings vorhanden?
+    2. **Idee → Realität** (Schieberegler): 3D-Rendering des Stands aus dem Briefing ↔ Foto des fertigen Stands (web-4).
+    3. **Am Stand:** Buzzer Game, nur Hände (web-3).
+    4. **Hinter den Kulissen:** Messebriefing als Tablet-Mockup (Ablauf Geschenk-Abholung, Standplan, Dresscode).
+    - Quellen: Briefing «ACHEMA-Messebriefing 24_de.pptx» (Rendering image10, Standplan image11), Fotos eines Messefotografen → Bildrechte/Credit klären 📌. Nicht verwenden: Anmeldelisten, Schichtpläne, Hotel- und Parkdaten (Briefing-Folien mit Namen).
 - **Ergebnis:** 📌 später (Zahlen/Resultate)
 
 #### ACHEMA 2024: Funde aus Yanas Drive-Ordner (03.10.2026)
