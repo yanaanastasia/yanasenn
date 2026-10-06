@@ -224,18 +224,21 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v8 – Highlights oben, «Alle Arbeiten» nach Kategorien (Yana 06.10.2026: nicht jedes Projekt als Kachel, nur die wichtigsten; darunter Übersicht von allem in Kategorien)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw, Version 2)
-- **Oben: Ausgewählte Projekte** (3–4 grosse Kacheln mit ganzer Geschichte). Vorschlag: Internationale Messen · Weihnachtskampagne 2026 · Kampagne «Molten Sulphur» · Hausmagazin (zum Durchblättern). ❓ Auswahl durch Yana.
-- **Darunter: Alle Arbeiten**, geordnet in Kategorien mit einer Sprungleiste. Eine Arbeit darf in mehreren Kategorien stehen.
-- **Kategorien (DE / EN):**
-  1. Messen & Events / Trade Fairs & Events: Stände, Messesystem, Infoabende
-  2. Kampagnen / Campaigns: eine Idee über mehrere Kanäle
-  3. Print & Editorial Design: Broschüren, Magazin, Anzeigen, Flyer, Messewände
-  4. Corporate Design & Raum / Corporate Design & Spaces: Erscheinungsbild, Infografiken, Raumgestaltung, Redesigns
-  5. Digital & Social Media: Website, Newsletter, Banner, LinkedIn, Social Media
-  6. Foto & Video / Photo & Video: Fotografie, Reportagen, Reels, Erklärvideos
-  7. Werbeartikel & Giveaways / Merchandise & Giveaways: Giveaways, Firmengeschenke, Kleidung
-- Ersetzt v4–v7 (Verlauf in Git).
+**✏️ Vorschlag v9 – Highlights oben, «Alle Arbeiten» nach Kategorien (Yana 06.10.2026)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
+- ✅ Nicht jedes Projekt als grosse Kachel; oben nur die wichtigsten, darunter alles nach Kategorien.
+- ✅ Auf der Übersicht **keine Jahreszahlen/Zeiträume**; Jahr und Zeitraum erst auf der Projektseite.
+- ✅ «Molten Sulphur» ist **keine Kampagne** → unter Print & Editorial Design (Anzeige, Broschüre, Flyer).
+- ✅ **Reels gehören zu Social Media** (nicht zu Foto & Video).
+- **Oben: Ausgewählte Projekte (Vorschlag, 6):** ACHEMA 2024 · Weihnachtskampagne 2026 · Messesystem USA · Broschürensystem · Hausmagazin zum Durchblättern · Raumgestaltung. ❓ Auswahl durch Yana.
+- **Kategorien (DE / EN) mit Inhalt:**
+  1. Messen & Events: Internationale Messen, ACHEMA, Messesystem und Standbox, Weltkarte aller Messen, WEGA und Immozionale, Infoabende
+  2. Kampagnen: Weihnachtskampagne, Songkran-Grusskarte, Infoabende und Tage der offenen Tür
+  3. Print & Editorial Design: Broschüren und Factsheets, Molten Sulphur (Anzeige, Broschüre, Flyer), Flyer «Sofort verfügbare Pumpensysteme», Messewände, Hausmagazin, Inserate Infoabende
+  4. Corporate Design & Raum: Weltkarte und Zeitstrahl, Raumgestaltung, Redesigns Vorher/Nachher, Trailer Park (Kursprojekt)
+  5. Digital & Social Media: Website und Newsletter, E-Mail- und Web-Banner, LinkedIn, Social Media und Reels (GOLDINGER)
+  6. Foto & Video: Fotografie, Reportage Maschinenlieferung, Immobilienvideos, Animierte Erklärvideos, Halloween-Videoflyer
+  7. Werbeartikel & Giveaways: Giveaways, Firmengeschenke Weihnachten, Arbeits- und Messekleidung, Fruchtgummis
+- Ersetzt v4–v8 (Verlauf in Git).
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
@@ -893,13 +896,13 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
   - *Broschüren/Print CP:* **Molten-Sulphur-Broschüre** (EN, 8 Seiten A4, Sept. 2026, gelbes Dreiecksmuster, Explosionszeichnung; stark) + 2-seitiger Flyer + US-Letter-Version (vermutlich für Tampa); Flyer «Sofort verfügbare Pumpensysteme» (DE/EN, April 2026, 16 Einheiten ab Lager, 1–2 Wochen Lieferzeit); **Weltkarte der Standorte** (A3, DE/EN/FR u. a., Dez. 2025–Sept. 2026); **Firmengeschichte als Zeitstrahl** (2 Seiten, sieben Sprachen, Aug.–Okt. 2026, evtl. noch in Arbeit); Songkran-Grusskarte CP Thailand (Jan./Feb. 2026: Skizzen, Referenzen, 75 Karten bestellt; finale Datei fehlt); Pumpen-Icons (2024/2025), Explosionszeichnungen.
   - *Print GOLDINGER:* Infoabende-Flyer 2022 (A5, mit TKB); Grünblick-Flyer (2023; ✅ Logo nicht von Yana); Fruchtgummi-Säckli; Visitenkarte (2022); Messewand-Material 2023 (Seitenpaneel, Wandtext Kradolf, Standfoto «Stand 2023.jpg» ohne Personen); Hausmagazin als Zeitungsbeilage (Feb. und Sept. 2022).
   - *Stärkste Stücke:* Molten-Sulphur-Serie (Broschüre, Anzeige, Flyer) · Lieferzeiten-Flyer · Weltkarte und Zeitstrahl · HEV-Anzeige 2023 · Infoabende-Serie · Grünblick-Flyer · 1.-August-Grafik.
-  - *Vorschlag Gliederung Case «Werbung: Print & Digital»:* Print-Anzeigen (CP + GOLDINGER) · Fachartikel & PR (CP) · Digitale Werbung (Banner, Social, Signaturen). Molten-Sulphur-Serie als durchgehende Kampagne (Anzeige → Roll-up → Rückwand → Broschüre) prominent zeigen. Weltkarte, Zeitstrahl, Icons → Case «Infografiken & Karten». Songkran → kleine Card.
+  - *Vorschlag Gliederung Case «Werbung: Print & Digital»:* Print-Anzeigen (CP + GOLDINGER) · Fachartikel & PR (CP) · Digitale Werbung (Banner, Social, Signaturen). Molten-Sulphur-Serie (✅ keine Kampagne, sondern zusammengehörende Werbemittel) (Anzeige → Roll-up → Rückwand → Broschüre) prominent zeigen. Weltkarte, Zeitstrahl, Icons → Case «Infografiken & Karten». Songkran → kleine Card.
 #### TEXT-ENTWURF Case «Werbung: Print & Digital» (CP Pump Systems) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Anzeigen · Kampagne · Banner · Anwendungsbericht
 - **Kurz:** Eine Botschaft, viele Formate: von der Fachzeitschrift bis zur E-Mail-Signatur
 - **Ausgangslage:** CP Pump Systems wirbt dort, wo Fachleute aus Chemie, Düngemittel- und Prozessindustrie lesen und sich informieren: in Fachzeitschriften, Messekatalogen, auf Fachportalen und per E-Mail. Jede Anzeige muss in Sekunden zeigen, welches Problem die Pumpen lösen.
 - **Meine Rolle ✏️ (Regel: Design ab 2024 von Yana):** Ich gestalte die Anzeigen und digitalen Werbemittel von der ersten Headline-Variante bis zur Druckdatei und passe sie für jedes Format und jede Sprache an.
-- **Leitkampagne «Molten Sulphur» (2025–2026):** Anzeige in World Fertilizer «Sulphur at the perfect temperature» (Sept. 2025, drei Headline-Varianten im Entwurf) → Roll-up → Messe-Rückwand «Keep Your Molten Sulphur Flowing» (CRU Berlin 2026) → Broschüre, Flyer und US-Letter-Version (Sept. 2026). Eine Botschaft, durchgehend erzählt.
+- **Serie «Molten Sulphur» (2025–2026; ✅ keine Kampagne, Yana 06.10.2026):** Anzeige in World Fertilizer «Sulphur at the perfect temperature» (Sept. 2025, drei Headline-Varianten im Entwurf) → Roll-up → Messe-Rückwand «Keep Your Molten Sulphur Flowing» (CRU Berlin 2026) → Broschüre, Flyer und US-Letter-Version (Sept. 2026) Eine Botschaft über mehrere Werbemittel.
 - **Weitere Print-Anzeigen:** Katalog-Anzeigen der Messen (u. a. Petrochymia, ChemUK); Flyer «Sofort verfügbare Pumpensysteme» (DE/EN, April 2026).
 - **Digital:** E-Mail-Banner und -Signaturen zu jeder Messe, Web-Banner für Messeportale, Sammelbanner «Nos prochains salons professionnels» (DE/EN/FR, Sept. 2026), LinkedIn-Grafiken und -Texte (u. a. «Happy Birthday Schwiiz!» zum 1. August).
 - **Anwendungsbericht ✅ (Yana 05.10.2026: von Yana, fachliche Unterstützung beim Text durch das Verkaufsteam):** «Dichtungslose Magnetkupplungspumpen für die Förderung von saurem Prozesswasser» (Website-Blog, April/Mai 2026, DE/EN/FR): Referenzprojekt aus der Düngemittelproduktion, drei MKP-Pumpen für ein Pondwasser-Rückführungssystem; Aufbau Ausgangslage → Lösung → Gründe → technische Kennwerte. Formulierung im Case: «Den Anwendungsbericht verfasste ich mit fachlicher Unterstützung des Verkaufsteams und veröffentlichte ihn in drei Sprachen.» ✅ (Yana 05.10.2026: selbst in DE/EN/FR auf der Website veröffentlicht) EUREKA auslassen ✅.

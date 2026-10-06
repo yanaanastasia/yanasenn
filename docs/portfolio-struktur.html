@@ -41,7 +41,7 @@ h3{font:600 1.2rem/1.3 var(--display);margin:0 0 4px}
 
 <div class="wrap">
   <header>
-    <p class="step">Entwurf zur Diskussion · Version 2</p>
+    <p class="step">Entwurf zur Diskussion · Version 3</p>
     <h1>So könnte die Portfolio-Seite aufgebaut sein</h1>
     <p class="sub">Graue Flächen sind Platzhalter für Bilder. Es geht nur um den Aufbau, nicht um das Design. Welche Projekte oben stehen, entscheidest du.</p>
   </header>
@@ -49,7 +49,7 @@ h3{font:600 1.2rem/1.3 var(--display);margin:0 0 4px}
   <section>
     <p class="step">Oben</p>
     <h2>Ausgewählte Projekte</h2>
-    <p class="sub">Nur die wichtigsten Projekte, gross und mit der ganzen Geschichte dahinter.</p>
+    <p class="sub">Nur die wichtigsten Projekte, gross und mit der ganzen Geschichte dahinter. Jahr und Auftraggeber stehen erst auf der Projektseite.</p>
     <div class="hl" id="hl"></div>
   </section>
 
@@ -64,28 +64,30 @@ h3{font:600 1.2rem/1.3 var(--display);margin:0 0 4px}
 
 <script>
 const highlights=[
- ["Internationale Messen","CP Pump Systems · 2024–2026","Eigene Messen und Partnerstände weltweit, Weltkarte, Messesystem"],
- ["Weihnachtskampagne","CP Pump Systems · 2026","Karten, Rätsel und Geschenke für drei Zielgruppen"],
- ["Kampagne «Molten Sulphur»","CP Pump Systems · 2025–2026","Von der Anzeige bis zur Messe-Rückwand"],
- ["Hausmagazin","GOLDINGER Immobilien · 2023","Zum Durchblättern"]
+ ["ACHEMA 2024","Grösster Messeauftritt, von der Übernahme bis zum Abbau"],
+ ["Weihnachtskampagne","Karten, Texte und Rätsel für drei Zielgruppen"],
+ ["Messesystem USA","Standbox nach Mass, eigene Möbel, Lager"],
+ ["Broschürensystem","Ein Aufbau für alle Broschüren, bis zu neun Sprachen"],
+ ["Hausmagazin","Zum Durchblättern"],
+ ["Raumgestaltung","Sitzungszimmer, Lounge und Abteilungen"]
 ];
 const C=[
  ["messen","Messen & Events","Stände, Messesystem, Infoabende",[
-   ["Internationale Messen","CP · 2024–2026"],["Messesystem und Standbox","CP"],["Messewände","CP · diverse Messen"],["Weltkarte aller Messen","CP"],["WEGA und Immozionale","GOLDINGER"],["Infoabende","GOLDINGER"]]],
+   "Internationale Messen","ACHEMA 2024","Messesystem und Standbox","Weltkarte aller Messen","WEGA und Immozionale","Infoabende"]],
  ["kampagnen","Kampagnen","Eine Idee über mehrere Kanäle",[
-   ["Weihnachtskampagne","CP · 2026"],["Kampagne «Molten Sulphur»","CP · 2025–2026"],["Songkran-Grusskarte","CP · 2026"],["Infoabende und Tage der offenen Tür","GOLDINGER"]]],
+   "Weihnachtskampagne","Songkran-Grusskarte","Infoabende und Tage der offenen Tür"]],
  ["print","Print & Editorial Design","Broschüren, Magazin, Anzeigen, Flyer",[
-   ["Broschüren und Factsheets","CP"],["Anzeige World Fertilizer","CP · 2025"],["Flyer «Sofort verfügbare Pumpensysteme»","CP · 2026"],["Messewände","CP"],["Hausmagazin","GOLDINGER · 2023"],["Inserate-Serie Infoabende","GOLDINGER · 2023"]]],
+   "Broschüren und Factsheets","Molten Sulphur: Anzeige, Broschüre, Flyer","Flyer «Sofort verfügbare Pumpensysteme»","Messewände","Hausmagazin","Inserate Infoabende"]],
  ["corporate","Corporate Design & Raum","Erscheinungsbild, Infografiken, Räume",[
-   ["Weltkarte und Zeitstrahl","CP"],["Raumgestaltung","CP · 2024–2026"],["Redesigns Vorher/Nachher","GOLDINGER"],["Trailer Park – Street Food","Kursprojekt"]]],
- ["digital","Digital & Social Media","Website, Newsletter, Banner, Social",[
-   ["Website und Newsletter","CP"],["E-Mail- und Web-Banner","CP"],["LinkedIn-Beiträge","CP"],["Social Media und Reels","GOLDINGER"]]],
- ["foto","Foto & Video","Fotografie, Reels, Erklärvideos",[
-   ["Fotografie","CP · 2026"],["Reportage Maschinenlieferung","CP · 2026"],["Reels und Immobilienvideos","GOLDINGER"],["Animierte Erklärvideos","GOLDINGER · 2023"],["Halloween-Videoflyer","Freelance · 2023"]]],
+   "Weltkarte und Zeitstrahl","Raumgestaltung","Redesigns Vorher/Nachher","Trailer Park – Street Food"]],
+ ["digital","Digital & Social Media","Website, Newsletter, Banner, Social Media",[
+   "Website und Newsletter","E-Mail- und Web-Banner","LinkedIn-Beiträge","Social Media und Reels"]],
+ ["foto","Foto & Video","Fotografie, Reportagen, Videos",[
+   "Fotografie","Reportage Maschinenlieferung","Immobilienvideos","Animierte Erklärvideos","Halloween-Videoflyer"]],
  ["giveaways","Werbeartikel & Giveaways","Giveaways, Firmengeschenke, Kleidung",[
-   ["Giveaways","CP"],["Firmengeschenke Weihnachten","CP · 2026"],["Arbeits- und Messekleidung","CP"],["Fruchtgummis","GOLDINGER"]]]
+   "Giveaways","Firmengeschenke Weihnachten","Arbeits- und Messekleidung","Fruchtgummis"]]
 ];
-document.getElementById("hl").innerHTML=highlights.map(([t,m,d])=>`<article><div class="img">Grosses Bild</div><div class="txt"><b>${t}</b><span class="meta">${m}</span><span>${d}</span></div></article>`).join("");
+document.getElementById("hl").innerHTML=highlights.map(([t,d])=>`<article><div class="img">Grosses Bild</div><div class="txt"><b>${t}</b><span class="meta">${d}</span></div></article>`).join("");
 document.getElementById("jump").innerHTML=C.map(([id,n])=>`<a href="#${id}">${n}</a>`).join("");
-document.getElementById("cats").innerHTML=C.map(([id,n,d,items])=>`<section class="cat" id="${id}"><div><h3>${n}</h3><p class="sub">${d}</p></div><div class="items">${items.map(([t,m])=>`<figure class="item"><div class="img"></div><figcaption><b>${t}</b><span>${m}</span></figcaption></figure>`).join("")}</div></section>`).join("");
+document.getElementById("cats").innerHTML=C.map(([id,n,d,items])=>`<section class="cat" id="${id}"><div><h3>${n}</h3><p class="sub">${d}</p></div><div class="items">${items.map(t=>`<figure class="item"><div class="img"></div><figcaption><b>${t}</b></figcaption></figure>`).join("")}</div></section>`).join("");
 </script>
