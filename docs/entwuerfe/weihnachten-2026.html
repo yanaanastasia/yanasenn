@@ -1,0 +1,229 @@
+<title>Weihnachten 2026 Projektseite</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: Projektseite Weihnachten 2026 – Titelbild, Umfrage (Diagramm), Geschenke, Karte (Moodboard → Illustration → Karte), Rätsel zum Lösen, Umsetzung, Aufgaben */
+:root{--bg:#f7f8f6;--surface:#fff;--ink:#1b2320;--muted:#5d6964;--line:#dde2de;--accent:#1f5fa8;--soft:#c9d6e6;--green:#6aab2e;--card:#1673c4;--font:"Lato",Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--font);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:80px}
+.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:0}
+h1{font:700 clamp(2.2rem,5vw,3.6rem)/1.05 var(--font);margin:0}
+h2{font:700 clamp(1.5rem,3vw,2rem)/1.15 var(--font);margin:0;text-wrap:balance}
+h3{font:700 1.2rem/1.25 var(--font);margin:0}
+.eyebrow{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
+p{margin:0;max-width:62ch}.lead{font-size:1.15rem}
+img{display:block;width:100%;height:auto}
+figure{margin:0;display:grid;gap:8px;min-width:0}
+.cap{font-size:.82rem;color:var(--muted)}
+.hero{display:grid;gap:22px}.hero .frame{aspect-ratio:16/9}
+.facts{display:flex;flex-wrap:wrap;gap:8px 28px;font-size:.92rem;color:var(--muted)}.facts b{color:var(--ink)}
+.chapter{display:grid;gap:24px}.text{display:grid;gap:14px}
+.split{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:start}
+.split>*,.g2>*,.g3>*{min-width:0}
+.g2,.g3{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}
+.frame{aspect-ratio:4/3;overflow:hidden;border-radius:6px;background:var(--surface)}
+.frame img{width:100%;height:100%;object-fit:cover}
+.frame.contain{background:#fff;border:1px solid var(--line)}.frame.contain img{object-fit:contain;padding:12px}
+.frame.portrait{aspect-ratio:3/4}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:12px;align-content:start}
+.arrow{display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:1.4rem}
+.step{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+/* Diagramm */
+.survey{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,30px);display:grid;gap:22px}
+.sv{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.sv h3{font-size:1rem}.sv .sub{font-size:.85rem;color:var(--muted);margin:2px 0 12px}
+.bar{display:grid;grid-template-columns:150px 1fr 44px;gap:10px;align-items:center;font-size:.9rem;padding:3px 0}
+.bar .t{height:12px;border-radius:6px;background:color-mix(in srgb,var(--ink) 7%,var(--surface));overflow:hidden}
+.bar .t i{display:block;height:100%;border-radius:6px;background:var(--soft)}
+.bar.win .t i{background:var(--accent)}.bar.win span:first-child{font-weight:700}
+.bar b{text-align:right;font-variant-numeric:tabular-nums;font-weight:400;color:var(--muted)}.bar.win b{color:var(--ink);font-weight:700}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.82rem;color:var(--muted)}.legend span{display:inline-flex;gap:6px;align-items:center}.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+/* Rätsel */
+.puzzle{background:var(--card);border-radius:14px;padding:clamp(16px,3vw,28px);color:#fff;display:grid;gap:14px}
+.puzzle p{max-width:none}.puzzle .lines{font-size:.95rem;opacity:.9}
+.puzzle svg{width:100%;height:auto;display:block;touch-action:manipulation}
+.dot{fill:#fff;cursor:pointer}.dot.next{fill:#ffe27a}
+@media (prefers-reduced-motion:no-preference){.dot.next{animation:pulse 1.2s ease-in-out infinite}}
+@keyframes pulse{50%{r:11}}
+.num{fill:#e8f1fb;font:600 14px var(--font);pointer-events:none}
+.seg{stroke:#fff;stroke-width:4;stroke-linecap:round;fill:none}
+.pbtns{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.pbtns button{font:700 .9rem var(--font);padding:8px 16px;border-radius:99px;border:1px solid rgba(255,255,255,.6);background:transparent;color:#fff;cursor:pointer}
+.pbtns button.pri{background:#fff;color:var(--card);border-color:#fff}
+.pbtns button:focus-visible{outline:2px solid #ffe27a;outline-offset:2px}
+.pmsg{font-weight:700;min-height:1.6em}
+/* Tablet & Lightbox */
+.tabletBtn{all:unset;box-sizing:border-box;width:100%;cursor:pointer;display:grid;gap:10px;position:relative}
+.tabletBtn .open{position:absolute;right:16px;bottom:16px;background:var(--accent);color:#fff;font:700 .9rem var(--font);padding:8px 14px;border-radius:99px}
+.tabletBtn:focus-visible{outline:3px solid var(--accent);outline-offset:4px;border-radius:8px}
+dialog{border:0;border-radius:14px;padding:0;max-width:min(1000px,94vw);width:100%;background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(10,14,12,.75)}
+.lb{display:grid;gap:12px;padding:16px}
+.lbScroll{max-height:74vh;overflow:auto;border-radius:6px;background:#eef1f4;display:grid;place-items:center}
+.lbScroll img{width:auto;max-width:100%;max-height:72vh;height:auto}
+.lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
+.lbBar button{font:700 .9rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:6px}
+.thumbs button{all:unset;cursor:pointer;border-radius:4px;overflow:hidden;border:2px solid transparent;aspect-ratio:3/4;background:#fff}
+.thumbs button[aria-current="true"]{border-color:var(--accent)}.thumbs img{width:100%;height:100%;object-fit:cover}
+ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
+@media (max-width:760px){.split,.g2,.sv{grid-template-columns:1fr}.g3{grid-template-columns:1fr 1fr}.bar{grid-template-columns:120px 1fr 40px}}
+</style>
+
+<div class="wrap">
+  <p class="note">Entwurf zur Anordnung. Die Karten sind die Druckdateien mit Seriendruck-Feldern; Anrede und Name werden pro Empfängerin und Empfänger eingesetzt. Versand im Dezember 2026.</p>
+
+  <header class="hero">
+    <p class="eyebrow">Kampagne · CP Pump Systems</p>
+    <h1>Weihnachten 2026</h1>
+    <div class="frame"><img src="img/hero.jpg" alt="Weihnachtskarte 2026: Vorderseite mit Rentierschlitten und CP-Pumpe, daneben die Innenseite"></div>
+    <p class="lead">Jedes Jahr bedankt sich CP Pump Systems zu Weihnachten mit einem Geschenk, abgestimmt auf drei Zielgruppen: A-Kunden, B-Kunden und Mitarbeitende.</p>
+    <p>2026 arbeitete ich im Team an der Kampagne mit. Gestaltung und Texte der Karten lagen komplett bei mir, ebenso die Abstimmung mit den Druckereien. Zudem holte ich die Offerten ein und koordinierte Bestellung und Lieferanten.</p>
+    <div class="facts"><span><b>3</b> Zielgruppen</span><span><b>3</b> Sprachen</span><span><b>Sie- und Du-Form</b></span><span><b>16</b> Antworten in der Umfrage</span></div>
+  </header>
+
+  <section class="chapter">
+    <p class="eyebrow">1 · Erst fragen, dann wählen</p>
+    <div class="text">
+      <h2>Was bei der Kundschaft ankommt, weiss der Verkauf</h2>
+      <p>Statt die Geschenke einfach festzulegen, fragte das Team zuerst den Verkauf und die Vertretungen: Welche Ideen kommen bei den Kunden an, und wie viele Geschenke braucht es? Die Favoriten wurden danach bei drei Anbietern nach Preis, Druckfläche, Lieferzeit und Herkunft verglichen. Ich holte die Offerten ein und koordinierte die Anbieter bis zur Lieferung.</p>
+    </div>
+    <div class="survey" role="group" aria-label="Ergebnis der Umfrage">
+      <div class="legend"><span><i style="background:var(--accent)"></i>gewählt</span><span><i style="background:var(--soft)"></i>weitere Ideen</span></div>
+      <div class="sv">
+        <div><h3>Geschenkideen A-Kunden</h3><p class="sub">Anteil der Bewertungen 4 oder 5 von 5</p><div id="svA"></div></div>
+        <div><h3>Geschenkideen B-Kunden</h3><p class="sub">Anteil der Bewertungen 4 oder 5 von 5</p><div id="svB"></div></div>
+      </div>
+      <p class="cap">Umfrage im April 2026 bei Verkauf und Ländern, 16 Antworten. Jede Idee wurde von 1 bis 5 bewertet.</p>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">2 · Geschenke mit Botschaft</p>
+    <div class="text">
+      <h2>Jedes Geschenk erzählt etwas über CP</h2>
+    </div>
+    <div class="g2">
+      <div class="card">
+        <div class="frame contain"><img src="img/picknick.jpg" alt="Picknickdecke, zusammengelegt in der Tragetasche"></div>
+        <span class="step">A-Kunden und Mitarbeitende</span>
+        <h3>Die Picknickdecke: leakproof</h3>
+        <p>Die Decke hält dicht, von unten und von oben, so wie die dichtungslosen Pumpen von CP. Die Mitarbeitenden erhalten sie ebenfalls, mit einer eigenen Karte unter dem Titel «Gemeinsam stark».</p>
+      </div>
+      <div class="card">
+        <div class="frame contain"><img src="img/kartenhalter.jpg" alt="Mockup des RFID-Kartenhalters mit CP-Logo und Druckfläche"></div>
+        <span class="step">B-Kunden</span>
+        <h3>Der Kartenhalter: Sicherheit, die man nicht sieht</h3>
+        <p>Der Kartenhalter schützt Bank- und Visitenkarten mit einem RFID-Blocker, «Sicherheit, die man nicht sieht, aber spürt», ebenfalls eine Brücke zu den Pumpen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">3 · Die Karte</p>
+    <div class="text">
+      <h2>Rentiere, ein Schlitten und eine CP-Pumpe</h2>
+      <p>Rentiere ziehen einen Schlitten mit einer CP-Pumpe durch den Nachthimmel über verschneite Berge, dazu «Merry Christmas» und der CP-Claim «cleaner pumps, cleaner planet™». Auf der Innenseite wartet ein Zahlen-verbinden-Rätsel.</p>
+    </div>
+    <div class="g3">
+      <figure><div class="frame portrait contain"><img src="img/moodboard_schlitten.png" alt="Moodboard: Schneeflocke mit Rentierschlitten"></div><figcaption class="cap"><span class="step">Idee</span><br>Moodboard aus dem Konzept</figcaption></figure>
+      <figure><div class="frame portrait"><img src="img/illu_blue.jpg" alt="Illustration: Rentiere ziehen einen Schlitten mit CP-Pumpe über Berge"></div><figcaption class="cap"><span class="step">Gestaltung</span><br>Die Illustration mit der CP-Pumpe</figcaption></figure>
+      <figure><div class="frame portrait"><img src="img/karteA-3.jpg" alt="Fertige Kartenvorderseite mit CP-Logo und Merry Christmas"></div><figcaption class="cap"><span class="step">Karte</span><br>Die fertige Vorderseite</figcaption></figure>
+    </div>
+    <div class="split" style="align-items:center">
+      <div class="text">
+        <h2>Drei Zielgruppen, eigene Worte</h2>
+        <p>Ich habe alle Texte geschrieben: für A-Kunden «Zeit für Dankbarkeit», für B-Kunden «Die schönste Zeit des Jahres» und für die Mitarbeitenden «Gemeinsam stark». Die Kundenkarten gibt es auf Deutsch, Englisch und Französisch, jeweils in der Sie- und der Du-Form, die Mitarbeiterkarte auf Deutsch und Englisch.</p>
+        <p>Die Karten sind mit Anrede und Namen personalisiert, per Seriendruck.</p>
+      </div>
+      <button class="tabletBtn" data-gallery="karten" aria-haspopup="dialog">
+        <div class="g3" style="gap:10px">
+          <div class="frame portrait contain"><img src="img/karteA-5.jpg" alt="Innenseite A-Kunden: Zeit für Dankbarkeit"></div>
+          <div class="frame portrait contain"><img src="img/karteB-5.jpg" alt="Innenseite B-Kunden: Die schönste Zeit des Jahres"></div>
+          <div class="frame portrait contain"><img src="img/karteMA-4.jpg" alt="Innenseite Mitarbeitende: Gemeinsam stark"></div>
+        </div>
+        <span class="open">Alle Karten ansehen</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">4 · Das Rätsel</p>
+    <div class="split">
+      <div class="text">
+        <h2>Strich für Strich zur Lösung</h2>
+        <p>Auf der Innenseite jeder Karte steht ein Zahlen-verbinden-Rätsel, dreisprachig angeleitet. Wer die Punkte der Reihe nach verbindet, entdeckt die Botschaft.</p>
+        <p>Probieren Sie es aus: Klicken Sie die Punkte in der richtigen Reihenfolge an.</p>
+      </div>
+      <div class="puzzle">
+        <p class="lines">Strich für Strich zur Lösung.<br>Every line reveals more.<br>Chaque ligne en révèle davantage.</p>
+        <svg id="pz" viewBox="70 150 820 640" role="img" aria-label="Zahlen-verbinden-Rätsel mit 35 Punkten"></svg>
+        <p class="pmsg" id="pmsg" aria-live="polite"></p>
+        <div class="pbtns"><button class="pri" id="pSolve" type="button">Lösung zeigen</button><button id="pReset" type="button">Neu starten</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">5 · Umsetzung</p>
+    <div class="text">
+      <h2>Vom Druck bis zum Versand</h2>
+      <p>Dazu kamen die Druckvorbereitung mit der Druckerei für Karten, Adressetiketten und Couverts, die Bestellung der Geschenke und die Organisation des Versands.</p>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">Meine Aufgaben</p>
+    <ul class="tasks"><li>Kartendesign</li><li>Illustration</li><li>Texte in drei Zielgruppen</li><li>Sie- und Du-Form</li><li>Seriendruck</li><li>Abstimmung mit den Druckereien</li><li>Offerten</li><li>Koordination der Lieferanten</li><li>Bestellung</li><li>Versand</li></ul>
+  </section>
+</div>
+
+<dialog id="lb" aria-label="Galerie">
+  <div class="lb">
+    <div class="lbScroll" id="lbScroll"><img id="lbImg" src="" alt=""></div>
+    <div class="lbBar"><span id="lbCap"></span><button id="prev">Zurück</button><button id="next">Weiter</button><button id="close">Schliessen</button></div>
+    <div class="thumbs" id="thumbs"></div>
+  </div>
+</dialog>
+
+<script>
+// Umfrage: Anzahl Bewertungen 4 oder 5 (von 16)
+const A=[["Picknickdecke",9,1],["Tagungsmappe",8],["Notizbuch A4",7],["Schneidebrett",7],["Kühltasche",7],["Kuscheldecke",4],["Untersetzer",3]];
+const B=[["Kartenhalter",8,1],["Tischkalender",7],["Mütze",6],["Multitool",6],["Handschuhe",4],["Brillenputztuch",4],["Handwärmer",2],["Mausmatte",2]];
+function bars(id,d){document.getElementById(id).innerHTML=d.map(([n,v,w])=>`<div class="bar${w?' win':''}" title="${n}: ${v} von 16 Antworten mit 4 oder 5"><span>${n}</span><span class="t"><i style="width:${v/16*100}%"></i></span><b>${Math.round(v/16*100)} %</b></div>`).join('')}
+bars('svA',A);bars('svB',B);
+
+// Galerie
+const G={karten:[["img/karteA-3.jpg","Vorderseite Kundenkarte"],["img/karteA-4.jpg","Rätsel-Seite"],["img/karteA-5.jpg","A-Kunden · Deutsch · Zeit für Dankbarkeit"],["img/karteA-1.jpg","A-Kunden · Englisch · Time for Gratitude"],["img/karteA-6.jpg","A-Kunden · Französisch · Le temps de la gratitude"],["img/karteB-5.jpg","B-Kunden · Deutsch · Die schönste Zeit des Jahres"],["img/karteB-1.jpg","B-Kunden · Englisch · The Most Wonderful Time of the Year"],["img/karteB-6.jpg","B-Kunden · Französisch · La plus belle période de l’année"],["img/karteA-2.jpg","Rückseite mit allen Standorten"],["img/karteMA-2.jpg","Mitarbeitende · Vorderseite"],["img/karteMA-4.jpg","Mitarbeitende · Deutsch · Gemeinsam stark"],["img/karteMA-3.jpg","Mitarbeitende · Englisch · Stronger Together"],["img/karteMA-1.jpg","Mitarbeitende · Rätsel und Rückseite"]]};
+let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
+function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
+function open(g,n){pages=G[g];i=n||0;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
+document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery)));
+document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
+document.getElementById('next').onclick=()=>{i=(i+1)%pages.length;show()};
+document.getElementById('close').onclick=()=>d.close();
+th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+d.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+
+// Rätsel: Punkte aus der Druckdatei (35 Punkte, Lösung XMAS)
+const P=[[105,186],[155,324],[202,462],[248,601],[296,739],[209,501],[165,739],[224,483],[257,338],[303,186],[358,739],[358,186],[418,407],[462,532],[507,407],[566,186],[566,739],[595,746],[626,622],[654,483],[685,193],[716,483],[745,622],[775,746],[721,504],[651,504],[830,228],[798,200],[761,213],[751,290],[779,366],[807,449],[817,552],[789,656],[747,718]];
+const NS='http://www.w3.org/2000/svg',svg=document.getElementById('pz'),msg=document.getElementById('pmsg');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let step=0,segs,dots=[];
+function el(n,a){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e}
+function build(){svg.innerHTML='';step=0;dots=[];msg.textContent='Start bei Punkt 1.';segs=el('g',{});svg.appendChild(segs);
+ P.forEach(([x,y],k)=>{const c=el('circle',{cx:x,cy:y,r:8,class:'dot'+(k===0?' next':''),tabindex:0,role:'button','aria-label':'Punkt '+(k+1)});c.addEventListener('click',()=>hit(k));c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();hit(k)}});svg.appendChild(c);dots.push(c);
+ const t=el('text',{x:x+12,y:y-9,class:'num'});t.textContent=k+1;svg.appendChild(t)})}
+const JUMP=new Set([11,18,25,27]);// Sprung zum nächsten Buchstaben: keine Linie
+function line(k){if(JUMP.has(k+1))return;const[a,b]=[P[k-1],P[k]];const l=el('line',{x1:a[0],y1:a[1],x2:b[0],y2:b[1],class:'seg'});segs.appendChild(l)}
+function hit(k){if(k!==step){msg.textContent=`Gesucht ist Punkt ${step+1}.`;return}
+ if(k>0)line(k);dots[k].classList.remove('next');step++;
+ if(step<P.length){dots[step].classList.add('next');msg.textContent=step>1?`Weiter mit Punkt ${step+1}.`:'Gut! Weiter mit Punkt 2.'}else{msg.textContent='Gelöst: XMAS. Frohe Weihnachten!'}}
+document.getElementById('pSolve').onclick=()=>{build();msg.textContent='';const go=()=>{if(step<P.length){hit(step);reduce?go():setTimeout(go,60)}};go()};
+document.getElementById('pReset').onclick=build;
+build();
+</script>
