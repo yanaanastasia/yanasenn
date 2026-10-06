@@ -1,0 +1,115 @@
+<title>ACHEMA 2024 Projektseite</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: Entwurf einer Projektseite – grosses Titelbild, dann Kapitel Einladung, Plan → Stand, Am Stand, Hinter den Kulissen */
+:root{
+  --bg:#f7f8f6; --surface:#ffffff; --ink:#1b2320; --muted:#5d6964; --line:#dde2de; --accent:#1f5fa8; --green:#6aab2e;
+  --display:"Fraunces", Georgia, serif; --body:"Instrument Sans", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--green:#9fd36a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--green:#9fd36a;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body)}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:72px}
+.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px}
+h1{font:600 clamp(2.2rem,5vw,3.6rem)/1.05 var(--display);margin:0;text-wrap:balance}
+h2{font:600 clamp(1.5rem,3vw,2rem)/1.15 var(--display);margin:0;text-wrap:balance}
+.eyebrow{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0}
+p{margin:0;max-width:62ch}
+.lead{font-size:1.15rem;color:var(--ink)}
+.muted{color:var(--muted)}
+img{display:block;width:100%;height:auto;border-radius:6px}
+.hero{display:grid;gap:22px}
+.hero img{aspect-ratio:16/8;object-fit:cover}
+.facts{display:flex;flex-wrap:wrap;gap:8px 28px;font-size:.92rem;color:var(--muted)}
+.facts b{color:var(--ink);font-weight:600}
+.chapter{display:grid;gap:22px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
+.split{display:grid;grid-template-columns:5fr 7fr;gap:36px;align-items:start}
+@media (max-width:760px){.two,.split{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;display:grid;gap:10px;min-width:0}
+.cap{font-size:.82rem;color:var(--muted)}
+/* Vergleich Plan / Realität */
+.unused-compare{position:relative;overflow:hidden;border-radius:6px;aspect-ratio:16/9;background:#fff}
+.compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:0}
+.compare .top{clip-path:inset(0 calc(100% - var(--pos,50%)) 0 0)}
+.compare .top img{object-fit:contain;background:#fff}
+.compare .bar{position:absolute;top:0;bottom:0;left:var(--pos,50%);width:2px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
+.compare .lbl{position:absolute;top:10px;font-size:.75rem;background:rgba(0,0,0,.55);color:#fff;padding:3px 8px;border-radius:99px}
+.compare input{position:absolute;inset:auto 0 10px 0;width:60%;margin:0 auto;left:0;right:0}
+.tablet{background:#222;border-radius:22px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.tablet img{border-radius:8px;background:#fff}
+ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
+.gifts{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.gifts img{aspect-ratio:1;object-fit:contain;background:var(--surface)}
+</style>
+
+<div class="wrap">
+  <p class="note">Entwurf zur Anordnung, Texte gekürzt. Gesichter werden für die echte Seite unscharf gemacht.</p>
+
+  <header class="hero">
+    <p class="eyebrow">Messen · CP Pump Systems</p>
+    <h1>ACHEMA 2024 in Frankfurt</h1>
+    <img src="img/stand.jpg" alt="Der CP-Stand an der ACHEMA 2024 mit rundem Banner">
+    <p class="lead">Die ACHEMA ist eine der wichtigsten Messen der Prozessindustrie. Ich übernahm das laufende Projekt im Frühling 2024 und führte es bis zum letzten Messetag.</p>
+    <div class="facts"><span><b>108 m²</b> Stand</span><span><b>Halle 8</b> Frankfurt</span><span><b>10.–14. Juni</b> 2024</span><span><b>12</b> Personen am Stand</span></div>
+  </header>
+
+  <section class="chapter">
+    <p class="eyebrow">1 · Die Einladung</p>
+    <div class="split">
+      <div style="display:grid;gap:14px">
+        <h2>Ein Geschenk als Grund für den Besuch</h2>
+        <p>Drei Mailings luden Kundinnen und Kunden ein, vorab ein Geschenk zu wählen und es am Stand abzuholen. Zur Auswahl standen drei Geschenke, darunter ein Fussball im CP-Design, passend zur Fussball-EM. Den Ball gestaltete ich selbst, vom Muster über die Vorlage bis zum fertigen Design.</p>
+      </div>
+      <div style="display:grid;gap:16px">
+        <img src="img/banner.jpg" alt="E-Mail-Banner zur ACHEMA 2024">
+        <div class="gifts" style="grid-template-columns:repeat(3,1fr)">
+          <figure style="margin:0"><img src="img/ballmuster.jpg" alt="Muster eines Fussballs" style="aspect-ratio:3/4;object-fit:cover"><figcaption class="cap">Muster</figcaption></figure>
+          <figure style="margin:0"><img src="img/ballvorlage.jpg" alt="Vorlage mit 32 Panels" style="aspect-ratio:3/4;object-fit:cover"><figcaption class="cap">Vorlage mit 32 Panels</figcaption></figure>
+          <figure style="margin:0"><img src="img/ball.jpg" alt="Fussball im CP-Design" style="aspect-ratio:3/4;object-fit:contain;background:#fff"><figcaption class="cap">Eigenes Design</figcaption></figure>
+        </div>
+        <p class="note">Platz für ein Bild mit allen drei Geschenken aus dem Mailing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">2 · Vom Plan zum Stand</p>
+    <h2>Von der Skizze zum fertigen Stand</h2>
+    <div class="two">
+      <figure style="margin:0"><img src="img/skizze.jpg" alt="Skizze des Stands aus der Planung" style="background:#fff;border:1px solid var(--line)"><figcaption class="cap">Skizze aus der Planung</figcaption></figure>
+      <figure style="margin:0"><img src="img/stand.jpg" alt="Der fertige Stand" style="aspect-ratio:4/3;object-fit:cover"><figcaption class="cap">Der fertige Stand an der ACHEMA</figcaption></figure>
+    </div>
+    <p class="cap">Standbau durch eine Agentur, Planung und Koordination durch mich.</p>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">3 · Am Stand</p>
+    <h2>Gespräche statt Prospekte</h2>
+    <div class="two">
+      <figure style="margin:0"><img src="img/buzzer.jpg" alt="Buzzer Game: Pumpe montieren auf Zeit"><figcaption class="cap">Buzzer Game: Wer montiert die Pumpe am schnellsten?</figcaption></figure>
+      <figure style="margin:0"><img src="img/pumpe.jpg" alt="Aufgeschnittene Pumpe als Exponat"><figcaption class="cap">Exponate mit Infopanels</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">4 · Hinter den Kulissen</p>
+    <div class="split">
+      <div style="display:grid;gap:14px">
+        <h2>Das Messebriefing</h2>
+        <p>Ein Briefing für das ganze Team: Standplan, Ablauf der Geschenk-Abholung, Dresscode, Schichten und ein überarbeitetes Lead-Formular.</p>
+      </div>
+      <div class="two">
+        <div class="tablet"><img src="img/plan.jpg" alt="Standplan aus dem Briefing"></div>
+        <div class="tablet"><img src="img/lead.jpg" alt="Lead-Formular"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">Meine Aufgaben</p>
+    <ul class="tasks"><li>Gesamtverantwortung</li><li>Planung und Koordination</li><li>Einladungskampagne</li><li>Geschenk-Ablauf</li><li>Infopanels</li><li>Giveaways</li><li>Hotel und Anreise</li><li>Versand</li><li>Verpflegung</li><li>Messebriefing</li><li>Lead-Formular</li><li>Standteam vor Ort</li></ul>
+  </section>
+</div>
+
