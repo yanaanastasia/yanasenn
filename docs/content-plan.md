@@ -779,6 +779,16 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Website-Pflege mit TYPO3
 - Entwicklung und Analyse von Kampagnen, Evaluation von Partnern und Lieferanten
 
+#### TEXT-ENTWURF «GOLDINGER Social Media, Reels und Immobilienvideos» (Frühere Projekte, Kachel 2) ✏️
+- **Stichworte:** Social Media · Reels · Immobilienvideo · Redaktionsplanung
+- **Kurz:** Zwei Jahre Kanalbetreuung, von der Story bis zum Objektrundgang
+- **Ausgangslage:** GOLDINGER war auf Instagram, Facebook, LinkedIn und YouTube präsent. Die Kanäle sollten regelmässig bespielt werden, Vertrauen in die Fachleute aufbauen und Objekte, Infoabende und das Hausmagazin bekannt machen.
+- **Meine Rolle ✏️:** Ich betreute die Kanäle während zwei Jahren: Redaktionsplan, Gestaltung der Beiträge, Fotografie und Video bis zum Schnitt.
+- **Umsetzung:** Beiträge zu Themen wie stille Vermarktung, Kundenstimmen, Tipps für Käufer oder Immobilie im Alter · Storys mit Umfragen, Fragerunden und Countdowns zu den Infoabenden, teils beworben · Reels mit Interviews von Fachleuten aus Verkauf und Bewirtschaftung, dazu Reels wie «Jahresvorsätze» · Objektvideos und Rundgänge, gefilmt und geschnitten · Vorstellung neuer Mitarbeitender · Pflege der Website in TYPO3.
+- **Entwicklung:** Ende 2021 noch Gold und Blau, ab 2022 ein klares Blau-Weiss im Stil des übrigen Auftritts (siehe «Redesigns Print»).
+- **Bilder/Video 📌:** Auswahl Feed (Raster), Story-Beispiele, ein Objektvideo (komprimiert), ein Reel. Personen nur mit Einverständnis.
+- ❓ Luftaufnahmen: eigene Drohne oder Fremdmaterial? ❓ Alle Feed-Beiträge von Yana gestaltet?
+
 #### TEXT-ENTWURF «GOLDINGER Infoabende und Tage der offenen Tür» (Frühere Projekte, Kachel 4) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Kampagnenplanung · Print · Meta Ads · Event
 - **Kurz:** Kampagnen, die Menschen an Infoabende und in Neubauprojekte bringen
@@ -795,7 +805,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Kurz:** Ein neuer Messeauftritt für die regionalen Publikumsmessen
 - **Ausgangslage:** GOLDINGER war jedes Jahr an der WEGA und an der Immozionale vertreten. Der bisherige Stand stammte aus früheren Jahren und zeigte vor allem viele kleine Objektplakate. Gleichzeitig sollte die eher ältere Zielgruppe schon vor der Messe erfahren, dass sie am Stand ihre Immobilie bewerten lassen kann.
 - **Meine Rolle ✅:** Ich gestaltete die Messewände neu, entwarf ein Mockup des Stands, plante die Werbung vor der Messe und gestaltete die Fruchtgummis als Giveaway.
-- **Umsetzung:** Königsblaue Paneele mit klaren Botschaften wie «Jetzt Immobilie direkt am Stand bewerten», Neubauprojekte und Geschäftsbereiche (2022/2023) · Inserate in den Wochen vor der Messe mit dem Angebot einer Immobilien-Bewertung in fünf Minuten am Stand, dazu Flyer in den Büros · Fruchtgummis in eigener Form und Grafik (2022 gelb/schwarz, 2023 blau; zusätzlich separat im Case Giveaways) · ❓ Videos von der Messe.
+- **Umsetzung:** Königsblaue Paneele mit klaren Botschaften wie «Jetzt Immobilie direkt am Stand bewerten», Neubauprojekte und Geschäftsbereiche (2022/2023) · Inserate in den Wochen vor der Messe mit dem Angebot einer Immobilien-Bewertung in fünf Minuten am Stand, dazu Flyer in den Büros · Fruchtgummis in eigener Form und Grafik (2022 gelb/schwarz, 2023 blau; zusätzlich separat im Case Giveaways) · (✅ keine Videos an den Messen, Yana 06.10.2026).
 - **Vorher/Nachher:** siehe Kachel «Redesigns Print» (Messewände 2019 → 2022/2023).
 - **Bilder 📌:** Standfoto bzw. Mockup 2023 (ohne Personen), Wände neu, Inserat WEGA 2022, Fruchtgummi-Säckli.
 - Nicht verwenden: Preise (Wand «Kradolf»), Rechnungen, Anmeldungen, Fotos mit erkennbaren Gästen.
