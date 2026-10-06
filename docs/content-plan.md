@@ -224,13 +224,18 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v5 – einfach (Yana 06.10.2026: bei Print sollen nur die passenden Teile erscheinen, z. B. die Messewände, nicht die ganze Messe; klar und übersichtlich)**
-- **Zwei Ansichten auf der Portfolio-Seite:**
-  1. **«Projekte»** (Standard): grosse Kacheln, ein Projekt pro Kachel, mit Text (Ausgangslage, Rolle, Umsetzung). Kein Filter.
-  2. **«Arbeiten nach Art»**: ein Bilder-Raster mit **einzelnen Arbeiten** aus allen Projekten, gefiltert nach Art. Jedes Bild hat eine kurze Beschriftung (z. B. «Messewand · Pumps & Valves 2026») und führt zum Projekt.
-- **Filter (nur in Ansicht 2):** Alle · Print · Digital & Social Media · Foto & Video · Merchandise & Giveaways
-- **Beispiel Messe Dortmund 2026:** Messewand → Print · E-Mail-Banner und Social-Media-Grafik → Digital & Social Media · Standfoto → Foto & Video. Die Messe selbst ist ein Projekt unter «Projekte».
-- Vorschlag v4 (Projekte mit Haupt- und Nebendisziplinen) bleibt als Alternative im Git-Verlauf.
+**✏️ Vorschlag v6 – Themenseiten (Yana 06.10.2026: Messen sind ein grosses Thema → eine Seite, wo man alle Messen und alles dazu sieht; ebenso bei anderen Themen)**
+- **Portfolio-Seite = 6 grosse Themen-Kacheln.** Klick → eigene **Themenseite**.
+- **Jede Themenseite hat zwei Teile:** oben die **Projekte** dieses Themas (mit Text), darunter eine **Galerie** mit allen einzelnen Arbeiten dieser Art, auch aus Projekten anderer Themen (z. B. erscheinen die Messewände in der Galerie von «Grafik & Print»). Jedes Galeriebild hat eine kurze Beschriftung und führt zum Projekt.
+- **Themen (DE / EN) und Projekte:**
+  1. **Messen & Events / Trade Fairs & Events:** interaktive Weltkarte mit allen Messen (eigene und an Partnerständen) · Internationale Messen 2024–2026 · Messesystem und Messematerial · WEGA und Immozionale · Infoabende und Tage der offenen Tür
+  2. **Kampagnen / Campaigns:** Weihnachtskampagne 2026 · Kampagne «Molten Sulphur» · Songkran-Grusskarte
+  3. **Grafik & Print / Graphic Design & Print:** Broschüren und Factsheets · Infografiken und Karten · Hausmagazin (Online-Magazin) · Redesigns Vorher/Nachher · Raumgestaltung · Trailer Park – Street Food (Kursprojekt)
+  4. **Digital & Social Media:** Website und Newsletter · Online-Werbung (Banner, Signaturen, LinkedIn) · Social Media GOLDINGER
+  5. **Foto & Video / Photo & Video:** Fotografie · Reels und Immobilienvideos · Animierte Erklärvideos (Abschlussarbeit) · Halloween-Videoflyer (Freelance)
+  6. **Merchandise & Giveaways:** Giveaways und Werbeartikel (CP und GOLDINGER, inkl. Fruchtgummis) · Arbeits- und Messekleidung
+- **Auf der Startseite «Hi.»** bleiben einzelne Highlight-Projekte (Auswahl später).
+- Ersetzt v4/v5 und die Filterzeile in 6.0 (Verlauf in Git).
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
