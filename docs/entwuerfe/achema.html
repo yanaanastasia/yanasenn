@@ -82,6 +82,11 @@ ul.facts2{margin:0;padding-left:18px;font-size:.92rem;color:var(--muted);display
 .mailframe{max-width:380px;margin-inline:auto;border-radius:18px}
 .mailframe .frame{aspect-ratio:3/4}
 .mailframe .frame img{object-fit:cover;object-position:top}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.stat b{font:600 1.9rem/1 var(--display);color:var(--accent);font-variant-numeric:tabular-nums}
+.stat span{font-size:.85rem;color:var(--muted)}
+@media (max-width:760px){.stats{grid-template-columns:1fr 1fr}}
 ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
 </style>
@@ -112,6 +117,13 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
         <span class="open">Mailings ansehen</span>
       </button>
     </div>
+    <div class="stats" aria-label="Auswertung der Mailings">
+      <div class="stat"><b>2452</b><span>Empfängerinnen und Empfänger von Mailing 1, in drei Sprachen</span></div>
+      <div class="stat"><b>398</b><span>Kontakte öffneten Mailing 1</span></div>
+      <div class="stat"><b>80</b><span>klickten in Mailing 1 auf die Anmeldung</span></div>
+      <div class="stat"><b>42</b><span>klickten in Mailing 2 (DE) erneut auf die Anmeldung</span></div>
+    </div>
+    <p class="cap">Zahlen aus der Kampagnenauswertung in Zoho, Versand am 19. März und 18. April 2024.</p>
   </section>
 
   <section class="chapter">
@@ -215,7 +227,7 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
 <script>
 const G={
  briefing:[["img/br_plan.jpg","Standplan"],["img/br_ablauf.jpg","Ablauf der Geschenk-Abholung"],["img/br_dresscode.jpg","Dresscode in den CP-Farben"],["img/br_swiss.jpg","Verpflegung mit Swissness"],["img/br_lead.jpg","Lead-Erfassung"]],
- mail:[["img/mail1_de.jpg","Mailing 1 · Deutsch"],["img/mail2_de.jpg","Mailing 2 · Deutsch"],["img/mail2_en.jpg","Mailing 2 · Englisch"],["img/dank_de.jpg","Dankesmail · Deutsch"]],
+ mail:[["img/mail1_de.jpg","Mailing 1 · Deutsch"],["img/mail1_en.jpg","Mailing 1 · Englisch"],["img/mail2_de.jpg","Mailing 2 · Deutsch"],["img/mail2_en.jpg","Mailing 2 · Englisch"],["img/dank_de.jpg","Dankesmail · Deutsch"],["img/dank_en.jpg","Dankesmail · Englisch"]],
  ball:[["img/ballmuster.jpg","Das Muster"],["img/ballvorlage.jpg","Die Vorlage mit 32 Feldern"],["img/ball.jpg","Das fertige Design"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
