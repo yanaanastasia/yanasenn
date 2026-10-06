@@ -812,7 +812,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 #### TEXT-ENTWURF «Trailer Park – Street Food» (Kursprojekt) ✏️
 - **Stichworte:** Markenidentität · Corporate Design · Kursprojekt
 - **Kurz:** Eine komplette Marke für einen Food-Truck
-- **Ausgangslage:** Im überbetrieblichen Kurs der Ausbildung entwickelten wir für einen fiktiven Food-Truck eine eigene Marke, vom Namen bis zur Verpackung.
+- **Ausgangslage:** Im überbetrieblichen Kurs der Ausbildung entstand für einen Food-Truck eine eigene Marke, vom Logo bis zur Verpackung.
 - **Meine Rolle ✏️:** Ich entwickelte die Markenidentität: Logo, Claim, Farb-, Bild- und Schriftkonzept, zusammengefasst in einem Manual, und setzte sie auf Plakat, Becher, Food-Box und Newsletter um.
 - **Kennzeichnung:** klar als Kursprojekt ✅.
 - ❓ Fiktiver Auftrag oder echter Food-Truck in Romanshorn? Allein oder im Team?
