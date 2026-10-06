@@ -228,8 +228,8 @@ Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digita
 - **Zwei Ansichten auf der Portfolio-Seite:**
   1. **«Projekte»** (Standard): grosse Kacheln, ein Projekt pro Kachel, mit Text (Ausgangslage, Rolle, Umsetzung). Kein Filter.
   2. **«Arbeiten nach Art»**: ein Bilder-Raster mit **einzelnen Arbeiten** aus allen Projekten, gefiltert nach Art. Jedes Bild hat eine kurze Beschriftung (z. B. «Messewand · Pumps & Valves 2026») und führt zum Projekt.
-- **Filter (nur in Ansicht 2):** Print · Messe & Raum · Digital & Social Media · Foto & Video · Merchandise & Giveaways
-- **Beispiel Messe Dortmund 2026:** Messewand → Print bzw. Messe & Raum · E-Mail-Banner und Social-Media-Grafik → Digital & Social Media · Standfoto → Foto & Video. Die Messe selbst ist ein Projekt unter «Projekte».
+- **Filter (nur in Ansicht 2):** Alle · Print · Digital & Social Media · Foto & Video · Merchandise & Giveaways
+- **Beispiel Messe Dortmund 2026:** Messewand → Print · E-Mail-Banner und Social-Media-Grafik → Digital & Social Media · Standfoto → Foto & Video. Die Messe selbst ist ein Projekt unter «Projekte».
 - Vorschlag v4 (Projekte mit Haupt- und Nebendisziplinen) bleibt als Alternative im Git-Verlauf.
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
