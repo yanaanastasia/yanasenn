@@ -267,7 +267,7 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 #### TEXT-ENTWURF Case «Internationale Messen 2024–2026» ✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 - **Titel:** Internationale Messen 2024–2026
 - **Stichworte:** Organisation · Standdesign · Mailings · Logistik
-- **Kurz ✅ (Yana 06.10.2026: keine Länder und keine Zahl; Ort und Details nur auf den einzelnen Messen):** Eigene Messeauftritte und Partnerstände, von der Idee bis zur Nachbereitung.
+- **Kurz ✅ (Yana 06.10.2026: keine Länder und keine Zahl; Ort und Details nur auf den einzelnen Messen):** Messeauftritte von CP Pump Systems und an Partnerständen, von der Idee bis zur Nachbereitung. («eigene» vermeiden, klingt nach «selbst gemacht», Yana 06.10.2026)
 - **Ausgangslage:** CP Pump Systems ist an internationalen Fachmessen für Chemie, Petrochemie, Düngemittel und Pumpentechnik präsent. Dazu kommen Messen von Partnern, für die CP Marketingmaterial und Giveaways liefert.
 - **Meine Rolle:** 2024 und 2025 habe ich die Messen über weite Strecken allein betreut, von der Anmeldung bis zum Follow-up. Seit 2026 liegt mein Schwerpunkt auf der Gestaltung: Standdesign, Messewände und Mailings. Messebriefing, Lead-Formular und E-Mail-Banner gehören weiterhin zu meinen Aufgaben.
 - **Vorgehen ✅ (v2, Yana 06.10.2026):** Jeder Messeauftritt beginnt mit einer Idee, sei es von mir, von der Geschäftsleitung oder aus dem Verkauf. Bevor etwas entschieden wird, schaffe ich eine solide Grundlage: Ich hole Offerten ein und kläre, was die Messe bietet und was ein Auftritt kostet. Im Kick-off fällt dann, abgestimmt auf das Budget, der Entscheid. Erst danach beginnt die eigentliche Planung: Standfläche und Standdesign, Exponate und Material, Logistik, Werbung im Vorfeld und ein Briefing, damit das Team vor Ort bestens vorbereitet ist. Mit der Nachbereitung schliesse ich jeden Auftritt ab.
@@ -1027,6 +1027,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 | `CP-Pumpen-Yana-Senn-27.jpg` (5005×3337) | Studio, Arme verschränkt, selbstbewusst, gleicher Hintergrund | ✅ **Hero-Bild** (freistellen; Nr. 24 als Ersatz) |
 | `CP-Pumpen-Yana-Senn-03.jpg`, `…-Webseite.jpg` | noch nicht angeschaut | – |
 
+- 📌 Arbeitsvertrag (Nebenbeschäftigung, Zeigen von Firmenarbeiten) prüfen: ✅ vorerst ausgelassen (Yana 06.10.2026).
 - 📌 **Bildrechte prüfen:** Die Fotos stammen aus Shootings von SBW bzw. CP Pump Systems. Klären, ob Yana sie für die eigene Website nutzen darf (Fotograf/Firma).
   - YouTube-Video (Design-Inspiration): https://www.youtube.com/watch?v=hTwbCmZhFNA
     Screenshot erhalten (Hero «I'm a Coder.»): sehr grosse fette Grotesk-Headline, ein Wort kursiv in Akzentfarbe (Terracotta), freigestelltes Portrait vor Himmel-Collage, Name und Rolle rechts mit Akzentlinie, runder Button «Hire Me», abgerundeter Rahmen, Akzentfarben-Varianten Terracotta / Salbei / Blau / Rost. ❓ Welche Elemente gefallen Yana?
