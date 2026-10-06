@@ -264,7 +264,7 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 
 ### 6.1 Hauptcases (Selected Work)
 
-#### TEXT-ENTWURF Case «Internationale Messen 2024–2026» ✏️
+#### TEXT-ENTWURF Case «Internationale Messen 2024–2026» ✏✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 - **Titel:** Internationale Messen 2024–2026
 - **Stichworte:** Organisation · Standdesign · Mailings · Logistik
 - **Kurz:** 20 Messen in fünf Ländern, dazu Material für neun Partnerauftritte. ❓ (Zahl erst final, wenn alle 2026er-Messen durchgeführt sind)
@@ -605,7 +605,7 @@ Quelle: Drive «Messen/Partnermessen», alle Unterordner gelesen (04.10.2026). K
 - **2026 ❓:** Ideen: Cardholder (B-Kunden), Picnic Blanket (A-Kunden), eventuell Karandashi Pen. Zeigen wir das schon, als «in progress», oder erst nach dem Versand?
 - 🔒 Lieferanten bzw. Partner nur nennen, wenn freigegeben 📌 (A12)
 
-#### TEXT-ENTWURF Case «Weihnachtskampagne 2026» ✏️
+#### TEXT-ENTWURF Case «Weihnachtskampagne 2026» ✏✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 **Entscheid ✅:** Auf der Website nur **2026** zeigen. ✅ **Yana 05.10.2026:** im Team mitgeholfen, Karten **komplett gestaltet**, Austausch mit den Druckereien. (Frühere Notiz «Konzept, Design, Text eigenständig» dadurch präzisiert.) 2025: Yana leitete die Kampagne mit einer Agentur (nur evtl. ein Satz). 2024 (mit Agentur) weglassen.
 - **Stichworte:** Konzept · Kartendesign · Text · Geschenkauswahl
 - **Ausgangslage:** Jedes Jahr bedankt sich CP Pump Systems zu Weihnachten mit einem Geschenk, abgestimmt auf drei Zielgruppen: A-Kunden, B-Kunden und Mitarbeitende.
@@ -647,7 +647,7 @@ Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Giv
 - Arbeitskleidung und Messekleidung ✅ 📌
 - GOLDINGER-Fruchtgummis ✅ (Formen und Grafik gestaltet, 2022 gelb/schwarz, 2023 blau, für WEGA & Immozionale) → ✅ **auch separat zeigen** (Yana 06.10.2026): eigenes Beispiel in diesem Case, zusätzlich zur Messe-Kachel.
 
-#### TEXT-ENTWURF Case «Broschüren und Factsheets» ✏️
+#### TEXT-ENTWURF Case «Broschüren und Factsheets» ✏✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 - **Stichworte:** Konzept · Layout · Infografiken · Mehrsprachigkeit
 - **Kurz:** 10 Broschüren in bis zu neun Sprachversionen
 - **Ausgangslage:** Die Broschüren von CP Pump Systems waren über die Jahre gewachsen: unterschiedlich aufgebaut, teils mit Einklappfalte, mit verschiedenen InDesign-Strukturen und je nach Sprache mit anderen Inhalten. Das machte Pflege und Übersetzung aufwendig.
@@ -713,7 +713,7 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 - Nicht verwenden: Preise, Bestellnummern, Adressen, Namen und Telefonnummern aus den E-Mails.
 - **CP weitere:** Lieferzeiten-Flyer DE/EN; Molten-Sulphur-Anwendungsblatt; Sammelbanner Messen DE/EN/FR; Panels zur Firmengeschichte (Aug. 2026, vermutlich Wandpaneele); Weltkarte mit Farbvarianten (schwarz, hellgrün, grün, grau, blau) → Auswahl → Sprachversionen (guter Prozess); Fotoshooting Betrieb Aug. 2026 und Mai 2026 (Dateien zu gross, nicht angesehen); Firmenprofil-Präsentation 2026 (77 MB, nicht angesehen).
 
-#### TEXT-ENTWURF «GOLDINGER Hausmagazin» (Frühere Projekte) ✏️
+#### TEXT-ENTWURF «GOLDINGER Hausmagazin» (Frühere Projekte) ✏✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 - **Stichworte:** Layout · Editorial · Print
 - **Kurz:** «Die IMMO-EXPERTEN», 12 Seiten, zweimal im Jahr
 - **Ausgangslage:** GOLDINGER Immobilien gab zweimal im Jahr ein eigenes Hausmagazin heraus. Es zeigte die aktuellen Immobilien und Neubauprojekte, lud zu den Infoabenden ein und lag teilweise Zeitungen in der Ostschweiz bei.
@@ -848,7 +848,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Bilder 📌:** Standfoto bzw. Mockup 2023 (ohne Personen), Wände neu, Inserat WEGA 2022, Fruchtgummi-Säckli.
 - Nicht verwenden: Preise (Wand «Kradolf»), Rechnungen, Anmeldungen, Fotos mit erkennbaren Gästen.
 
-#### TEXT-ENTWURF «GOLDINGER Redesigns Print» (Frühere Projekte, Kachel 7) ✏️
+#### TEXT-ENTWURF «GOLDINGER Redesigns Print» (Frühere Projekte, Kachel 7) ✏✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 - **Stichworte:** Redesign · Print · Corporate Design
 - **Kurz:** Faltmappe, Flyer, Inserate und Messewände in einer klaren Linie
 - **Ausgangslage:** Viele Printmittel von GOLDINGER stammten aus früheren Jahren und wirkten uneinheitlich: weisse Felder mit kleinen Bildern, Bordeaux-Titel, Goldlinien und teils noch der alte Firmenname «Immobilien Treuhand AG».
@@ -867,7 +867,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Altes Portfolio und Videos vom anderen PC 📌
 - Alte Texte sind teils sehr blumig («faszinierend», «renommiert») und werden im neuen Ton neu geschrieben.
 
-#### TEXT-ENTWURF Case «Fotografie» (CP Pump Systems) ✏️
+#### TEXT-ENTWURF Case «Fotografie» (CP Pump Systems) ✏✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 - **Stichworte:** Reportage · Menschen bei der Arbeit · Bildbearbeitung
 - **Kurz:** Bilder für Broschüren, Website, Messen und Wände, von der Aufnahme bis zur Druckdatei
 - **Meine Rolle ✏️:** Ich fotografiere Produkte, Gebäude, Events, Messeauftritte und Mitarbeitende und bearbeite die Bilder bis zum fertigen Einsatz auf der Website, in Print und auf Social Media (Service-Text ✅).
@@ -878,7 +878,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Weiterbildung:** 2026 Fotografie-Workshop mit Bildbearbeitung (2 Tage, vor Ort bei CP) ✅.
 - **Bilder 📌:** Auswahl später; erkennbare Personen nur mit Einverständnis.
 
-#### TEXT-ENTWURF Case «Raumgestaltung: die Marke im Gebäude» (CP Pump Systems) ✏️
+#### TEXT-ENTWURF Case «Raumgestaltung: die Marke im Gebäude» (CP Pump Systems) ✏✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 - **Stichworte:** Raumkonzept · Wandgestaltung · Fotografie · Produktion
 - **Kurz:** Sitzungszimmer, Lounge und Abteilungen im Erscheinungsbild von CP
 - **Ausgangslage:** Die Marke CP sollte nicht nur an Messen und in Broschüren sichtbar sein, sondern auch im eigenen Gebäude: dort, wo Kundschaft empfangen wird, und dort, wo die Mitarbeitenden täglich arbeiten.
@@ -889,7 +889,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Bilder 📌:** Raum vorher (Foto vorhanden), Layout-Varianten, Rendering, fertiger Raum (❓ Fotos folgen, Yana 06.10.2026), Paneele der Abteilungen. Erkennbare Mitarbeitende nur mit Einverständnis.
 - Nicht verwenden: Preise, Offerten, Namen von Lieferanten und Mitarbeitenden.
 
-#### TEXT-ENTWURF Case «Infografiken & Karten» (CP Pump Systems) ✏️
+#### TEXT-ENTWURF Case «Infografiken & Karten» (CP Pump Systems) ✏✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
 - **Stichworte:** Informationsdesign · Illustration · Mehrsprachigkeit
 - **Kurz:** Weltkarte und Firmengeschichte als wiederverwendbare Grafiken für Broschüren, Messen und Website
 - **Ausgangslage:** CP Pump Systems ist mit Standorten, Tochterfirmen und Partnern weltweit tätig und blickt auf eine lange Firmengeschichte zurück. Beides sollte auf einen Blick verständlich sein, in mehreren Sprachen und für ganz unterschiedliche Formate.
