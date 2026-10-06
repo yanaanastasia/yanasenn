@@ -85,7 +85,7 @@ ul.facts2{margin:0;padding-left:18px;font-size:.92rem;color:var(--muted);display
 .report{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:clamp(18px,3vw,32px);display:grid;gap:26px}
 .repHead{display:grid;gap:6px}
 .repHead h3{font-size:clamp(1.25rem,2.4vw,1.6rem)}
-.hero3{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.hero3{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .hero3>div{display:grid;gap:6px;padding:18px 18px 18px 0;align-content:start}
 .hero3>div+div{border-left:1px solid var(--line);padding-left:18px}
 .hero3 b{font:700 clamp(2.2rem,5.5vw,3.4rem)/1 var(--display);font-variant-numeric:tabular-nums;color:var(--ink);letter-spacing:-.01em}
@@ -110,7 +110,13 @@ ul.facts2{margin:0;padding-left:18px;font-size:.92rem;color:var(--muted);display
 .repTable td:nth-child(n+3),.repTable tfoot td{text-align:right}
 .repTable thead th:nth-child(n+3){text-align:right}
 .repTable tfoot th,.repTable tfoot td{font-weight:700;border-bottom:0}
-@media (max-width:760px){.hero3{grid-template-columns:1fr}.hero3>div+div{border-left:0;border-top:1px solid var(--line);padding-left:0}.timeline{grid-template-columns:1fr 1fr;row-gap:22px}}
+@media (max-width:760px){.hero3{grid-template-columns:1fr 1fr}.hero3>div:nth-child(3){border-left:0;padding-left:0}.hero3>div:nth-child(n+3){border-top:1px solid var(--line)}.timeline{grid-template-columns:1fr 1fr;row-gap:22px}}
+.gifts{display:grid;gap:10px}
+.gtitle{max-width:none;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}.gtitle span{font-size:.85rem;color:var(--muted)}
+.grow{display:grid;grid-template-columns:110px 1fr 36px;gap:12px;align-items:center}
+.gl{font-size:.92rem}.grow b{text-align:right;font-variant-numeric:tabular-nums}
+.gbar{height:12px;border-radius:6px;background:color-mix(in srgb,var(--accent) 12%,var(--surface));overflow:hidden}
+.gbar i{display:block;height:100%;background:var(--accent);border-radius:6px}
 ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
 </style>
@@ -149,11 +155,18 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
       <div class="hero3">
         <div><b>4204</b><span>Einladungen versendet</span></div>
         <div><b>665</b><span>Kontakte öffneten die Einladung</span></div>
-        <div class="hl"><b>122</b><span>gingen weiter zur Anmeldung</span></div>
+        <div><b>122</b><span>gingen weiter zur Anmeldung</span></div>
+        <div class="hl"><b>74</b><span>meldeten sich an und wählten ihr Geschenk</span></div>
       </div>
       <div class="ratio" role="img" aria-label="Von 665 Kontakten, die öffneten, gingen 122 weiter zur Anmeldung, das sind 18 Prozent.">
         <div class="ratioBar"><span class="part" style="width:18.3%" title="122 von 665 · 18 %"></span></div>
         <p><b>Fast jede fünfte Person</b>, die die Einladung öffnete, ging direkt weiter zur Anmeldung.</p>
+      </div>
+      <div class="gifts" aria-label="Geschenkwahl der Angemeldeten">
+        <p class="gtitle"><b>Welches Geschenk gewählt wurde</b> <span>74 Anmeldungen, Stand 27. Mai 2024</span></p>
+        <div class="grow"><span class="gl">SIGG-Flasche</span><span class="gbar"><i style="width:100%" title="SIGG-Flasche: 32"></i></span><b>32</b></div>
+        <div class="grow"><span class="gl">Badetuch</span><span class="gbar"><i style="width:84.4%" title="Badetuch: 27"></i></span><b>27</b></div>
+        <div class="grow"><span class="gl">Fussball</span><span class="gbar"><i style="width:46.9%" title="Fussball: 15"></i></span><b>15</b></div>
       </div>
       <ol class="timeline">
         <li><time>19. März 2024</time><b>Mailing 1</b><span>DE · EN · FR</span><em>2452 versendet · 398 geöffnet · 80 zur Anmeldung</em></li>
@@ -175,7 +188,7 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
           </tbody>
           <tfoot><tr><th scope="row" colspan="2">Total</th><td>4204</td><td>665</td><td>122</td></tr></tfoot>
         </table>
-        <p class="cap">Geöffnet: Kontakte, die das Mailing mindestens einmal öffneten. Zur Anmeldung: Kontakte, die den Link zum Anmeldeformular anklickten. Quelle: Kampagnenauswertung Zoho.</p>
+        <p class="cap">Geöffnet: Kontakte, die das Mailing mindestens einmal öffneten. Zur Anmeldung: Kontakte, die den Link zum Anmeldeformular anklickten. Anmeldungen: Einträge im Anmeldeformular bis 27. Mai 2024, ohne interne Tests und Doppeleinträge. Quellen: Kampagnenauswertung Zoho, Messebriefing.</p>
       </details>
     </div>
   </section>
@@ -251,12 +264,12 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
     <div class="split" style="align-items:center">
       <div class="text">
         <h2>Das Messebriefing</h2>
-        <p>Damit am Stand alles reibungslos lief, erhielt das ganze Team ein ausführliches Briefing: Fakten zur Messe, Standplan, Ablauf der Geschenk-Abholung, Schichtpläne, Anreise und Hotel, Dresscode in den CP-Farben und ein überarbeitetes Lead-Formular.</p>
+        <p>Damit am Stand alles reibungslos lief, erhielt das ganze Team ein Briefing mit 37 Seiten: Fakten zur Messe und Kongressprogramm, Hallen- und Standplan, Ablauf der Geschenk-Abholung mit allen Anmeldungen, Auf- und Abbau, Schichtpläne für jeden Messetag, Anreise und Hotel, Dresscode in den CP-Farben, Live-Demo, Verpflegung und ein überarbeitetes Lead-Formular.</p>
         <p>Dazu organisierte ich Hotelzimmer für das Standteam und für Besuchende aus dem eigenen Unternehmen sowie den Versand der Exponate und des Materials nach Frankfurt.</p>
       </div>
       <button class="tabletBtn" data-gallery="briefing" aria-haspopup="dialog">
-        <div class="tablet"><div class="frame"><img src="img/br_ablauf.jpg" alt="Seite aus dem Messebriefing: Ablauf der Geschenk-Abholung"></div></div>
-        <span class="open">Briefing ansehen · 5 Seiten</span>
+        <div class="tablet"><div class="frame"><img src="img/br_cover.jpg" alt="Titelseite des Messebriefings ACHEMA 2024"></div></div>
+        <span class="open">Briefing ansehen · 15 Seiten</span>
       </button>
     </div>
   </section>
@@ -280,13 +293,13 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
 
 <script>
 const G={
- briefing:[["img/br_plan.jpg","Standplan"],["img/br_ablauf.jpg","Ablauf der Geschenk-Abholung"],["img/br_dresscode.jpg","Dresscode in den CP-Farben"],["img/br_swiss.jpg","Verpflegung mit Swissness"],["img/br_lead.jpg","Lead-Erfassung"]],
+ briefing:[["img/br_cover.jpg","Titelseite"],["img/br_lage.jpg","Stand F28 in Halle 8"],["img/br_fakten.jpg","Fakten zur ACHEMA 2024"],["img/br_kongress.jpg","Kongressprogramm"],["img/br_plan.jpg","Standplan"],["img/br_ansicht.jpg","Messestand: Ansicht"],["img/br_ablauf.jpg","Ablauf der Geschenk-Abholung"],["img/br_anmeldungen.jpg","Anmeldungen aus der Kampagne"],["img/br_aufbau.jpg","Auf- und Abbau"],["img/br_schicht.jpg","Dienst- und Schichtplan"],["img/br_dresscode.jpg","Dresscode in den CP-Farben"],["img/br_lead.jpg","Lead-Erfassung"],["img/br_demo.jpg","Live-Demo und Ersatzteil-Display"],["img/br_swiss.jpg","Verpflegung mit Swissness"],["img/br_danke.jpg","Herzlichen Dank"]],
  mail:[["img/mail1_de.jpg","Mailing 1 · Deutsch"],["img/mail1_en.jpg","Mailing 1 · Englisch"],["img/mail2_de.jpg","Mailing 2 · Deutsch"],["img/mail2_en.jpg","Mailing 2 · Englisch"],["img/dank_de.jpg","Dankesmail · Deutsch"],["img/dank_en.jpg","Dankesmail · Englisch"]],
  ball:[["img/ballmuster.jpg","Das Muster"],["img/ballvorlage.jpg","Die Vorlage mit 32 Feldern"],["img/ball.jpg","Das fertige Design"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
 function show(){im.onload=()=>{cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}${im.naturalHeight>im.naturalWidth*1.5?' · zum Scrollen':''}`};document.getElementById("lbScroll").scrollTop=0;im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}${im.naturalHeight>im.naturalWidth*1.5?" · zum Lesen scrollen":""}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
-function open(g,n){pages=G[g];i=n||0;th.style.gridTemplateColumns=`repeat(${pages.length},minmax(0,120px))`;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
+function open(g,n){pages=G[g];i=n||0;th.style.gridTemplateColumns=pages.length>6?'repeat(auto-fill,minmax(64px,1fr))':`repeat(${pages.length},minmax(0,120px))`;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
 document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
 document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
 document.getElementById('next').onclick=()=>{i=(i+1)%pages.length;show()};
