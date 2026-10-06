@@ -461,7 +461,7 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
 - **Höhepunkt ACHEMA 2024 ✏️ (ausführlich, auf Wunsch von Yana):**
   - *Ausgangslage:* Die ACHEMA in Frankfurt ist eine der wichtigsten Messen der Prozessindustrie, 2024 mit rund 2'800 Ausstellern aus über 50 Nationen. CP Pump Systems war vom 10. bis 14. Juni mit einem 108 m² grossen Stand in Halle 8 vertreten, unter dem Motto «Sichere Pumpentechnik – zum Schutz von Menschen, Umwelt und Investition.»
   - *Ziel:* Bestehende Kunden an den Stand holen und die Beziehung pflegen, neue Kontakte gewinnen und zeigen, dass CP für jede Anwendung die passende Pumpe hat.
-  - *Meine Aufgaben:* Gesamtverantwortung nach Übernahme des laufenden Projekts im Frühling 2024 · Überarbeitung der Planung · Gesamtkoordination bis zur Messe · Einladungskampagne · Geschenk-Ablauf · Infopanels · Giveaways · Hotel und Anreise · Messebriefing · Lead-Formular und Leads · Standteam vor Ort
+  - *Meine Aufgaben:* Gesamtverantwortung nach Übernahme des laufenden Projekts im Frühling 2024 · Überarbeitung der Planung · Gesamtkoordination bis zur Messe · Einladungskampagne · Geschenk-Ablauf · Infopanels · Giveaways · Hotel und Anreise · Versand von Exponaten und Material · Verpflegung am Stand · Messebriefing · Lead-Formular · Standteam vor Ort
   - *Hinweis im Text (neutral):* Standdesign, Standbau und Montage lagen bei einer Agentur.
   - *Idee und Vorgehen:* Eine Einladungskampagne sollte Kunden gezielt an den Stand bringen: Drei Mailings, ein Reminder und eine Dankesmail luden dazu ein, vorab ein Geschenk zu wählen und es am Stand persönlich abzuholen. Vor Ort sorgten ein Buzzer Game, ein Wettbewerb um die schnellste Pumpenmontage, und eine Live-Demo für Gespräche. Schweizer Schokolade als Giveaway sowie Schweizer Fleisch und Käseplätzchen im Catering unterstrichen die Herkunft von CP.
   - *Umsetzung:* Mailings und Einladungsmanagement · Geschenk-Ablauf am Stand · Infopanels zu den Exponaten · Folie für den Buzzer-Tisch · Giveaways · Namensschilder und Dresscode · Hotel und Anreise für Standteam und Besuchende · Messebriefing mit Schichtplänen · Lead-Formular und Erfassung der Leads
@@ -493,7 +493,7 @@ Gelesen: Messekonzept (Jan 2024, Ersteller-Kürzel nicht Yana), Ablaufplan Proje
 - Yana: Infopanels zu den einzelnen Exponaten gestaltet
 - Yana: Mailing
 - Yana: Leads am Schluss über ein System erfasst
-- Themen Mietmaterial, Logistikkosten, Einlagerung ❓ (Was genau war Yanas Teil?)
+- ✅ Mietmaterial, Logistik und Einlagerung über die Agentur; Yana: Versand der Exponate und weiteren Materials an die Messe, Organisation von Artikeln und Verpflegung (Yana 06.10.2026)
 - Yana war zu diesem Zeitpunkt relativ neu im Unternehmen
 
 **Offen ❓**
