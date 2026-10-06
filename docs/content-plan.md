@@ -754,7 +754,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Digital GOLDINGER:** Social-Media-Posts 2021–2023 (u. a. «Stille Vermarktung», Kundenstimmen, Weihnachten, Infoabende, Hausmagazin, Tipps für Käufer, Immobilie im Alter); Instagram-Storys (Umfragen, Fragerunden, Infoabend-Countdowns, Presse-Reposts); Videos (nur als Screenshots, MP4 zu gross). ✅ Alle Feed-Posts von Yana gestaltet (Yana 06.10.2026).
 - **Events:** Infoabende 2022/2023 (u. a. Romanshorn, Wil, Weinfelden, Arbon, Sargans, Frauenfeld), WEGA, Immozionale, Tag der offenen Tür Grünblick 2023.
 - **Vorher/Nachher (für Redesign-Darstellung):** 1. **Messewände** (stärkstes Paar): alt «alt mässewnede.jpg» (waagrechtes Band, «Wir lieben Immobilien», Siegel «30 Jahre», Projektkacheln) → neu «wände neu.jpg» (Mai 2023, hochformatige, bildstarke Paneele in Blau/Weiss, CTA «Jetzt Immobilie direkt am Stand bewerten!», Projektpaneele, graue Felder für wechselnde Aushänge) + Mockup + Foto vom Stand. 2. Fruchtgummi-Säckli gelb/schwarz → blau ❓ (evtl. Varianten). 3. Social-Posts ❓ (eher Vorlagen-Varianten). Ältere Magazin- oder Inseratversionen zum Vergleich nicht gefunden → Yana fragen, ob es «vorher»-Versionen gibt.
-- **Andere Auftraggeber/Projekte:** «Trailer Park – Street Food» komplette Markenidentität (Manual mit Farb-, Bild-, Schriftkonzept, Logo, Claim; Plakat, Becher, Food-Box, Mockups, Newsletter; 2021–2023) ✅ Projekt aus dem überbetrieblichen Kurs (Yana 04.10.2026; = Food-Truck-Konzept im Archiv), Yana findet es stark → aufnehmen, klar als Kursprojekt kennzeichnen; Details beim Schreiben im Material nachlesen; Halloween-Videoflyer Basel (Sa 28. Oktober 2023, Logos L'Osteria, Circo Loco) = BAILA BASILEA ❓; eigenes Logo «Yana Senn» (2023, nicht angesehen).
+- **Andere Auftraggeber/Projekte:** «Trailer Park – Street Food» komplette Markenidentität (Manual mit Farb-, Bild-, Schriftkonzept, Logo, Claim; Plakat, Becher, Food-Box, Mockups, Newsletter; 2021–2023) ✅ Projekt aus dem überbetrieblichen Kurs (Yana 04.10.2026; = Food-Truck-Konzept im Archiv), Yana findet es stark → aufnehmen, klar als Kursprojekt kennzeichnen; Details beim Schreiben im Material nachlesen; Halloween-Videoflyer Basel (Sa 28. Oktober 2023) = BAILA BASILEA ✅; eigenes Logo «Yana Senn» (2023, nicht angesehen).
 - **Personen:** viele Storys/Posts mit Mitarbeitenden und Kundschaft → nicht ohne Einverständnis verwenden.
 
 - ✅ **Yana 05.10.2026:** Bei GOLDINGER viele Videos gemacht (nicht nur WEGA); **Faltmappen neu gestaltet**; **Inserate neu gestaltet**; alles mit Redesign aufnehmen (Vorher/Nachher). GOLDINGER-Teil ausführlicher darstellen.
@@ -802,11 +802,11 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Bilder/Video 📌:** Auswahl Feed (Raster), Story-Beispiele, ein Objektvideo (komprimiert), ein Reel. Personen nur mit Einverständnis.
 - ✅ Alle Feed-Beiträge von Yana gestaltet (Yana 06.10.2026). ✅ Luftaufnahmen mit Drohne von Yana (Yana 06.10.2026).
 
-#### TEXT-ENTWURF «Halloween-Videoflyer» (Freelance, BAILA BASILEA) ✏️
+#### TEXT-ENTWURF «Halloween-Videoflyer» (Freelance, BAILA BASILEA) ✅ (Inhalt freigegeben, Video offen)
 - **Stichworte:** Motion Design · Instagram Story · Event
 - **Kurz:** Ein animierter Flyer für eine Halloween-Party in Basel
 - **Ausgangslage:** Die Veranstalter einer Halloween-Party in Basel (28. Oktober 2023) suchten einen auffälligen Flyer für Instagram-Storys, der in wenigen Sekunden Datum, Ort und Stimmung vermittelt.
-- **Meine Rolle ✏️:** Als erster Freelance-Auftrag gestaltete und animierte ich den Videoflyer. ❓ Umfang (Idee, Gestaltung, Animation, Musik).
+- **Meine Rolle ✅ (Yana 06.10.2026):** Als erster Freelance-Auftrag entwickelte, gestaltete und animierte ich den Videoflyer. Die Musik kam direkt über die Story-Funktion von Instagram dazu.
 - **Bilder/Video 📌:** Videoflyer (Story-Format), ein Standbild. Logos von Partnerlokalen nicht hervorheben.
 
 #### TEXT-ENTWURF «Trailer Park – Street Food» (Kursprojekt) ✏️
