@@ -224,6 +224,16 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
+**✏️ Vorschlag neu (Yana 06.10.2026: keine GOLDINGER-Sammelkachel, sinnvoll nach Themen unterteilen):** Kacheln nicht nach Arbeitgeber gruppieren, sondern nach Thema (passend zu den Filtern). Jede Kachel trägt eine Zeile mit Auftraggeber und Jahr (z. B. «CP Pump Systems · 2026», «GOLDINGER Immobilien · 2023», «Freelance · 2023», «Kursprojekt»). Neuere Arbeit steht jeweils zuerst.
+- **Messen:** Internationale Messen 2024–2026 (CP) · Messen WEGA und Immozionale (GOLDINGER)
+- **Kampagnen:** Weihnachtskampagne 2026 (CP) · Songkran-Grusskarte (CP) · Infoabende und Tage der offenen Tür (GOLDINGER)
+- **Print:** Broschüren und Factsheets (CP) · Werbung: Print & Digital (CP) · Hausmagazin als Online-Magazin (GOLDINGER) · Redesigns Print, Vorher/Nachher (GOLDINGER) · Infografiken und Karten (CP)
+- **Video & Content:** Fotografie (CP) · Social Media, Reels und Immobilienvideos (GOLDINGER) · Animierte Erklärvideos, IPA (GOLDINGER) · Halloween-Videoflyer BAILA BASILEA (Freelance)
+- **Digital:** Website und Newsletter (CP)
+- **Marke im Raum & Objekte:** Raumgestaltung (CP) · Giveaways und Werbeartikel (CP und GOLDINGER, inkl. Fruchtgummis)
+- **Kursprojekt:** Trailer Park – Street Food (Markenidentität)
+- Folge: Die Liste «Frühere Projekte» und der Entscheid in Kap. 2 (GOLDINGER unter «Frühere Projekte») würden ersetzt; auf «Hi.» bleibt der Fokus auf neuerer Arbeit.
+
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
 2. Weihnachtskampagnen
