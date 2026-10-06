@@ -117,6 +117,34 @@ ul.facts2{margin:0;padding-left:18px;font-size:.92rem;color:var(--muted);display
 .gl{font-size:.92rem}.grow b{text-align:right;font-variant-numeric:tabular-nums}
 .gbar{height:12px;border-radius:6px;background:color-mix(in srgb,var(--accent) 12%,var(--surface));overflow:hidden}
 .gbar i{display:block;height:100%;background:var(--accent);border-radius:6px}
+#fd{max-width:min(860px,96vw);background:#ececec;color:#222}
+.fdBar{position:sticky;top:0;z-index:2;display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 14px;background:var(--surface);color:var(--ink);border-bottom:1px solid var(--line)}
+.fdBar .demo{flex:1;font-size:.82rem;color:var(--muted);min-width:16ch}
+.fdBar button{font:700 .85rem var(--body);padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.langs{display:flex;gap:4px}.langs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.zf{margin:14px;background:#fff;border:1px solid #ddd;font-family:"Lato",Arial,sans-serif}
+.zfHdr{width:100%;display:block}
+.zfBody,.zdone{padding:22px clamp(14px,3vw,24px) 28px;font-size:14px;line-height:1.5}
+.zf h2{color:#1f73b7;font:700 1.15rem/1.3 "Lato",Arial,sans-serif;margin:0 0 12px}
+.zf p{max-width:none;margin:0 0 12px}
+.zr{display:grid;grid-template-columns:200px 1fr;gap:10px;margin:16px 0;border:0;padding:0;min-width:0}
+.zl{font-size:13.5px;padding:0}.zl b,.zf .zl b{color:#c00}
+.zf input:not([type]),.zf input[type=email],.zf select{font:inherit;font-size:13px;width:100%;height:32px;border:1px solid #c8c8c8;border-radius:2px;padding:4px 7px;background:#fff;color:#222}
+.zf input:focus,.zf select:focus,.zcond:focus{outline:2px solid #1f73b7;outline-offset:1px}
+.zs{max-width:240px}
+.zc4{display:grid;grid-template-columns:1fr 118px 1fr 1fr;gap:8px}
+.zc4 small{display:block;font-style:italic;color:#888;font-size:11.5px;margin-top:3px}
+.zfGifts{width:100%;display:block;margin:6px 0}
+.zopts{display:grid;gap:9px;font-size:13.5px;color:#444}.zopts label{display:flex;gap:8px;align-items:center;cursor:pointer}
+.zf input[type=radio],.zf input[type=checkbox]{accent-color:#1f73b7;width:15px;height:15px;margin:0}
+.zcond{height:240px;overflow:auto;border:1px solid #c8c8c8;padding:12px 14px;font-size:12.5px;line-height:1.5;margin-top:6px;background:#fff}
+.zcond h4{font-size:15px;margin:0 0 10px;line-height:1.3}.zcond h5{font-size:13px;margin:12px 0 2px}.zcond p{margin:0 0 9px}
+.zacc{display:flex;gap:8px;align-items:center;margin-top:10px;font-size:13.5px;cursor:pointer}
+.zerr{color:#c00;font-size:13px;margin-top:10px}
+.zbtn{display:flex;justify-content:flex-end;margin-top:24px}
+.zbtn button,#zagain{font:700 13.5px "Lato",Arial,sans-serif;background:#8dc03f;color:#fff;border:0;padding:11px 22px;cursor:pointer}
+.zbtn button:hover,#zagain:hover{background:#7aad2f}
+@media (max-width:640px){.zr{grid-template-columns:1fr}.zc4{grid-template-columns:1fr 1fr}}
 ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
 </style>
@@ -148,9 +176,9 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
       </button>
     </div>
     <div class="split" style="align-items:center">
-      <button class="tabletBtn" data-gallery="form" aria-haspopup="dialog">
+      <button class="tabletBtn" id="openForm" aria-haspopup="dialog">
         <div class="tablet mailframe"><div class="frame"><img src="img/form_de.jpg" alt="Anmeldeformular zur ACHEMA 2024 mit Geschenkwahl"></div></div>
-        <span class="open">Formular ansehen</span>
+        <span class="open">Formular ausprobieren</span>
       </button>
       <div class="text">
         <h2>Ein Klick zum Geschenk</h2>
@@ -291,6 +319,35 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
   </section>
 </div>
 
+<dialog id="fd" aria-label="Anmeldeformular ACHEMA 2024">
+  <div class="fdBar"><span class="demo">Nachbau zur Ansicht · es werden keine Daten gesendet</span><div class="langs" role="group" aria-label="Sprache"><button type="button" data-l="de" aria-pressed="true">DE</button><button type="button" data-l="en" aria-pressed="false">EN</button></div><button type="button" id="fdClose">Schliessen</button></div>
+  <div class="zf">
+    <img class="zfHdr" src="img/form_hdr.jpg" alt="CP Pump Systems, cleaner pumps, cleaner planet">
+    <form id="zform" class="zfBody" novalidate>
+      <h2 data-t="title"></h2>
+      <p data-t="p1"></p><p data-t="p2"></p><p data-t="p3"></p>
+      <div class="zr"><span class="zl"><span data-t="contact"></span> <b>*</b></span><div class="zc4">
+        <label><input name="firma" required><small data-t="firma"></small></label>
+        <label><select name="anrede" required><option value="" data-t="sel"></option><option data-t="frau"></option><option data-t="herr"></option></select><small data-t="anrede"></small></label>
+        <label><input name="vorname" required><small data-t="vorname"></small></label>
+        <label><input name="nachname" required><small data-t="nachname"></small></label></div></div>
+      <div class="zr"><label class="zl" for="zmail"><span data-t="mail"></span> <b>*</b></label><input id="zmail" type="email" name="mail" required></div>
+      <div class="zr"><label class="zl" for="zlang"><span data-t="lang"></span> <b>*</b></label><select id="zlang" name="sprache" required class="zs"><option value="" data-t="sel"></option><option>Deutsch</option><option>English</option><option>Français</option></select></div>
+      <img class="zfGifts" src="img/form_gifts.jpg" alt="" aria-hidden="true">
+      <div class="zr" role="radiogroup" aria-labelledby="zgl"><span class="zl" id="zgl"><span data-t="gift"></span> <b>*</b></span><div class="zopts">
+        <label><input type="radio" name="g" value="1" required><span data-t="g1"></span></label>
+        <label><input type="radio" name="g" value="2"><span data-t="g2"></span></label>
+        <label><input type="radio" name="g" value="3"><span data-t="g3"></span></label></div></div>
+      <p data-t="after"></p>
+      <span class="zl"><span data-t="cond"></span> <b>*</b></span>
+      <div class="zcond" tabindex="0" data-t="box" aria-label="Teilnahmebedingungen"></div>
+      <label class="zacc"><input type="checkbox" required> <span data-t="acc"></span></label>
+      <p class="zerr" id="zerr" hidden data-t="err"></p>
+      <div class="zbtn"><button type="submit" data-t="btn"></button></div>
+    </form>
+    <div class="zdone" id="zdone" hidden><h2 data-t="doneT"></h2><p data-t="done"></p><button type="button" id="zagain" data-t="again"></button></div>
+  </div>
+</dialog>
 <dialog id="lb" aria-label="Messebriefing">
   <div class="lb">
     <div class="lbScroll" id="lbScroll"><img id="lbImg" src="" alt=""></div>
@@ -319,4 +376,19 @@ document.getElementById('close').onclick=()=>d.close();
 th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
 d.addEventListener('click',e=>{if(e.target===d)d.close()});
 d.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+
+const FT={de:{title:"Herzliches Dankeschön",p1:"Die CP Pumpen AG lädt Sie an die ACHEMA 2024 ein und dankt Ihnen für Ihr Vertrauen und für die gute Zusammenarbeit. Aus diesem Grund haben wir eine Auswahl von drei Geschenken für Sie vorbereitet.",p2:"Bitte wählen Sie Ihren Favoriten aus und holen Sie <b>Ihr gewünschtes Geschenk</b> direkt an der ACHEMA Messe am CP Pumpen AG Stand <b>F28 in der Halle 8</b> ab! Wir freuen uns darauf, <b>mit Ihnen persönlich anzustossen</b>.",p3:"Mit der Auswahl des Geschenkes melden Sie sich automatisch für den Besuch bei uns am CP Messestand an.",contact:"Kontakt",firma:"Firma",anrede:"Anrede",vorname:"Vorname",nachname:"Nachname",sel:"-Auswählen-",frau:"Frau",herr:"Herr",mail:"E-Mail",lang:"Sprache",gift:"Geschenkauswahl",g1:"Geschenk 1: Thermo Trinkflasche Hot & Cold One 0.5 L",g2:"Geschenk 2: Badetuch, 100% Baumwolle, 100 x 180 cm",g3:"Geschenk 3: Fussball, gefertigt nach FIFA Norm, Grösse 5",after:"Nach dem Absenden Ihrer Geschenkauswahl erhalten Sie eine Bestätigungs-Email mit dem CP Code zum kostenlosen Eintrittsticket an die Messe.",cond:"Teilnahmebedingungen",
+box:"<h4>Anmeldung für den Messebesuch auf dem CP Pumpen Messestand an der ACHEMA 2024 und Abholung des persönlichen Dankeschön-Geschenks.</h4><h5>Zeitraum der Entgegennahme von Ihrem persönlichen Geschenk</h5><p>Während der ACHEMA Messe in Frankfurt vom 10.06.2024 bis zum 14.06.2024 sind wir für Sie da! Besuchen Sie uns am CP Messestand F28 in Halle 8, wo Ihr persönliches Geschenk bereit liegt. Die Öffnungszeiten während der Messe sind von Montag bis Donnerstag von 9:00 bis 18:00 Uhr und am Freitag bis 16:00 Uhr.</p><p>Das Geschenk muss am CP Messestand persönlich in Empfang genommen werden. Der Anspruch verfällt nach Messeende und das Geschenk wird nicht versendet und kann bei Nichterscheinen nicht auf eine andere Person übertragen werden. Ein Umtausch, eine Abholung durch eine Drittperson sowie eine Barauszahlung des ausgewählten Geschenkes sind nicht möglich. Mit der Inanspruchnahme des Geschenkes verbundene Zusatzkosten gehen zu Lasten des Empfängers.</p><h5>Einlösung des CP Gutscheincodes</h5><p>Um ihr Dankesgeschenk abzuholen ist das Einlösen des von CP zugestellten Gutscheincodes und die elektronische Anmeldung über das ACHEMA-Portal notwendig. Bitte beachten Sie: Das Mitführen der Gutschein-Nummer allein berechtigt nicht zum Eintritt auf das Messegelände. Inhaber des CP Gutschein-Codes müssen sich im Internet registrieren und ihre persönliche Tageskarte ausdrucken.</p><p>Es ist eine Anmeldung pro Person für ein Geschenk berechtigt. Es ist untersagt, mehrere Email-Adressen oder mehrere Profile zur Erhöhung der Anzahl Geschenke zu verwenden.</p><p>Das Geschenk wird an natürliche Personen, die das 18. Lebensjahr vollendet haben abgegeben. Die Geschenkvergabe ist auf Kunden von CP Pumpen beschränkt aber nicht vom Erwerb einer Ware oder Dienstleistung abhängig.</p><p>Mitarbeiter, deren Familienangehörige und Dienstleister von CP, die einen CP Gutscheincode einlösen, sind nicht zur Entgegennahme eines Geschenkes berechtigt.</p><p>Mit diesen Teilnahmebedingungen akzeptieren Sie auch die Datenschutzbestimmungen von CP.</p><p>Zofingen, 05.03.2024</p>",
+acc:"Ich akzeptiere die Teilnahmebedingungen.",btn:"Anmelden und CP Code erhalten",err:"Bitte füllen Sie alle Pflichtfelder aus.",doneT:"Vielen Dank!",done:"Nachbau zur Ansicht: Im echten Formular erhielt die Kundschaft jetzt eine Bestätigungs-E-Mail mit dem CP Code für das kostenlose Eintrittsticket. Es wurden keine Daten gesendet.",again:"Nochmals ausprobieren"},
+en:{title:"Thank you very much",p1:"CP Pumpen AG invites you to ACHEMA 2024, and thanks you for your trust and for the good cooperation. For this reason, we have prepared a selection of three gifts for you.",p2:"Please choose your favorite and pick up <b>your desired gift</b> directly at the ACHEMA trade fair at <b>CP Pumpen AG booth F28 in hall 8! We look forward to meeting you personally.</b>",p3:"With the selection of the gift, you automatically register for the visit to us at the CP booth.",contact:"Contact",firma:"Company",anrede:"Salutation",vorname:"First name",nachname:"Last name",sel:"-Select-",frau:"Mrs.",herr:"Mr.",mail:"E-mail",lang:"Language",gift:"Gift selection",g1:"Gift 1: Thermo Drinking Bottle Hot & Cold One 0.5 L",g2:"Gift 2: Beach towel, 100% cotton, 100 x 180 cm",g3:"Gift 3: Football, made according to FIFA standard, size 5",after:"After submitting your gift selection, you will receive a confirmation email with the CP code for the free admission ticket to the fair.",cond:"Conditions of participation",
+box:"<h4>Registration for the trade fair visit on the CP Pump Systems trade fair booth at ACHEMA 2024 and pick up your personal thank you gift.</h4><h5>Period of receiving your personal gift</h5><p>During the ACHEMA exhibition in Frankfurt from 10.06.2024, 9.00 a.m. to 14.06.2024, 4.00 p.m. we will be there for you! Your personal gift is ready for you at the CP booth F28, in hall 8.</p><p>The gift must be received in person at the CP booth. The entitlement to the gift expires after the end of the fair and the gift will not be shipped and cannot be transferred to another person in case of no-show. Exchange, collection by a third person and cash payment of the selected gift are not possible. Additional costs associated with the use of the gift will be borne by the recipient.</p><h5>Redemption of the CP voucher code</h5><p>In order to collect your thank-you gift, it is necessary to redeem the voucher code sent by CP and to register electronically via the ACHEMA portal. Please note: Carrying the voucher code alone does not entitle the holder to enter the exhibition area. Holders of a voucher code must register online and print out their personal free admission day ticket.</p><p>One registration per person is authorized for each gift. It is prohibited to use multiple email addresses or multiple profiles to increase the number of gifts.</p><p>The gift is given to natural persons who have reached the age of 18. The gift is limited to customers of CP Pumpen but does not depend on the purchase of goods or services.</p><p>Employees of CP, their family members and service providers who redeem a CP voucher code are not entitled to receive a gift.</p><p>By accepting these conditions of participation, you also accept the CP privacy policy.</p><p>Zofingen, 05.03.2024</p>",
+acc:"I accept the terms and conditions of participation.",btn:"Log in and get CP code",err:"Please fill in all required fields.",doneT:"Thank you very much!",done:"Replica for viewing: in the real form, customers now received a confirmation email with the CP code for the free admission ticket. No data was sent.",again:"Try again"}};
+const fd=document.getElementById('fd'),zf=document.getElementById('zform'),zd=document.getElementById('zdone'),ze=document.getElementById('zerr');
+function setLang(l){fd.querySelectorAll('[data-t]').forEach(e=>{const v=FT[l][e.dataset.t];if(v===undefined)return;if(e.tagName==='OPTION')e.textContent=v;else e.innerHTML=v});fd.querySelectorAll('.langs button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.l===l));fd.querySelector('.zcond').scrollTop=0}
+fd.querySelectorAll('.langs button').forEach(b=>b.onclick=()=>setLang(b.dataset.l));
+document.getElementById('openForm').onclick=()=>{zf.hidden=false;zd.hidden=true;ze.hidden=true;setLang('de');fd.showModal()};
+document.getElementById('fdClose').onclick=()=>fd.close();
+fd.addEventListener('click',e=>{if(e.target===fd)fd.close()});
+zf.addEventListener('submit',e=>{e.preventDefault();if(!zf.checkValidity()){ze.hidden=false;zf.querySelector(':invalid').focus();return}ze.hidden=true;zf.hidden=true;zd.hidden=false;zd.scrollIntoView({block:'nearest'})});
+document.getElementById('zagain').onclick=()=>{zf.reset();zf.hidden=false;zd.hidden=true};
 </script>
