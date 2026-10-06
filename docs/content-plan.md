@@ -466,7 +466,12 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
   - *Idee und Vorgehen:* Eine Einladungskampagne sollte Kunden gezielt an den Stand bringen: Drei Mailings, ein Reminder und eine Dankesmail luden dazu ein, vorab ein Geschenk zu wählen und es am Stand persönlich abzuholen. Vor Ort sorgten ein Buzzer Game, ein Wettbewerb um die schnellste Pumpenmontage, und eine Live-Demo für Gespräche. Schweizer Schokolade als Giveaway sowie Schweizer Fleisch und Käseplätzchen im Catering unterstrichen die Herkunft von CP.
   - *Umsetzung:* Mailings und Einladungsmanagement · Geschenk-Ablauf am Stand · Infopanels zu den Exponaten · Folie für den Buzzer-Tisch · Giveaways · Namensschilder und Dresscode · Hotel und Anreise für Standteam und Besuchende · Messebriefing mit Schichtplänen · Lead-Formular und Erfassung der Leads
   - *Ergebnis:* 📌 später (Zahlen von Yana)
-  - *Bilder* 📌 später: Stand, Giveaways (welche), Buzzer Game, Catering
+  - *Bilder ✏️ (Vorschlag 06.10.2026, Quelle Drive «Achema», Fotos «CP-Pumpen-Achema24-PVM-Production-web-1…9», professioneller Messefotograf → Bildrechte/Credit klären 📌):*
+    - Titelbild: Standübersicht mit Rundbanner (web-5; Alternative web-4), Personen nur klein im Hintergrund
+    - Buzzer Game: Hände an der Pumpe, roter Buzzer (web-3), keine Gesichter
+    - Exponat: blaue Pumpe aufgeschnitten (web-8), Hintergrund unscharf
+    - Eigene Arbeit: E-Mail-Banner «Halle 8, Stand F28» (DE) · Folie Buzzer-Tisch (1800 × 2200 mm)
+    - Nicht verwenden: Bilder mit erkennbaren Gesichtern (web-1, 2, 6, 7, 9), ausser mit Einverständnis
 - **Ergebnis:** 📌 später (Zahlen/Resultate)
 
 #### ACHEMA 2024: Funde aus Yanas Drive-Ordner (03.10.2026)
