@@ -802,6 +802,22 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Bilder/Video 📌:** Auswahl Feed (Raster), Story-Beispiele, ein Objektvideo (komprimiert), ein Reel. Personen nur mit Einverständnis.
 - ✅ Alle Feed-Beiträge von Yana gestaltet (Yana 06.10.2026). ✅ Luftaufnahmen mit Drohne von Yana (Yana 06.10.2026).
 
+#### TEXT-ENTWURF «Halloween-Videoflyer» (Freelance, BAILA BASILEA) ✏️
+- **Stichworte:** Motion Design · Instagram Story · Event
+- **Kurz:** Ein animierter Flyer für eine Halloween-Party in Basel
+- **Ausgangslage:** Die Veranstalter einer Halloween-Party in Basel (28. Oktober 2023) suchten einen auffälligen Flyer für Instagram-Storys, der in wenigen Sekunden Datum, Ort und Stimmung vermittelt.
+- **Meine Rolle ✏️:** Als erster Freelance-Auftrag gestaltete und animierte ich den Videoflyer. ❓ Umfang (Idee, Gestaltung, Animation, Musik).
+- **Bilder/Video 📌:** Videoflyer (Story-Format), ein Standbild. Logos von Partnerlokalen nicht hervorheben.
+
+#### TEXT-ENTWURF «Trailer Park – Street Food» (Kursprojekt) ✏️
+- **Stichworte:** Markenidentität · Corporate Design · Kursprojekt
+- **Kurz:** Eine komplette Marke für einen Food-Truck
+- **Ausgangslage:** Im überbetrieblichen Kurs der Ausbildung entwickelten wir für einen fiktiven Food-Truck eine eigene Marke, vom Namen bis zur Verpackung.
+- **Meine Rolle ✏️:** Ich entwickelte die Markenidentität: Logo, Claim, Farb-, Bild- und Schriftkonzept, zusammengefasst in einem Manual, und setzte sie auf Plakat, Becher, Food-Box und Newsletter um.
+- **Kennzeichnung:** klar als Kursprojekt ✅.
+- ❓ Fiktiver Auftrag oder echter Food-Truck in Romanshorn? Allein oder im Team?
+- **Bilder 📌:** Logo, Manual-Seiten, Mockups (Becher, Food-Box, Plakat).
+
 #### TEXT-ENTWURF «Animierte Erklärvideos» (GOLDINGER, Abschlussarbeit) ✅ (Inhalt freigegeben, Video offen)
 - **Stichworte:** Animation · Storytelling · Abschlussarbeit
 - **Kurz:** Zwei animierte Videos, die komplexe Abläufe einfach erklären
