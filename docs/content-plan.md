@@ -809,7 +809,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Meine Rolle ✅ (Yana 06.10.2026):** Als erster Freelance-Auftrag entwickelte, gestaltete und animierte ich den Videoflyer. Die Musik kam direkt über die Story-Funktion von Instagram dazu.
 - **Bilder/Video 📌:** Videoflyer (Story-Format), ein Standbild. Logos von Partnerlokalen nicht hervorheben.
 
-#### TEXT-ENTWURF «Trailer Park – Street Food» (Kursprojekt) ✏️
+#### TEXT-ENTWURF «Trailer Park – Street Food» (Kursprojekt) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Markenidentität · Corporate Design · Kursprojekt
 - **Kurz:** Eine komplette Marke für einen Food-Truck
 - **Ausgangslage:** Im überbetrieblichen Kurs der Ausbildung entstand für einen fiktiven Food-Truck eine eigene Marke, vom Logo bis zur Verpackung.
