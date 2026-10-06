@@ -233,7 +233,7 @@ Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digita
   3. **Corporate Design & Raum:** Raumgestaltung · Redesigns · Markenidentität (Trailer Park)
   4. **Digital & Social Media:** Website · Newsletter · E-Mail-Banner · Web-Banner · LinkedIn · Instagram
   5. **Foto & Video:** Firmenshooting · Reportage · Immobilienvideos · Erklärvideos
-  6. **Werbeartikel:** Giveaways · Kunden- und Mitarbeitergeschenke · Arbeits- und Messekleidung
+  6. **Werbeartikel:** Giveaways (alle Werbeartikel mit Logo, Fruchtgummis nicht separat) · Kunden- und Mitarbeitergeschenke (Weihnachten und weitere Kundengeschenke; weitere Kundengeschenke erscheinen zusätzlich bei Giveaways, Yana 06.10.2026) · Arbeits- und Messekleidung
 - Infoabende und Tage der offenen Tür: kein eigener Ordner; ihre Flyer, Inserate und Instagram-Beiträge liegen in den passenden Ordnern, die Geschichte steht auf der Projektseite.
 - Ersetzt v4–v10 (Verlauf in Git).
 
