@@ -224,12 +224,18 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v7 – Projekte oben, Übersicht nach Themen unten (Yana 06.10.2026)** · Klickbarer Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
-- **Teil 1 (oben): Projekte.** Ein Projekt pro Kachel, Titel + «Auftraggeber · Jahr». Klick → Projektseite mit Text und Bildern. Kein Filter.
-- **Teil 2 (weiter unten): Übersicht nach Themen.** Einzelne Arbeiten aus allen Projekten, gefiltert nach Thema. Eine Arbeit darf in mehreren Themen stehen, wenn sie dazugehört. Klick → Projekt.
-- **Themen:** Alle · Messen & Events · Grafik & Print · Social Media & Video · Fotografie · Web & Digital · Giveaways
-- **Beispiele:** Messewand Dortmund 2026 → Messen & Events + Grafik & Print · Reel → Social Media & Video · Immobilienvideo → Social Media & Video + Fotografie · Weihnachtskarte → Grafik & Print, Picknickdecke → Giveaways · Weltkarte aller Messen gehört zum Projekt «Internationale Messen».
-- Ersetzt v4–v6 (Verlauf in Git).
+**✏️ Vorschlag v8 – Highlights oben, «Alle Arbeiten» nach Kategorien (Yana 06.10.2026: nicht jedes Projekt als Kachel, nur die wichtigsten; darunter Übersicht von allem in Kategorien)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw, Version 2)
+- **Oben: Ausgewählte Projekte** (3–4 grosse Kacheln mit ganzer Geschichte). Vorschlag: Internationale Messen · Weihnachtskampagne 2026 · Kampagne «Molten Sulphur» · Hausmagazin (zum Durchblättern). ❓ Auswahl durch Yana.
+- **Darunter: Alle Arbeiten**, geordnet in Kategorien mit einer Sprungleiste. Eine Arbeit darf in mehreren Kategorien stehen.
+- **Kategorien (DE / EN):**
+  1. Messen & Events / Trade Fairs & Events: Stände, Messesystem, Infoabende
+  2. Kampagnen / Campaigns: eine Idee über mehrere Kanäle
+  3. Print & Editorial Design: Broschüren, Magazin, Anzeigen, Flyer, Messewände
+  4. Corporate Design & Raum / Corporate Design & Spaces: Erscheinungsbild, Infografiken, Raumgestaltung, Redesigns
+  5. Digital & Social Media: Website, Newsletter, Banner, LinkedIn, Social Media
+  6. Foto & Video / Photo & Video: Fotografie, Reportagen, Reels, Erklärvideos
+  7. Werbeartikel & Giveaways / Merchandise & Giveaways: Giveaways, Firmengeschenke, Kleidung
+- Ersetzt v4–v7 (Verlauf in Git).
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
