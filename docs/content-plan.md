@@ -625,11 +625,11 @@ Quelle: Drive «Messen/Partnermessen», alle Unterordner gelesen (04.10.2026). K
   - 2026: interne Umfrage (April 2026) bei Verkauf/Ländern zu Geschenk-Ideen und Mengen; Vergleich von drei Lieferanten (Preis, Druckfläche, Lieferzeit, Herkunft). Entscheid: A-Kunden Picknickdecke, B-Kunden RFID-Kartenhalter; Karten in allen Sprachen, Sie/Du-Form; Mitarbeiterkarte DE/EN. Starkes «Vorgehen»-Beispiel (datenbasiert). ❓ 2026 zeigen?
 - ❓ Offen: A-Kunden-Geschenke 2024/2025? Was für eine Werkstatt (z. B. soziale Einrichtung)? 2025 Multitool für welche Zielgruppe?
 
-#### TEXT-ENTWURF Case «Giveaways und Werbeartikel» ✏️
+#### TEXT-ENTWURF Case «Giveaways und Werbeartikel» ✅ (Inhalt freigegeben, Bilder offen)
 Quelle: Drive «Giveaways» (CP und GOLDINGER getrennt), gelesen 03.10.2026: Give-Aways_2025 (Anbietervergleiche), Zeitplan Versand USA-Box, Katalog «CP Brochures & Gadgets» (Artikelnummern, zum Bestellen für Events). Nicht verwendet: Preise, Rechnungen, Offerten, Namen.
 - **Stichworte:** Auswahl · Branding · Produktion · Versand
 - **Ausgangslage:** An Messen, bei Kundenbesuchen und als Dankeschön braucht CP Werbeartikel, die zur Marke passen und gerne benutzt werden, für eigene Messen ebenso wie für Partner weltweit.
-- **Meine Rolle:** Ich wähle die Artikel aus, kümmere mich um Branding und Druckdaten, bestelle, organisiere Lagerung und Versand.
+- **Meine Rolle ✅ (Yana 06.10.2026):** Ich wähle die Artikel aus, kümmere mich um Branding und Druckdaten, bestelle, organisiere Lagerung und Versand. Für Kundenbesuche und Messen stelle ich den Verkäuferinnen und Verkäufern passende Sets zusammen, die sie mitnehmen.
 - **Vorgehen:** Für neue Artikel vergleiche ich mehrere Anbieter, zum Beispiel bei Fruchtgummis nach Menge, Druckfläche, Lieferzeit und Zutaten. Einen Teil der Bestellungen habe ich klimaneutral über myClimate abgewickelt. ✅
 - **Sortiment (Auswahl):** SIGG-Flaschen und -Lunchboxen, Rucksäcke, Badetücher, Fussbälle, Golfbälle, Teleskoplampen, Notizbücher, Multitools, Swiss Tool, Victorinox-Taschenmesser, Kugelschreiber, Kägi-Schokolade, Biberli, Zuckersticks, Kaffee- und Mehrwegbecher, Massstäbe, Universal-Ladestecker, Arbeits- und Messekleidung ✅ (Biberli, Kaffeebecher, Kugelschreiber, Swiss Tool von Yana ergänzt)
 - **Kunden- und Mitarbeitergeschenke ✅ (Yana 06.10.2026):** Weihnachtsgeschenke sowie Kundengeschenke über das Jahr, z. B. Golfbälle, Caran-d'Ache-Stifte, Lunchboxen und Rucksäcke (erscheinen auch bei den Giveaways).
