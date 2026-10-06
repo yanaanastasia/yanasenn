@@ -224,28 +224,16 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v2 (Yana 06.10.2026: keine GOLDINGER-Sammelkachel; Filter nach Art, z. B. Print):** Alle Kacheln in **einem Raster**, gefiltert **nach Art der Arbeit**. Eine Kachel kann mehrere Filter tragen (z. B. Infoabende = Print + Digital & Social). Auf jeder Kachel eine kleine Zeile mit Auftraggeber und Jahr («CP Pump Systems · 2026», «GOLDINGER Immobilien · 2023», «Freelance · 2023», «Kursprojekt»). Neuere Arbeit zuerst.
-- **Filter:** Alle · Messen & Events · Print · Digital & Social · Video & Foto · Raum & Objekte (ersetzt «Kampagnen» als Filter, weil Kampagne keine Art ist)
-- **Zuordnung:**
-  - Internationale Messen 2024–2026 (CP) → Messen & Events · Print
-  - WEGA und Immozionale (GOLDINGER) → Messen & Events · Print
-  - Weihnachtskampagne 2026 (CP) → Print · Raum & Objekte
-  - Songkran-Grusskarte (CP) → Print
-  - Infoabende und Tage der offenen Tür (GOLDINGER) → Messen & Events · Print · Digital & Social
-  - Broschüren und Factsheets (CP) → Print
-  - Werbung: Print & Digital (CP) → Print · Digital & Social
-  - Infografiken und Karten (CP) → Print · Digital & Social
-  - Hausmagazin, Online-Magazin (GOLDINGER) → Print
-  - Redesigns Print, Vorher/Nachher (GOLDINGER) → Print
-  - Website und Newsletter (CP) → Digital & Social
-  - Social Media, Reels und Immobilienvideos (GOLDINGER) → Digital & Social · Video & Foto
-  - Animierte Erklärvideos, IPA (GOLDINGER) → Video & Foto
-  - Halloween-Videoflyer BAILA BASILEA (Freelance) → Video & Foto · Digital & Social
-  - Fotografie (CP) → Video & Foto
-  - Raumgestaltung (CP) → Raum & Objekte · Video & Foto
-  - Giveaways und Werbeartikel (CP und GOLDINGER) → Raum & Objekte
-  - Trailer Park – Street Food (Kursprojekt) → Print · Raum & Objekte
-- Folge: «Frühere Projekte» als eigener Bereich entfällt; Filter in 6.0 werden ersetzt.
+**✏️ Vorschlag v3 (Yana 06.10.2026: nach Art filtern, Infoabende = Event, gedruckte Wände = Print, Internetwerbung = Digital; übersichtlich für Besucher)**
+- **Recherche Referenzen:** *louisplant.ch* filtert nach Disziplinen, die genau seinen Services entsprechen (Branding · Websites · Ads · Photography · Space). *oliviahug.ch* hat keine Filter, sondern wenige grosse Cases mit einer Liste der Leistungen. *pascalfrey.ch* zeigt pro Arbeit eine Kategorie-Zeile (z. B. «Interior Branding») und das Jahr. Gemeinsam: wenige, klare Kategorien; jede Arbeit hat **eine** Hauptkategorie; Auftraggeber und Jahr stehen klein dabei.
+- **Prinzip:** Ein Raster für alle Projekte. **Jedes Projekt genau ein Filter** (keine Doppelungen, damit nichts mehrfach auftaucht). Filter = Services (Besucher finden zu jedem Service die Beispiele). Auf jeder Kachel: Titel, eine Zeile «Auftraggeber · Jahr». 5 Filter plus «Alle», jeder mit mindestens 3 Projekten.
+- **Filter und Zuordnung:**
+  - **Messen & Events:** Internationale Messen 2024–2026 inkl. Messesystem (CP · 2024–2026) · WEGA und Immozionale (GOLDINGER · 2022–2023) · Infoabende und Tage der offenen Tür (GOLDINGER · 2022–2023)
+  - **Print & Grafik:** Broschüren und Factsheets (CP) · Anzeigen und Kampagne «Molten Sulphur» (CP) · Infografiken und Karten (CP) · Raumgestaltung: Wände, Paneele, Wandbilder (CP) · Hausmagazin als Online-Magazin (GOLDINGER) · Redesigns Vorher/Nachher (GOLDINGER) · Trailer Park – Street Food (Kursprojekt)
+  - **Digital & Social Media:** Website und Newsletter inkl. Anwendungsbericht (CP) · Online-Werbung: Banner, Signaturen, LinkedIn (CP) · Social Media (GOLDINGER)
+  - **Foto & Video:** Fotografie (CP) · Reels und Immobilienvideos (GOLDINGER) · Animierte Erklärvideos, IPA (GOLDINGER) · Halloween-Videoflyer (Freelance · BAILA BASILEA)
+  - **Kampagnen & Geschenke:** Weihnachtskampagne 2026 (CP) · Songkran-Grusskarte (CP) · Giveaways und Werbeartikel inkl. Fruchtgummis (CP und GOLDINGER)
+- **Änderungen dadurch:** Case «Werbung: Print & Digital» wird geteilt in «Anzeigen und Kampagne Molten Sulphur» (Print) und «Online-Werbung» (Digital). GOLDINGER «Social Media, Reels und Immobilienvideos» wird geteilt in «Social Media» (Digital) und «Reels und Immobilienvideos» (Foto & Video). «Frühere Projekte» als eigener Bereich entfällt.
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
