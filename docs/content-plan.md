@@ -496,11 +496,10 @@ Gelesen: Messekonzept (Jan 2024, Ersteller-Kürzel nicht Yana), Ablaufplan Proje
 - ✅ Mietmaterial, Logistik und Einlagerung über die Agentur; Yana: Versand der Exponate und weiteren Materials an die Messe, Organisation von Artikeln und Verpflegung (Yana 06.10.2026)
 - Yana war zu diesem Zeitpunkt relativ neu im Unternehmen
 
-**Offen ❓**
-- Datum (ACHEMA 2024 fand im Juni 2024 statt; bitte bestätigen)
-- Welche weiteren Materialien: Einladungen, Badges, Signaturen, Giveaways?
-- Teamkoordination: Einsatzplan, Briefing?
-- Resultate 📌
+**Geklärt ✅ (06.10.2026)**
+- Datum: ACHEMA 2024, 10.–14. Juni 2024, Frankfurt am Main (öffentlich bekannt)
+- Materialien und Teamkoordination: siehe «Meine Aufgaben» (Einladungskampagne, Giveaways, Messebriefing, Standteam)
+- Resultate 📌 keine Zahlen zeigen (Regel: keine schwachen Zahlen)
 
 #### Case 2 · International Trade Fairs 2024–2026 (CP Pump Systems)
 **Kernaussage ✏️:** Ein internationales Messeprogramm in fünf Ländern. 2024–2025 hat Yana es weitgehend allein von der Anmeldung bis zum Follow-up betreut; ab 2026 lag ihr Schwerpunkt auf Gestaltung und Kommunikation.
