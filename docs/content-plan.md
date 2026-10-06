@@ -224,7 +224,7 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v11 – Portfolio-Aufbau mit Kategorien und Ordnern (Yana 06.10.2026)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
+**✅ Portfolio-Aufbau v11 mit Kategorien und Ordnern (Yana 06.10.2026: «weiter gehts», als Arbeitsstand freigegeben)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
 - ✅ Regeln: oben nur die wichtigsten Projekte · darunter «Alle Arbeiten» in Kategorien, darin **Ordner nach Art** (zusammenfassen, nicht verstreuen) · keine Jahreszahlen auf der Übersicht · Molten Sulphur keine Kampagne · Reels und Halloween-Videoflyer = Social Media · Weltkarte = Grafik (bei Messen/Broschüren nur auf der Projektseite erwähnen) · Werbeartikel und Giveaways sind dasselbe · Titel kurz und professionell · ✅ kein «inklusive»/«u. a.» bei Offensichtlichem · ✅ Beschriftungen simpel halten, keine Erklärsätze in Listen (Yana 06.10.2026).
 - **Ausgewählte Projekte (6):** ACHEMA 2024 in Frankfurt · Weihnachten 2026 · Mobiler Messestand für die USA · Produktbroschüren in neun Sprachen · Immobilien-Reels · Die Marke im eigenen Gebäude.
 - **Kategorien → Ordner:**
