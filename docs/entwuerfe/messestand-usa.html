@@ -204,7 +204,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
       <div><span class="when">Lösung</span><b>Dranbleiben</b><span>enger Austausch mit dem Transportunternehmen</span></div>
       <div><span class="when">Ergebnis</span><b>Stand komplett</b><span>am Tag vor Messebeginn</span></div>
     </div>
-    <figure><button class="zoom r169" data-gallery="houston" data-n="0" aria-label="Gesamtansicht in Houston gross ansehen"><img src="img/houston_gang.jpg" alt="Gesamtansicht des Stands in Houston mit weissen Möbeln, Podesten und Fussbällen als Geschenk" style="object-position:50% 62%"></button><figcaption class="cap">Fertig aufgebaut: weisse Möbel, Podeste und die Geschenke für registrierte Kunden</figcaption></figure>
+    <figure><button class="zoom r169" data-gallery="houston" data-n="0" aria-label="Fertig aufgebauter Stand gross ansehen"><img src="img/houston_stand.jpg" alt="Fertig aufgebauter CP-Stand in Houston von vorne: Standbox mit Birkenwald, weisse Podeste mit Pumpen, Besucher im Gespräch"></button><figcaption class="cap">Fertig aufgebaut: Standbox mit Birkenwald, weisse Podeste und Pumpen, mitten im Messebetrieb</figcaption></figure>
   </section>
 
   <section class="chapter">
@@ -240,7 +240,7 @@ const G={
  design:[["img/box_visual.jpg","Visualisierung der Standbox aus dem finalen Layout"],["img/layout_varianten.jpg","Entwurf: zwei Layout-Varianten"],["img/layout_final.jpg","Finales Layout: Abwicklung der vier Wände"],["img/schritt_4.jpg","Gedruckt und gebaut: die erste Wand"],["img/houston_box.jpg","Die Standbox an der TPS Houston 2024"]],
  anleitung:[["img/anleitung_1.jpg","Aufbauanleitung · Seite 1"],["img/anleitung_2.jpg","Aufbauanleitung · Seite 2"]],
  schritte:[["img/schritt_0.jpg","1 · Vorbereiten: Boden ausgleichen"],["img/schritt_2.jpg","Auspacken aus der Transportkiste"],["img/schritt_1.jpg","2 · Teile erkennen: oben und unten markiert"],["img/schritt_3.jpg","3 · Nummern zuordnen"],["img/schritt_4.jpg","4 · Aufstellen und verschrauben"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
- houston:[["img/houston_gang.jpg","TPS Houston 2024 · fertig aufgebaut"],["img/houston_box.jpg","TPS Houston 2024 · Standbox mit Birkenwald"]]
+ houston:[["img/houston_stand.jpg","TPS Houston 2024 · fertig aufgebaut"],["img/houston_gang.jpg","TPS Houston 2024 · Blick vom Gang, mit Geschenken für registrierte Kunden"],["img/houston_box.jpg","TPS Houston 2024 · Standbox mit Birkenwald"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
 function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
