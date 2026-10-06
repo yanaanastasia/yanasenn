@@ -224,30 +224,13 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v4 – Portfolio-Filter (Yana 06.10.2026: professioneller; Projekte dürfen mehrfach erscheinen, wenn sie zu mehreren Disziplinen gehören; «Geschenke» → «Giveaways»)**
-- **Recherche Referenzen:** *louisplant.ch* filtert nach Disziplinen = Services (Branding · Websites · Ads · Photography · Space). *oliviahug.ch*: keine Filter, wenige grosse Cases mit Leistungsliste. *pascalfrey.ch*: pro Arbeit eine Kategorie-Zeile und das Jahr. → Wenige, klar benannte Disziplinen; Auftraggeber und Jahr klein dabei.
-- **Prinzip:** Ein Raster für alle Projekte. Jedes Projekt hat **eine Hauptdisziplin** (steht auf der Kachel) und **bis zu zwei weitere** (nur für den Filter). So erscheint z. B. ein Reel unter Social Media und unter Foto & Video, ohne dass die Seite unübersichtlich wird. Kachel: Titel · Hauptdisziplin · «Auftraggeber · Jahr».
-- **Filter (DE / EN):** Alle / All · Messen & Events / Trade Fairs & Events · Kampagnen / Campaigns · Grafik & Print / Graphic Design & Print · Digital & Social Media / Digital & Social Media · Foto & Video / Photo & Video · Merchandise & Giveaways / Merchandise & Giveaways
-- **Zuordnung (Hauptdisziplin zuerst):**
-  - Internationale Messen 2024–2026, inkl. Messesystem (CP Pump Systems · 2024–2026) → Messen & Events · Grafik & Print
-  - WEGA und Immozionale (GOLDINGER Immobilien · 2022–2023) → Messen & Events · Grafik & Print · Merchandise & Giveaways
-  - Infoabende und Tage der offenen Tür (GOLDINGER Immobilien · 2022–2023) → Messen & Events · Kampagnen · Digital & Social Media
-  - Weihnachtskampagne (CP Pump Systems · 2026) → Kampagnen · Grafik & Print · Merchandise & Giveaways
-  - Songkran-Grusskarte (CP Pump Systems · 2026) → Kampagnen · Grafik & Print
-  - Kampagne «Molten Sulphur» und Anzeigen (CP Pump Systems · 2025–2026) → Kampagnen · Grafik & Print · Digital & Social Media (Case «Werbung: Print & Digital» bleibt **ein** Projekt, kein Teilen nötig)
-  - Broschüren und Factsheets (CP Pump Systems · 2024–2026) → Grafik & Print
-  - Infografiken und Karten (CP Pump Systems · 2025–2026) → Grafik & Print
-  - Raumgestaltung (CP Pump Systems · 2024–2026) → Grafik & Print · Foto & Video
-  - Hausmagazin, Online-Magazin (GOLDINGER Immobilien · 2023) → Grafik & Print
-  - Redesigns Vorher/Nachher (GOLDINGER Immobilien · 2022–2023) → Grafik & Print
-  - Trailer Park – Street Food (Kursprojekt) → Grafik & Print
-  - Website und Newsletter (CP Pump Systems · 2024–2026) → Digital & Social Media
-  - Social Media, Reels und Immobilienvideos (GOLDINGER Immobilien · 2021–2023) → Digital & Social Media · Foto & Video (bleibt **ein** Projekt)
-  - Animierte Erklärvideos, Abschlussarbeit (GOLDINGER Immobilien · 2023) → Foto & Video · Digital & Social Media
-  - Halloween-Videoflyer (Freelance · BAILA BASILEA · 2023) → Foto & Video · Digital & Social Media
-  - Fotografie (CP Pump Systems · 2026) → Foto & Video
-  - Giveaways und Werbeartikel (CP Pump Systems und GOLDINGER Immobilien) → Merchandise & Giveaways
-- **Folgen:** «Frühere Projekte» als eigener Bereich entfällt. Filter in 6.0 werden ersetzt. Vorschlag v3 (Teilen von Werbung und Social Media) verworfen.
+**✏️ Vorschlag v5 – einfach (Yana 06.10.2026: bei Print sollen nur die passenden Teile erscheinen, z. B. die Messewände, nicht die ganze Messe; klar und übersichtlich)**
+- **Zwei Ansichten auf der Portfolio-Seite:**
+  1. **«Projekte»** (Standard): grosse Kacheln, ein Projekt pro Kachel, mit Text (Ausgangslage, Rolle, Umsetzung). Kein Filter.
+  2. **«Arbeiten nach Art»**: ein Bilder-Raster mit **einzelnen Arbeiten** aus allen Projekten, gefiltert nach Art. Jedes Bild hat eine kurze Beschriftung (z. B. «Messewand · Pumps & Valves 2026») und führt zum Projekt.
+- **Filter (nur in Ansicht 2):** Print · Messe & Raum · Digital & Social Media · Foto & Video · Merchandise & Giveaways
+- **Beispiel Messe Dortmund 2026:** Messewand → Print bzw. Messe & Raum · E-Mail-Banner und Social-Media-Grafik → Digital & Social Media · Standfoto → Foto & Video. Die Messe selbst ist ein Projekt unter «Projekte».
+- Vorschlag v4 (Projekte mit Haupt- und Nebendisziplinen) bleibt als Alternative im Git-Verlauf.
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
