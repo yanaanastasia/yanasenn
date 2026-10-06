@@ -489,7 +489,7 @@ Gelesen: Messekonzept (Jan 2024, Ersteller-Kürzel nicht Yana), Ablaufplan Proje
 - **12 Personen am Stand** inkl. Yana (Sales und Marketing)
 - Zusätzlich Besuchende aus der eigenen Firma (Technik, Produktion, Finanzen, Vorstand u. a.), teilweise mit Übernachtung
 - Yana: Hotelplanung (Zimmer für Standteam und Besuchende)
-- Zusammenarbeit mit der Agentur **Atelier Türke** ❓ (Schreibweise und Freigabe zur Namensnennung): Standbau, Konstruktion, Logistikplan, Montage
+- Zusammenarbeit mit einer Standbau-Agentur ✅ (Name nicht nennen, Yana 06.10.2026): Standbau, Konstruktion, Logistikplan, Montage
 - Yana: Infopanels zu den einzelnen Exponaten gestaltet
 - Yana: Mailing
 - Yana: Leads am Schluss über ein System erfasst
