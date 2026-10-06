@@ -224,21 +224,19 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v9 – Highlights oben, «Alle Arbeiten» nach Kategorien (Yana 06.10.2026)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
-- ✅ Nicht jedes Projekt als grosse Kachel; oben nur die wichtigsten, darunter alles nach Kategorien.
-- ✅ Auf der Übersicht **keine Jahreszahlen/Zeiträume**; Jahr und Zeitraum erst auf der Projektseite.
-- ✅ «Molten Sulphur» ist **keine Kampagne** → unter Print & Editorial Design (Anzeige, Broschüre, Flyer).
-- ✅ **Reels gehören zu Social Media** (nicht zu Foto & Video).
-- **Oben: Ausgewählte Projekte ✏️ (Yana 06.10.2026: Hausmagazin raus, weil alt; etwas Aktuelleres rein; Titel professioneller):** ACHEMA 2024 in Frankfurt · Weihnachten 2026: Karten und Geschenke · Mobiler Messestand für die USA · Produktbroschüren in neun Sprachen · Weltkarte und Firmengeschichte · Die Marke im eigenen Gebäude. Hausmagazin bleibt unten unter Print.
-- **Kategorien (DE / EN) mit Inhalt:**
-  1. Messen & Events: Internationale Messen, ACHEMA, Messesystem und Standbox, Weltkarte aller Messen, WEGA und Immozionale, Infoabende
-  2. Kampagnen: Weihnachtskampagne, Songkran-Grusskarte, Infoabende und Tage der offenen Tür
-  3. Print & Editorial Design: Broschüren und Factsheets, Molten Sulphur (Anzeige, Broschüre, Flyer), Flyer «Sofort verfügbare Pumpensysteme», Messewände, Hausmagazin, Inserate Infoabende
-  4. Corporate Design & Raum: Weltkarte und Zeitstrahl, Raumgestaltung, Redesigns Vorher/Nachher, Trailer Park (Kursprojekt)
-  5. Digital & Social Media: Website und Newsletter, E-Mail- und Web-Banner, LinkedIn, Social Media und Reels (GOLDINGER)
-  6. Foto & Video: Fotografie, Reportage Maschinenlieferung, Immobilienvideos, Animierte Erklärvideos, Halloween-Videoflyer
-  7. Werbeartikel & Giveaways: Giveaways, Firmengeschenke Weihnachten, Arbeits- und Messekleidung, Fruchtgummis
-- Ersetzt v4–v8 (Verlauf in Git).
+**✏️ Vorschlag v10 – Portfolio-Aufbau (Yana 06.10.2026)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
+- ✅ Oben nur die wichtigsten Projekte, darunter «Alle Arbeiten» nach Kategorien mit Sprungleiste. Keine Jahreszahlen auf der Übersicht (erst auf der Projektseite).
+- ✅ Regeln aus Yanas Feedback: Molten Sulphur ist keine Kampagne · Reels gehören zu Social Media · Werbeartikel und Giveaways sind dasselbe, Fruchtgummis gehören dazu · Halloween-Videoflyer gehört zu Social Media · Weltkarte gehört zu den Grafiken; bei Messen und Broschüren nur auf der Projektseite erwähnen, nicht als Hauptthema · Titel professionell und kurz.
+- **Ausgewählte Projekte (6):** ACHEMA 2024 in Frankfurt · Weihnachten 2026 · Mobiler Messestand für die USA · Produktbroschüren in neun Sprachen · Immobilien-Reels (GOLDINGER) · Die Marke im eigenen Gebäude.
+- **Kategorien (6):**
+  1. **Messen & Events:** Internationale Messen · ACHEMA 2024 · Mobiler Messestand für die USA · WEGA und Immozionale · Infoabende und Tage der offenen Tür
+  2. **Grafik & Print:** Produktbroschüren · Anzeige, Broschüre und Flyer «Molten Sulphur» · Flyer «Sofort verfügbare Pumpensysteme» · Messewände · Weihnachtskarten · Songkran-Grusskarte · Hausmagazin · Inserate Infoabende
+  3. **Corporate Design & Raum:** Weltkarte und Firmengeschichte · Die Marke im eigenen Gebäude · Redesigns: vorher und nachher · Markenidentität Trailer Park
+  4. **Digital & Social Media:** Website und Newsletter · E-Mail- und Web-Banner · LinkedIn-Beiträge · Immobilien-Reels · Instagram-Beiträge und Storys · Halloween-Videoflyer
+  5. **Foto & Video:** Mitarbeitende bei der Arbeit · Reportage Maschinenlieferung · Immobilienvideos und Rundgänge · Animierte Erklärvideos
+  6. **Giveaways:** Giveaways mit Logo · Fruchtgummis · Firmengeschenke Weihnachten · Arbeits- und Messekleidung
+- Kategorie «Kampagnen» entfällt (Weihnachten ist Highlight und erscheint unter Grafik & Print und Giveaways; Infoabende unter Messen & Events).
+- Ersetzt v4–v9 (Verlauf in Git).
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
