@@ -184,7 +184,7 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 
 ### Contact
 - E-Mail ✅ und LinkedIn ✅ (siehe Kapitel 8)
-- Optional ein kurzes Formular ❓
+- Kein Formular ✅ (Yana 06.10.2026): nur E-Mail-Adresse mit Button «E-Mail kopieren»
 
 ### Impressum / Datenschutz
 - Name, Ort, E-Mail (siehe Kapitel 8)
