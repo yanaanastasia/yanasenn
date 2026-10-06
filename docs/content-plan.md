@@ -472,6 +472,8 @@ Die Abschnitte 6.1–6.3 unten sind die Faktensammlung pro Thema; sie werden bei
     - Exponat: blaue Pumpe aufgeschnitten (web-8), Hintergrund unscharf
     - Eigene Arbeit: E-Mail-Banner «Halle 8, Stand F28» (DE) · Folie Buzzer-Tisch (1800 × 2200 mm)
     - Nicht verwenden: Bilder mit erkennbaren Gesichtern (web-1, 2, 6, 7, 9), ausser mit Einverständnis
+    - ✅ Feedback Yana 06.10.2026: **möglichst wenige Gesichter** → Personen im Titelbild (web-4/5) unscharf machen oder zuschneiden; web-8 auf die Pumpe zuschneiden.
+    - ✅ **Panels und Folien als Mockup** zeigen, nicht als flache Druckdatei (z. B. Panel im Raum, Folie auf dem Tisch), dazu ein **Ausschnitt aus dem Standfoto, der zeigt, wo sie hängen** (z. B. Panel «Safety first» oben aus web-9, ohne Personen). Gilt als Regel für alle Messen: Druckdateien von Wänden, Panels, Roll-ups → Mockup + Einsatz-Foto. 📌 Mockups in der Bild-/Designphase erstellen.
 - **Ergebnis:** 📌 später (Zahlen/Resultate)
 
 #### ACHEMA 2024: Funde aus Yanas Drive-Ordner (03.10.2026)
