@@ -34,6 +34,7 @@ figure{margin:0;display:grid;gap:8px;min-width:0;align-content:start}
 .zoom:hover::after,.zoom:focus-visible::after{opacity:1}
 @media (prefers-reduced-motion:reduce){.zoom img,.zoom::after{transition:none}}
 .r169{aspect-ratio:16/9}.r43{aspect-ratio:4/3}.r34{aspect-ratio:3/4}.rpage{aspect-ratio:1132/1600}
+.zoom.visual{background:#f3f4f2}
 .zoom.plan{background:#fff;border:1px solid var(--line)}.zoom.plan img{object-fit:contain;padding:10px}
 .zoom.page{background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,0,0,.08)}.zoom.page img{object-fit:contain}
 /* Kreislauf */
@@ -98,12 +99,12 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 </style>
 
 <div class="wrap">
-  <p class="note">Entwurf zur Anordnung. Gesichter auf den Fotos sind verpixelt. Alle Bilder lassen sich anklicken und gross ansehen. Fotos vom Stand in Orlando folgen, sobald sie im Drive liegen.</p>
+  <p class="note">Entwurf zur Anordnung. Gesichter auf Messefotos sind weichgezeichnet. Alle Bilder lassen sich anklicken und gross ansehen. Fotos vom Stand in Orlando folgen, sobald sie im Drive liegen.</p>
 
   <header class="hero">
     <p class="eyebrow">Messesystem · CP Pump Systems</p>
     <h1>Mobiler Messestand für die USA</h1>
-    <button class="zoom r169" data-gallery="houston" data-n="0" aria-label="Foto vom Stand in Houston gross ansehen"><img src="img/houston_stand.jpg" alt="CP-Stand an der TPS Houston 2024: weisse Podeste mit blauen Pumpen, dahinter die Standbox mit Birkenwald-Motiv"></button>
+    <figure><button class="zoom r169 visual" data-gallery="design" data-n="0" aria-label="Visualisierung der Standbox gross ansehen"><img src="img/box_visual.jpg" alt="Visualisierung der Standbox: weisse Kabine mit CP-Logo und Birkenwald rundum, Tür auf der linken Seite"></button><figcaption class="cap">Visualisierung der Standbox, erstellt aus meinem finalen Layout</figcaption></figure>
     <p class="lead">Statt Mobiliar für jede Messe neu zu mieten, setzt CP in den USA auf eine eigene Standausstattung. Möbel und Standbox sind aufeinander abgestimmt und bilden ein wiederkehrendes Standkonzept: Jeder Auftritt hat das gleiche Erscheinungsbild, ist schnell aufgebaut und gut planbar.</p>
     <div class="facts">
       <div><b>2</b><span>Boxen: Standbox und Box für Möbel und Material</span></div>
@@ -138,15 +139,15 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
         <h2>Stauraum, Arbeitsfläche und Blickfang in einem</h2>
         <p>Die Standbox ist eine Massanfertigung: eine begehbare Kabine aus leichten, weissen Tischlerplatten, mit Tür und Riegelschloss, verstellbaren Tablaren und einem aufklappbaren Tisch. Darin lagern Broschüren, Werbeartikel und die Jacken des Teams. Ich habe sie mit einem Schweizer Kistenbauer abgestimmt.</p>
         <p>Eine eigene Transportkiste aus Dreischichtplatten schützt sie unterwegs. Eine zweite, ebenfalls angefertigte Box enthält die Möbel und das Marketingmaterial.</p>
-        <figure><button class="zoom plan r169" data-gallery="system" data-n="1" aria-label="Plan der Transportkiste gross ansehen"><img src="img/plan_kiste.jpg" alt="Plan der Transportkiste mit allen Wandteilen"></button><figcaption class="cap">Plan der Transportkiste: alle Wände flach verpackt, rund 3 × 1,9 m</figcaption></figure>
+        <figure><button class="zoom plan r169" data-gallery="system" data-n="1" aria-label="Plan der Transportkiste gross ansehen"><img src="img/plan_kiste.jpg" alt="Plan der Transportkiste mit allen Wandteilen"></button><figcaption class="cap">Plan der Transportkiste: alle Wände in einer Kiste, rund 3 × 1,9 m</figcaption></figure>
       </div>
       <figure><button class="zoom plan r43" data-gallery="system" data-n="0" aria-label="Plan der Standbox gross ansehen"><img src="img/plan_kabine.jpg" alt="Technischer Plan der Standbox: Ansicht, Grundriss 2000 × 2000 mm und Explosionszeichnung mit Tablaren und Tür"></button><figcaption class="cap">Plan der Standbox: Grundriss 2 × 2 m, Höhe 3 m, Tür 75 cm breit, Tablare auf zwei Seiten.</figcaption></figure>
     </div>
     <div class="g4">
       <figure><button class="zoom r34" data-gallery="system" data-n="2" aria-label="Innenansicht gross ansehen"><img src="img/box_innen1.jpg" alt="Innenansicht der Standbox mit Tablaren voller Kartons und Broschüren"></button><figcaption class="cap">Innen: Tablare für Material</figcaption></figure>
       <figure><button class="zoom r34" data-gallery="system" data-n="3" aria-label="Innenansicht mit Birkenwand gross ansehen"><img src="img/box_innen2.jpg" alt="Blick in die offene Standbox, aussen das Birkenwald-Motiv"></button><figcaption class="cap">Aussen Birkenwald, innen Lager</figcaption></figure>
-      <figure><button class="zoom r34" data-gallery="system" data-n="4" aria-label="Transportkiste gross ansehen"><img src="img/kiste_riegel.jpg" alt="Metallverschluss an der hölzernen Transportkiste"></button><figcaption class="cap">Transportkiste aus Dreischichtplatten</figcaption></figure>
-      <figure><button class="zoom r34" data-gallery="system" data-n="5" aria-label="Schrauben und Schlüssel gross ansehen"><img src="img/schritt_7.jpg" alt="Schachtel mit Schrauben für den Aufbau"></button><figcaption class="cap">Schrauben und Schlüssel reisen mit</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="system" data-n="4" aria-label="Offene Transportkiste gross ansehen"><img src="img/schritt_2.jpg" alt="Offene Transportkiste auf einer Palette, darin die Wände der Standbox"></button><figcaption class="cap">Transportkiste: alle Wände aufrecht verpackt</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="system" data-n="5" aria-label="Verschluss der Transportkiste gross ansehen"><img src="img/kiste_riegel.jpg" alt="Metallverschluss an der hölzernen Transportkiste"></button><figcaption class="cap">Robuster Verschluss für den Transport</figcaption></figure>
     </div>
     <div class="kit">
       <div class="box"><h3><span class="tag">Box 1</span>Standbox</h3><ul><li>Kabine mit Rundum-Design, steht mitten auf dem Stand</li><li>Broschüren und Werbeartikel</li><li>Jacken des Teams</li><li>aufklappbarer Tisch als Arbeitsfläche</li></ul></div>
@@ -159,14 +160,15 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
       <div class="text">
         <p class="eyebrow">3 · Rundum-Design</p>
         <h2>Ein Birkenwald in der Messehalle</h2>
-        <p>Für die Standbox habe ich ein Rundum-Design gestaltet: ein Birkenwald über alle Wände, oben das CP-Logo, dazu der Claim des Unternehmens. Mitten auf dem Stand wird die Box so zur Bühne und zum Erkennungszeichen, das man schon von Weitem sieht.</p>
+        <p>Für die Standbox habe ich ein Rundum-Design gestaltet: ein Birkenwald über alle vier Wände, oben auf weissem Grund das CP-Logo, dazu der Claim des Unternehmens. Mitten auf dem Stand wird die Box so zur Bühne und zum Erkennungszeichen, das man schon von Weitem sieht.</p>
         <p class="claim">cleaner pumps, cleaner planet™</p>
-        <p>Das Motiv lebt weiter: 2026 zog sich eine Rückwand mit Birkenwald über den Doppelstand in Miami.</p>
       </div>
-      <div class="g2">
-        <button class="zoom r34" data-gallery="design" data-n="0" aria-label="Wand mit Birkenwald gross ansehen"><img src="img/schritt_4.jpg" alt="Eine Wand der Standbox mit Birkenwald und CP-Logo wird aufgestellt"></button>
-        <button class="zoom r34" data-gallery="design" data-n="1" aria-label="Standbox an der Messe gross ansehen"><img src="img/houston_box.jpg" alt="Standbox mit Birkenwald-Motiv an der TPS Houston, davor Besucher am Stand"></button>
-      </div>
+      <figure><button class="zoom r43" data-gallery="design" data-n="1" aria-label="Layout-Varianten gross ansehen"><img src="img/layout_varianten.jpg" alt="Zwei Layout-Varianten der Messebox: Logo auf weissem Balken oben oder auf transparentem Balken über dem Birkenwald" style="object-fit:contain;background:#fff"></button><figcaption class="cap" style="color:#bcd0c2">Zwei Varianten im Entwurf: Logo auf weissem Grund oder über dem Bild</figcaption></figure>
+    </div>
+    <figure><button class="zoom plan" style="aspect-ratio:2000/771" data-gallery="design" data-n="2" aria-label="Finales Layout gross ansehen"><img src="img/layout_final.jpg" alt="Finales Layout: alle vier Wände der Standbox nebeneinander, mit Tür, Logos und Claim"></button><figcaption class="cap">Finales Layout: die vier Wände als Abwicklung, mit Türausschnitt auf der ersten Wand und dem Claim auf drei Seiten</figcaption></figure>
+    <div class="g2">
+      <figure><button class="zoom r43" data-gallery="design" data-n="3" aria-label="Wand beim Aufstellen gross ansehen"><img src="img/schritt_4.jpg" alt="Eine Wand der Standbox mit Birkenwald und CP-Logo wird aufgestellt"></button><figcaption class="cap">Gedruckt und gebaut: die erste Wand beim Aufstellen</figcaption></figure>
+      <figure><button class="zoom r43" data-gallery="design" data-n="4" aria-label="Standbox an der Messe gross ansehen"><img src="img/houston_box.jpg" alt="Standbox mit Birkenwald-Motiv an der TPS Houston, davor Besucher am Stand" style="object-position:50% 40%"></button><figcaption class="cap">An der Messe in Houston, mitten auf dem Stand</figcaption></figure>
     </div>
   </section>
 
@@ -183,10 +185,10 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
       </div>
     </div>
     <div class="steps">
-      <figure><button class="zoom r34" data-gallery="schritte" data-n="0" aria-label="Schritt 1 gross ansehen"><img src="img/schritt_2.jpg" alt="Wandkante mit der Beschriftung «unten»"></button><figcaption><b>1 · Auspacken</b>Alle Teile aus der Transportkiste nehmen.</figcaption></figure>
-      <figure><button class="zoom r34" data-gallery="schritte" data-n="1" aria-label="Schritt 2 gross ansehen"><img src="img/schritt_1.jpg" alt="Geöffnete Transportkiste mit den Wandteilen"></button><figcaption><b>2 · Teile erkennen</b>Oben und unten sind markiert.</figcaption></figure>
-      <figure><button class="zoom r34" data-gallery="schritte" data-n="2" aria-label="Schritt 3 gross ansehen"><img src="img/schritt_3.jpg" alt="Zwei Wände mit gleicher Nummer treffen sich in einer Ecke"></button><figcaption><b>3 · Nummern zuordnen</b>Wand 1 zu Wand 1, Wand 2 zu Wand 2.</figcaption></figure>
-      <figure><button class="zoom r34" data-gallery="schritte" data-n="3" aria-label="Schritt 4 gross ansehen"><img src="img/schritt_4.jpg" alt="Die erste Wand mit Birkenwald wird aufgestellt"></button><figcaption><b>4 · Aufstellen</b>Erste Ecke verschrauben, dann Haken und Tablare.</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="schritte" data-n="0" aria-label="Schritt 1 gross ansehen"><img src="img/schritt_0.jpg" alt="Hallenboden mit einem kleinen Holzklotz zum Ausgleichen"></button><figcaption><b>1 · Vorbereiten</b>Boden prüfen, Unebenheiten mit Holzklötzen ausgleichen.</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="schritte" data-n="1" aria-label="Schritt 2 gross ansehen"><img src="img/schritt_1.jpg" alt="Wandkante mit der Beschriftung «unten»"></button><figcaption><b>2 · Teile erkennen</b>Auspacken, oben und unten sind markiert.</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="schritte" data-n="3" aria-label="Schritt 3 gross ansehen"><img src="img/schritt_3.jpg" alt="Zwei Wände mit gleicher Nummer treffen sich in einer Ecke"></button><figcaption><b>3 · Nummern zuordnen</b>Wand 1 zu Wand 1, Wand 2 zu Wand 2.</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="schritte" data-n="4" aria-label="Schritt 4 gross ansehen"><img src="img/schritt_4.jpg" alt="Die erste Wand mit Birkenwald wird aufgestellt"></button><figcaption><b>4 · Aufstellen</b>Erste Ecke verschrauben, dann Haken und Tablare.</figcaption></figure>
     </div>
   </section>
 
@@ -202,20 +204,18 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
       <div><span class="when">Lösung</span><b>Dranbleiben</b><span>enger Austausch mit dem Transportunternehmen</span></div>
       <div><span class="when">Ergebnis</span><b>Stand komplett</b><span>am Tag vor Messebeginn</span></div>
     </div>
-    <figure><button class="zoom r169" data-gallery="houston" data-n="1" aria-label="Gesamtansicht in Houston gross ansehen"><img src="img/houston_gang.jpg" alt="Gesamtansicht des Stands in Houston mit weissen Möbeln, Podesten und Fussbällen als Geschenk" style="object-position:50% 62%"></button><figcaption class="cap">Fertig aufgebaut: weisse Möbel, Podeste und die Geschenke für registrierte Kunden</figcaption></figure>
+    <figure><button class="zoom r169" data-gallery="houston" data-n="0" aria-label="Gesamtansicht in Houston gross ansehen"><img src="img/houston_gang.jpg" alt="Gesamtansicht des Stands in Houston mit weissen Möbeln, Podesten und Fussbällen als Geschenk" style="object-position:50% 62%"></button><figcaption class="cap">Fertig aufgebaut: weisse Möbel, Podeste und die Geschenke für registrierte Kunden</figcaption></figure>
   </section>
 
   <section class="chapter">
     <p class="eyebrow">6 · Im Einsatz</p>
     <div class="text">
       <h2>Ein System, viele Auftritte</h2>
-      <p>Seit Houston kommt das Messesystem an den US-Messen immer wieder zum Einsatz, mit gleichem Erscheinungsbild und ohne neue Mietmöbel.</p>
+      <p>Seit Houston kommt das Messesystem an den grossen US-Messen zum Einsatz, mit gleichem Erscheinungsbild und ohne neue Mietmöbel. Für kleinere Auftritte holt das Verkaufsteam Broschüren und Geschenke direkt im Lager ab.</p>
     </div>
     <div class="tl">
       <div class="ev"><i></i><div class="d"><b>TPS Houston</b>August 2024</div><div class="c"><span class="badge">Erster Einsatz</span><p>Standbox, Möbel und Transportkiste gehen zum ersten Mal an eine Messe. Danach bleibt alles in den USA.</p></div></div>
       <div class="ev"><i></i><div class="d"><b>TFS Orlando</b>April 2025</div><div class="c"><p>600 sq ft Freifläche, nach allen vier Seiten offen, im Selbstaufbau. Das Herzstück war das Messesystem: Standbox und Möbelbox kamen aus dem Lager, dazu eine Sendung aus der Schweiz mit Exponaten, Broschüren und Giveaways.</p></div></div>
-      <div class="ev"><i></i><div class="d"><b>FLA Miami</b>Januar 2026</div><div class="c"><p>Doppelstand auf Basis des Messesystems: Teppich, Technik, Broschüren und Giveaways kamen aus der Messebox, dazu eine eigens gestaltete Rückwand mit Birkenwald-Motiv.</p>
-        <div class="pics"><button class="zoom r34" data-gallery="miami" data-n="0" aria-label="Stand in Miami gross ansehen"><img src="img/miami_1.jpg" alt="Stand in Miami mit Birkenwald-Rückwand, Pumpe auf Podest und CP-Theke"></button><button class="zoom r34" data-gallery="miami" data-n="1" aria-label="Gespräch am Stand in Miami gross ansehen"><img src="img/miami_2.jpg" alt="Gespräch am Stand in Miami vor der Birkenwald-Rückwand und dem Roll-up"></button></div></div></div>
       <div class="ev next"><i></i><div class="d"><b>TFS Tampa</b>November 2026</div><div class="c"><span class="badge">Bevorstehend</span><p>400 sq ft, wieder im Selbstaufbau, wieder mit dem Messesystem für die USA.</p></div></div>
     </div>
   </section>
@@ -236,12 +236,11 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 
 <script>
 const G={
- system:[["img/plan_kabine.jpg","Plan der Standbox: Ansicht, Grundriss und Explosionszeichnung"],["img/plan_kiste.jpg","Plan der Transportkiste"],["img/box_innen1.jpg","Innen: Tablare für Broschüren und Material"],["img/box_innen2.jpg","Aussen Birkenwald, innen Lager"],["img/kiste_riegel.jpg","Transportkiste aus Dreischichtplatten"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
- design:[["img/schritt_4.jpg","Wand mit Birkenwald und CP-Logo"],["img/houston_box.jpg","Die Standbox an der TPS Houston 2024"]],
+ system:[["img/plan_kabine.jpg","Plan der Standbox: Ansicht, Grundriss und Explosionszeichnung"],["img/plan_kiste.jpg","Plan der Transportkiste"],["img/box_innen1.jpg","Innen: Tablare für Broschüren und Material"],["img/box_innen2.jpg","Aussen Birkenwald, innen Lager"],["img/schritt_2.jpg","Transportkiste: alle Wände aufrecht verpackt"],["img/kiste_riegel.jpg","Verschluss der Transportkiste"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
+ design:[["img/box_visual.jpg","Visualisierung der Standbox aus dem finalen Layout"],["img/layout_varianten.jpg","Entwurf: zwei Layout-Varianten"],["img/layout_final.jpg","Finales Layout: Abwicklung der vier Wände"],["img/schritt_4.jpg","Gedruckt und gebaut: die erste Wand"],["img/houston_box.jpg","Die Standbox an der TPS Houston 2024"]],
  anleitung:[["img/anleitung_1.jpg","Aufbauanleitung · Seite 1"],["img/anleitung_2.jpg","Aufbauanleitung · Seite 2"]],
- schritte:[["img/schritt_2.jpg","1 · Auspacken"],["img/schritt_1.jpg","2 · Teile erkennen: oben und unten markiert"],["img/schritt_3.jpg","3 · Nummern zuordnen"],["img/schritt_4.jpg","4 · Aufstellen und verschrauben"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
- houston:[["img/houston_stand.jpg","TPS Houston 2024 · Stand mit Standbox"],["img/houston_gang.jpg","TPS Houston 2024 · Gesamtansicht"],["img/houston_box.jpg","TPS Houston 2024 · Standbox mit Birkenwald"]],
- miami:[["img/miami_1.jpg","FLA Miami 2026 · Rückwand mit Birkenwald"],["img/miami_2.jpg","FLA Miami 2026 · am Stand"]]
+ schritte:[["img/schritt_0.jpg","1 · Vorbereiten: Boden ausgleichen"],["img/schritt_2.jpg","Auspacken aus der Transportkiste"],["img/schritt_1.jpg","2 · Teile erkennen: oben und unten markiert"],["img/schritt_3.jpg","3 · Nummern zuordnen"],["img/schritt_4.jpg","4 · Aufstellen und verschrauben"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
+ houston:[["img/houston_gang.jpg","TPS Houston 2024 · fertig aufgebaut"],["img/houston_box.jpg","TPS Houston 2024 · Standbox mit Birkenwald"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
 function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
