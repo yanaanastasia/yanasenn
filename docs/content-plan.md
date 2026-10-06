@@ -802,6 +802,14 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Bilder/Video 📌:** Auswahl Feed (Raster), Story-Beispiele, ein Objektvideo (komprimiert), ein Reel. Personen nur mit Einverständnis.
 - ✅ Alle Feed-Beiträge von Yana gestaltet (Yana 06.10.2026). ✅ Luftaufnahmen mit Drohne von Yana (Yana 06.10.2026).
 
+#### TEXT-ENTWURF «Animierte Erklärvideos» (GOLDINGER, Abschlussarbeit) ✏️
+- **Stichworte:** Animation · Storytelling · Abschlussarbeit
+- **Kurz:** Zwei animierte Videos, die komplexe Abläufe einfach erklären
+- **Ausgangslage:** Wer eine Immobilie verkaufen will, hat viele Fragen: Wie läuft ein Verkauf ab, und was bedeutet ein «stiller Verkauf»? GOLDINGER wollte das kurz und verständlich erklären, für die Website und Social Media.
+- **Meine Rolle ✏️:** Als Abschlussarbeit meiner Lehre (IPA) entwickelte ich zwei animierte Erklärvideos. ❓ Umfang: Skript, Storyboard, Illustration, Animation, Ton/Sprecher, Tools.
+- **Videos:** «Immobilienverkauf bei GOLDINGER» · «Stiller Verkauf»
+- **Bilder/Video 📌:** beide Videos komprimiert einbinden, dazu Storyboard oder Standbilder.
+
 #### TEXT-ENTWURF «GOLDINGER Infoabende und Tage der offenen Tür» (Frühere Projekte, Kachel 4) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Kampagnenplanung · Print · Meta Ads · Event
 - **Kurz:** Kampagnen, die Menschen an Infoabende und in Neubauprojekte bringen
