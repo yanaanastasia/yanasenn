@@ -224,18 +224,12 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v6 – Themenseiten (Yana 06.10.2026: Messen sind ein grosses Thema → eine Seite, wo man alle Messen und alles dazu sieht; ebenso bei anderen Themen)**
-- **Portfolio-Seite = 6 grosse Themen-Kacheln.** Klick → eigene **Themenseite**.
-- **Jede Themenseite hat zwei Teile:** oben die **Projekte** dieses Themas (mit Text), darunter eine **Galerie** mit allen einzelnen Arbeiten dieser Art, auch aus Projekten anderer Themen (z. B. erscheinen die Messewände in der Galerie von «Grafik & Print»). Jedes Galeriebild hat eine kurze Beschriftung und führt zum Projekt.
-- **Themen (DE / EN) und Projekte:**
-  1. **Messen & Events / Trade Fairs & Events:** interaktive Weltkarte mit allen Messen (eigene und an Partnerständen) · Internationale Messen 2024–2026 · Messesystem und Messematerial · WEGA und Immozionale · Infoabende und Tage der offenen Tür
-  2. **Kampagnen / Campaigns:** Weihnachtskampagne 2026 · Kampagne «Molten Sulphur» · Songkran-Grusskarte
-  3. **Grafik & Print / Graphic Design & Print:** Broschüren und Factsheets · Infografiken und Karten · Hausmagazin (Online-Magazin) · Redesigns Vorher/Nachher · Raumgestaltung · Trailer Park – Street Food (Kursprojekt)
-  4. **Digital & Social Media:** Website und Newsletter · Online-Werbung (Banner, Signaturen, LinkedIn) · Social Media GOLDINGER
-  5. **Foto & Video / Photo & Video:** Fotografie · Reels und Immobilienvideos · Animierte Erklärvideos (Abschlussarbeit) · Halloween-Videoflyer (Freelance)
-  6. **Merchandise & Giveaways:** Giveaways und Werbeartikel (CP und GOLDINGER, inkl. Fruchtgummis) · Arbeits- und Messekleidung
-- **Auf der Startseite «Hi.»** bleiben einzelne Highlight-Projekte (Auswahl später).
-- Ersetzt v4/v5 und die Filterzeile in 6.0 (Verlauf in Git).
+**✏️ Vorschlag v7 – Projekte oben, Übersicht nach Themen unten (Yana 06.10.2026)** · Klickbarer Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
+- **Teil 1 (oben): Projekte.** Ein Projekt pro Kachel, Titel + «Auftraggeber · Jahr». Klick → Projektseite mit Text und Bildern. Kein Filter.
+- **Teil 2 (weiter unten): Übersicht nach Themen.** Einzelne Arbeiten aus allen Projekten, gefiltert nach Thema. Eine Arbeit darf in mehreren Themen stehen, wenn sie dazugehört. Klick → Projekt.
+- **Themen:** Alle · Messen & Events · Grafik & Print · Social Media & Video · Fotografie · Web & Digital · Giveaways
+- **Beispiele:** Messewand Dortmund 2026 → Messen & Events + Grafik & Print · Reel → Social Media & Video · Immobilienvideo → Social Media & Video + Fotografie · Weihnachtskarte → Grafik & Print, Picknickdecke → Giveaways · Weltkarte aller Messen gehört zum Projekt «Internationale Messen».
+- Ersetzt v4–v6 (Verlauf in Git).
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)

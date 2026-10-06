@@ -1,0 +1,120 @@
+<title>Portfolio-Struktur yanasenn.ch</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: Wireframe der Portfolio-Seite – oben Projekte, darunter Übersicht nach Themen mit Filter */
+:root{
+  --bg:#f6f7f5; --surface:#ffffff; --ink:#1d2421; --muted:#5f6b66; --line:#d9ded9;
+  --accent:#2f6b5a; --accent-soft:#e3efe9; --ph:#e9ece8;
+  --display:"Fraunces", Georgia, serif; --body:"Instrument Sans", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141917; --surface:#1c2320; --ink:#e8ede9; --muted:#9aa8a1; --line:#2e3833;
+  --accent:#7cc2a8; --accent-soft:#22332c; --ph:#252e2a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141917; --surface:#1c2320; --ink:#e8ede9; --muted:#9aa8a1; --line:#2e3833;
+  --accent:#7cc2a8; --accent-soft:#22332c; --ph:#252e2a; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--body)}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:20px;padding-block:32px 64px;display:grid;gap:40px}
+.note{font-size:.85rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:10px 14px;max-width:70ch}
+h1{font:600 clamp(1.8rem,4vw,2.6rem)/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 1.5rem/1.2 var(--display);margin:0 0 6px}
+.sub{color:var(--muted);margin:0;max-width:65ch}
+.step{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;margin:0 0 4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.tile .img{aspect-ratio:4/3;background:var(--ph);display:grid;place-items:center;color:var(--muted);font-size:.8rem;padding:8px;text-align:center}
+.tile .txt{padding:12px 14px;display:grid;gap:2px;min-width:0}
+.tile b{font-weight:600}
+.meta{font-size:.8rem;color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 18px}
+.filters button{font:500 .9rem var(--body);padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.filters button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.pieces{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+.piece{background:var(--surface);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.piece .img{aspect-ratio:1;background:var(--ph)}
+.piece .cap{padding:8px 10px;font-size:.82rem;display:grid;gap:2px}
+.piece .cap span{color:var(--accent);font-size:.75rem}
+.count{font-size:.85rem;color:var(--muted);margin:0 0 10px}
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="step">Entwurf zur Diskussion</p>
+    <h1>So könnte die Portfolio-Seite aufgebaut sein</h1>
+    <p class="sub">Graue Flächen sind Platzhalter für Bilder. Es geht nur um den Aufbau, nicht um das Design.</p>
+  </header>
+
+  <section>
+    <p class="step">Teil 1 · oben</p>
+    <h2>Projekte</h2>
+    <p class="sub">Jedes Projekt eine Kachel. Klick öffnet die ganze Geschichte: Ausgangslage, meine Rolle, Umsetzung, Bilder.</p>
+    <div class="grid" id="projects" style="margin-top:16px"></div>
+  </section>
+
+  <section>
+    <p class="step">Teil 2 · weiter unten</p>
+    <h2>Übersicht nach Themen</h2>
+    <p class="sub">Einzelne Arbeiten aus allen Projekten, sortiert nach Thema. Eine Arbeit darf in mehreren Themen stehen, wenn sie dazugehört. Klick auf ein Bild führt zum Projekt.</p>
+    <div class="filters" role="group" aria-label="Themen" id="filters"></div>
+    <p class="count" id="count"></p>
+    <div class="pieces" id="pieces"></div>
+  </section>
+
+  <p class="note">Beispiel: Die Messewand der Pumps &amp; Valves 2026 steht unter «Messen &amp; Events» und unter «Grafik &amp; Print». Ein Reel steht unter «Social Media &amp; Video». Die Weltkarte mit allen Messen ist Teil des Projekts «Internationale Messen».</p>
+</div>
+
+<script>
+const projects=[
+ ["Internationale Messen","CP Pump Systems · 2024–2026"],
+ ["Weihnachtskampagne","CP Pump Systems · 2026"],
+ ["Kampagne «Molten Sulphur»","CP Pump Systems · 2025–2026"],
+ ["Broschüren und Factsheets","CP Pump Systems · 2024–2026"],
+ ["Infografiken und Karten","CP Pump Systems · 2025–2026"],
+ ["Raumgestaltung","CP Pump Systems · 2024–2026"],
+ ["Website und Newsletter","CP Pump Systems · 2024–2026"],
+ ["Fotografie","CP Pump Systems · 2026"],
+ ["Songkran-Grusskarte","CP Pump Systems · 2026"],
+ ["Giveaways und Werbeartikel","CP Pump Systems und GOLDINGER"],
+ ["Hausmagazin","GOLDINGER Immobilien · 2023"],
+ ["Redesigns Vorher/Nachher","GOLDINGER Immobilien · 2022–2023"],
+ ["Infoabende und Tage der offenen Tür","GOLDINGER Immobilien · 2022–2023"],
+ ["WEGA und Immozionale","GOLDINGER Immobilien · 2022–2023"],
+ ["Social Media und Reels","GOLDINGER Immobilien · 2021–2023"],
+ ["Animierte Erklärvideos","GOLDINGER Immobilien · 2023"],
+ ["Halloween-Videoflyer","Freelance · 2023"],
+ ["Trailer Park – Street Food","Kursprojekt"]
+];
+const T={M:"Messen & Events",G:"Grafik & Print",S:"Social Media & Video",F:"Fotografie",W:"Web & Digital",A:"Giveaways"};
+const pieces=[
+ ["Messewand","Pumps & Valves 2026","MG"],["Rückwand «Molten Sulphur»","CRU Berlin 2026","MG"],
+ ["Standbox mit Birkenwald","TPS Houston","MG"],["Weltkarte aller Messen","Internationale Messen","M"],
+ ["Messe-Briefing","Internationale Messen","M"],["E-Mail-Banner","Petrochymia 2026","MW"],
+ ["Standfoto","Pumps & Valves 2026","MF"],["Messewände neu","WEGA","MG"],
+ ["Inserate-Serie","Infoabende 2023","MG"],["Meta-Anzeige","Infoabende 2023","MS"],
+ ["Anzeige World Fertilizer","Molten Sulphur","G"],["Broschüre","Molten Sulphur","G"],
+ ["Web-Banner","Molten Sulphur","W"],["Company Profile","Broschüren","G"],
+ ["Zeitstrahl","Infografiken","G"],["Weltkarte Standorte","Infografiken","G"],
+ ["Wandbild Birkenwald","Raumgestaltung","G"],["Wandbild Abteilung","Raumgestaltung","GF"],
+ ["Weihnachtskarte","Weihnachtskampagne","G"],["Picknickdecke","Weihnachtskampagne","A"],
+ ["Songkran-Karte","Songkran","G"],["Hausmagazin","Hausmagazin","G"],
+ ["Faltmappe vorher/nachher","Redesigns","G"],["Website-News","Website und Newsletter","W"],
+ ["Newsletter","Website und Newsletter","W"],["Reel","Social Media und Reels","S"],
+ ["Instagram-Story","Social Media und Reels","S"],["Immobilienvideo","Social Media und Reels","SF"],
+ ["Erklärvideo","Animierte Erklärvideos","S"],["Halloween-Videoflyer","Freelance","S"],
+ ["Reportage Maschinenlieferung","Fotografie","FS"],["Fruchtgummis","Giveaways","A"],
+ ["Werbeartikel","Giveaways","A"],["Markenidentität","Trailer Park","G"]
+];
+const pg=document.getElementById("projects");
+projects.forEach(([t,m])=>{pg.insertAdjacentHTML("beforeend",`<article class="tile"><div class="img">Bild</div><div class="txt"><b>${t}</b><span class="meta">${m}</span></div></article>`)});
+const fl=document.getElementById("filters"),pc=document.getElementById("pieces"),ct=document.getElementById("count");
+const keys=["all",...Object.keys(T)];
+function render(k){
+  [...fl.children].forEach(b=>b.setAttribute("aria-pressed",b.dataset.k===k));
+  const list=pieces.filter(p=>k==="all"||p[2].includes(k));
+  ct.textContent=`${list.length} Arbeiten`;
+  pc.innerHTML=list.map(([t,src,tags])=>`<figure class="piece" style="margin:0"><div class="img"></div><figcaption class="cap"><b>${t}</b>${src}<span>${[...tags].map(x=>T[x]).join(" · ")}</span></figcaption></figure>`).join("");
+}
+keys.forEach(k=>{const b=document.createElement("button");b.type="button";b.dataset.k=k;b.textContent=k==="all"?"Alle":T[k];b.onclick=()=>render(k);fl.appendChild(b)});
+render("M");
+</script>
