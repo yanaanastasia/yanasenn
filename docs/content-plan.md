@@ -812,10 +812,10 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 #### TEXT-ENTWURF «Trailer Park – Street Food» (Kursprojekt) ✏️
 - **Stichworte:** Markenidentität · Corporate Design · Kursprojekt
 - **Kurz:** Eine komplette Marke für einen Food-Truck
-- **Ausgangslage:** Im überbetrieblichen Kurs der Ausbildung entstand für einen Food-Truck eine eigene Marke, vom Logo bis zur Verpackung.
-- **Meine Rolle ✏️:** Ich entwickelte die Markenidentität: Logo, Claim, Farb-, Bild- und Schriftkonzept, zusammengefasst in einem Manual, und setzte sie auf Plakat, Becher, Food-Box und Newsletter um.
+- **Ausgangslage:** Im überbetrieblichen Kurs der Ausbildung entstand für einen fiktiven Food-Truck eine eigene Marke, vom Logo bis zur Verpackung.
+- **Umsetzung ✏️ (neutral formuliert; Teamarbeit, Team nicht erwähnen, Yana 06.10.2026):** Logo, Claim, Farb-, Bild- und Schriftkonzept, zusammengefasst in einem Manual, dazu Plakat, Becher, Food-Box und Newsletter.
 - **Kennzeichnung:** klar als Kursprojekt ✅.
-- ❓ Fiktiver Auftrag oder echter Food-Truck in Romanshorn? Allein oder im Team?
+- ✅ Fiktiver Auftrag; im Team erarbeitet, Team im Text nicht erwähnen (Yana 06.10.2026). Daher keine «ich»-Rolle, sondern neutrale Beschreibung.
 - **Bilder 📌:** Logo, Manual-Seiten, Mockups (Becher, Food-Box, Plakat).
 
 #### TEXT-ENTWURF «Animierte Erklärvideos» (GOLDINGER, Abschlussarbeit) ✅ (Inhalt freigegeben, Video offen)
