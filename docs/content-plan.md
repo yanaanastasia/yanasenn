@@ -224,19 +224,18 @@ Nur Grundkenntnisse ✅ (auf der Website weglassen): After Effects, Figma, WordP
 ### 6.0 Aufbau Portfolio-Seite ✅
 Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digital**. Jede Kachel = ein Projekt.
 
-**✏️ Vorschlag v10 – Portfolio-Aufbau (Yana 06.10.2026)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
-- ✅ Oben nur die wichtigsten Projekte, darunter «Alle Arbeiten» nach Kategorien mit Sprungleiste. Keine Jahreszahlen auf der Übersicht (erst auf der Projektseite).
-- ✅ Regeln aus Yanas Feedback: Molten Sulphur ist keine Kampagne · Reels gehören zu Social Media · Werbeartikel und Giveaways sind dasselbe, Fruchtgummis gehören dazu · Halloween-Videoflyer gehört zu Social Media · Weltkarte gehört zu den Grafiken; bei Messen und Broschüren nur auf der Projektseite erwähnen, nicht als Hauptthema · Titel professionell und kurz.
-- **Ausgewählte Projekte (6):** ACHEMA 2024 in Frankfurt · Weihnachten 2026 · Mobiler Messestand für die USA · Produktbroschüren in neun Sprachen · Immobilien-Reels (GOLDINGER) · Die Marke im eigenen Gebäude.
-- **Kategorien (6):**
-  1. **Messen & Events:** Internationale Messen · ACHEMA 2024 · Mobiler Messestand für die USA · WEGA und Immozionale · Infoabende und Tage der offenen Tür
-  2. **Grafik & Print:** Produktbroschüren · Anzeige, Broschüre und Flyer «Molten Sulphur» · Flyer «Sofort verfügbare Pumpensysteme» · Messewände · Weihnachtskarten · Songkran-Grusskarte · Hausmagazin · Inserate Infoabende
-  3. **Corporate Design & Raum:** Weltkarte und Firmengeschichte · Die Marke im eigenen Gebäude · Redesigns: vorher und nachher · Markenidentität Trailer Park
-  4. **Digital & Social Media:** Website und Newsletter · E-Mail- und Web-Banner · LinkedIn-Beiträge · Immobilien-Reels · Instagram-Beiträge und Storys · Halloween-Videoflyer
-  5. **Foto & Video:** Mitarbeitende bei der Arbeit · Reportage Maschinenlieferung · Immobilienvideos und Rundgänge · Animierte Erklärvideos
-  6. **Giveaways:** Giveaways mit Logo · Fruchtgummis · Firmengeschenke Weihnachten · Arbeits- und Messekleidung
-- Kategorie «Kampagnen» entfällt (Weihnachten ist Highlight und erscheint unter Grafik & Print und Giveaways; Infoabende unter Messen & Events).
-- Ersetzt v4–v9 (Verlauf in Git).
+**✏️ Vorschlag v11 – Portfolio-Aufbau mit Kategorien und Ordnern (Yana 06.10.2026)** · Entwurf: `docs/portfolio-struktur.html` (Artifact https://claude.ai/artifact/49ZGEQbYrgPgZhXQiNeCmw)
+- ✅ Regeln: oben nur die wichtigsten Projekte · darunter «Alle Arbeiten» in Kategorien, darin **Ordner nach Art** (zusammenfassen, nicht verstreuen) · keine Jahreszahlen auf der Übersicht · Molten Sulphur keine Kampagne · Reels und Halloween-Videoflyer = Social Media · Weltkarte = Grafik (bei Messen/Broschüren nur auf der Projektseite erwähnen) · Werbeartikel und Giveaways sind dasselbe · Titel kurz und professionell.
+- **Ausgewählte Projekte (6):** ACHEMA 2024 in Frankfurt · Weihnachten 2026 · Mobiler Messestand für die USA · Produktbroschüren in neun Sprachen · Immobilien-Reels · Die Marke im eigenen Gebäude.
+- **Kategorien → Ordner:**
+  1. **Messen:** International (alle Messen 2024–2026 inkl. ACHEMA, Messestand USA, Partnerstände) · Schweiz (WEGA, Immozionale)
+  2. **Grafik & Print:** Broschüren und Magazin · Flyer · Inserate · Infoblätter · Grusskarten · Messegrafik · Infografiken
+  3. **Corporate Design & Raum:** Raumgestaltung · Redesigns · Markenidentität (Trailer Park)
+  4. **Digital & Social Media:** Website · Newsletter · E-Mail-Banner · Web-Banner · LinkedIn · Instagram
+  5. **Foto & Video:** Firmenshooting · Reportage · Immobilienvideos · Erklärvideos
+  6. **Werbeartikel:** Giveaways (inkl. Fruchtgummis) · Kunden- und Mitarbeitergeschenke · Arbeits- und Messekleidung
+- Infoabende und Tage der offenen Tür: kein eigener Ordner; ihre Flyer, Inserate und Instagram-Beiträge liegen in den passenden Ordnern, die Geschichte steht auf der Projektseite.
+- Ersetzt v4–v10 (Verlauf in Git).
 
 **Aktuell: CP Pump Systems (2024 bis heute)**
 1. Internationale Messen 2024–2026 (mit ACHEMA 2024)
