@@ -965,7 +965,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 
 | Zeitraum | Station | Status |
 |---|---|---|
-| 01/2018 – 08/2019 | IT-Support bei «VQ» ❓ (Firmenname, Art der Anstellung) | ❓ |
+| 01/2018 – 08/2019 | Praktikum IT-Support, V-ZUG AG | ✅ (Yana 06.10.2026) |
 | 08/2019 – 07/2023 ❓ | Lehre Mediamatikerin EFZ, SBW Neue Medien (2 Jahre Schule, 2 Jahre Praxis) | ✅ (Endmonat ❓) |
 | 2019 – 2022 | Berufsmaturität BM1, Richtung TALS (Technik, Architektur, Life Sciences), parallel zur Lehre | ✅ |
 | 08/2021 – 08/2023 | GOLDINGER Immobilien AG, Praktikum Marketing / Mediamatikerin | ✅ |
