@@ -781,7 +781,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 **Fakten ✅** (CV und altes Portfolio)
 - Social-Media-Management (Instagram, Facebook, LinkedIn, YouTube), Redaktionspläne
 - Posts, Reels, Stories (Erlebnisberichte, Fragerunden, Umfragen, Bewerbung der Infoabende), Mitarbeitervorstellungen, Infografiken
-- **Immobilienvideos:** Aufnahmen, Rundgänge, Schnitt, Reels ❓ (Luftaufnahmen: eigene Drohne oder Fremdmaterial?)
+- **Immobilienvideos:** Aufnahmen, Rundgänge, Schnitt, Reels, Luftaufnahmen mit Drohne ✅
 - **Interview-Reels** mit Fachleuten (Makler, Bewirtschafter)
 - **Animierte Erklärvideos** ✅ = Yanas **IPA (Abschlussarbeit der Lehre)**
 - **Hausmagazin** ✅ halbjährlich (gemäss altem Portfolio-Text): Inhalte mit Vorgesetztem festgelegt, Texte und Bilder von den Standorten, Layout von Yana, Druck, teilweise Zeitungsbeilage
@@ -792,15 +792,15 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Website-Pflege mit TYPO3
 - Entwicklung und Analyse von Kampagnen, Evaluation von Partnern und Lieferanten
 
-#### TEXT-ENTWURF «GOLDINGER Social Media, Reels und Immobilienvideos» (Frühere Projekte, Kachel 2) ✏️
+#### TEXT-ENTWURF «GOLDINGER Social Media, Reels und Immobilienvideos» (Frühere Projekte, Kachel 2) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Social Media · Reels · Immobilienvideo · Redaktionsplanung
 - **Kurz:** Zwei Jahre Kanalbetreuung, von der Story bis zum Objektrundgang
 - **Ausgangslage:** GOLDINGER war auf Instagram, Facebook, LinkedIn und YouTube präsent. Die Kanäle sollten regelmässig bespielt werden, Vertrauen in die Fachleute aufbauen und Objekte, Infoabende und das Hausmagazin bekannt machen.
 - **Meine Rolle ✏️:** Ich betreute die Kanäle während zwei Jahren: Redaktionsplan, Gestaltung der Beiträge, Fotografie und Video bis zum Schnitt.
-- **Umsetzung:** Beiträge zu Themen wie stille Vermarktung, Kundenstimmen, Tipps für Käufer oder Immobilie im Alter · Storys mit Umfragen, Fragerunden und Countdowns zu den Infoabenden, teils beworben · Reels mit Interviews von Fachleuten aus Verkauf und Bewirtschaftung, dazu Reels wie «Jahresvorsätze» · Objektvideos und Rundgänge, gefilmt und geschnitten · Vorstellung neuer Mitarbeitender · Pflege der Website in TYPO3.
+- **Umsetzung:** Beiträge zu Themen wie stille Vermarktung, Kundenstimmen, Tipps für Käufer oder Immobilie im Alter · Storys mit Umfragen, Fragerunden und Countdowns zu den Infoabenden, teils beworben · Reels mit Interviews von Fachleuten aus Verkauf und Bewirtschaftung, dazu Reels wie «Jahresvorsätze» · Objektvideos und Rundgänge, auch mit Luftaufnahmen per Drohne, gefilmt und geschnitten · Vorstellung neuer Mitarbeitender · Pflege der Website in TYPO3.
 - **Entwicklung:** Ende 2021 noch Gold und Blau, ab 2022 ein klares Blau-Weiss im Stil des übrigen Auftritts (siehe «Redesigns Print»).
 - **Bilder/Video 📌:** Auswahl Feed (Raster), Story-Beispiele, ein Objektvideo (komprimiert), ein Reel. Personen nur mit Einverständnis.
-- ✅ Alle Feed-Beiträge von Yana gestaltet (Yana 06.10.2026). ❓ Luftaufnahmen: eigene Drohne oder Fremdmaterial?
+- ✅ Alle Feed-Beiträge von Yana gestaltet (Yana 06.10.2026). ✅ Luftaufnahmen mit Drohne von Yana (Yana 06.10.2026).
 
 #### TEXT-ENTWURF «GOLDINGER Infoabende und Tage der offenen Tür» (Frühere Projekte, Kachel 4) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Kampagnenplanung · Print · Meta Ads · Event
