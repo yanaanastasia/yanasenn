@@ -793,7 +793,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 #### TEXT-ENTWURF «GOLDINGER Messen WEGA und Immozionale» (Frühere Projekte, Kachel 5) ✏️
 - **Stichworte:** Messestand · Print · Giveaway · Video
 - **Kurz:** Ein neuer Messeauftritt für die regionalen Publikumsmessen
-- **Ausgangslage:** GOLDINGER war jedes Jahr an der WEGA und an der Immozionale vertreten. Der bisherige Stand zeigte viele kleine Objektplakate und wirkte unruhig. Gleichzeitig sollte die eher ältere Zielgruppe schon vor der Messe erfahren, dass sie am Stand ihre Immobilie bewerten lassen kann.
+- **Ausgangslage:** GOLDINGER war jedes Jahr an der WEGA und an der Immozionale vertreten. Der bisherige Stand stammte aus früheren Jahren und zeigte vor allem viele kleine Objektplakate. Gleichzeitig sollte die eher ältere Zielgruppe schon vor der Messe erfahren, dass sie am Stand ihre Immobilie bewerten lassen kann.
 - **Meine Rolle ✏️:** Ich gestaltete die Messewände neu, entwarf ein Mockup des Stands, plante die Werbung vor der Messe und gestaltete die Fruchtgummis als Giveaway.
 - **Umsetzung:** Königsblaue Paneele mit klaren Botschaften wie «Jetzt Immobilie direkt am Stand bewerten», Neubauprojekte und Geschäftsbereiche (2022/2023) · Inserate in den Wochen vor der Messe mit dem Angebot einer Immobilien-Bewertung in fünf Minuten am Stand, dazu Flyer in den Büros · Fruchtgummis in eigener Form und Grafik (2022 gelb/schwarz, 2023 blau) · ❓ Videos von der Messe.
 - **Vorher/Nachher:** siehe Kachel «Redesigns Print» (Messewände 2019 → 2022/2023).
