@@ -229,7 +229,7 @@ Filter oben: **Alle · Messen · Kampagnen · Print · Video & Content · Digita
 - ✅ Auf der Übersicht **keine Jahreszahlen/Zeiträume**; Jahr und Zeitraum erst auf der Projektseite.
 - ✅ «Molten Sulphur» ist **keine Kampagne** → unter Print & Editorial Design (Anzeige, Broschüre, Flyer).
 - ✅ **Reels gehören zu Social Media** (nicht zu Foto & Video).
-- **Oben: Ausgewählte Projekte (Vorschlag, 6):** ACHEMA 2024 · Weihnachtskampagne 2026 · Messesystem USA · Broschürensystem · Hausmagazin zum Durchblättern · Raumgestaltung. ❓ Auswahl durch Yana.
+- **Oben: Ausgewählte Projekte ✏️ (Yana 06.10.2026: Hausmagazin raus, weil alt; etwas Aktuelleres rein; Titel professioneller):** ACHEMA 2024 in Frankfurt · Weihnachten 2026: Karten und Geschenke · Mobiler Messestand für die USA · Produktbroschüren in neun Sprachen · Weltkarte und Firmengeschichte · Die Marke im eigenen Gebäude. Hausmagazin bleibt unten unter Print.
 - **Kategorien (DE / EN) mit Inhalt:**
   1. Messen & Events: Internationale Messen, ACHEMA, Messesystem und Standbox, Weltkarte aller Messen, WEGA und Immozionale, Infoabende
   2. Kampagnen: Weihnachtskampagne, Songkran-Grusskarte, Infoabende und Tage der offenen Tür
