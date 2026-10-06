@@ -992,7 +992,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - 📌 Vor dem Livegang nochmals entscheiden: volle Adresse oder Geschäfts- bzw. Postfachadresse (UWG Art. 3 verlangt eine Kontaktadresse; Datenschutzerklärung ebenso)
 - LinkedIn: `https://www.linkedin.com/in/yana-senn-331436173` ✅ (Yana 06.10.2026; Zusatz «?originalSubdomain=ch» weggelassen)
 - Telefon: ❓ (Empfehlung: nein)
-- CV-Download: ✅ nein (Yana 06.10.2026)
+- CV-Download: ✅ ja, vorerst einbauen (Yana 06.10.2026; kann später wieder entfernt werden). 📌 Aktuellen Lebenslauf als PDF von Yana nötig; vor dem Hochladen private Angaben prüfen (Adresse, Geburtsdatum, Telefon).
 
 ---
 
@@ -1033,6 +1033,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
   - https://www.louisplant.ch/ (Design)
   - https://www.oliviahug.ch/ (Design)
   - https://www.pascalfrey.ch/ (nur Inhalt interessant, nicht Design)
+- [ ] **Lebenslauf als PDF** für den Download (Yana liefert; Claude prüft private Angaben).
 - [ ] **Produktfotos durchgehen:** gemeinsam mit Yana bestimmen, welche Produktfotos von ihr sind (die meisten gab es schon vorher). Service-Text «Ich fotografiere Produkte …» bleibt ✅.
 - [ ] **Fotos Sitzungszimmer und Lounge (fertig eingerichtet)** in Drive hochladen – Yana macht das am 06.10.2026; Claude erinnert, falls nichts kommt.
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
