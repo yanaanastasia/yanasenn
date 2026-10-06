@@ -779,15 +779,15 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Website-Pflege mit TYPO3
 - Entwicklung und Analyse von Kampagnen, Evaluation von Partnern und Lieferanten
 
-#### TEXT-ENTWURF «GOLDINGER Infoabende und Tage der offenen Tür» (Frühere Projekte, Kachel 4) ✏️
+#### TEXT-ENTWURF «GOLDINGER Infoabende und Tage der offenen Tür» (Frühere Projekte, Kachel 4) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Kampagnenplanung · Print · Meta Ads · Event
 - **Kurz:** Kampagnen, die Menschen an Infoabende und in Neubauprojekte bringen
 - **Ausgangslage:** GOLDINGER lud jedes Frühjahr zu kostenlosen Infoabenden rund um Immobilien im Alter, Steuern und Verkauf ein, an sieben Standorten in der Ostschweiz und gemeinsam mit den Kantonalbanken. Die Zielgruppe ist eher älter und liest vor allem Zeitung. Für Neubauprojekte und schwer verkäufliche Objekte kamen Tage der offenen Tür dazu.
-- **Meine Rolle ✏️:** Ich plante die Kampagnen und setzte sie um: von der Offertanfrage bei den Zeitungen über Gestaltung und Streuplan bis zu Anzeigen auf Meta und Storys auf Instagram.
+- **Meine Rolle ✅:** Ich plante die Kampagnen und setzte sie um: von der Offertanfrage bei den Zeitungen über Gestaltung und Streuplan bis zu Anzeigen auf Meta und Storys auf Instagram.
 - **Infoabende 2023:** Inserate als Serie in drei Formaten für mehrere Regionalausgaben, je mit der passenden Partnerbank · Flyer · Einladung mit Anmeldetalon und QR-Code im Hausmagazin · Meta-Anzeigen mit Fokus Ostschweiz während vier Wochen · Instagram-Storys mit Countdown. Schwerpunkt auf Print, weil die Zielgruppe wenig auf Social Media unterwegs ist.
-- **Tag der offenen Tür 2023:** Vermarktung eines Neubauprojekts (Grünblick): Logo und Flyer, Inserate, Flyer in den Büros, Instagram-Kampagne über Meta; Organisation in Absprache mit dem Verkauf.
+- **Tag der offenen Tür 2023:** Vermarktung eines Neubauprojekts (Grünblick): Flyer (✅ Logo nicht von Yana, Yana 06.10.2026), Inserate, Flyer in den Büros, Instagram-Kampagne über Meta; Organisation in Absprache mit dem Verkauf.
 - **Hinter den Kulissen:** Ablauf für Inserate (Offerte → Prüfung → Gestaltung → Gut zum Druck → Rechnungskontrolle) und Streuplan nach Kalenderwoche und Zeitung.
-- **Bilder 📌:** Inserate-Serie Infoabende (drei Formate), Infoabend-Flyer 2023, Grünblick-Logo und -Flyer, Story-Beispiel ohne erkennbare Personen.
+- **Bilder 📌:** Inserate-Serie Infoabende (drei Formate), Infoabend-Flyer 2023, Grünblick-Flyer (ohne Logo als eigene Leistung), Story-Beispiel ohne erkennbare Personen.
 - Nicht verwenden: Preise, Namen und Telefonnummern von Mitarbeitenden, Fotos mit erkennbaren Gästen.
 
 #### TEXT-ENTWURF «GOLDINGER Redesigns Print» (Frühere Projekte, Kachel 7) ✏️
@@ -858,8 +858,8 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
   - *Digital CP:* LinkedIn-Texte zu FLA Miami, P&V Dortmund, ChemE Houston, Expoquimia (2026); Grafik «Happy Birthday Schwiiz!» (1. August 2026); Fotoserie einer 13 Jahre alten Pumpe (zerlegte Teile) für LinkedIn; Konzept «News» (Feb. 2026: Kanalrollen, Content-Säulen, Workflow) ❓ von wem; Redaktionsplan 2026.
   - *Digital GOLDINGER:* Posts Infoabende 2021, Hausmagazin-Titelbild Sept. 2021.
   - *Broschüren/Print CP:* **Molten-Sulphur-Broschüre** (EN, 8 Seiten A4, Sept. 2026, gelbes Dreiecksmuster, Explosionszeichnung; stark) + 2-seitiger Flyer + US-Letter-Version (vermutlich für Tampa); Flyer «Sofort verfügbare Pumpensysteme» (DE/EN, April 2026, 16 Einheiten ab Lager, 1–2 Wochen Lieferzeit); **Weltkarte der Standorte** (A3, DE/EN/FR u. a., Dez. 2025–Sept. 2026); **Firmengeschichte als Zeitstrahl** (2 Seiten, sieben Sprachen, Aug.–Okt. 2026, evtl. noch in Arbeit); Songkran-Grusskarte CP Thailand (Jan./Feb. 2026: Skizzen, Referenzen, 75 Karten bestellt; finale Datei fehlt); Pumpen-Icons (2024/2025), Explosionszeichnungen.
-  - *Print GOLDINGER:* Infoabende-Flyer 2022 (A5, mit TKB); Grünblick-Flyer und **Grünblick-Logo** (2023); Fruchtgummi-Säckli; Visitenkarte (2022); Messewand-Material 2023 (Seitenpaneel, Wandtext Kradolf, Standfoto «Stand 2023.jpg» ohne Personen); Hausmagazin als Zeitungsbeilage (Feb. und Sept. 2022).
-  - *Stärkste Stücke:* Molten-Sulphur-Serie (Broschüre, Anzeige, Flyer) · Lieferzeiten-Flyer · Weltkarte und Zeitstrahl · HEV-Anzeige 2023 · Infoabende-Serie · Grünblick-Flyer und Logo · 1.-August-Grafik.
+  - *Print GOLDINGER:* Infoabende-Flyer 2022 (A5, mit TKB); Grünblick-Flyer (2023; ✅ Logo nicht von Yana); Fruchtgummi-Säckli; Visitenkarte (2022); Messewand-Material 2023 (Seitenpaneel, Wandtext Kradolf, Standfoto «Stand 2023.jpg» ohne Personen); Hausmagazin als Zeitungsbeilage (Feb. und Sept. 2022).
+  - *Stärkste Stücke:* Molten-Sulphur-Serie (Broschüre, Anzeige, Flyer) · Lieferzeiten-Flyer · Weltkarte und Zeitstrahl · HEV-Anzeige 2023 · Infoabende-Serie · Grünblick-Flyer · 1.-August-Grafik.
   - *Vorschlag Gliederung Case «Werbung: Print & Digital»:* Print-Anzeigen (CP + GOLDINGER) · Fachartikel & PR (CP) · Digitale Werbung (Banner, Social, Signaturen). Molten-Sulphur-Serie als durchgehende Kampagne (Anzeige → Roll-up → Rückwand → Broschüre) prominent zeigen. Weltkarte, Zeitstrahl, Icons → Case «Infografiken & Karten». Songkran → kleine Card.
 #### TEXT-ENTWURF Case «Werbung: Print & Digital» (CP Pump Systems) ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Anzeigen · Kampagne · Banner · Anwendungsbericht
