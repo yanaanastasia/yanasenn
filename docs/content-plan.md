@@ -1075,7 +1075,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
   - https://www.pascalfrey.ch/ (nur Inhalt interessant, nicht Design)
 - [ ] **Lebenslauf als PDF** für den Download (Yana liefert; Claude prüft private Angaben).
 - [ ] **Produktfotos durchgehen:** gemeinsam mit Yana bestimmen, welche Produktfotos von ihr sind (die meisten gab es schon vorher). Service-Text «Ich fotografiere Produkte …» bleibt ✅.
-- [ ] **Fotos Sitzungszimmer und Lounge (fertig eingerichtet)** in Drive hochladen – Yana macht das am 06.10.2026; Claude erinnert, falls nichts kommt.
+- [ ] **Fotos Sitzungszimmer und Lounge (fertig eingerichtet)** in Drive hochladen – Yana macht das am 06.10.2026; Claude erinnert, falls nichts kommt. Stand 07.10.2026: Keine Datei mit eindeutigem Namen gefunden. Im Ordner «Giveaways/CP» liegen rund 80 Fotos vom 06.10.2026, 14:18–14:31 (DSC02068–DSC02147, je 7–15 MB, zu gross für den Drive-Zugang) → ❓ sind das die Raumfotos? Dann Ordner kurz per Link freigeben.
 - [ ] **Altes GOLDINGER-Portfolio** und Videos vom anderen PC übertragen
 - [ ] **Hero-Portrait** für die Freistellung (Stil wie im YouTube-Screenshot): ruhiger Hintergrund, gute Auflösung, Kopf und Schultern
 - [ ] **Praxisbildnerin:** betreut Yana selbst Lernende bei CP? (nur erwähnen, wenn ja)
