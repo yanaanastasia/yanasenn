@@ -1,7 +1,7 @@
 <title>Broschüren CP</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
-/* Layout: Projektseite Broschüren – Titelbild, Konzept, Familie, Sprachen-Umschalter, Einblicke, Sprachmatrix, Factsheet, Aufgaben; basiert auf Messestand für die USA – Titelbild, Idee (Kreislauf), Standbox (Plan + Fotos), Rundum-Design, Aufbauanleitung, Herausforderung Houston, Einsätze (Zeitleiste), Aufgaben */
+/* Layout: Projektseite Broschüren – Titelbild, Konzept, Familie, Sprachen-Umschalter, Einblicke, Sprachmatrix, Aufgaben; basiert auf Messestand für die USA – Titelbild, Idee (Kreislauf), Standbox (Plan + Fotos), Rundum-Design, Aufbauanleitung, Herausforderung Houston, Einsätze (Zeitleiste), Aufgaben */
 :root{--bg:#f7f8f6;--surface:#fff;--ink:#1b2320;--muted:#5d6964;--line:#dde2de;--accent:#1f5fa8;--soft:#c9d6e6;--green:#4f8a1f;--forest:#1f3a2c;--font:"Lato",Arial,sans-serif}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}
@@ -140,12 +140,11 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 .rA4{aspect-ratio:595/842}
 /* Bausteine */
 .wrap>*,.chapter>*,.hero>*{min-width:0}.mxWrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.fam{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.fam{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .fam div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:3px;align-content:start}
 .fam small{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
 .fam b{font-size:1.02rem}.fam span{font-size:.85rem;color:var(--muted)}
-@media (max-width:860px){.fam{grid-template-columns:1fr 1fr}}
-.zoom.sheet{background:#fff;box-shadow:0 4px 16px rgba(0,0,0,.07)}.zoom.sheet img{object-fit:contain}
+@media (max-width:640px){.fam{grid-template-columns:1fr}}
 .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .tiles div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
 .tiles b{font-size:1rem}.tiles span{font-size:.88rem;color:var(--muted)}
@@ -175,7 +174,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     <p class="eyebrow">Print · CP Pump Systems</p>
     <h1>Broschüren in neun Sprachen</h1>
     <figure><button class="zoom visual" style="aspect-ratio:2400/1100" data-gallery="covers" data-n="0" aria-label="Alle Titelseiten gross ansehen"><img src="img/hero_covers.jpg" alt="Die zehn Broschüren von CP Pump Systems nebeneinander: Company Profile, Sortiment und acht Produktbroschüren"></button><figcaption class="cap">Alle Titelseiten im gleichen Aufbau: Logo und Titel oben, darunter eine Bildleiste.</figcaption></figure>
-    <div class="fam"><div><small>Unternehmen</small><b>Company Profile</b><span>16 Seiten</span></div><div><small>Überblick</small><b>Sortimentsbroschüre</b><span>8 Seiten</span></div><div><small>Produkte</small><b>8 Produktbroschüren</b><span>MKP · MKPL · MKP-Bio · MSKP · MKPP · EB · ET · ZMP</span></div><div><small>Neu 2026</small><b>Factsheets</b><span>Keeping Molten Sulphur Warm</span></div></div>
+    <div class="fam"><div><small>Unternehmen</small><b>Company Profile</b><span>16 Seiten</span></div><div><small>Überblick</small><b>Sortimentsbroschüre</b><span>8 Seiten</span></div><div><small>Produkte</small><b>8 Produktbroschüren</b><span>MKP · MKPL · MKP-Bio · MSKP · MKPP · EB · ET · ZMP</span></div></div>
     <p class="lead">Die Broschüren von CP Pump Systems waren über die Jahre gewachsen: unterschiedlich aufgebaut, teils mit Einklappfalte, mit verschiedenen InDesign-Strukturen und je nach Sprache mit anderen Inhalten. Das machte Pflege und Übersetzung aufwendig.</p>
     <p>Ich habe die bestehenden Broschüren selbst erneuert, verbessert und angepasst, die Inhalte laufend ausgebaut und Ende 2025 ein Konzept zur Vereinheitlichung erarbeitet.</p>
   </header>
@@ -234,18 +233,6 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
   </section>
 
   <section class="chapter">
-    <p class="eyebrow">5 · Neu 2026</p>
-    <div class="split">
-      <div class="text">
-        <h2>Factsheet «Keeping Molten Sulphur Warm»</h2>
-        <p>Komplett von mir gestaltet; die Texte basieren auf bestehendem Material und sind mit dem Verkauf abgestimmt.</p>
-        
-      </div>
-      <figure><button class="zoom sheet" style="aspect-ratio:1800/1273" data-gallery="ms" data-n="0" aria-label="Factsheet gross ansehen"><img src="img/ms_s1.jpg" alt="Factsheet Keeping Molten Sulphur Warm, Vorder- und Rückseite"></button><figcaption class="cap">Vorder- und Rückseite, A4</figcaption></figure>
-    </div>
-  </section>
-
-  <section class="chapter">
     <p class="eyebrow">Meine Aufgaben</p>
     <ul class="tasks"><li>Konzept zur Vereinheitlichung</li><li>Layout und InDesign-Aufbau</li><li>Infografiken: Weltkarte, Zeitstrahl</li><li>Überarbeitung Company Profile und Sortiment</li><li>Koordination der Übersetzungen</li><li>US-Versionen im Letter-Format</li><li>Druckvorbereitung und Nachdrucke</li><li>Übersicht Druck und Digital</li><li>Online-Downloads</li></ul>
   </section>
@@ -265,8 +252,7 @@ const G={
  covers:[["img/cover_01.jpg","Company Profile"],["img/cover_02.jpg","Sortiment"],["img/cover_03.jpg","MKP"],["img/cover_04.jpg","MKPL"],["img/cover_05.jpg","MKP-Bio"],["img/cover_06.jpg","MSKP"],["img/cover_07.jpg","MKPP"],["img/cover_08.jpg","EB"],["img/cover_09.jpg","ET"],["img/cover_10.jpg","ZMP"]],
  cp:[["img/cp_s01.jpg","Company Profile · Doppelseite 1"],["img/cp_s02.jpg","Company Profile · Doppelseite 2"],["img/cp_s03.jpg","Company Profile · Doppelseite 3"],["img/cp_s04.jpg","Company Profile · Doppelseite 4"],["img/cp_s05.jpg","Company Profile · Doppelseite 5"],["img/cp_s06.jpg","Company Profile · Doppelseite 6"],["img/cp_s07.jpg","Company Profile · Doppelseite 7"],["img/cp_s08.jpg","Company Profile · Doppelseite 8"],["img/cp_s09.jpg","Company Profile · Doppelseite 9"]],
  so:[["img/so_s0.jpg","Sortimentsbroschüre · Seite 1"],["img/so_s1.jpg","Sortimentsbroschüre · Seite 2"],["img/so_s2.jpg","Sortimentsbroschüre · Seite 3"],["img/so_s3.jpg","Sortimentsbroschüre · Seite 4"],["img/so_s4.jpg","Sortimentsbroschüre · Seite 5"]],
- mkp:[["img/mkp_s0.jpg","Produktbroschüre MKP · Seite 1"],["img/mkp_s1.jpg","Produktbroschüre MKP · Seite 2"],["img/mkp_s2.jpg","Produktbroschüre MKP · Seite 3"],["img/mkp_s3.jpg","Produktbroschüre MKP · Seite 4"],["img/mkp_s4.jpg","Produktbroschüre MKP · Seite 5"],["img/mkp_s5.jpg","Produktbroschüre MKP · Seite 6"],["img/mkp_s6.jpg","Produktbroschüre MKP · Seite 7"]],
- ms:[["img/ms_s1.jpg","Factsheet Keeping Molten Sulphur Warm"]]
+ mkp:[["img/mkp_s0.jpg","Produktbroschüre MKP · Seite 1"],["img/mkp_s1.jpg","Produktbroschüre MKP · Seite 2"],["img/mkp_s2.jpg","Produktbroschüre MKP · Seite 3"],["img/mkp_s3.jpg","Produktbroschüre MKP · Seite 4"],["img/mkp_s4.jpg","Produktbroschüre MKP · Seite 5"],["img/mkp_s5.jpg","Produktbroschüre MKP · Seite 6"],["img/mkp_s6.jpg","Produktbroschüre MKP · Seite 7"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
 function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
