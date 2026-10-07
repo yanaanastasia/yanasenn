@@ -839,6 +839,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Bilder/Video 📌:** Auswahl Feed (Raster), Story-Beispiele, ein Objektvideo (komprimiert), ein Reel. Personen nur mit Einverständnis.
 - ✅ Alle Feed-Beiträge von Yana gestaltet (Yana 06.10.2026). ✅ Luftaufnahmen mit Drohne von Yana (Yana 06.10.2026).
 - ✅ **Highlight «Immobilien-Reels» (Yana 07.10.2026):** Videos = die vier Objektvideos (Frauenfeld, Märstetten, Thundorf, Amlikon-Bissegg, Dez. 2023) und das Reel «Jahresvorsätze». «Interview Samira» nur mit Einverständnis. Die animierten Erklärvideos (IPA) gehören **nicht** hierher, sondern zu den Videos. 📌 Yana lädt verkleinerte Fassungen hoch (je unter 8 MB), weil Drive-Dateien über ca. 9 MB nicht geladen werden können.
+- ✅ **Immobilien-Reels, Nachtrag (Yana 07.10.2026):** Videos **unverändert lassen**: nichts am Aussehen ändern, kein Weichzeichnen, keine Farbanpassung, kein Zuschnitt. **Einverständnis der Personen in den Videos liegt vor** (auch Interview und die Person im Titel von Thundorf). Fünftes Video = Interview «Im Spotlight» (Junior Bewirtschafterin über Studium und Beruf) statt «Jahresvorsätze». Name der Mitarbeiterin steht nur im Video selbst (Titel), nicht im Seitentext; Vorschaubild ohne Namen. Web-Fassungen: HEVC mit HDR wie im Original (Safari, iOS, Chrome mit HEVC) plus H.264 als Rückfallebene; nur die Dateigrösse ist kleiner. Entwurf: `docs/entwuerfe/reels.html`.
 
 #### TEXT-ENTWURF «Halloween-Videoflyer» (Freelance, BAILA BASILEA) ✅ (Inhalt freigegeben, Video offen)
 - **Stichworte:** Motion Design · Instagram Story · Event
@@ -1119,6 +1120,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - [ ] **Image Checklist** im Format MUST / NICE / OPTIONAL erstellen
 - [ ] **Logo** gemeinsam ausdenken (Vorschlag bisher: Wortmarke «Yana Senn» und Monogramm «YS»)
 - [ ] **Akzentfarbe und Schriftpaar** festlegen (nach Referenzen)
+- [ ] **Musik in den Reels** (GOLDINGER-Objektvideos, mit CapCut geschnitten): vor dem Livegang klären, ob die Musik auf der Website verwendet werden darf; sonst Videos ohne Ton zeigen.
 
 ---
 
