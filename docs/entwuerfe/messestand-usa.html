@@ -80,6 +80,20 @@ figure{margin:0;display:grid;gap:8px;min-width:0;align-content:start}
 .ev .c{display:grid;gap:6px}.ev .c p{font-size:.95rem}
 .ev .badge{justify-self:start;font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--muted)}
 .ev .pics{display:grid;grid-template-columns:repeat(3,minmax(0,160px));gap:10px;margin-top:4px}
+.step{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+/* Vorher / Nachher */
+.ba{display:grid;gap:12px}
+.baFrame{position:relative;aspect-ratio:3/2;border-radius:10px;overflow:hidden;background:#eceeeb;border:1px solid var(--line)}
+.baFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .45s}
+.baFrame img.photo{object-fit:cover}
+.baFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.baFrame img{transition:none}}
+.baTag{position:absolute;left:14px;top:14px;background:rgba(27,35,32,.82);color:#fff;font:700 .78rem var(--font);letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:99px}
+.baTabs{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.baTabs button{font:700 .88rem var(--font);padding:8px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.baTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.baTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.baTabs .arr{color:var(--muted)}
 ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
 /* Lightbox */
@@ -107,10 +121,10 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     <figure><button class="zoom r169 visual" data-gallery="design" data-n="0" aria-label="Visualisierung der Standbox gross ansehen"><img src="img/box_visual.jpg" alt="Visualisierung der Standbox: weisse Kabine mit CP-Logo und Birkenwald rundum, Tür auf der linken Seite"></button><figcaption class="cap">Visualisierung der Standbox, erstellt aus meinem finalen Layout</figcaption></figure>
     <p class="lead">Statt Mobiliar für jede Messe neu zu mieten, setzt CP in den USA auf eine eigene Standausstattung. Möbel und Standbox sind aufeinander abgestimmt und bilden ein wiederkehrendes Standkonzept: Jeder Auftritt hat das gleiche Erscheinungsbild, ist schnell aufgebaut und gut planbar.</p>
     <div class="facts">
-      <div><b>2</b><span>Boxen: Standbox und Aufbewahrungskiste</span></div>
-      <div><b>2 × 2 m</b><span>Grundfläche der Standbox, 3 m hoch</span></div>
-      <div><b>1</b><span>Lager in den USA, kein Hin- und Herschicken</span></div>
-      <div><b>seit 2024</b><span>im Einsatz an den US-Messen</span></div>
+      <div><b>Standbox</b><span>begehbare Kabine, 2 × 2 m, 3 m hoch</span></div>
+      <div><b>Transportkiste</b><span>schützt die Standbox unterwegs</span></div>
+      <div><b>Aufbewahrungskiste</b><span>Möbel und Material, mit Fächern und Schubladen</span></div>
+      <div><b>seit 2024</b><span>im Einsatz, eingelagert in den USA</span></div>
     </div>
   </header>
 
@@ -118,12 +132,12 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     <p class="eyebrow">1 · Die Idee</p>
     <div class="text">
       <h2>Ein Stand, der in den USA bleibt</h2>
-      <p>Statt für jede Messe Mobiliar zu mieten, entstand ein eigenes, wiederverwendbares System: eine Standbox, die als Bühne mitten auf dem Stand steht, und eine separate Box für die Möbel. Beide enthalten alles, was es für einen Auftritt braucht, vom Mobiliar bis zum Werbematerial. Zwischen den Messen lagern sie in einem gemieteten Lager in den USA.</p>
+      <p>Statt für jede Messe Mobiliar zu mieten, entstand ein eigenes, wiederverwendbares System: eine Standbox, die als Bühne mitten auf dem Stand steht, mit eigener Transportkiste, und eine Aufbewahrungskiste für Möbel und Material. Beide enthalten alles, was es für einen Auftritt braucht, vom Mobiliar bis zum Werbematerial. Zwischen den Messen lagern sie in einem gemieteten Lager in den USA.</p>
     </div>
     <div class="cycle">
-      <div class="cs"><span class="n">Lager</span><b>Eingelagert in den USA</b><span>Standbox, Möbel, Broschüren und Giveaways warten auf den nächsten Einsatz.</span></div>
+      <div class="cs"><span class="n">Lager</span><b>Eingelagert in den USA</b><span>Standbox und Aufbewahrungskiste warten auf den nächsten Einsatz.</span></div>
       <div class="ca" aria-hidden="true">→</div>
-      <div class="cs"><span class="n">Versand</span><b>Ab an die Messe</b><span>Für grössere Messen reist die ganze Box an den Stand.</span></div>
+      <div class="cs"><span class="n">Versand</span><b>Ab an die Messe</b><span>Für grössere Messen reisen Standbox und Aufbewahrungskiste an den Stand.</span></div>
       <div class="ca" aria-hidden="true">→</div>
       <div class="cs"><span class="n">Auftritt</span><b>Aufbau mit Anleitung</b><span>Das Team stellt den Stand selbst, jedes Mal im gleichen Bild.</span></div>
       <div class="ca" aria-hidden="true">→</div>
@@ -137,30 +151,64 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     <div class="split">
       <div class="text">
         <h2>Stauraum, Arbeitsfläche und Blickfang in einem</h2>
-        <p>Die Standbox ist eine Massanfertigung: eine begehbare Kabine aus leichten, weissen Tischlerplatten, mit Tür und Riegelschloss, verstellbaren Tablaren und einem aufklappbaren Tisch. Darin lagern Broschüren, Werbeartikel und die Jacken des Teams. Ich habe sie mit einem Schweizer Kistenbauer abgestimmt.</p>
-        <p>Eine eigene Transportkiste aus Dreischichtplatten schützt sie unterwegs. Eine zweite, ebenfalls angefertigte Kiste bewahrt die Möbel und das Marketingmaterial auf.</p>
-        <figure><button class="zoom plan r169" data-gallery="system" data-n="1" aria-label="Plan der Transportkiste gross ansehen"><img src="img/plan_kiste.jpg" alt="Plan der Transportkiste mit allen Wandteilen"></button><figcaption class="cap">Plan der Transportkiste: alle Wände in einer Kiste, rund 3 × 1,9 m</figcaption></figure>
+        <p>Die Standbox ist eine Massanfertigung: eine begehbare Kabine aus leichten, weissen Tischlerplatten, mit Tür und Riegelschloss, verstellbaren Tablaren und einem aufklappbaren Tisch. Sie steht mitten auf dem Stand. Darin lagern während der Messe Broschüren, Werbeartikel und die Jacken des Teams. Ich habe sie mit einem Schweizer Kistenbauer abgestimmt.</p>
+        <p>Für unterwegs hat die Standbox ihre eigene Transportkiste aus Dreischichtplatten: Alle Wände stehen darin aufrecht verpackt, Schrauben und Schlüssel liegen in einer Schachtel dabei.</p>
       </div>
-      <figure><button class="zoom plan r43" data-gallery="system" data-n="0" aria-label="Plan der Standbox gross ansehen"><img src="img/plan_kabine.jpg" alt="Technischer Plan der Standbox: Ansicht, Grundriss 2000 × 2000 mm und Explosionszeichnung mit Tablaren und Tür"></button><figcaption class="cap">Plan der Standbox: Grundriss 2 × 2 m, Höhe 3 m, Tür 75 cm breit, Tablare auf zwei Seiten.</figcaption></figure>
+      <figure><button class="zoom plan r43" data-gallery="standbox" data-n="0" aria-label="Plan der Standbox gross ansehen"><img src="img/plan_kabine.jpg" alt="Technischer Plan der Standbox: Ansicht, Grundriss 2000 × 2000 mm und Explosionszeichnung mit Tablaren und Tür"></button><figcaption class="cap">Plan der Standbox: Grundriss 2 × 2 m, Höhe 3 m, Tür 75 cm breit, Tablare auf zwei Seiten.</figcaption></figure>
+    </div>
+    <h3>Die Transportkiste der Standbox</h3>
+    <div class="g3">
+      <figure><button class="zoom plan r34" data-gallery="standbox" data-n="1" aria-label="Plan der Transportkiste gross ansehen"><img src="img/plan_kiste.jpg" alt="Plan der Transportkiste mit allen Wandteilen"></button><figcaption class="cap">Plan: rund 3 × 1,9 m</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="standbox" data-n="2" aria-label="Offene Transportkiste gross ansehen"><img src="img/schritt_2.jpg" alt="Offene Transportkiste auf einer Palette, darin die Wände der Standbox"></button><figcaption class="cap">Alle Wände aufrecht verpackt</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="standbox" data-n="3" aria-label="Verschluss der Transportkiste gross ansehen"><img src="img/kiste_riegel.jpg" alt="Metallverschluss an der hölzernen Transportkiste"></button><figcaption class="cap">Robuster Verschluss für den Transport</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">3 · Die Aufbewahrungskiste</p>
+    <div class="split">
+      <div class="text">
+        <h2>Jedes Teil hat seinen Platz</h2>
+        <p>Die zweite Kiste ist für alles, was nicht in die Standbox gehört: die Möbel und das Marketingmaterial. Die Einteilung habe ich selbst skizziert, mit offenen Fächern in festen Grössen und geschlossenen Schubladen. Daraus entstand eine Holzkiste nach Mass, rund 1,3 × 1,1 m und 1,5 m hoch, mit zwei Fächern und Türen mit Kistenverschluss.</p>
+        <p>Sie lagert zwischen den Messen in den USA. Für kleinere Auftritte holt das Verkaufsteam Broschüren und Geschenke direkt daraus, für grössere reist die ganze Kiste an den Stand.</p>
+      </div>
+      <div class="box"><h3><span class="tag alt">Inhalt</span>Was in der Kiste lagert</h3><ul><li>Möbel in Weiss, passend zur Standbox: Tische, Stühle, Barhocker, Stehtische</li><li>Teppich und Technik</li><li>Broschüren und Giveaways</li><li>Namensschilder</li><li>Kaffeemaschine</li></ul></div>
     </div>
     <div class="g4">
-      <figure><button class="zoom r34" data-gallery="system" data-n="2" aria-label="Offene Transportkiste gross ansehen"><img src="img/schritt_2.jpg" alt="Offene Transportkiste auf einer Palette, darin die Wände der Standbox"></button><figcaption class="cap">Transportkiste: alle Wände aufrecht verpackt</figcaption></figure>
-      <figure><button class="zoom r34" data-gallery="system" data-n="3" aria-label="Verschluss der Transportkiste gross ansehen"><img src="img/kiste_riegel.jpg" alt="Metallverschluss an der hölzernen Transportkiste"></button><figcaption class="cap">Robuster Verschluss für den Transport</figcaption></figure>
-      <figure><button class="zoom r34" data-gallery="system" data-n="4" aria-label="Aufbewahrungskiste von vorne gross ansehen"><img src="img/aufbewahrung_vorne.jpg" alt="Aufbewahrungskiste aus Holz von vorne: offene Fächer mit Kartons, unten Kisten mit Material"></button><figcaption class="cap">Aufbewahrungskiste, Fach 1</figcaption></figure>
-      <figure><button class="zoom r34" data-gallery="system" data-n="5" aria-label="Aufbewahrungskiste von hinten gross ansehen"><img src="img/aufbewahrung_hinten.jpg" alt="Aufbewahrungskiste aus Holz von hinten: Fächer mit Broschüren-Kartons und Schubladen"></button><figcaption class="cap">Aufbewahrungskiste, Fach 2</figcaption></figure>
+      <figure><button class="zoom plan r34" data-gallery="kiste" data-n="0" aria-label="Skizze der Aufbewahrungskiste gross ansehen"><img src="img/skizze_aufbewahrung.jpg" alt="Handskizze der Aufbewahrungskiste mit Fach 1 und Fach 2, Massen und Schubladen"></button><figcaption class="cap"><span class="step">1 · Skizze</span><br>Meine Einteilung der Fächer</figcaption></figure>
+      <figure><button class="zoom plan r34" data-gallery="kiste" data-n="1" aria-label="Plan der Aufbewahrungskiste gross ansehen"><img src="img/plan_aufbewahrung.jpg" alt="Plan der Aufbewahrungskiste: zwei Fächer mit Tablaren und Kisten, Türen mit Kistenverschluss"></button><figcaption class="cap"><span class="step">2 · Plan</span><br>Umsetzung mit allen Massen</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="kiste" data-n="2" aria-label="Aufbewahrungskiste von vorne gross ansehen"><img src="img/aufbewahrung_vorne.jpg" alt="Aufbewahrungskiste aus Holz von vorne: offene Fächer mit Kartons, unten Kisten mit Material"></button><figcaption class="cap"><span class="step">3 · Gebaut</span><br>Fach 1, von vorne</figcaption></figure>
+      <figure><button class="zoom r34" data-gallery="kiste" data-n="3" aria-label="Aufbewahrungskiste von hinten gross ansehen"><img src="img/aufbewahrung_hinten.jpg" alt="Aufbewahrungskiste aus Holz von hinten: Fächer mit Broschüren-Kartons und Schubladen"></button><figcaption class="cap"><span class="step">3 · Gebaut</span><br>Fach 2, von hinten</figcaption></figure>
     </div>
-    <div class="kit">
-      <div class="box"><button class="zoom visual r43" data-gallery="boxen" data-n="0" aria-label="Standbox gross ansehen"><img src="img/box_visual.jpg" alt="Visualisierung der Standbox" style="object-fit:contain"></button><h3><span class="tag">Box 1</span>Standbox</h3><ul><li>Kabine mit Rundum-Design, steht mitten auf dem Stand</li><li>Broschüren und Werbeartikel</li><li>Jacken des Teams</li><li>aufklappbarer Tisch als Arbeitsfläche</li></ul></div>
-      <div class="box"><div class="g2" style="gap:10px"><figure><button class="zoom plan r34" data-gallery="boxen" data-n="1" aria-label="Skizze der Aufbewahrungskiste gross ansehen"><img src="img/skizze_aufbewahrung.jpg" alt="Handskizze der Aufbewahrungskiste mit Fach 1 und Fach 2, Massen und Schubladen"></button><figcaption class="cap">Meine Skizze der Fächer</figcaption></figure><figure><button class="zoom plan r34" data-gallery="boxen" data-n="2" aria-label="Plan der Aufbewahrungskiste gross ansehen"><img src="img/plan_aufbewahrung.jpg" alt="Plan der Aufbewahrungskiste: zwei Fächer mit Tablaren und Kisten, Türen mit Kistenverschluss"></button><figcaption class="cap">Daraus der Plan zur Umsetzung</figcaption></figure></div><h3><span class="tag alt">Box 2</span>Aufbewahrungskiste</h3><p style="font-size:.92rem">Die Einteilung habe ich selbst skizziert: offene Fächer in festen Grössen und geschlossene Schubladen, damit jedes Teil seinen Platz hat. Daraus entstand eine Holzkiste nach Mass, rund 1,3 × 1,1 m und 1,5 m hoch, mit zwei Fächern, Tablaren und Türen mit Kistenverschluss. Sie lagert zwischen den Messen in den USA und reist für grössere Auftritte an den Stand.</p><ul><li>Möbel in Weiss, passend zur Standbox: Tische, Stühle, Barhocker, Stehtische</li><li>Teppich und Technik</li><li>Namensschilder</li><li>Giveaways und Kaffeemaschine</li></ul></div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">4 · Vorher – nachher</p>
+    <div class="text">
+      <h2>Erst in 3D, dann in der Halle</h2>
+      <p>Bevor etwas bestellt oder gebaut wurde, habe ich den Stand in 3D skizziert: wo die Standbox steht, wie die Podeste mit den Exponaten angeordnet sind und wo Stehtische und Sitzgruppen Platz finden. So liessen sich Varianten vergleichen und abstimmen, bevor der Stand in Houston aufgebaut wurde.</p>
+    </div>
+    <div class="ba">
+      <div class="baFrame" id="ba">
+        <img class="on" src="img/skizze3d_juli.jpg" alt="3D-Skizze vom Juli 2024: blauer Boden, Standbox in der Ecke, weisse Podeste, Stehtische und Sitzgruppen">
+        <img src="img/skizze3d_august.jpg" alt="3D-Skizze vom August 2024: weisser Stand mit Standbox, Podesten, Tischen und Stühlen">
+        <img class="photo" src="img/houston_messe.jpg" alt="Der fertige Stand an der TPS Houston 2024 mit Standbox, weissen Möbeln und Podesten">
+        <span class="baTag" id="baTag">Vorher · 3D-Skizze Juli 2024</span>
+      </div>
+      <div class="baTabs" role="group" aria-label="Vorher und nachher">
+        <button aria-pressed="true" data-i="0">3D-Skizze Juli</button><span class="arr" aria-hidden="true">→</span>
+        <button aria-pressed="false" data-i="1">3D-Skizze August</button><span class="arr" aria-hidden="true">→</span>
+        <button aria-pressed="false" data-i="2">Umgesetzt in Houston</button>
+      </div>
     </div>
   </section>
 
   <section class="chapter">
     <div class="forest">
       <div class="text">
-        <p class="eyebrow">3 · Rundum-Design</p>
+        <p class="eyebrow">5 · Rundum-Design</p>
         <h2>Ein Birkenwald in der Messehalle</h2>
-        <p>Für die Standbox habe ich ein Rundum-Design gestaltet: ein Birkenwald über alle vier Wände, oben auf weissem Grund das CP-Logo, dazu der Claim des Unternehmens. Mitten auf dem Stand wird die Box so zur Bühne und zum Erkennungszeichen, das man schon von Weitem sieht.</p>
+        <p>Für die Standbox habe ich ein Rundum-Design gestaltet: ein Birkenwald über alle vier Wände, oben auf weissem Grund das CP-Logo, dazu der Claim des Unternehmens. Mitten auf dem Stand wird die Standbox so zur Bühne und zum Erkennungszeichen, das man schon von Weitem sieht.</p>
         <p class="claim">cleaner pumps, cleaner planet™</p>
       </div>
       <figure><button class="zoom r43" data-gallery="design" data-n="1" aria-label="Layout-Varianten gross ansehen"><img src="img/layout_varianten.jpg" alt="Zwei Layout-Varianten der Messebox: Logo auf weissem Balken oben oder auf transparentem Balken über dem Birkenwald" style="object-fit:contain;background:#fff"></button><figcaption class="cap" style="color:#bcd0c2">Zwei Varianten im Entwurf: Logo auf weissem Grund oder über dem Bild</figcaption></figure>
@@ -173,7 +221,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
   </section>
 
   <section class="chapter">
-    <p class="eyebrow">4 · Aufbauanleitung</p>
+    <p class="eyebrow">6 · Aufbauanleitung</p>
     <div class="split">
       <div class="text">
         <h2>Aufbauen ohne Standbauer</h2>
@@ -193,14 +241,14 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
   </section>
 
   <section class="chapter">
-    <p class="eyebrow">5 · Herausforderung · TPS Houston 2024</p>
+    <p class="eyebrow">7 · Herausforderung · TPS Houston 2024</p>
     <div class="text">
-      <h2>Die Box war in der falschen Stadt</h2>
+      <h2>Die Standbox war in der falschen Stadt</h2>
       <p>Bei der ersten Messe in Houston hätte die Standbox am Wochenende vor der Messe eintreffen sollen, kam aber nicht an. Laut Transportunternehmen befand sie sich in einer anderen Stadt, genauere Informationen gab es zunächst nicht. Erst ein enger, beharrlicher Austausch mit dem Transportunternehmen brachte die Sendung nach Houston.</p>
     </div>
     <div class="story">
       <div><span class="when">Geplant</span><b>Lieferung am Wochenende</b><span>vor Messebeginn</span></div>
-      <div><span class="when">Problem</span><b>Box nicht angekommen</b><span>Sendung in einer anderen Stadt</span></div>
+      <div><span class="when">Problem</span><b>Standbox nicht angekommen</b><span>Sendung in einer anderen Stadt</span></div>
       <div><span class="when">Lösung</span><b>Dranbleiben</b><span>enger Austausch mit dem Transportunternehmen</span></div>
       <div><span class="when">Ergebnis</span><b>Stand komplett</b><span>am Tag vor Messebeginn</span></div>
     </div>
@@ -208,14 +256,14 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
   </section>
 
   <section class="chapter">
-    <p class="eyebrow">6 · Im Einsatz</p>
+    <p class="eyebrow">8 · Im Einsatz</p>
     <div class="text">
       <h2>Ein System, viele Auftritte</h2>
       <p>Seit Houston kommt das Messesystem an den grossen US-Messen zum Einsatz, mit gleichem Erscheinungsbild und ohne neue Mietmöbel. Für kleinere Auftritte holt das Verkaufsteam Broschüren und Geschenke direkt im Lager ab.</p>
     </div>
     <div class="tl">
       <div class="ev"><i></i><div class="d"><b>TPS Houston</b>August 2024</div><div class="c"><span class="badge">Erster Einsatz</span><p>Standbox, Möbel und Transportkiste gehen zum ersten Mal an eine Messe. Danach bleibt alles in den USA.</p></div></div>
-      <div class="ev"><i></i><div class="d"><b>TFS Orlando</b>April 2025</div><div class="c"><p>600 sq ft Freifläche, nach allen vier Seiten offen, im Selbstaufbau. Das Herzstück war das Messesystem: Standbox und Möbelbox kamen aus dem Lager, dazu eine Sendung aus der Schweiz mit Exponaten, Broschüren und Giveaways.</p></div></div>
+      <div class="ev"><i></i><div class="d"><b>TFS Orlando</b>April 2025</div><div class="c"><p>600 sq ft Freifläche, nach allen vier Seiten offen, im Selbstaufbau. Das Herzstück war das Messesystem: Standbox und Möbel kamen aus dem Lager, dazu eine Sendung aus der Schweiz mit Exponaten, Broschüren und Giveaways.</p></div></div>
       <div class="ev next"><i></i><div class="d"><b>TFS Tampa</b>November 2026</div><div class="c"><span class="badge">Bevorstehend</span><p>400 sq ft, wieder im Selbstaufbau, wieder mit dem Messesystem für die USA.</p></div></div>
     </div>
   </section>
@@ -236,11 +284,11 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 
 <script>
 const G={
- system:[["img/plan_kabine.jpg","Plan der Standbox: Ansicht, Grundriss und Explosionszeichnung"],["img/plan_kiste.jpg","Plan der Transportkiste"],["img/schritt_2.jpg","Transportkiste: alle Wände aufrecht verpackt"],["img/kiste_riegel.jpg","Verschluss der Transportkiste"],["img/aufbewahrung_vorne.jpg","Aufbewahrungskiste von vorne (Fach 1)"],["img/aufbewahrung_hinten.jpg","Aufbewahrungskiste von hinten (Fach 2)"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
+ standbox:[["img/plan_kabine.jpg","Standbox · Plan: Ansicht, Grundriss und Explosionszeichnung"],["img/plan_kiste.jpg","Transportkiste der Standbox · Plan"],["img/schritt_2.jpg","Transportkiste der Standbox · alle Wände aufrecht verpackt"],["img/kiste_riegel.jpg","Transportkiste der Standbox · Verschluss"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
+ kiste:[["img/skizze_aufbewahrung.jpg","Aufbewahrungskiste · meine Skizze der Fächer"],["img/plan_aufbewahrung.jpg","Aufbewahrungskiste · Plan zur Umsetzung"],["img/aufbewahrung_vorne.jpg","Aufbewahrungskiste · Fach 1, von vorne"],["img/aufbewahrung_hinten.jpg","Aufbewahrungskiste · Fach 2, von hinten"]],
  design:[["img/box_visual.jpg","Visualisierung der Standbox aus dem finalen Layout"],["img/layout_varianten.jpg","Entwurf: zwei Layout-Varianten"],["img/layout_final.jpg","Finales Layout: Abwicklung der vier Wände"],["img/schritt_4.jpg","Gedruckt und gebaut: die erste Wand"],["img/houston_messe.jpg","An der TPS Houston 2024: Standbox, Möbel und Podeste"]],
  anleitung:[["img/anleitung_1.jpg","Aufbauanleitung · Seite 1"],["img/anleitung_2.jpg","Aufbauanleitung · Seite 2"]],
  schritte:[["img/schritt_0.jpg","1 · Vorbereiten: Boden ausgleichen"],["img/schritt_2.jpg","Auspacken aus der Transportkiste"],["img/schritt_1.jpg","2 · Teile erkennen: oben und unten markiert"],["img/schritt_3.jpg","3 · Nummern zuordnen"],["img/schritt_4.jpg","4 · Aufstellen und verschrauben"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
- boxen:[["img/box_visual.jpg","Box 1 · Standbox (Visualisierung)"],["img/skizze_aufbewahrung.jpg","Box 2 · meine Skizze der Fächer"],["img/plan_aufbewahrung.jpg","Box 2 · Plan der Aufbewahrungskiste: Fach 1 und Fach 2"]],
  houston:[["img/houston_stand.jpg","TPS Houston 2024 · fertig aufgebaut"],["img/houston_messe.jpg","TPS Houston 2024 · Standbox, Möbel und Podeste"],["img/houston_gang.jpg","TPS Houston 2024 · Blick vom Gang, mit Geschenken für registrierte Kunden"],["img/houston_box.jpg","TPS Houston 2024 · Standbox mit Birkenwald"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
@@ -253,4 +301,8 @@ document.getElementById('close').onclick=()=>d.close();
 th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
 d.addEventListener('click',e=>{if(e.target===d)d.close()});
 d.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+// Vorher / Nachher
+(()=>{const f=document.getElementById('ba'),imgs=f.querySelectorAll('img'),tag=document.getElementById('baTag'),bs=document.querySelectorAll('.baTabs button');
+const L=['Vorher · 3D-Skizze Juli 2024','Vorher · 3D-Skizze August 2024','Nachher · TPS Houston, August 2024'];
+bs.forEach(b=>b.addEventListener('click',()=>{const i=+b.dataset.i;imgs.forEach((im,k)=>im.classList.toggle('on',k===i));bs.forEach(x=>x.setAttribute('aria-pressed',x===b));tag.textContent=L[i]}));})();
 </script>
