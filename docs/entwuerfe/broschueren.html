@@ -1,0 +1,275 @@
+<title>Produktbroschüren CP</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: Projektseite Produktbroschüren – Titelbild, Konzept, Familie, Sprachen-Umschalter, Einblicke, Sprachmatrix, Factsheet, Aufgaben; basiert auf Messestand für die USA – Titelbild, Idee (Kreislauf), Standbox (Plan + Fotos), Rundum-Design, Aufbauanleitung, Herausforderung Houston, Einsätze (Zeitleiste), Aufgaben */
+:root{--bg:#f7f8f6;--surface:#fff;--ink:#1b2320;--muted:#5d6964;--line:#dde2de;--accent:#1f5fa8;--soft:#c9d6e6;--green:#4f8a1f;--forest:#1f3a2c;--font:"Lato",Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--font);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:80px}
+.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:0}
+h1{font:700 clamp(2.2rem,5vw,3.6rem)/1.05 var(--font);margin:0;text-wrap:balance}
+h2{font:700 clamp(1.5rem,3vw,2rem)/1.15 var(--font);margin:0;text-wrap:balance}
+h3{font:700 1.15rem/1.25 var(--font);margin:0}
+.eyebrow{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
+p{margin:0;max-width:62ch}.lead{font-size:1.15rem}
+img{display:block;width:100%;height:auto}
+figure{margin:0;display:grid;gap:8px;min-width:0;align-content:start}
+.cap{font-size:.82rem;color:var(--muted)}
+.hero{display:grid;gap:22px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.facts div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:4px}
+.facts b{font:700 1.5rem/1.1 var(--font)}.facts span{font-size:.85rem;color:var(--muted)}
+.chapter{display:grid;gap:24px}.text{display:grid;gap:14px}
+.split{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:start}
+.split>*,.g2>*,.g3>*,.g4>*{min-width:0}
+.g2,.g3,.g4{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+/* Klickbare Bilder */
+.zoom{all:unset;box-sizing:border-box;cursor:zoom-in;display:block;width:100%;border-radius:6px;overflow:hidden;background:var(--surface);position:relative}
+.zoom img{width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.zoom:hover img,.zoom:focus-visible img{transform:scale(1.02)}
+.zoom:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.zoom::after{content:"";position:absolute;right:10px;bottom:10px;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.92) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231b2320' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6'/%3E%3Cpath d='M15 15l5 5M10.5 8v5M8 10.5h5'/%3E%3C/svg%3E") center/18px no-repeat;box-shadow:0 2px 6px rgba(0,0,0,.18);opacity:0;transition:opacity .2s}
+.zoom:hover::after,.zoom:focus-visible::after{opacity:1}
+@media (prefers-reduced-motion:reduce){.zoom img,.zoom::after{transition:none}}
+.r169{aspect-ratio:16/9}.r43{aspect-ratio:4/3}.r34{aspect-ratio:3/4}.rpage{aspect-ratio:1132/1600}
+.zoom.visual{background:#f3f4f2}
+.zoom.plan{background:#fff;border:1px solid var(--line)}.zoom.plan img{object-fit:contain;padding:10px}
+.zoom.page{background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,0,0,.08)}.zoom.page img{object-fit:contain}
+/* Kreislauf */
+.cycle{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:stretch}
+.cs{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.cs .n{font:700 .72rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+.cs b{font-size:1.05rem}.cs span{font-size:.88rem;color:var(--muted)}
+.ca{display:flex;align-items:center;color:var(--muted);font-size:1.3rem}
+.loop{font-size:.85rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+.loop svg{flex:none}
+/* Ausstattung */
+.kit{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:12px;align-content:start}
+.box h3{display:flex;gap:10px;align-items:center}
+.box .tag{font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;background:var(--accent);color:#fff;border-radius:99px;padding:2px 9px}
+.box .tag.alt{background:var(--green)}
+.box ul{margin:0;padding-left:1.1em;display:grid;gap:4px}.box li{font-size:.95rem}
+.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.specs div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.specs b{font-size:1.05rem}.specs span{font-size:.86rem;color:var(--muted)}
+/* Birkenwald */
+.forest{background:var(--forest);color:#eef4ee;border-radius:16px;padding:clamp(20px,4vw,40px);display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:center}
+.forest .eyebrow{color:#a9d77d}.forest p{color:#d6e2d8}
+.forest .claim{font:italic 400 1.35rem/1.3 var(--font);color:#fff;border-left:3px solid #a9d77d;padding-left:14px}
+.forest .zoom{background:#0e1b14}
+/* Anleitung */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s}
+.steps figcaption{font-size:.88rem;color:var(--muted)}.steps figcaption b{display:block;color:var(--ink);font-size:.95rem}
+/* Herausforderung */
+.story{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.story div{padding:18px;display:grid;gap:6px;align-content:start;border-right:1px solid var(--line)}
+.story div:last-child{border-right:0;background:color-mix(in srgb,var(--green) 10%,var(--surface))}
+.story .when{font:700 .72rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.story div:last-child .when{color:var(--green)}
+.story b{font-size:1rem}.story span{font-size:.88rem;color:var(--muted)}
+/* Zeitleiste */
+.tl{display:grid;gap:0;position:relative}
+.tl::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.ev{display:grid;grid-template-columns:24px 150px 1fr;gap:16px;padding:14px 0;align-items:start;position:relative}
+.ev i{width:24px;height:24px;border-radius:50%;background:var(--surface);border:3px solid var(--accent);margin-top:2px;z-index:1}
+.ev.next i{border-style:dashed;border-color:var(--muted)}
+.ev .d{font-size:.88rem;color:var(--muted);padding-top:2px}.ev .d b{display:block;color:var(--ink);font-size:1rem}
+.ev .c{display:grid;gap:6px}.ev .c p{font-size:.95rem}
+.ev .badge{justify-self:start;font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--muted)}
+.ev .pics{display:grid;grid-template-columns:repeat(3,minmax(0,160px));gap:10px;margin-top:4px}
+.step{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+/* Vorher / Nachher */
+.ba{display:grid;gap:12px}
+.baFrame{position:relative;aspect-ratio:3/2;border-radius:10px;overflow:hidden;background:#eceeeb;border:1px solid var(--line)}
+.baFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .45s}
+.baFrame img.photo{object-fit:cover}
+.baFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.baFrame img{transition:none}}
+.baTag{position:absolute;left:14px;top:14px;background:rgba(27,35,32,.82);color:#fff;font:700 .78rem var(--font);letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:99px}
+.baTabs{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.baTabs button{font:700 .88rem var(--font);padding:8px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.baTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.baTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.baTabs .arr{color:var(--muted)}
+.mini{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,130px));gap:12px;margin-top:4px}
+.mini figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
+.mini .step{font-size:.66rem}
+.grp{font:700 .78rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:6px 0 -10px}
+.bt{font-size:.95rem;max-width:none}
+.box.wide{display:grid;grid-template-columns:3fr 2fr;gap:24px;align-items:start}
+.box.wide>div:first-child{display:grid;gap:12px}
+.box .mini{grid-template-columns:repeat(4,minmax(0,1fr));max-width:520px}
+@media (max-width:860px){.box.wide{grid-template-columns:1fr}}
+.groups{display:grid;gap:22px;border-top:1px solid var(--line);padding-top:18px}
+.grpbox{display:grid;gap:8px}
+.grpbox .grp{margin:0}
+.mini.m1{grid-template-columns:96px}.mini.m2{grid-template-columns:repeat(2,96px)}.mini.m3{grid-template-columns:repeat(3,96px)}.mini.m1w{grid-template-columns:250px}
+.box .mini.m4{grid-template-columns:repeat(4,minmax(0,96px))}
+.rw{aspect-ratio:2000/771}
+ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
+/* Lightbox */
+dialog{border:0;border-radius:14px;padding:0;max-width:min(1100px,94vw);width:100%;background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(10,14,12,.78)}
+.lb{display:grid;gap:12px;padding:16px}
+.lbScroll{max-height:76vh;overflow:auto;border-radius:6px;background:#eef1f4;display:grid;place-items:center}
+.lbScroll img{width:auto;max-width:100%;max-height:74vh;height:auto}
+.lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
+.lbBar button{font:700 .9rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.lbBar button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:6px}
+.thumbs button{all:unset;cursor:pointer;border-radius:4px;overflow:hidden;border:2px solid transparent;aspect-ratio:1;background:#fff}
+.thumbs button[aria-current="true"]{border-color:var(--accent)}.thumbs img{width:100%;height:100%;object-fit:cover}
+@media (max-width:860px){.cycle{grid-template-columns:1fr}.ca{justify-content:center;transform:rotate(90deg)}.facts,.specs{grid-template-columns:1fr 1fr}.forest,.split,.kit{grid-template-columns:1fr}.steps,.g4{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr 1fr}.story div:nth-child(2){border-right:0}.story div:nth-child(-n+2){border-bottom:1px solid var(--line)}.ev{grid-template-columns:24px 1fr}.ev .c{grid-column:2}.ev .pics{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.g3{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr}.story div{border-right:0;border-bottom:1px solid var(--line)}}
+
+/* Sprachen-Umschalter */
+.lang{display:grid;gap:12px}
+.langFrame{position:relative;aspect-ratio:1800/1273;border-radius:10px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.langFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .35s}
+.langFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.langFrame img{transition:none}}
+.langTabs{display:flex;gap:8px;flex-wrap:wrap}
+.langTabs button{font:700 .88rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;min-width:52px}
+.langTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.langTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* Familie */
+.rA4{aspect-ratio:595/842}
+/* Bausteine */
+.wrap>*,.chapter>*,.hero>*{min-width:0}.mxWrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tiles div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.tiles b{font-size:1rem}.tiles span{font-size:.88rem;color:var(--muted)}
+/* Matrix */
+.mx{width:100%;border-collapse:separate;border-spacing:0;font-size:.88rem;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.mx th,.mx td{padding:9px 6px;text-align:center;border-bottom:1px solid var(--line)}
+.mx tr:last-child td,.mx tr:last-child th{border-bottom:0}
+.mx thead th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;background:color-mix(in srgb,var(--ink) 3%,var(--surface))}
+.mx tbody th{text-align:left;font-weight:700;padding-left:14px;white-space:nowrap}
+.mx tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,var(--surface))}
+.mx td.n{color:var(--muted);font-variant-numeric:tabular-nums;font-weight:700}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;vertical-align:middle}
+.dot.p{background:var(--accent)}
+.dot.d{border:2px solid var(--accent);background:transparent}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;gap:7px;align-items:center}
+.mxWrap{overflow-x:auto}
+@media (max-width:860px){.tiles{grid-template-columns:1fr 1fr}}
+</style>
+
+<div class="wrap">
+  <p class="note">Entwurf zur Anordnung. Die Broschüren sind so gezeigt, wie sie gedruckt und online veröffentlicht sind. Alle Bilder lassen sich anklicken und gross ansehen.</p>
+
+  <header class="hero">
+    <p class="eyebrow">Print · CP Pump Systems</p>
+    <h1>Produktbroschüren in neun Sprachen</h1>
+    <figure><button class="zoom visual" style="aspect-ratio:2400/1100" data-gallery="covers" data-n="0" aria-label="Alle Titelseiten gross ansehen"><img src="img/hero_covers.jpg" alt="Die zehn Broschüren von CP Pump Systems nebeneinander: Company Profile, Sortiment und acht Produktbroschüren"></button><figcaption class="cap">Company Profile, Sortimentsbroschüre und acht Produktbroschüren im gleichen Aufbau: Logo und Titel oben, eine Bildleiste mit Produkt und Medium, darunter die Baureihe mit Schnittzeichnung.</figcaption></figure>
+    <p class="lead">Die Broschüren von CP Pump Systems waren über die Jahre gewachsen: unterschiedlich aufgebaut, teils mit Einklappfalte, mit verschiedenen InDesign-Strukturen und je nach Sprache mit anderen Inhalten. Das machte Pflege und Übersetzung aufwendig.</p>
+    <p>Ich habe die bestehenden Broschüren selbst erneuert, verbessert und angepasst, die Inhalte laufend ausgebaut und Ende 2025 ein Konzept zur Vereinheitlichung erarbeitet.</p>
+  </header>
+
+  <section class="chapter">
+    <p class="eyebrow">1 · Das Konzept</p>
+    <div class="text">
+      <h2>Ein System statt zehn Einzelstücke</h2>
+      <p>Ziel ist ein einheitliches, modulares Broschürensystem: gleicher Aufbau für alle Produktbereiche, identische Inhalte in jeder Sprache, DIN- und ANSI-Normen nebeneinander und ein konsistenter Markenauftritt. Eine Pilotbroschüre dient als Referenz, danach folgen die übrigen Schritt für Schritt.</p>
+    </div>
+    <div class="tiles">
+      <div><b>Ein Format</b><span>Standardformat ohne Einklappfalte</span></div>
+      <div><b>Ein Masterdokument</b><span>zentral in InDesign, mit festen Absatz-, Zeichen- und Tabellenformaten und eigenen Ebenen für die Sprachen</span></div>
+      <div><b>Eine Sprache im Inhalt</b><span>einheitliche Terminologie, DIN und ANSI nebeneinander</span></div>
+      <div><b>Ein Bildsystem</b><span>wiederkehrende Icons und Infografiken</span></div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">2 · Eine Seite, viele Sprachen</p>
+    <div class="split">
+      <div class="text">
+        <h2>Gleicher Inhalt in jeder Sprache</h2>
+        <p>Jede Sprachfassung hat denselben Aufbau und dieselben Inhalte. Übersetzt wurde mit einem Übersetzungsbüro, unter anderem ins Chinesische und Polnische. Für den US-Markt gibt es eigene Versionen im Letter-Format.</p>
+        <p>Das Beispiel zeigt die Firmengeschichte aus dem Company Profile, einen Zeitstrahl, den ich neu gestaltet habe.</p>
+      </div>
+      <div class="lang">
+        <div class="langFrame" id="langFrame"><img class="on" src="img/hist_EN.jpg" alt="Company Profile, Doppelseite Firmengeschichte, Sprache EN"><img class="" src="img/hist_CN.jpg" alt="Company Profile, Doppelseite Firmengeschichte, Sprache CN"><img class="" src="img/hist_FR.jpg" alt="Company Profile, Doppelseite Firmengeschichte, Sprache FR"><img class="" src="img/hist_IT.jpg" alt="Company Profile, Doppelseite Firmengeschichte, Sprache IT"><img class="" src="img/hist_PL.jpg" alt="Company Profile, Doppelseite Firmengeschichte, Sprache PL"><img class="" src="img/hist_en-USA.jpg" alt="Company Profile, Doppelseite Firmengeschichte, Sprache en-USA"></div>
+        <div class="langTabs" role="group" aria-label="Sprache wählen"><button aria-pressed="true" data-i="0">EN</button><button aria-pressed="false" data-i="1">CN</button><button aria-pressed="false" data-i="2">FR</button><button aria-pressed="false" data-i="3">IT</button><button aria-pressed="false" data-i="4">PL</button><button aria-pressed="false" data-i="5">en-USA</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">3 · Einblicke</p>
+    <div class="text">
+      <h2>Intensiv überarbeitet</h2>
+      <p>Vor allem Company Profile und Sortimentsbroschüre habe ich stark überarbeitet und mit neuen Grafiken wie der Weltkarte ergänzt. Dazu kamen Druckvorbereitung und Nachdrucke.</p>
+    </div>
+    <div class="groups">
+      <div class="grpbox"><p class="grp">Company Profile · 16 Seiten</p><div class="mini" style="grid-template-columns:repeat(auto-fill,96px)"><figure><button class="zoom plan r43" data-gallery="cp" data-n="0" aria-label="Company Profile, Doppelseite 1 gross ansehen"><img src="img/cp_s01.jpg" alt="Company Profile, Doppelseite 1"></button></figure><figure><button class="zoom plan r43" data-gallery="cp" data-n="1" aria-label="Company Profile, Doppelseite 2 gross ansehen"><img src="img/cp_s02.jpg" alt="Company Profile, Doppelseite 2"></button></figure><figure><button class="zoom plan r43" data-gallery="cp" data-n="2" aria-label="Company Profile, Doppelseite 3 gross ansehen"><img src="img/cp_s03.jpg" alt="Company Profile, Doppelseite 3"></button></figure><figure><button class="zoom plan r43" data-gallery="cp" data-n="3" aria-label="Company Profile, Doppelseite 4 gross ansehen"><img src="img/cp_s04.jpg" alt="Company Profile, Doppelseite 4"></button></figure><figure><button class="zoom plan r43" data-gallery="cp" data-n="4" aria-label="Company Profile, Doppelseite 5 gross ansehen"><img src="img/cp_s05.jpg" alt="Company Profile, Doppelseite 5"></button></figure><figure><button class="zoom plan r43" data-gallery="cp" data-n="5" aria-label="Company Profile, Doppelseite 6 gross ansehen"><img src="img/cp_s06.jpg" alt="Company Profile, Doppelseite 6"></button></figure><figure><button class="zoom plan r43" data-gallery="cp" data-n="6" aria-label="Company Profile, Doppelseite 7 gross ansehen"><img src="img/cp_s07.jpg" alt="Company Profile, Doppelseite 7"></button></figure><figure><button class="zoom plan r43" data-gallery="cp" data-n="7" aria-label="Company Profile, Doppelseite 8 gross ansehen"><img src="img/cp_s08.jpg" alt="Company Profile, Doppelseite 8"></button></figure><figure><button class="zoom plan r43" data-gallery="cp" data-n="8" aria-label="Company Profile, Doppelseite 9 gross ansehen"><img src="img/cp_s09.jpg" alt="Company Profile, Doppelseite 9"></button></figure></div></div>
+      <div class="grpbox"><p class="grp">Sortimentsbroschüre · 8 Seiten</p><div class="mini" style="grid-template-columns:repeat(auto-fill,96px)"><figure><button class="zoom plan r43" data-gallery="so" data-n="0" aria-label="Sortimentsbroschüre, Seite 1 gross ansehen"><img src="img/so_s0.jpg" alt="Sortimentsbroschüre, Seite 1"></button></figure><figure><button class="zoom plan r43" data-gallery="so" data-n="1" aria-label="Sortimentsbroschüre, Seite 2 gross ansehen"><img src="img/so_s1.jpg" alt="Sortimentsbroschüre, Seite 2"></button></figure><figure><button class="zoom plan r43" data-gallery="so" data-n="2" aria-label="Sortimentsbroschüre, Seite 3 gross ansehen"><img src="img/so_s2.jpg" alt="Sortimentsbroschüre, Seite 3"></button></figure><figure><button class="zoom plan r43" data-gallery="so" data-n="3" aria-label="Sortimentsbroschüre, Seite 4 gross ansehen"><img src="img/so_s3.jpg" alt="Sortimentsbroschüre, Seite 4"></button></figure><figure><button class="zoom plan r43" data-gallery="so" data-n="4" aria-label="Sortimentsbroschüre, Seite 5 gross ansehen"><img src="img/so_s4.jpg" alt="Sortimentsbroschüre, Seite 5"></button></figure></div></div>
+      <div class="grpbox"><p class="grp">Produktbroschüre MKP · 20 Seiten</p><div class="mini" style="grid-template-columns:repeat(auto-fill,96px)"><figure><button class="zoom plan r43" data-gallery="mkp" data-n="0" aria-label="Produktbroschüre MKP, Seite 1 gross ansehen"><img src="img/mkp_s0.jpg" alt="Produktbroschüre MKP, Seite 1"></button></figure><figure><button class="zoom plan r43" data-gallery="mkp" data-n="1" aria-label="Produktbroschüre MKP, Seite 2 gross ansehen"><img src="img/mkp_s1.jpg" alt="Produktbroschüre MKP, Seite 2"></button></figure><figure><button class="zoom plan r43" data-gallery="mkp" data-n="2" aria-label="Produktbroschüre MKP, Seite 3 gross ansehen"><img src="img/mkp_s2.jpg" alt="Produktbroschüre MKP, Seite 3"></button></figure><figure><button class="zoom plan r43" data-gallery="mkp" data-n="3" aria-label="Produktbroschüre MKP, Seite 4 gross ansehen"><img src="img/mkp_s3.jpg" alt="Produktbroschüre MKP, Seite 4"></button></figure><figure><button class="zoom plan r43" data-gallery="mkp" data-n="4" aria-label="Produktbroschüre MKP, Seite 5 gross ansehen"><img src="img/mkp_s4.jpg" alt="Produktbroschüre MKP, Seite 5"></button></figure><figure><button class="zoom plan r43" data-gallery="mkp" data-n="5" aria-label="Produktbroschüre MKP, Seite 6 gross ansehen"><img src="img/mkp_s5.jpg" alt="Produktbroschüre MKP, Seite 6"></button></figure><figure><button class="zoom plan r43" data-gallery="mkp" data-n="6" aria-label="Produktbroschüre MKP, Seite 7 gross ansehen"><img src="img/mkp_s6.jpg" alt="Produktbroschüre MKP, Seite 7"></button></figure></div></div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">4 · Überblick</p>
+    <div class="text">
+      <h2>58 Sprachfassungen im Griff</h2>
+      <p>Die Broschüren werden gedruckt und vom Verkauf weltweit genutzt, bei Kundenterminen, an Messen und überall dort, wo Produkte vorgestellt werden. Zusätzlich stehen sie online als Download zur Verfügung; diese Versionen halte ich laufend aktuell.</p>
+      <p>Damit jederzeit klar ist, welche Broschüre in welcher Sprache gedruckt oder digital verfügbar ist, führe ich eine Übersicht über alle Druck- und Digitalversionen. Neu kamen 2026 Ausgaben auf Tschechisch und Slowakisch dazu.</p>
+    </div>
+    <div class="legend"><span><i class="dot p" aria-hidden="true"></i>gedruckt und digital</span><span><i class="dot d" aria-hidden="true"></i>digital</span></div>
+    <div class="mxWrap"><table class="mx"><caption class="cap" style="caption-side:bottom;text-align:left;padding-top:8px">Stand Oktober 2026, aus meiner Übersicht aller Druck- und Digitalversionen.</caption><thead><tr><th scope="col" style="text-align:left;padding-left:14px">Broschüre</th><th scope="col">DE</th><th scope="col">EN</th><th scope="col">en-USA</th><th scope="col">FR</th><th scope="col">IT</th><th scope="col">PL</th><th scope="col">CN</th><th scope="col">CZ</th><th scope="col">SK</th><th scope="col">Total</th></tr></thead><tbody><tr><th scope="row">Company Profile</th><td title="Company Profile · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="Company Profile · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="Company Profile · en-USA: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="Company Profile · FR: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="Company Profile · IT: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="Company Profile · PL: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="Company Profile · CN: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td class="n">7</td></tr><tr><th scope="row">Sortiment</th><td title="Sortiment · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="Sortiment · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="Sortiment · en-USA: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="Sortiment · FR: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="Sortiment · IT: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="Sortiment · PL: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="Sortiment · CN: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="Sortiment · CZ: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="Sortiment · SK: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td class="n">9</td></tr><tr><th scope="row">MKP</th><td title="MKP · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKP · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKP · en-USA: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKP · FR: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKP · IT: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKP · PL: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="MKP · CN: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="MKP · CZ: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="MKP · SK: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td class="n">9</td></tr><tr><th scope="row">MKPL</th><td title="MKPL · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKPL · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKPL · en-USA: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKPL · FR: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKPL · IT: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKPL · PL: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="MKPL · CN: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="MKPL · CZ: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="MKPL · SK: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td class="n">9</td></tr><tr><th scope="row">MKP-Bio</th><td title="MKP-Bio · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKP-Bio · EN: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="MKP-Bio · en-USA: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKP-Bio · FR: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td aria-label="keine Fassung"></td><td title="MKP-Bio · PL: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td class="n">5</td></tr><tr><th scope="row">MSKP</th><td title="MSKP · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MSKP · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MSKP · en-USA: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td class="n">3</td></tr><tr><th scope="row">MKPP</th><td title="MKPP · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKPP · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="MKPP · en-USA: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td class="n">3</td></tr><tr><th scope="row">EB</th><td title="EB · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="EB · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="EB · en-USA: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="EB · FR: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="EB · IT: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td class="n">5</td></tr><tr><th scope="row">ET</th><td title="ET · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="ET · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="ET · en-USA: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="ET · FR: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td title="ET · IT: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td class="n">5</td></tr><tr><th scope="row">ZMP</th><td title="ZMP · DE: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="ZMP · EN: gedruckt und digital"><span class="dot p" role="img" aria-label="gedruckt und digital"></span></td><td title="ZMP · en-USA: digital"><span class="dot d" role="img" aria-label="digital"></span></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td aria-label="keine Fassung"></td><td class="n">3</td></tr></tbody></table></div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">5 · Neu 2026</p>
+    <div class="split">
+      <div class="text">
+        <h2>Factsheet «Keeping Molten Sulphur Warm»</h2>
+        <p>Komplett von mir gestaltet; die Texte basieren auf bestehendem Material und sind mit dem Verkauf abgestimmt.</p>
+        
+      </div>
+      <figure><button class="zoom plan r43" data-gallery="ms" data-n="0" aria-label="Factsheet gross ansehen"><img src="img/ms_s1.jpg" alt="Factsheet Keeping Molten Sulphur Warm, Vorder- und Rückseite"></button><figcaption class="cap">Vorder- und Rückseite, A4</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">Meine Aufgaben</p>
+    <ul class="tasks"><li>Konzept zur Vereinheitlichung</li><li>Layout und InDesign-Aufbau</li><li>Infografiken: Weltkarte, Zeitstrahl</li><li>Überarbeitung Company Profile und Sortiment</li><li>Koordination der Übersetzungen</li><li>US-Versionen im Letter-Format</li><li>Druckvorbereitung und Nachdrucke</li><li>Übersicht Druck und Digital</li><li>Online-Downloads</li></ul>
+  </section>
+</div>
+
+<dialog id="lb" aria-label="Galerie">
+  <div class="lb">
+    <div class="lbScroll"><img id="lbImg" src="" alt=""></div>
+    <div class="lbBar"><span id="lbCap"></span><button id="prev">Zurück</button><button id="next">Weiter</button><button id="close">Schliessen</button></div>
+    <div class="thumbs" id="thumbs"></div>
+  </div>
+</dialog>
+
+
+<script>
+const G={
+ covers:[["img/cover_01.jpg","Company Profile"],["img/cover_02.jpg","Sortiment"],["img/cover_03.jpg","MKP"],["img/cover_04.jpg","MKPL"],["img/cover_05.jpg","MKP-Bio"],["img/cover_06.jpg","MSKP"],["img/cover_07.jpg","MKPP"],["img/cover_08.jpg","EB"],["img/cover_09.jpg","ET"],["img/cover_10.jpg","ZMP"]],
+ cp:[["img/cp_s01.jpg","Company Profile · Doppelseite 1"],["img/cp_s02.jpg","Company Profile · Doppelseite 2"],["img/cp_s03.jpg","Company Profile · Doppelseite 3"],["img/cp_s04.jpg","Company Profile · Doppelseite 4"],["img/cp_s05.jpg","Company Profile · Doppelseite 5"],["img/cp_s06.jpg","Company Profile · Doppelseite 6"],["img/cp_s07.jpg","Company Profile · Doppelseite 7"],["img/cp_s08.jpg","Company Profile · Doppelseite 8"],["img/cp_s09.jpg","Company Profile · Doppelseite 9"]],
+ so:[["img/so_s0.jpg","Sortimentsbroschüre · Seite 1"],["img/so_s1.jpg","Sortimentsbroschüre · Seite 2"],["img/so_s2.jpg","Sortimentsbroschüre · Seite 3"],["img/so_s3.jpg","Sortimentsbroschüre · Seite 4"],["img/so_s4.jpg","Sortimentsbroschüre · Seite 5"]],
+ mkp:[["img/mkp_s0.jpg","Produktbroschüre MKP · Seite 1"],["img/mkp_s1.jpg","Produktbroschüre MKP · Seite 2"],["img/mkp_s2.jpg","Produktbroschüre MKP · Seite 3"],["img/mkp_s3.jpg","Produktbroschüre MKP · Seite 4"],["img/mkp_s4.jpg","Produktbroschüre MKP · Seite 5"],["img/mkp_s5.jpg","Produktbroschüre MKP · Seite 6"],["img/mkp_s6.jpg","Produktbroschüre MKP · Seite 7"]],
+ ms:[["img/ms_s1.jpg","Factsheet Keeping Molten Sulphur Warm"]]
+};
+let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
+function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
+function open(g,n){pages=G[g];i=n||0;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
+document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
+document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
+document.getElementById('next').onclick=()=>{i=(i+1)%pages.length;show()};
+document.getElementById('close').onclick=()=>d.close();
+th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+d.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+// Sprachen-Umschalter
+(()=>{const imgs=document.querySelectorAll('#langFrame img'),bs=document.querySelectorAll('.langTabs button');
+bs.forEach(b=>b.addEventListener('click',()=>{const i=+b.dataset.i;imgs.forEach((im,k)=>im.classList.toggle('on',k===i));bs.forEach(x=>x.setAttribute('aria-pressed',x===b))}));})();
+</script>
