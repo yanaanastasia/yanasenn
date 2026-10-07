@@ -838,6 +838,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Entwicklung:** Ende 2021 noch Gold und Blau, ab 2022 ein klares Blau-Weiss im Stil des übrigen Auftritts (siehe «Redesigns Print»).
 - **Bilder/Video 📌:** Auswahl Feed (Raster), Story-Beispiele, ein Objektvideo (komprimiert), ein Reel. Personen nur mit Einverständnis.
 - ✅ Alle Feed-Beiträge von Yana gestaltet (Yana 06.10.2026). ✅ Luftaufnahmen mit Drohne von Yana (Yana 06.10.2026).
+- ✅ **Highlight «Immobilien-Reels» (Yana 07.10.2026):** Videos = die vier Objektvideos (Frauenfeld, Märstetten, Thundorf, Amlikon-Bissegg, Dez. 2023) und das Reel «Jahresvorsätze». «Interview Samira» nur mit Einverständnis. Die animierten Erklärvideos (IPA) gehören **nicht** hierher, sondern zu den Videos. 📌 Yana lädt verkleinerte Fassungen hoch (je unter 8 MB), weil Drive-Dateien über ca. 9 MB nicht geladen werden können.
 
 #### TEXT-ENTWURF «Halloween-Videoflyer» (Freelance, BAILA BASILEA) ✅ (Inhalt freigegeben, Video offen)
 - **Stichworte:** Motion Design · Instagram Story · Event
@@ -897,7 +898,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **Hinter den Kulissen:** Ablauf für Inserate von der Offerte bis zum Gut zum Druck und ein Streuplan nach Kalenderwoche und Zeitung.
 - **Bilder:** Vorher/Nachher-Schieberegler pro Paar (Code-Phase 📌).
 
-**Videos (Ergänzung Kachel 2/3, Funde Drive 05.10.2026):** zwei animierte Erklärvideos («Immobilienverkauf bei GOLDINGER», «Stiller Verkauf»), Reels (u. a. «Jahresvorsätze», Interview-Reel mit einer Fachperson), mehrere Objekt- und Rundgangvideos. Für die Website komprimieren; Person im Interview-Reel nur mit Einverständnis zeigen.
+**Videos (Ergänzung Kachel 2/3, Funde Drive 05.10.2026):** zwei animierte Erklärvideos («Immobilienverkauf bei GOLDINGER», «Stiller Verkauf»), Reels (u. a. «Jahresvorsätze», Interview-Reel mit einer Fachperson), mehrere Objekt- und Rundgangvideos. Für die Website komprimieren; Person im Interview-Reel nur mit Einverständnis zeigen. ✅ Erklärvideos (IPA) separat bei den Videos zeigen, nicht bei den Immobilien-Reels (Yana 07.10.2026).
 
 **Offen ❓**
 - Altes Portfolio und Videos vom anderen PC 📌
