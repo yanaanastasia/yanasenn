@@ -94,6 +94,10 @@ figure{margin:0;display:grid;gap:8px;min-width:0;align-content:start}
 .baTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
 .baTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .baTabs .arr{color:var(--muted)}
+.mini{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,130px));gap:12px;margin-top:4px}
+.mini figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
+.mini .step{font-size:.66rem}
+.box .mini{grid-template-columns:repeat(4,minmax(0,1fr));max-width:520px}
 ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
 /* Lightbox */
@@ -150,7 +154,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
       <figure><button class="zoom plan r43" data-gallery="standbox" data-n="0" aria-label="Plan der Standbox gross ansehen"><img src="img/plan_kabine.jpg" alt="Technischer Plan der Standbox: Ansicht, Grundriss 2000 × 2000 mm und Explosionszeichnung mit Tablaren und Tür"></button><figcaption class="cap">Plan der Standbox: Grundriss 2 × 2 m, Höhe 3 m, Tür 75 cm breit, Tablare auf zwei Seiten.</figcaption></figure>
     </div>
     <h3>Die Transportkiste der Standbox</h3>
-    <div class="g3">
+    <div class="mini">
       <figure><button class="zoom plan r34" data-gallery="standbox" data-n="1" aria-label="Plan der Transportkiste gross ansehen"><img src="img/plan_kiste.jpg" alt="Plan der Transportkiste mit allen Wandteilen"></button><figcaption class="cap">Plan: rund 3 × 1,9 m</figcaption></figure>
       <figure><button class="zoom r34" data-gallery="standbox" data-n="2" aria-label="Offene Transportkiste gross ansehen"><img src="img/schritt_2.jpg" alt="Offene Transportkiste auf einer Palette, darin die Wände der Standbox"></button><figcaption class="cap">Geöffnet, mit den Wänden der Standbox</figcaption></figure>
       <figure><button class="zoom r34" data-gallery="standbox" data-n="3" aria-label="Verschluss der Transportkiste gross ansehen"><img src="img/kiste_riegel.jpg" alt="Metallverschluss an der hölzernen Transportkiste"></button><figcaption class="cap">Robuster Verschluss für den Transport</figcaption></figure>
@@ -164,13 +168,12 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     </div>
     <div class="kit">
       <div class="box"><h3>Messebox</h3><p style="font-size:.95rem">Darin ist alles, was der Stand ausser den Exponaten braucht.</p><ul><li>Möbel in Weiss, passend zur Standbox: Tische, Stühle, Barhocker, Stehtische</li><li>Broschüren und Werbeartikel für die Messe</li><li>Teppich und Technik</li><li>Namensschilder und Kaffeemaschine</li></ul></div>
-      <div class="box"><h3>Aufbewahrungskiste</h3><p style="font-size:.95rem">Der Vorrat an Werbematerial. Für Kundenbesuche und kleinere Auftritte nimmt das Verkaufsteam in den USA Broschüren und Werbeartikel direkt heraus. Fehlt etwas oder braucht es mehr, melden sich die Verkäufer bei uns.</p><p style="font-size:.95rem">Aufgefüllt wird auf zwei Wegen: Die amerikanischen Verkäufer nehmen bei Besuchen in der Schweiz Material mit, oder wir schicken es ihnen zu. Sie bringen es ins Lager und füllen die Kiste selbst auf.</p><p style="font-size:.95rem">Die Einteilung habe ich selbst skizziert, mit offenen Fächern und geschlossenen Schubladen. Daraus entstand eine Holzkiste nach Mass, rund 1,3 × 1,1 m und 1,5 m hoch.</p></div>
-    </div>
-    <div class="g4">
+      <div class="box"><h3>Aufbewahrungskiste</h3><p style="font-size:.95rem">Der Vorrat an Werbematerial. Für Kundenbesuche und kleinere Auftritte nimmt das Verkaufsteam in den USA Broschüren und Werbeartikel direkt heraus. Fehlt etwas oder braucht es mehr, melden sich die Verkäufer bei uns.</p><p style="font-size:.95rem">Aufgefüllt wird auf zwei Wegen: Die amerikanischen Verkäufer nehmen bei Besuchen in der Schweiz Material mit, oder wir schicken es ihnen zu. Sie bringen es ins Lager und füllen die Kiste selbst auf.</p><p style="font-size:.95rem">Die Einteilung habe ich selbst skizziert, mit offenen Fächern und geschlossenen Schubladen. Daraus entstand eine Holzkiste nach Mass, rund 1,3 × 1,1 m und 1,5 m hoch.</p><div class="mini">
       <figure><button class="zoom plan r34" data-gallery="kiste" data-n="0" aria-label="Skizze der Aufbewahrungskiste gross ansehen"><img src="img/skizze_aufbewahrung.jpg" alt="Handskizze der Aufbewahrungskiste mit Fach 1 und Fach 2, Massen und Schubladen"></button><figcaption class="cap"><span class="step">Skizze</span><br>Meine Einteilung der Fächer</figcaption></figure>
       <figure><button class="zoom plan r34" data-gallery="kiste" data-n="1" aria-label="Plan der Aufbewahrungskiste gross ansehen"><img src="img/plan_aufbewahrung.jpg" alt="Plan der Aufbewahrungskiste: zwei Fächer mit Tablaren und Kisten, Türen mit Kistenverschluss"></button><figcaption class="cap"><span class="step">Plan</span><br>Umsetzung mit allen Massen</figcaption></figure>
       <figure><button class="zoom r34" data-gallery="kiste" data-n="2" aria-label="Aufbewahrungskiste von vorne gross ansehen"><img src="img/aufbewahrung_vorne.jpg" alt="Aufbewahrungskiste aus Holz von vorne: offene Fächer mit Kartons, unten Kisten mit Material"></button><figcaption class="cap"><span class="step">Gebaut</span><br>Fach 1, von vorne</figcaption></figure>
       <figure><button class="zoom r34" data-gallery="kiste" data-n="3" aria-label="Aufbewahrungskiste von hinten gross ansehen"><img src="img/aufbewahrung_hinten.jpg" alt="Aufbewahrungskiste aus Holz von hinten: Fächer mit Broschüren-Kartons und Schubladen"></button><figcaption class="cap"><span class="step">Gebaut</span><br>Fach 2, von hinten</figcaption></figure>
+</div></div>
     </div>
   </section>
 
