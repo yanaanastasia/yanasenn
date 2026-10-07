@@ -18,6 +18,11 @@ img{display:block;width:100%;height:auto}
 figure{margin:0;display:grid;gap:10px;min-width:0;align-content:start}
 .hero{display:grid;gap:22px}
 .chapter{display:grid;gap:24px}.text{display:grid;gap:14px}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;counter-reset:st}
+.steps li{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:3px;align-content:start;counter-increment:st}
+.steps li::before{content:counter(st);font:700 .75rem/1 var(--font);color:var(--accent)}
+.steps b{font-size:1rem}.steps span{font-size:.86rem;color:var(--muted)}
+@media (max-width:640px){.steps{grid-template-columns:1fr 1fr}}
 ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
 ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
 
@@ -58,15 +63,17 @@ dialog::backdrop{background:rgba(10,14,12,.82)}
       <figure><a class="reel" href="vid/maerstetten.mp4" data-k="2" aria-label="Video abspielen: Märstetten, Exklusive Attikawohnung"><img src="vid/maerstetten.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:31</span></a><figcaption><b>Märstetten</b><span>Exklusive Attikawohnung</span></figcaption></figure>
       <figure><a class="reel" href="vid/thundorf.mp4" data-k="3" aria-label="Video abspielen: Thundorf, Modernisiertes Riegelhaus mit Baulandreserve"><img src="vid/thundorf.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:22</span></a><figcaption><b>Thundorf</b><span>Modernisiertes Riegelhaus mit Baulandreserve</span></figcaption></figure>
     </div>
-    <p class="lead">Ich betreute die Kanäle von GOLDINGER Immobilien während zwei Jahren. Dazu gehörten Objektvideos, die ich gefilmt und geschnitten habe, auch mit Luftaufnahmen per Drohne.</p>
+    <p class="lead">Für GOLDINGER Immobilien habe ich Objektvideos für die sozialen Medien gefilmt und geschnitten. Sie zeigen in einer halben Minute, was eine Immobilie besonders macht.</p>
+    <p>GOLDINGER war auf Instagram, Facebook, LinkedIn und YouTube präsent. Die Kanäle sollten regelmässig bespielt werden, Objekte bekannt machen und Vertrauen in die Fachleute aufbauen. Ich betreute sie während zwei Jahren, vom Redaktionsplan bis zum fertigen Video.</p>
   </header>
 
   <section class="chapter">
     <p class="eyebrow">1 · Aufbau</p>
     <div class="text">
       <h2>Ein Format für jedes Objekt</h2>
-      <p>Jedes Reel beginnt mit Ort und Objekt und endet mit dem Logo. Dazwischen führt ein Rundgang durch Haus und Umgebung, im Hochformat und in 22 bis 31 Sekunden.</p>
+      <p>Alle Objektvideos folgen demselben Ablauf, im Hochformat und in 22 bis 31 Sekunden. Schnelle Schnitte halten den Rhythmus hoch, Perspektiven von oben und aus der Nähe machen neugierig.</p>
     </div>
+    <ol class="steps"><li><b>Titel</b><span>Ort und Objekt</span></li><li><b>Luftaufnahmen</b><span>Lage und Umgebung, mit der Drohne</span></li><li><b>Rundgang</b><span>Garten, Terrasse und Räume</span></li><li><b>Abspann</b><span>Logo</span></li></ol>
   </section>
 
   <section class="chapter">
@@ -74,7 +81,8 @@ dialog::backdrop{background:rgba(10,14,12,.82)}
     <div class="iv">
       <div class="text">
         <h2>Fragen im Bild, Antworten im Untertitel</h2>
-        <p>Dazu kamen Interview-Reels mit Fachleuten aus Verkauf und Bewirtschaftung. Die Fragen erscheinen als Titel im Bild, die Antworten laufen als Untertitel mit.</p>
+        <p>Neben den Objekten zeigten Interview-Reels die Menschen hinter GOLDINGER. Fachleute aus Verkauf und Bewirtschaftung erzählten von ihrer Arbeit, gaben Tipps und Einblicke hinter die Kulissen.</p>
+        <p>Die Fragen erscheinen als Titel im Bild, die Antworten laufen als Untertitel mit. So ist das Video auch ohne Ton verständlich.</p>
       </div>
       <figure><a class="reel" href="vid/interview.mp4" data-k="4" aria-label="Video abspielen: Im Spotlight, Interview mit einer Junior Bewirtschafterin"><img src="vid/interview.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:52</span></a><figcaption><b>Im Spotlight</b><span>Junior Bewirtschafterin über Studium und Beruf</span></figcaption></figure>
     </div>
