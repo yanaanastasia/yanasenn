@@ -163,8 +163,10 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     <div class="kit">
       <div class="box">
         <h3>Messebox</h3>
-        <p class="bt">Sie begleitet die Standbox an jede grössere Messe und enthält alles, was der Stand neben den Exponaten braucht:</p>
-        <ul><li>Möbel in Weiss, passend zur Standbox: Tische, Stühle, Barhocker, Stehtische</li><li>Broschüren und Werbeartikel für die Messe</li><li>Teppich und Technik</li><li>Namensschilder und Kaffeemaschine</li></ul>
+        <p class="bt">Sie begleitet die Standbox an jede grössere Messe und enthält alles, was der Stand neben den Exponaten braucht. Gefertigt ist sie beim selben Kistenbauer und aus demselben Holz wie die Aufbewahrungskiste.</p>
+        <ul><li>Möbel in Weiss, passend zur Standbox: 2 runde Tische mit 8 Stühlen, 2 Stehtische mit 4 Barhockern</li><li>Broschüren und Werbeartikel für die Messe</li><li>Teppich und Technik</li><li>Namensschilder und Kaffeemaschine</li></ul>
+        <div class="mini m4"><figure><button class="zoom plan r43" data-gallery="messebox" data-n="0" aria-label="Skizze der Messebox gross ansehen"><img src="img/messebox_skizze.jpg" alt="Skizze der Messebox: offene Holzkiste mit Kartons, gestapelten Stühlen, Tischplatten und Barhockern"></button><figcaption>Skizze</figcaption></figure><figure><button class="zoom r43 visual" data-gallery="messebox" data-n="1" aria-label="Illustration der Messebox gross ansehen"><img src="img/messebox_illustration.jpg" alt="Illustration der Messebox: offene Holzkiste mit Werbeartikeln, Stühlen, Tischen und Barhockern" style="object-fit:contain"></button><figcaption>Illustration</figcaption></figure></div>
+        <p class="cap">Schematische Darstellung, nicht massstäblich.</p>
       </div>
       <div class="box">
         <h3>Aufbewahrungskiste</h3>
@@ -225,6 +227,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 const G={
  hero:[["img/houston_stand.jpg","TPS Houston 2024"]],
  standbox:[["img/box_visual.jpg","Standbox · Visualisierung aus dem finalen Layout"],["img/plan_kabine.jpg","Standbox · Plan: Ansicht, Grundriss und Explosionszeichnung"],["img/layout_final.jpg","Standbox · finales Layout der vier Wände"],["img/plan_kiste.jpg","Transportkiste · Plan"],["img/schritt_2.jpg","Transportkiste · geöffnet, mit den Wänden der Standbox"],["img/kiste_riegel.jpg","Transportkiste · Verschluss"],["img/anleitung_1.jpg","Aufbauanleitung · Seite 1"],["img/anleitung_2.jpg","Aufbauanleitung · Seite 2"]],
+ messebox:[["img/messebox_skizze.jpg","Messebox · Skizze (schematisch)"],["img/messebox_illustration.jpg","Messebox · Illustration (schematisch, nicht massstäblich)"]],
  kiste:[["img/skizze_aufbewahrung.jpg","Aufbewahrungskiste · meine Skizze der Fächer"],["img/plan_aufbewahrung.jpg","Aufbewahrungskiste · Plan zur Umsetzung"],["img/aufbewahrung_vorne.jpg","Aufbewahrungskiste · Fach 1, von vorne"],["img/aufbewahrung_hinten.jpg","Aufbewahrungskiste · Fach 2, von hinten"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
