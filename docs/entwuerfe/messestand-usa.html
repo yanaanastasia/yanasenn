@@ -168,7 +168,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     <figure><button class="zoom plan" style="aspect-ratio:2000/771" data-gallery="design" data-n="2" aria-label="Finales Layout gross ansehen"><img src="img/layout_final.jpg" alt="Finales Layout: alle vier Wände der Standbox nebeneinander, mit Tür, Logos und Claim"></button><figcaption class="cap">Finales Layout: die vier Wände als Abwicklung, mit Türausschnitt auf der ersten Wand und dem Claim auf drei Seiten</figcaption></figure>
     <div class="g2">
       <figure><button class="zoom r43" data-gallery="design" data-n="3" aria-label="Wand beim Aufstellen gross ansehen"><img src="img/schritt_4.jpg" alt="Eine Wand der Standbox mit Birkenwald und CP-Logo wird aufgestellt"></button><figcaption class="cap">Gedruckt und gebaut: die erste Wand beim Aufstellen</figcaption></figure>
-      <figure><button class="zoom r43" data-gallery="design" data-n="4" aria-label="Standbox an der Messe gross ansehen"><img src="img/houston_box.jpg" alt="Standbox mit Birkenwald-Motiv an der TPS Houston, davor Besucher am Stand" style="object-position:50% 40%"></button><figcaption class="cap">An der Messe in Houston, mitten auf dem Stand</figcaption></figure>
+      <figure><button class="zoom r43" data-gallery="design" data-n="4" aria-label="Standbox an der Messe gross ansehen"><img src="img/houston_messe.jpg" alt="CP-Stand an der TPS Houston: Standbox mit Birkenwald, weisse Stehtische und Hocker, Podeste mit Pumpen"></button><figcaption class="cap">An der Messe in Houston: Standbox, weisse Möbel und Podeste in einem Bild</figcaption></figure>
     </div>
   </section>
 
@@ -237,11 +237,11 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 <script>
 const G={
  system:[["img/plan_kabine.jpg","Plan der Standbox: Ansicht, Grundriss und Explosionszeichnung"],["img/plan_kiste.jpg","Plan der Transportkiste"],["img/box_innen1.jpg","Innen: Tablare für Broschüren und Material"],["img/box_innen2.jpg","Aussen Birkenwald, innen Lager"],["img/schritt_2.jpg","Transportkiste: alle Wände aufrecht verpackt"],["img/kiste_riegel.jpg","Verschluss der Transportkiste"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
- design:[["img/box_visual.jpg","Visualisierung der Standbox aus dem finalen Layout"],["img/layout_varianten.jpg","Entwurf: zwei Layout-Varianten"],["img/layout_final.jpg","Finales Layout: Abwicklung der vier Wände"],["img/schritt_4.jpg","Gedruckt und gebaut: die erste Wand"],["img/houston_box.jpg","Die Standbox an der TPS Houston 2024"]],
+ design:[["img/box_visual.jpg","Visualisierung der Standbox aus dem finalen Layout"],["img/layout_varianten.jpg","Entwurf: zwei Layout-Varianten"],["img/layout_final.jpg","Finales Layout: Abwicklung der vier Wände"],["img/schritt_4.jpg","Gedruckt und gebaut: die erste Wand"],["img/houston_messe.jpg","An der TPS Houston 2024: Standbox, Möbel und Podeste"]],
  anleitung:[["img/anleitung_1.jpg","Aufbauanleitung · Seite 1"],["img/anleitung_2.jpg","Aufbauanleitung · Seite 2"]],
  schritte:[["img/schritt_0.jpg","1 · Vorbereiten: Boden ausgleichen"],["img/schritt_2.jpg","Auspacken aus der Transportkiste"],["img/schritt_1.jpg","2 · Teile erkennen: oben und unten markiert"],["img/schritt_3.jpg","3 · Nummern zuordnen"],["img/schritt_4.jpg","4 · Aufstellen und verschrauben"],["img/schritt_7.jpg","Schrauben und Schlüssel in einer Schachtel"]],
  boxen:[["img/box_visual.jpg","Box 1 · Standbox (Visualisierung)"],["img/skizze_aufbewahrung.jpg","Box 2 · meine Skizze der Fächer"],["img/plan_aufbewahrung.jpg","Box 2 · Plan der Aufbewahrungskiste: Fach 1 und Fach 2"]],
- houston:[["img/houston_stand.jpg","TPS Houston 2024 · fertig aufgebaut"],["img/houston_gang.jpg","TPS Houston 2024 · Blick vom Gang, mit Geschenken für registrierte Kunden"],["img/houston_box.jpg","TPS Houston 2024 · Standbox mit Birkenwald"]]
+ houston:[["img/houston_stand.jpg","TPS Houston 2024 · fertig aufgebaut"],["img/houston_messe.jpg","TPS Houston 2024 · Standbox, Möbel und Podeste"],["img/houston_gang.jpg","TPS Houston 2024 · Blick vom Gang, mit Geschenken für registrierte Kunden"],["img/houston_box.jpg","TPS Houston 2024 · Standbox mit Birkenwald"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
 function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
