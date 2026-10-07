@@ -36,8 +36,9 @@ ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius
 .badge svg{width:16px;height:16px}
 figcaption{display:grid;gap:2px;font-size:.9rem;line-height:1.35}
 figcaption span{color:var(--muted);font-size:.84rem}
-.iv{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:48px;align-items:start}
-@media (max-width:860px){.reels{grid-template-columns:repeat(2,minmax(0,1fr))}.iv{grid-template-columns:1fr;gap:24px}.iv figure{max-width:250px}}
+.iv{display:grid;grid-template-columns:minmax(0,1fr) 480px;gap:48px;align-items:start}
+.ivr{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:860px){.reels{grid-template-columns:repeat(2,minmax(0,1fr))}.iv{grid-template-columns:1fr;gap:24px}.ivr{max-width:480px}}
 @media (prefers-reduced-motion:reduce){.reel img{transition:none}}
 
 /* Videofenster */
@@ -84,7 +85,7 @@ dialog::backdrop{background:rgba(10,14,12,.82)}
         <p>Interview-Reels stellen die Menschen hinter dem Unternehmen vor. Fachleute aus Verkauf und Bewirtschaftung sprechen über ihre Arbeit und geben Tipps und Einblicke.</p>
         <p>Die Fragen erscheinen als Titel im Bild, die Antworten laufen als Untertitel mit. So ist das Video auch ohne Ton verständlich.</p>
       </div>
-      <figure><a class="reel" href="vid/interview.mp4" data-k="4" aria-label="Video abspielen: Im Spotlight, Interview mit einer Junior Bewirtschafterin"><img src="vid/interview.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:52</span></a><figcaption><b>Im Spotlight</b><span>Junior Bewirtschafterin über Studium und Beruf</span></figcaption></figure>
+      <div class="ivr"><figure><a class="reel" href="vid/interview.mp4" data-k="4" aria-label="Video abspielen: Im Spotlight, Interview mit einer Junior Bewirtschafterin"><img src="vid/interview.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:52</span></a><figcaption><b>Im Spotlight</b><span>Junior Bewirtschafterin über Studium und Beruf</span></figcaption></figure><figure><a class="reel" href="vid/jahresvorsaetze.mp4" data-k="5" aria-label="Video abspielen: Unsere Jahresvorsätze für 2023"><img src="vid/jahresvorsaetze.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:49</span></a><figcaption><b>Jahresvorsätze 2023</b><span>Mitarbeitende über ihre Vorsätze</span></figcaption></figure></div>
     </div>
   </section>
 
@@ -109,7 +110,8 @@ const V=[
  {k:'amlikon',t:'Amlikon-Bissegg · Ökologisches Einfamilienhaus im Grünen',hdr:1},
  {k:'maerstetten',t:'Märstetten · Exklusive Attikawohnung',hdr:1},
  {k:'thundorf',t:'Thundorf · Modernisiertes Riegelhaus mit Baulandreserve',hdr:1},
- {k:'interview',t:'Im Spotlight · Junior Bewirtschafterin über Studium und Beruf',hdr:0}
+ {k:'interview',t:'Im Spotlight · Junior Bewirtschafterin über Studium und Beruf',hdr:0},
+ {k:'jahresvorsaetze',t:'Jahresvorsätze 2023 · Mitarbeitende über ihre Vorsätze',hdr:0}
 ];
 const d=document.getElementById('vd'),v=document.getElementById('vdV'),cap=document.getElementById('vdCap');let i=0;
 function load(n){
