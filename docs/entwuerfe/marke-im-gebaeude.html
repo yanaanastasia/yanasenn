@@ -167,7 +167,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 @media (max-width:860px){.tiles{grid-template-columns:1fr 1fr}}
 
 .ph{border:1px dashed var(--line);border-radius:12px;padding:18px 20px;color:var(--muted);font-size:.9rem;background:color-mix(in srgb,var(--surface) 60%,transparent)}
-.r169w{aspect-ratio:2051/1201}.r43m{aspect-ratio:4/3}
+.r169w{aspect-ratio:2051/1201}.r32{aspect-ratio:3/2}.r43m{aspect-ratio:4/3}
 .thumbrow{display:grid;grid-template-columns:repeat(auto-fill,150px);gap:12px}
 .thumbrow figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
 .split2{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:start}
@@ -206,7 +206,8 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
       <p>Für die Abteilungen fotografierte ich die Mitarbeitenden bei der Arbeit, unter anderem bei der PFA-Auskleidung, im CAM sowie in Technik und Entwicklung. Die Fotos bearbeitete ich in Farbe und Schwarzweiss und kombinierte sie mit Produkt- und Betriebsbildern und Grafiken wie der Weltkarte zu Wandbildern und Paneelen.</p>
       <p>Die bestehenden Plakate in der Kantine aktualisierte ich mit neuen, selbst fotografierten Bildern und liess sie als Stoffbilder produzieren.</p>
     </div>
-    <p class="ph">Bilder der Wandbilder, Paneele und Kantinen-Plakate folgen.</p>
+    <div class="grpbox"><p class="grp">Wandbilder</p><div class="thumbrow" style="grid-template-columns:repeat(auto-fill,200px)"><figure><button class="zoom visual r32" data-gallery="abt" data-n="0" aria-label="PFA-Auskleidung 1 gross ansehen"><img src="img/abt_pfa.jpg" alt="PFA-Auskleidung 1"></button><figcaption>PFA-Auskleidung 1</figcaption></figure><figure><button class="zoom visual r32" data-gallery="abt" data-n="1" aria-label="PFA-Auskleidung 2 gross ansehen"><img src="img/abt_pfa2.jpg" alt="PFA-Auskleidung 2"></button><figcaption>PFA-Auskleidung 2</figcaption></figure><figure><button class="zoom visual r32" data-gallery="abt" data-n="2" aria-label="PFA-Auskleidung 2, Schwarzweiss gross ansehen"><img src="img/abt_pfa2sw.jpg" alt="PFA-Auskleidung 2, Schwarzweiss"></button><figcaption>PFA-Auskleidung 2, Schwarzweiss</figcaption></figure><figure><button class="zoom visual r32" data-gallery="abt" data-n="3" aria-label="CAM gross ansehen"><img src="img/abt_cam.jpg" alt="CAM"></button><figcaption>CAM</figcaption></figure><figure><button class="zoom visual r32" data-gallery="abt" data-n="4" aria-label="Technik und Entwicklung gross ansehen"><img src="img/abt_technik.jpg" alt="Technik und Entwicklung"></button><figcaption>Technik und Entwicklung</figcaption></figure></div></div>
+    <p class="ph">Paneele der Abteilungen und Kantinen-Plakate folgen.</p>
   </section>
 
   <section class="chapter">
@@ -227,6 +228,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 const G={
  hero:[["img/v2_2.jpg","Wandbild Birkenwald mit Claim, Druckdaten"]],
  var:[["img/v2_1.jpg","Wandbild mit Claim"],["img/v2_0.jpg","Logo und Claim im Fensterband"]],
+ abt:[["img/abt_pfa.jpg","PFA-Auskleidung 1"],["img/abt_pfa2.jpg","PFA-Auskleidung 2"],["img/abt_pfa2sw.jpg","PFA-Auskleidung 2, Schwarzweiss"],["img/abt_cam.jpg","CAM"],["img/abt_technik.jpg","Technik und Entwicklung"]],
  rend:[["img/rend_lounge.jpg","Rendering der Möbelfirma: Lounge"],["img/rend_sitzung.jpg","Rendering der Möbelfirma: Sitzungszimmer"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
