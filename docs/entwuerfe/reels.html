@@ -1,0 +1,120 @@
+<title>Immobilien-Reels</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: Projektseite Immobilien-Reels – Titel, vier Objekt-Reels, Aufbau, Interview-Reel, Aufgaben; gleiche Bausteine wie die übrigen Projektseiten */
+:root{--bg:#f7f8f6;--surface:#fff;--ink:#1b2320;--muted:#5d6964;--line:#dde2de;--accent:#1f5fa8;--font:"Lato",Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--font);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:80px}
+.wrap>*,.chapter>*,.hero>*{min-width:0}
+.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:0}
+h1{font:700 clamp(2.2rem,5vw,3.6rem)/1.05 var(--font);margin:0;text-wrap:balance}
+h2{font:700 clamp(1.5rem,3vw,2rem)/1.15 var(--font);margin:0;text-wrap:balance}
+.eyebrow{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
+p{margin:0;max-width:62ch}.lead{font-size:1.15rem}
+img{display:block;width:100%;height:auto}
+figure{margin:0;display:grid;gap:10px;min-width:0;align-content:start}
+.hero{display:grid;gap:22px}
+.chapter{display:grid;gap:24px}.text{display:grid;gap:14px}
+ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
+
+/* Reels: Hochformat 9:16, Klick spielt das Video ab */
+.reels{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.reel{display:block;position:relative;aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;color:inherit;text-decoration:none}
+.reel img{width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.reel:hover img,.reel:focus-visible img{transform:scale(1.02)}
+.reel:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.badge{position:absolute;left:10px;bottom:10px;display:inline-flex;align-items:center;gap:6px;padding:5px 10px 5px 7px;border-radius:99px;background:rgba(255,255,255,.94);color:#1b2320;font:700 .78rem/1 var(--font);box-shadow:0 2px 6px rgba(0,0,0,.18)}
+.badge svg{width:16px;height:16px}
+figcaption{display:grid;gap:2px;font-size:.9rem;line-height:1.35}
+figcaption span{color:var(--muted);font-size:.84rem}
+.iv{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:48px;align-items:start}
+@media (max-width:860px){.reels{grid-template-columns:repeat(2,minmax(0,1fr))}.iv{grid-template-columns:1fr;gap:24px}.iv figure{max-width:250px}}
+@media (prefers-reduced-motion:reduce){.reel img{transition:none}}
+
+/* Videofenster */
+dialog{border:0;border-radius:14px;padding:0;max-width:94vw;background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(10,14,12,.82)}
+.vdBox{display:grid;gap:12px;padding:14px}
+#vdV{display:block;height:min(78vh,calc((94vw - 28px) * 16 / 9));aspect-ratio:9/16;width:auto;max-width:100%;margin:0 auto;background:#000;border-radius:8px}
+.lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;max-width:min(560px,calc(94vw - 28px))}
+.lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
+.lbBar button{font:700 .9rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.lbBar button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap">
+  <p class="note">Entwurf zur Anordnung. Die Videos sind unverändert, nur für das Web verkleinert. Ein Klick spielt sie mit Ton ab.</p>
+
+  <header class="hero">
+    <p class="eyebrow">Video · GOLDINGER Immobilien</p>
+    <h1>Immobilien-Reels</h1>
+    <div class="reels">
+      <figure><a class="reel" href="vid/frauenfeld.mp4" data-k="0" aria-label="Video abspielen: Frauenfeld, Traumhaftes Einfamilienhaus mit idyllischem Garten"><img src="vid/frauenfeld.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:31</span></a><figcaption><b>Frauenfeld</b><span>Traumhaftes Einfamilienhaus mit idyllischem Garten</span></figcaption></figure>
+      <figure><a class="reel" href="vid/amlikon.mp4" data-k="1" aria-label="Video abspielen: Amlikon-Bissegg, Ökologisches Einfamilienhaus im Grünen"><img src="vid/amlikon.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:22</span></a><figcaption><b>Amlikon-Bissegg</b><span>Ökologisches Einfamilienhaus im Grünen</span></figcaption></figure>
+      <figure><a class="reel" href="vid/maerstetten.mp4" data-k="2" aria-label="Video abspielen: Märstetten, Exklusive Attikawohnung"><img src="vid/maerstetten.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:31</span></a><figcaption><b>Märstetten</b><span>Exklusive Attikawohnung</span></figcaption></figure>
+      <figure><a class="reel" href="vid/thundorf.mp4" data-k="3" aria-label="Video abspielen: Thundorf, Modernisiertes Riegelhaus mit Baulandreserve"><img src="vid/thundorf.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:22</span></a><figcaption><b>Thundorf</b><span>Modernisiertes Riegelhaus mit Baulandreserve</span></figcaption></figure>
+    </div>
+    <p class="lead">Ich betreute die Kanäle von GOLDINGER Immobilien während zwei Jahren. Dazu gehörten Objektvideos, die ich gefilmt und geschnitten habe, auch mit Luftaufnahmen per Drohne.</p>
+  </header>
+
+  <section class="chapter">
+    <p class="eyebrow">1 · Aufbau</p>
+    <div class="text">
+      <h2>Ein Format für jedes Objekt</h2>
+      <p>Jedes Reel beginnt mit Ort und Objekt und endet mit dem Logo. Dazwischen führt ein Rundgang durch Haus und Umgebung, im Hochformat und in 22 bis 31 Sekunden.</p>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">2 · Interview</p>
+    <div class="iv">
+      <div class="text">
+        <h2>Fragen im Bild, Antworten im Untertitel</h2>
+        <p>Dazu kamen Interview-Reels mit Fachleuten aus Verkauf und Bewirtschaftung. Die Fragen erscheinen als Titel im Bild, die Antworten laufen als Untertitel mit.</p>
+      </div>
+      <figure><a class="reel" href="vid/interview.mp4" data-k="4" aria-label="Video abspielen: Im Spotlight, Interview mit einer Junior Bewirtschafterin"><img src="vid/interview.jpg" alt=""><span class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>0:52</span></a><figcaption><b>Im Spotlight</b><span>Junior Bewirtschafterin über Studium und Beruf</span></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">Meine Aufgaben</p>
+    <ul class="tasks"><li>Redaktionsplan</li><li>Aufnahmen vor Ort</li><li>Luftaufnahmen mit Drohne</li><li>Interview-Reels</li><li>Schnitt</li><li>Titel und Untertitel</li></ul>
+  </section>
+</div>
+
+<dialog id="vd" aria-label="Video">
+  <div class="vdBox">
+    <video id="vdV" controls playsinline preload="none"></video>
+    <div class="lbBar"><span id="vdCap"></span><button id="vprev">Zurück</button><button id="vnext">Weiter</button><button id="vclose">Schliessen</button></div>
+  </div>
+</dialog>
+
+<script>
+// HEVC mit HDR wie im Original, wo der Browser es kann; sonst H.264
+const HEVC='video/mp4; codecs="hvc1.2.4.L120.B0"';
+const V=[
+ {k:'frauenfeld',t:'Frauenfeld · Traumhaftes Einfamilienhaus mit idyllischem Garten',hdr:1},
+ {k:'amlikon',t:'Amlikon-Bissegg · Ökologisches Einfamilienhaus im Grünen',hdr:1},
+ {k:'maerstetten',t:'Märstetten · Exklusive Attikawohnung',hdr:1},
+ {k:'thundorf',t:'Thundorf · Modernisiertes Riegelhaus mit Baulandreserve',hdr:1},
+ {k:'interview',t:'Im Spotlight · Junior Bewirtschafterin über Studium und Beruf',hdr:0}
+];
+const d=document.getElementById('vd'),v=document.getElementById('vdV'),cap=document.getElementById('vdCap');let i=0;
+function load(n){
+  i=(n+V.length)%V.length;const x=V[i];v.pause();
+  v.innerHTML=(x.hdr?`<source src="vid/${x.k}.hevc.mp4" type='${HEVC}'>`:'')+`<source src="vid/${x.k}.mp4" type="video/mp4">`;
+  v.poster=`vid/${x.k}.jpg`;v.load();cap.textContent=`${x.t} · ${i+1}/${V.length}`;
+  const p=v.play();if(p)p.catch(()=>{});
+}
+document.querySelectorAll('[data-k]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();d.showModal();load(+a.dataset.k)}));
+document.getElementById('vprev').onclick=()=>load(i-1);
+document.getElementById('vnext').onclick=()=>load(i+1);
+document.getElementById('vclose').onclick=()=>d.close();
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+d.addEventListener('close',()=>{v.pause();v.innerHTML='';v.removeAttribute('poster');v.load()});
+d.addEventListener('keydown',e=>{if(e.target===v)return;if(e.key==='ArrowRight')load(i+1);if(e.key==='ArrowLeft')load(i-1)});
+</script>
