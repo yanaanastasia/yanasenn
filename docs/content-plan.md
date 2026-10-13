@@ -738,7 +738,7 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 - **CP Weihnachten 2026 (Ergänzung):** finale Karten 1.10.2026: A- und B-Kunden je Du/Sie, 6-seitig A5, DE/EN/FR; Mitarbeitende 4-seitig DE/EN; blaues Cover, verschneite Berge, Rentierschlitten mit Pumpe, Rätsel «Strich für Strich zur Lösung», Rückseite mit sechs Standorten; Geschenke: Picknickdecke (A-Kunden, Mitarbeitende), RFID-Kartenhalter (B-Kunden); Umfrage im Verkauf (April/Mai 2026, 22 Ideen bewertet), Lieferantenvergleich, Druckerei selbst organisiert (2025 noch über Agentur). Koordination Druck/Umfrage laut E-Mails Leiterin NIM. ✅ Yana: Karten komplett gestaltet und getextet, Austausch mit Druckereien, im Team mitgeholfen. ✅ Französisch bewusst «vous» auch in der Du-Form (Yana 05.10.2026: in Frankreich siezt man Kundschaft auch per Du-Ansprache, ausser enge Beziehung).
 - **CP Songkran 2026:** Skizzen Nr. 1–6, Agentur-Offerte zur Umsetzung «einer der drei Kundenskizzen», Druck über Flyeralarm. ✅ **Yana 05.10.2026: Songkran komplett von Yana.**
 
-#### TEXT-ENTWURF «Songkran-Grusskarte 2026» ✅ (Inhalt freigegeben, Bilder offen)
+#### TEXT-ENTWURF «Songkran-Grusskarte 2026» ✅ (Inhalt freigegeben; ✅ Seite mit Bildern freigegeben, Yana 13.10.2026)
 - **Stichworte:** Konzept · Illustration · Print
 - **Kurz:** Grusskarte zum thailändischen Neujahr für die Niederlassung in Thailand
 - **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems hat in Thailand eine Niederlassung (Branch); die Karte ging an das Team dort (✅ Yana 05.10.2026: Branch stimmt). ✅ Korrektur Yana 13.10.2026: Karte ging auch an Kunden und weitere Kontakte in Thailand.
