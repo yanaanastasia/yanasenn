@@ -747,6 +747,7 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 - **Wellness-Set:** ✅ weglassen (Yana 05.10.2026: nicht ihre Arbeit).
 - **Bilder:** Skizzen und finale Karte (Vorderseite) 📌; aus Thumbs bekannt, Originale noch suchen.
 - Nicht verwenden: Preise, Bestellnummern, Adressen, Namen und Telefonnummern aus den E-Mails.
+- **Seitenentwurf v1 (13.10.2026):** `docs/entwuerfe/songkran.html`, Artifact https://claude.ai/artifact/Fb4PomaQSsp4yY18TA8Uks. Titel: Vorder- und Rückseite (A5, «20260209_Songkran Karte.pdf») · Text · Skizze 1 (Pagoden, «Nr1.pdf»). Stock-Vorlagen «Nr.1–6.png» (u. a. Shutterstock) nie zeigen. Weitere Skizzen sehr blass → weggelassen. Finales Motiv ohne Sonne (Sonne war im zweiten Entwurf).
 - **CP weitere:** Lieferzeiten-Flyer DE/EN; Molten-Sulphur-Anwendungsblatt; Sammelbanner Messen DE/EN/FR; Panels zur Firmengeschichte (Aug. 2026, vermutlich Wandpaneele); Weltkarte mit Farbvarianten (schwarz, hellgrün, grün, grau, blau) → Auswahl → Sprachversionen (guter Prozess); Fotoshooting Betrieb Aug. 2026 und Mai 2026 (Dateien zu gross, nicht angesehen); Firmenprofil-Präsentation 2026 (77 MB, nicht angesehen).
 
 #### TEXT-ENTWURF «GOLDINGER Hausmagazin» (Frühere Projekte) ✅ (Arbeitsstand freigegeben, Yana 06.10.2026; Bilder offen)
