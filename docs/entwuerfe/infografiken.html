@@ -187,7 +187,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
   <header class="hero">
     <p class="eyebrow">Grafik · CP Pump Systems</p>
     <h1>Infografiken &amp; Karten</h1>
-    <figure class="sw"><div class="langTabs" role="group" aria-label="Sprache wählen"><button type="button" data-sw="hero" data-i="0" aria-pressed="true">DE</button><button type="button" data-sw="hero" data-i="1" aria-pressed="false">EN</button></div><button class="zoom visual rneu" data-gallery="hero" data-n="0" aria-label="Neue Weltkarte, Deutsch gross ansehen"><img src="img/neu.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster, Deutsch"></button><button class="zoom visual rneu" data-gallery="hero" data-n="1" aria-label="Neue Weltkarte, Englisch gross ansehen" hidden><img src="img/neu_en.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster, Englisch" loading="lazy"></button><figcaption class="cap">Neue Weltkarte der Standorte</figcaption></figure>
+    <figure class="sw"><div class="langTabs" role="group" aria-label="Sprache wählen"><button type="button" data-sw="hero" data-i="0" aria-pressed="true">DE</button><button type="button" data-sw="hero" data-i="1" aria-pressed="false">EN</button></div><button class="zoom visual rneu" data-gallery="hero" data-n="0" aria-label="Finale Weltkarte für Messewände, Deutsch gross ansehen"><img src="img/neu.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster, Deutsch"></button><button class="zoom visual rneu" data-gallery="hero" data-n="1" aria-label="Finale Weltkarte für Messewände, Englisch gross ansehen" hidden><img src="img/neu_en.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster, Englisch" loading="lazy"></button><figcaption class="cap">Finale Weltkarte für Messewände</figcaption></figure>
     <p class="lead">CP Pump Systems ist mit Standorten, Tochterfirmen und Partnern weltweit tätig und blickt auf eine lange Firmengeschichte zurück. Beides sollte auf einen Blick verständlich sein, in mehreren Sprachen und für ganz unterschiedliche Formate.</p>
     <p>Ich entwickelte die Weltkarte und den Zeitstrahl, von den ersten Entwürfen bis zu den fertigen Sprachversionen.</p>
   </header>
@@ -200,8 +200,8 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     </div>
     <div class="grpbox"><p class="grp">Vorher</p><div class="steps"><figure><button class="zoom plan" data-gallery="evo" data-n="0" aria-label="Ursprüngliche Karte gross ansehen"><img src="img/bro_grau.jpg" alt="Ursprüngliche Karte"></button><figcaption><b>1</b>Ursprüngliche Karte</figcaption></figure><figure><button class="zoom plan" data-gallery="evo" data-n="1" aria-label="Erste Überarbeitung für Messewände gross ansehen"><img src="img/alt_blau.jpg" alt="Erste Überarbeitung für Messewände"></button><figcaption><b>2</b>Erste Überarbeitung für Messewände</figcaption></figure></div></div>
     <div class="use">
-      <div class="text"><p>Die ursprüngliche Karte war grau. In einer ersten Überarbeitung entstand eine flächige Fassung in CP-Blau für die Messewände. Die finale Fassung, oben im Bild, ist ein grünes Punktraster mit geordneten Beschriftungen. Sie ist auf Messewänden und in den Broschüren im Einsatz, als breite Fassung und im Hochformat für die A4-Seite.</p></div>
-      <figure><button class="zoom page rA4p" data-gallery="bro" data-n="0" aria-label="Finale Fassung im Company Profile gross ansehen"><img src="img/bro_neu.jpg" alt="Seite Locations im Company Profile mit der finalen Weltkarte"></button><figcaption class="cap">Finale Fassung im Company Profile</figcaption></figure>
+      <div class="text"><p>Die ursprüngliche Karte war grau. In einer ersten Überarbeitung entstand eine flächige Fassung in CP-Blau für die Messewände. Die finale Fassung ist ein Punktraster mit geordneten Beschriftungen, in zwei Formaten: breit in Grün für die Messewände (oben im Bild) und im Hochformat für die Broschüren.</p></div>
+      <figure><button class="zoom page rA4p" data-gallery="bro" data-n="0" aria-label="Finale Fassung für Broschüren gross ansehen"><img src="img/bro_neu.jpg" alt="Seite Locations im Company Profile mit der finalen Weltkarte"></button><figcaption class="cap">Finale Fassung für Broschüren, im Company Profile</figcaption></figure>
     </div>
   </section>
 
@@ -231,9 +231,9 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 
 <script>
 const G={
- hero:[["img/neu.jpg","Neue Weltkarte, Deutsch"],["img/neu_en.jpg","Neue Weltkarte, Englisch"]],
+ hero:[["img/neu.jpg","Finale Weltkarte für Messewände, Deutsch"],["img/neu_en.jpg","Finale Weltkarte für Messewände, Englisch"]],
  evo:[["img/bro_grau.jpg","Ursprüngliche Karte"],["img/alt_blau.jpg","Erste Überarbeitung für Messewände"]],
- bro:[["img/bro_neu.jpg","Finale Fassung im Company Profile"]],
+ bro:[["img/bro_neu.jpg","Finale Fassung für Broschüren, im Company Profile"]],
  zs:[["img/zs_spread.jpg","Firmengeschichte, Deutsch"],["img/zs_spread_en.jpg","Firmengeschichte, Englisch"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
