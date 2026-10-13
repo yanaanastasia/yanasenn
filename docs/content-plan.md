@@ -741,7 +741,7 @@ Vor 2024 (nicht Yana): Beiträge 2019–2023.
 #### TEXT-ENTWURF «Songkran-Grusskarte 2026» ✅ (Inhalt freigegeben, Bilder offen)
 - **Stichworte:** Konzept · Illustration · Print
 - **Kurz:** Grusskarte zum thailändischen Neujahr für die Niederlassung in Thailand
-- **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems hat in Thailand eine Niederlassung (Branch); die Karte ging an das Team dort (✅ Yana 05.10.2026: Branch stimmt).
+- **Ausgangslage:** Songkran ist das thailändische Neujahrsfest im April und ein Fest des Wassers. CP Pump Systems hat in Thailand eine Niederlassung (Branch); die Karte ging an das Team dort (✅ Yana 05.10.2026: Branch stimmt). ✅ Korrektur Yana 13.10.2026: Karte ging auch an Kunden und weitere Kontakte in Thailand.
 - **Meine Rolle ✅:** Die Karte lag komplett bei mir: Ideen und Skizzen, Gestaltung, Druckvorbereitung und Bestellung.
 - **Umsetzung:** Sechs Skizzen als Ausgangspunkt (Jan. 2026), daraus zwei Entwürfe. Motiv: zwei Pagoden mit der thailändischen und der Schweizer Flagge, die Thailand und die Schweiz verbinden; dazu Wasserspritzer, Blüten und Sonne auf einem Verlauf von Gelb zu Blau, mit CP-Logo und «Happy Songkran Festival». Druck über eine Online-Druckerei (Feb. 2026).
 - **Wellness-Set:** ✅ weglassen (Yana 05.10.2026: nicht ihre Arbeit).
