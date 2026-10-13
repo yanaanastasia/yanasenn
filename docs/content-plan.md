@@ -1164,3 +1164,5 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Messekataloge: keine Collage mehr; Titelbild = aufgeschlagenes Magazin (links neutraler Platzhaltertext, rechts Inserat). In der Grossansicht jedes Inserat einzeln.
 - Weihnachtskarte Grossansicht: Vorderseite → Rätsel → Grusstext → Rückseite; Grusstext DE/EN per Umschalter.
 - ACHEMA-Stele: schmale, hohe Stele; nur die bedruckte Vorderseite zählt (Rest der Folie = Rückseite, nicht zeigen). Neues Mockup achema_stele.png, Grossansicht nur das Mockup.
+
+- **Kategorie «Messen» v1 (13.10.2026):** `docs/entwuerfe/messen.html`, Artifact https://claude.ai/artifact/NcW3BUdbXA5pKkgtA91Zvi (Generator `docs/archiv/messen/`). 01 International: Karten nach Jahr (2026/2025/2024), Bild klick = Grossansicht, «Mehr erfahren» = Text + Meine Aufgaben; ACHEMA/TPS mit Link zur Projektseite; Leuna ohne Bild (nur leerer Stand vorhanden). 02 Am Stand eines Partners: Liste zum Aufklappen, ohne Partnernamen. 03 Schweiz: WEGA und Immozionale mit Vorher/Nachher. Gesichter weich unscharf. Texte = ✏️-Entwürfe aus Kap. Messen, gekürzt; EN neu übersetzt.
