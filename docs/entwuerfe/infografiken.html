@@ -166,7 +166,20 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 .mxWrap{overflow-x:auto}
 @media (max-width:860px){.tiles{grid-template-columns:1fr 1fr}}
 
-.rneu{aspect-ratio:2400/920}.rA4p{aspect-ratio:1241/1754}.sw{display:grid;gap:10px}
+.rneu{aspect-ratio:2400/920}.rA4p{aspect-ratio:1241/1754}.final{display:grid;grid-template-columns:2.609fr .7075fr;gap:20px;align-items:start}
+.final figure{gap:10px}
+.final .zoom{border-radius:10px}
+.tag{display:flex;gap:10px;align-items:baseline;font-size:.85rem;color:var(--muted)}
+.tag b{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+.past{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:680px}
+.past .zoom{aspect-ratio:16/10;background:#fff}
+.past .zoom.plan img{padding:18px}
+.past img{filter:saturate(.9)}
+.badge{display:inline-block;font:700 .7rem var(--font);letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:99px;background:var(--green);color:#fff}
+.badge.old{background:var(--line);color:var(--muted)}
+.head{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+@media (max-width:760px){.final,.past{grid-template-columns:minmax(0,1fr)}.final figure:last-child{max-width:260px}}
+.sw{display:grid;gap:10px}
 .steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
 .steps .zoom{aspect-ratio:16/10}
 .use{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:40px;align-items:start}
@@ -187,22 +200,17 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
   <header class="hero">
     <p class="eyebrow">Grafik · CP Pump Systems</p>
     <h1>Infografiken &amp; Karten</h1>
-    <figure class="sw"><div class="langTabs" role="group" aria-label="Sprache wählen"><button type="button" data-sw="hero" data-i="0" aria-pressed="true">DE</button><button type="button" data-sw="hero" data-i="1" aria-pressed="false">EN</button></div><button class="zoom visual rneu" data-gallery="hero" data-n="0" aria-label="Finale Weltkarte für Messewände, Deutsch gross ansehen"><img src="img/neu.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster, Deutsch"></button><button class="zoom visual rneu" data-gallery="hero" data-n="1" aria-label="Finale Weltkarte für Messewände, Englisch gross ansehen" hidden><img src="img/neu_en.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster, Englisch" loading="lazy"></button><figcaption class="cap">Finale Weltkarte für Messewände</figcaption></figure>
-    <p class="lead">CP Pump Systems ist mit Standorten, Tochterfirmen und Partnern weltweit tätig und blickt auf eine lange Firmengeschichte zurück. Beides sollte auf einen Blick verständlich sein, in mehreren Sprachen und für ganz unterschiedliche Formate.</p>
-    <p>Ich entwickelte die Weltkarte und den Zeitstrahl, von den ersten Entwürfen bis zu den fertigen Sprachversionen.</p>
+    <p class="lead">CP Pump Systems ist mit Standorten, Tochterfirmen und Partnern weltweit tätig und blickt auf eine lange Firmengeschichte zurück. Beides sollte auf einen Blick verständlich sein, in mehreren Sprachen und für ganz unterschiedliche Formate. Ich entwickelte dafür die Weltkarte und den Zeitstrahl, von den ersten Entwürfen bis zu den fertigen Sprachversionen.</p>
   </header>
 
   <section class="chapter">
     <p class="eyebrow">1 · Weltkarte</p>
     <div class="text">
       <h2>Weltkarte der Standorte</h2>
-      <p>Die Karte zeigt die Standorte, Tochterfirmen und Niederlassungen von CP Pump Systems sowie Mitarbeitende in weiteren Ländern, mit einer Legende für CP Pump Systems und Partner.</p>
+      <p>Die Karte zeigt die Standorte, Tochterfirmen und Niederlassungen von CP Pump Systems sowie Mitarbeitende in weiteren Ländern, mit einer Legende für CP Pump Systems und Partner. Die finale Fassung ist ein Punktraster mit geordneten Beschriftungen, in zwei Formaten: breit für die Messewände und im Hochformat für die Broschüren.</p>
     </div>
-    <div class="grpbox"><p class="grp">Vorher</p><div class="steps"><figure><button class="zoom plan" data-gallery="evo" data-n="0" aria-label="Ursprüngliche Karte gross ansehen"><img src="img/bro_grau.jpg" alt="Ursprüngliche Karte"></button><figcaption><b>1</b>Ursprüngliche Karte</figcaption></figure><figure><button class="zoom plan" data-gallery="evo" data-n="1" aria-label="Erste Überarbeitung für Messewände gross ansehen"><img src="img/alt_blau.jpg" alt="Erste Überarbeitung für Messewände"></button><figcaption><b>2</b>Erste Überarbeitung für Messewände</figcaption></figure></div></div>
-    <div class="use">
-      <div class="text"><p>Die ursprüngliche Karte war grau. In einer ersten Überarbeitung entstand eine flächige Fassung in CP-Blau für die Messewände. Die finale Fassung ist ein Punktraster mit geordneten Beschriftungen, in zwei Formaten: breit in Grün für die Messewände (oben im Bild) und im Hochformat für die Broschüren.</p></div>
-      <figure><button class="zoom page rA4p" data-gallery="bro" data-n="0" aria-label="Finale Fassung für Broschüren gross ansehen"><img src="img/bro_neu.jpg" alt="Seite Locations im Company Profile mit der finalen Weltkarte"></button><figcaption class="cap">Finale Fassung für Broschüren, im Company Profile</figcaption></figure>
-    </div>
+    <div class="grpbox"><div class="head"><span class="badge">Final</span></div><div class="final"><figure><button class="zoom plan rneu" data-gallery="fin" data-n="0" aria-label="Finale Weltkarte für Messewände gross ansehen"><img src="img/neu.jpg" alt="Finale Weltkarte als grünes Punktraster, breites Format für Messewände"></button><figcaption class="tag"><b>Messewand</b>breites Format</figcaption></figure><figure><button class="zoom page rA4p" data-gallery="fin" data-n="2" aria-label="Finale Weltkarte für Broschüren gross ansehen"><img src="img/bro_neu.jpg" alt="Finale Weltkarte als Punktraster auf der Seite Locations im Company Profile"></button><figcaption class="tag"><b>Broschüre</b>Hochformat A4</figcaption></figure></div></div>
+    <div class="grpbox"><div class="head"><span class="badge old">Vorher</span><span class="cap">Ursprünglich grau, danach eine erste Überarbeitung in CP-Blau</span></div><div class="past"><figure><button class="zoom plan" data-gallery="evo" data-n="0" aria-label="Ursprüngliche Karte gross ansehen"><img src="img/bro_grau.jpg" alt="Ursprüngliche Karte"></button><figcaption class="tag">Ursprüngliche Karte</figcaption></figure><figure><button class="zoom plan" data-gallery="evo" data-n="1" aria-label="Erste Überarbeitung für Messewände gross ansehen"><img src="img/alt_blau.jpg" alt="Erste Überarbeitung für Messewände"></button><figcaption class="tag">Erste Überarbeitung für Messewände</figcaption></figure></div></div>
   </section>
 
   <section class="chapter">
@@ -231,9 +239,8 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 
 <script>
 const G={
- hero:[["img/neu.jpg","Finale Weltkarte für Messewände, Deutsch"],["img/neu_en.jpg","Finale Weltkarte für Messewände, Englisch"]],
+ fin:[["img/neu.jpg","Finale Weltkarte für Messewände, Deutsch"],["img/neu_en.jpg","Finale Weltkarte für Messewände, Englisch"],["img/bro_neu.jpg","Finale Weltkarte für Broschüren, Company Profile"]],
  evo:[["img/bro_grau.jpg","Ursprüngliche Karte"],["img/alt_blau.jpg","Erste Überarbeitung für Messewände"]],
- bro:[["img/bro_neu.jpg","Finale Fassung für Broschüren, im Company Profile"]],
  zs:[["img/zs_spread.jpg","Firmengeschichte, Deutsch"],["img/zs_spread_en.jpg","Firmengeschichte, Englisch"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
