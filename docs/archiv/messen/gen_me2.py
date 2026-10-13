@@ -175,14 +175,16 @@ details summary{cursor:pointer;font-weight:700;list-style:none;display:inline-fl
 .tasks h4{font-size:.85rem;margin:6px 0 4px;text-transform:uppercase;letter-spacing:.06em}.tasks p{font-size:.9rem}
 .pwrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:28px;align-items:start}.pimgs{display:grid;gap:14px}
 .plist{list-style:none;margin:0 0 18px;padding:0;border-top:1px solid var(--line)}.plist li{border-bottom:1px solid var(--line);padding:12px 0}
-.plist summary{display:grid;grid-template-columns:150px 1fr auto auto;gap:12px;width:100%}.plist summary span{color:var(--muted)}.plist p{color:var(--muted);margin:8px 0 0;font-size:.95rem}
-@media (max-width:760px){.pwrap{grid-template-columns:1fr}.plist summary{grid-template-columns:1fr auto}.plist summary span:not(.pd){display:none}}
+.plist summary{display:grid;grid-template-columns:64px 140px 1fr auto auto;align-items:center;gap:12px;width:100%}.plist summary span{color:var(--muted)}.plist p{color:var(--muted);margin:8px 0 0;font-size:.95rem}
+@media (max-width:760px){.pwrap{grid-template-columns:1fr}.plist summary{grid-template-columns:1fr auto}.plist summary span:not(.pd):not(.plg){display:none}.plist summary{grid-template-columns:64px 1fr auto auto}}
 .babox{max-width:760px}
 
 .fgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:28px 22px}
 .fc{all:unset;cursor:pointer;display:grid;gap:6px;align-content:start}
 .fv{position:relative;display:block;aspect-ratio:4/3;border-radius:14px;overflow:hidden;background:var(--tint)}
 .fv img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}.fc:hover .fv img{transform:scale(1.04)}
+.sh-head{display:flex;justify-content:space-between;gap:20px;align-items:center}.sh-logo{width:180px;border-radius:12px}
+.plg{width:64px;height:48px;display:block}.plg img{width:64px;height:48px;object-fit:cover;border-radius:6px;display:block}
 .fv.fit img{object-fit:contain;padding:22px;box-sizing:border-box}
 .fv.noimg{display:grid;place-items:center;font-size:1.2rem;color:var(--accent)}
 .fv .up{position:absolute;left:10px;top:10px;background:var(--accent);color:#fff;font:700 .68rem var(--font);padding:4px 9px;border-radius:99px;text-transform:uppercase;letter-spacing:.06em}

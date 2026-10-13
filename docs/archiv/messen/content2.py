@@ -41,12 +41,12 @@ def cover(k):
         if IM.get(k,{}).get(c): return IM[k][c][0]
     return None
 ORDER=[f[0] for f in F]
+LOGO={'achema':'achema','tps':'tps','petro24':'petro','petro26':'petro','pv25':'pv','pv26':'pv','tfs25':'tfs','tfs26':'tfs','leuna25':'leuna','cru25':'cru','cru26':'cru','lh25':'lh','fla26':'fla','dk26':'dk','uk26':'chemuk','cheme26':'cheme','dahej26':'dahej'}
 def card(f):
-    k,name,ort,dat=f[:4]; c=cover(k)
-    fit=' fit' if c and ('design' in c or 'komm' in c) else ''
-    vis=f'<img src="img/{c}" alt="">' if c else f'<b>{name}</b>'
+    k,name,ort,dat=f[:4]
+    vis=f'<img src="img/t_{LOGO[k]}.jpg" alt="Logo {name}">'; fit=''
     up='<span class="up">'+T('bevorstehend','upcoming')+'</span>' if k in ('cru26','tfs26','petro26','dahej26') else ''
-    return f'<button class="fc" data-fair="{k}"><span class="fv{fit}{"" if c else " noimg"}">{vis}{up}</span><span class="fm">{T(*dat)} · {T(*ort)}</span><b class="fn">{name}</b></button>'
+    return f'<button class="fc" data-fair="{k}"><span class="fv">{vis}{up}</span><span class="fm">{T(*dat)} · {T(*ort)}</span><b class="fn">{name}</b></button>'
 def sheet(f):
     k,name,ort,dat,hero,more,chips,txt,tk,link=f
     facts=''.join(f'<div><dt>{T(a,b)}</dt><dd>{T(c,d)}</dd></div>' for a,b,c,d in FACT.get(k,[]))
@@ -66,7 +66,7 @@ def sheet(f):
     i=ORDER.index(k); pv=ORDER[i-1] if i>0 else None; nx=ORDER[i+1] if i+1<len(ORDER) else None
     nm={f[0]:f[1] for f in F}
     nav='<nav class="sh-nav">'+(f'<button data-fair="{pv}">‹ {nm[pv]}</button>' if pv else '<span></span>')+(f'<button data-fair="{nx}">{nm[nx]} ›</button>' if nx else '')+'</nav>'
-    return (f'<article class="sheet" id="fs-{k}" hidden><p class="crumb">{T("Messen","Trade fairs")} · International</p><h2>{name}</h2><p class="sh-sub">{T(*dat)} · {T(*ort)}</p>{heroh}'
+    return (f'<article class="sheet" id="fs-{k}" hidden><p class="crumb">{T("Messen","Trade fairs")} · International</p><div class="sh-head"><div><h2>{name}</h2><p class="sh-sub">{T(*dat)} · {T(*ort)}</p></div><img class="sh-logo" src="img/t_{LOGO[k]}.jpg" alt="Logo {name}"></div>{heroh}'
             f'<dl class="facts">{facts}</dl><div class="sh-body"><div class="sh-text">{body}{lk}</div><aside>{tasks(*tk)}</aside></div>{gal}{nav}</article>')
 yrs=[('2026',[f for f in F if '2026' in f[1]]),('2025',[f for f in F if '2025' in f[1]]),('2024',[f for f in F if '2024' in f[1]])]
 intl=''.join(f'<div class="yr"><h4>{y}</h4></div><div class="fgrid">'+''.join(card(f) for f in fs)+'</div>' for y,fs in yrs)
