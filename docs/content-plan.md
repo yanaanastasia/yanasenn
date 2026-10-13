@@ -1162,3 +1162,4 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Grafik & Print v7: keine weissen Ränder; Mockups gerade (nicht gedreht); Blätteransicht hell mit Seiten als Mockup (Schatten, Buchfalz bei Doppelseiten); Grusskarte: 1. Klick öffnet, 2. Klick Grossansicht (kein «Alle Seiten»-Knopf); weitere Messen als Raster.
 - Grafik & Print v7.1: Blätteransicht mit Milchglas-Hintergrund (Seite schimmert unscharf durch). Von Yana freigegeben («sonst sehr gut»).
 - Messekataloge: keine Collage mehr; Titelbild = aufgeschlagenes Magazin (links neutraler Platzhaltertext, rechts Inserat). In der Grossansicht jedes Inserat einzeln.
+- Weihnachtskarte Grossansicht: Vorderseite → Rätsel → Grusstext → Rückseite; Grusstext DE/EN per Umschalter.
