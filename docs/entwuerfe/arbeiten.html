@@ -1,0 +1,271 @@
+<title>Arbeiten Übersicht</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: Projektseite Werbung (abgeleitet von Broschüren) – Titelbild, Konzept, Familie, Sprachen-Umschalter, Einblicke, Sprachmatrix, Aufgaben; basiert auf Messestand für die USA – Titelbild, Idee (Kreislauf), Standbox (Plan + Fotos), Rundum-Design, Aufbauanleitung, Herausforderung Houston, Einsätze (Zeitleiste), Aufgaben */
+:root{--bg:#f7f8f6;--surface:#fff;--ink:#1b2320;--muted:#5d6964;--line:#dde2de;--accent:#1f5fa8;--soft:#c9d6e6;--green:#4f8a1f;--forest:#1f3a2c;--font:"Lato",Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--font);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:80px}
+.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:0}
+h1{font:700 clamp(2.2rem,5vw,3.6rem)/1.05 var(--font);margin:0;text-wrap:balance}
+h2{font:700 clamp(1.5rem,3vw,2rem)/1.15 var(--font);margin:0;text-wrap:balance}
+h3{font:700 1.15rem/1.25 var(--font);margin:0}
+.eyebrow{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
+p{margin:0;max-width:62ch}.lead{font-size:1.15rem}
+img{display:block;width:100%;height:auto}
+figure{margin:0;display:grid;gap:8px;min-width:0;align-content:start}
+.cap{font-size:.82rem;color:var(--muted)}
+.hero{display:grid;gap:22px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.facts div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:4px}
+.facts b{font:700 1.5rem/1.1 var(--font)}.facts span{font-size:.85rem;color:var(--muted)}
+.chapter{display:grid;gap:24px}.text{display:grid;gap:14px}
+.split{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:start}
+.split>*,.g2>*,.g3>*,.g4>*{min-width:0}
+.g2,.g3,.g4{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+/* Klickbare Bilder */
+.zoom{all:unset;box-sizing:border-box;cursor:zoom-in;display:block;width:100%;border-radius:6px;overflow:hidden;background:var(--surface);position:relative}
+.zoom img{width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.zoom:hover img,.zoom:focus-visible img{transform:scale(1.02)}
+.zoom:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.zoom::after{content:"";position:absolute;right:10px;bottom:10px;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.92) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231b2320' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6'/%3E%3Cpath d='M15 15l5 5M10.5 8v5M8 10.5h5'/%3E%3C/svg%3E") center/18px no-repeat;box-shadow:0 2px 6px rgba(0,0,0,.18);opacity:0;transition:opacity .2s}
+.zoom:hover::after,.zoom:focus-visible::after{opacity:1}
+@media (prefers-reduced-motion:reduce){.zoom img,.zoom::after{transition:none}}
+.r169{aspect-ratio:16/9}.r43{aspect-ratio:4/3}.r34{aspect-ratio:3/4}.rpage{aspect-ratio:1132/1600}
+.zoom.visual{background:#f3f4f2}
+.zoom.plan{background:#fff;border:1px solid var(--line)}.zoom.plan img{object-fit:contain;padding:10px}
+.zoom.page{background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,0,0,.08)}.zoom.page img{object-fit:contain}
+/* Kreislauf */
+.cycle{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:stretch}
+.cs{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.cs .n{font:700 .72rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+.cs b{font-size:1.05rem}.cs span{font-size:.88rem;color:var(--muted)}
+.ca{display:flex;align-items:center;color:var(--muted);font-size:1.3rem}
+.loop{font-size:.85rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+.loop svg{flex:none}
+/* Ausstattung */
+.kit{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:12px;align-content:start}
+.box h3{display:flex;gap:10px;align-items:center}
+.box .tag{font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;background:var(--accent);color:#fff;border-radius:99px;padding:2px 9px}
+.box .tag.alt{background:var(--green)}
+.box ul{margin:0;padding-left:1.1em;display:grid;gap:4px}.box li{font-size:.95rem}
+.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.specs div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.specs b{font-size:1.05rem}.specs span{font-size:.86rem;color:var(--muted)}
+/* Birkenwald */
+.forest{background:var(--forest);color:#eef4ee;border-radius:16px;padding:clamp(20px,4vw,40px);display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:center}
+.forest .eyebrow{color:#a9d77d}.forest p{color:#d6e2d8}
+.forest .claim{font:italic 400 1.35rem/1.3 var(--font);color:#fff;border-left:3px solid #a9d77d;padding-left:14px}
+.forest .zoom{background:#0e1b14}
+/* Anleitung */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s}
+.steps figcaption{font-size:.88rem;color:var(--muted)}.steps figcaption b{display:block;color:var(--ink);font-size:.95rem}
+/* Herausforderung */
+.story{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.story div{padding:18px;display:grid;gap:6px;align-content:start;border-right:1px solid var(--line)}
+.story div:last-child{border-right:0;background:color-mix(in srgb,var(--green) 10%,var(--surface))}
+.story .when{font:700 .72rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.story div:last-child .when{color:var(--green)}
+.story b{font-size:1rem}.story span{font-size:.88rem;color:var(--muted)}
+/* Zeitleiste */
+.tl{display:grid;gap:0;position:relative}
+.tl::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.ev{display:grid;grid-template-columns:24px 150px 1fr;gap:16px;padding:14px 0;align-items:start;position:relative}
+.ev i{width:24px;height:24px;border-radius:50%;background:var(--surface);border:3px solid var(--accent);margin-top:2px;z-index:1}
+.ev.next i{border-style:dashed;border-color:var(--muted)}
+.ev .d{font-size:.88rem;color:var(--muted);padding-top:2px}.ev .d b{display:block;color:var(--ink);font-size:1rem}
+.ev .c{display:grid;gap:6px}.ev .c p{font-size:.95rem}
+.ev .badge{justify-self:start;font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--muted)}
+.ev .pics{display:grid;grid-template-columns:repeat(3,minmax(0,160px));gap:10px;margin-top:4px}
+.step{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+/* Vorher / Nachher */
+.ba{display:grid;gap:12px}
+.baFrame{position:relative;aspect-ratio:3/2;border-radius:10px;overflow:hidden;background:#eceeeb;border:1px solid var(--line)}
+.baFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .45s}
+.baFrame img.photo{object-fit:cover}
+.baFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.baFrame img{transition:none}}
+.baTag{position:absolute;left:14px;top:14px;background:rgba(27,35,32,.82);color:#fff;font:700 .78rem var(--font);letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:99px}
+.baTabs{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.baTabs button{font:700 .88rem var(--font);padding:8px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.baTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.baTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.baTabs .arr{color:var(--muted)}
+.mini{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,130px));gap:12px;margin-top:4px}
+.mini figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
+.mini .step{font-size:.66rem}
+.grp{font:700 .78rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:6px 0 -10px}
+.bt{font-size:.95rem;max-width:none}
+.box.wide{display:grid;grid-template-columns:3fr 2fr;gap:24px;align-items:start}
+.box.wide>div:first-child{display:grid;gap:12px}
+.box .mini{grid-template-columns:repeat(4,minmax(0,1fr));max-width:520px}
+@media (max-width:860px){.box.wide{grid-template-columns:1fr}}
+.groups{display:grid;gap:22px;border-top:1px solid var(--line);padding-top:18px}
+.grpbox{display:grid;gap:8px}
+.grpbox .grp{margin:0}
+.mini.m1{grid-template-columns:96px}.mini.m2{grid-template-columns:repeat(2,96px)}.mini.m3{grid-template-columns:repeat(3,96px)}.mini.m1w{grid-template-columns:250px}
+.box .mini.m4{grid-template-columns:repeat(4,minmax(0,96px))}
+.rw{aspect-ratio:2000/771}
+ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
+/* Lightbox */
+dialog{border:0;border-radius:14px;padding:0;max-width:min(1100px,94vw);width:100%;background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(10,14,12,.78)}
+.lb{display:grid;gap:12px;padding:16px}
+.lbScroll{max-height:76vh;overflow:auto;border-radius:6px;background:#eef1f4;display:grid;place-items:center}
+.lbScroll img{width:auto;max-width:100%;max-height:74vh;height:auto}
+.lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
+.lbBar button{font:700 .9rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.lbBar button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:6px}
+.thumbs button{all:unset;cursor:pointer;border-radius:4px;overflow:hidden;border:2px solid transparent;aspect-ratio:1;background:#fff}
+.thumbs button[aria-current="true"]{border-color:var(--accent)}.thumbs img{width:100%;height:100%;object-fit:cover}
+@media (max-width:860px){.cycle{grid-template-columns:1fr}.ca{justify-content:center;transform:rotate(90deg)}.facts,.specs{grid-template-columns:1fr 1fr}.forest,.split,.kit{grid-template-columns:1fr}.steps,.g4{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr 1fr}.story div:nth-child(2){border-right:0}.story div:nth-child(-n+2){border-bottom:1px solid var(--line)}.ev{grid-template-columns:24px 1fr}.ev .c{grid-column:2}.ev .pics{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.g3{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr}.story div{border-right:0;border-bottom:1px solid var(--line)}}
+
+/* Sprachen-Umschalter */
+.lang{display:grid;gap:12px}
+.langFrame{position:relative;aspect-ratio:1800/1273;border-radius:10px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.langFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .35s}
+.langFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.langFrame img{transition:none}}
+.langTabs{display:flex;gap:8px;flex-wrap:wrap}
+.langTabs button{font:700 .88rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;min-width:52px}
+.langTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.langTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* Familie */
+.rA4{aspect-ratio:595/842}
+/* Bausteine */
+.wrap>*,.chapter>*,.hero>*{min-width:0}.mxWrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fam{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.fam div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:3px;align-content:start}
+.fam small{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.fam b{font-size:1.02rem}.fam span{font-size:.85rem;color:var(--muted)}
+@media (max-width:640px){.fam{grid-template-columns:1fr}}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tiles div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.tiles b{font-size:1rem}.tiles span{font-size:.88rem;color:var(--muted)}
+/* Matrix */
+.mx{width:100%;border-collapse:separate;border-spacing:0;font-size:.88rem;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.mx th,.mx td{padding:9px 6px;text-align:center;border-bottom:1px solid var(--line)}
+.mx tr:last-child td,.mx tr:last-child th{border-bottom:0}
+.mx thead th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;background:color-mix(in srgb,var(--ink) 3%,var(--surface))}
+.mx tbody th{text-align:left;font-weight:700;padding-left:14px;white-space:nowrap}
+.mx tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,var(--surface))}
+.mx tr.sub th{text-align:left;padding:14px 14px 6px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;background:none}
+.mx tbody tr.sub:hover{background:none}
+.mx td.n{color:var(--muted);font-variant-numeric:tabular-nums;font-weight:700}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;vertical-align:middle}
+.dot.p{background:var(--accent)}
+.dot.d{border:2px solid var(--accent);background:transparent}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;gap:7px;align-items:center}
+.mxWrap{overflow-x:auto}
+@media (max-width:860px){.tiles{grid-template-columns:1fr 1fr}}
+
+.item{display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;padding-top:22px;border-top:1px solid var(--line)}
+.item h3{margin-bottom:6px}.item .meta{font-size:.85rem;color:var(--muted);margin:0}
+.client{display:inline-block;font:700 .68rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.pages{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(min(var(--w,130px),100%),var(--w,130px)))}
+.pages .zoom{aspect-ratio:var(--r)}
+.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.grid4 .zoom{aspect-ratio:1/1}.grid4 .zoom.plan img{padding:12px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.grid2 .zoom{aspect-ratio:5/1}.grid2 .zoom.plan img{padding:8px}
+.tag{font-size:.82rem;color:var(--muted)}
+.sub{font:700 .78rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:8px 0 -6px}
+.marquee{overflow:hidden;display:grid;gap:14px;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.mrow{display:flex;gap:14px;width:max-content;animation:mq 60s linear infinite}
+.mrow.rev{animation-direction:reverse;animation-duration:70s}
+.marquee:hover .mrow{animation-play-state:paused}
+.mrow img{height:190px;width:auto;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.12);background:#fff}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.mrow{animation:none;flex-wrap:wrap;width:auto}}
+@media (max-width:760px){.mrow img{height:120px}}
+.ba{position:relative;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:#fff;aspect-ratio:var(--r)}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.ba .after{clip-path:inset(0 0 0 var(--p,50%))}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba .bar{position:absolute;top:0;bottom:0;left:var(--p,50%);width:3px;background:var(--accent);transform:translateX(-50%);pointer-events:none}
+.ba .bar::after{content:"⇆";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--accent);color:#fff;border-radius:99px;padding:6px 9px;font-size:.9rem}
+.ba .lbl{position:absolute;top:10px;font:700 .7rem var(--font);letter-spacing:.08em;text-transform:uppercase;background:rgba(0,0,0,.6);color:#fff;padding:4px 9px;border-radius:99px;pointer-events:none}
+.ba .l1{left:10px}.ba .l2{right:10px;background:var(--accent)}
+.babox{display:grid;gap:8px}
+.report{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.report .rl{padding:28px;display:grid;gap:12px;align-content:start}
+.report .rl small{font:700 .7rem var(--font);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.report .rl b{font:700 1.3rem/1.25 var(--font)}
+.report .rr{background:#1f5fa8;color:#fff;padding:28px;display:grid;gap:18px;align-content:center}
+.report .rr div{display:grid}.report .rr strong{font:700 2rem/1 var(--font)}.report .rr span{font-size:.85rem;opacity:.85}
+.langs{display:flex;gap:6px}.langs i{font-style:normal;font:700 .72rem var(--font);border:1px solid var(--line);border-radius:99px;padding:3px 9px}
+@media (max-width:760px){.report{grid-template-columns:minmax(0,1fr)}}
+.wide .pages{grid-template-columns:minmax(0,1fr)}
+@media (max-width:760px){.item{grid-template-columns:minmax(0,1fr);gap:12px}.grid4{grid-template-columns:repeat(2,minmax(0,1fr))}.grid2{grid-template-columns:minmax(0,1fr)}}
+
+.fgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.fcard{display:grid;gap:6px;text-decoration:none;color:var(--ink)}
+.fimg{aspect-ratio:4/3;border-radius:10px;border:1px solid var(--line);background:#fff;overflow:hidden;display:block}
+.fimg img{width:100%;height:100%;object-fit:contain;padding:10px;transition:transform .25s}
+.fcard:hover .fimg img{transform:scale(1.04)}
+.fcard small{color:var(--muted);font-size:.8rem}
+.hgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.hcard{display:grid;gap:8px;text-decoration:none;color:var(--ink)}.himg{aspect-ratio:16/10;border-radius:12px;overflow:hidden;display:block;background:#eee}
+.himg img{width:100%;height:100%;object-fit:cover;transition:transform .3s}.hcard:hover .himg img{transform:scale(1.04)}
+.soon{opacity:.55}.soon .fimg{background:repeating-linear-gradient(45deg,var(--surface),var(--surface) 8px,var(--bg) 8px,var(--bg) 16px)}
+@media (max-width:760px){.hgrid{grid-template-columns:minmax(0,1fr)}}
+.fview{display:grid;gap:22px}.fview[hidden]{display:none}.back{color:var(--accent);text-decoration:none;font-weight:700}
+@media (max-width:760px){.fgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (prefers-reduced-motion:reduce){.fcard .fimg img{transition:none}}
+</style>
+<div class="wrap"><p class="note">Entwurf der Seite «Arbeiten»: Projekte und Ordner anklicken. Ordner mit «folgt» sind noch in Arbeit.</p><div id="overview" class="fview"><h1>Arbeiten</h1><section class="chapter"><p class="eyebrow">Ausgewählte Projekte</p><div class="hgrid"><a class="hcard" href="https://claude.ai/artifact/XWP2ub9yg6MDibVE8ZQZ2c" target="_blank" rel="noopener"><span class="himg"><img src="img/h_achema.jpg" alt=""></span><b>ACHEMA 2024 in Frankfurt</b></a><a class="hcard" href="https://claude.ai/artifact/1ub6RRXMbhZQRUq33avRvH" target="_blank" rel="noopener"><span class="himg"><img src="img/h_xmas.jpg" alt=""></span><b>Weihnachten 2026</b></a><a class="hcard" href="https://claude.ai/artifact/5CenZNzAZtaKJN37GonvR1" target="_blank" rel="noopener"><span class="himg"><img src="img/h_usa.jpg" alt=""></span><b>Mobiler Messestand für die USA</b></a><a class="hcard" href="https://claude.ai/artifact/6CM4QZGbNhy5bjxvvMbnbc" target="_blank" rel="noopener"><span class="himg"><img src="img/h_bro.jpg" alt=""></span><b>Broschüren in neun Sprachen</b></a><a class="hcard" href="https://claude.ai/artifact/AWzk8y7iyFhZyJJQF4gszF" target="_blank" rel="noopener"><span class="himg"><img src="img/h_reels.jpg" alt=""></span><b>Immobilien-Reels</b></a><a class="hcard" href="https://claude.ai/artifact/3YqAhMFfdAX84mYeGeTHFW" target="_blank" rel="noopener"><span class="himg"><img src="img/h_marke.jpg" alt=""></span><b>Die Marke im eigenen Gebäude</b></a></div></section><section class="chapter"><p class="eyebrow">Messen</p><div class="fgrid"><div class="fcard soon"><span class="fimg"></span><b>International</b><small>folgt</small></div><div class="fcard soon"><span class="fimg"></span><b>Schweiz</b><small>folgt</small></div></div></section><section class="chapter"><p class="eyebrow">Grafik & Print</p><div class="fgrid"><a class="fcard" href="https://claude.ai/artifact/6CM4QZGbNhy5bjxvvMbnbc" target="_blank" rel="noopener"><span class="fimg"><img src="img/h_bro.jpg" alt=""></span><b>Broschüren und Magazin</b><small>Eigene Projektseite ↗</small></a><a class="fcard" href="#flyer"><span class="fimg"><img src="img/g_sonnenhof-1.jpg" alt=""></span><b>Flyer</b><small>4 Arbeiten</small></a><a class="fcard" href="#inserate"><span class="fimg"><img src="img/i_petro.jpg" alt=""></span><b>Inserate</b><small>12 Arbeiten</small></a><a class="fcard" href="#infoblaetter"><span class="fimg"><img src="img/ms_fact-1.jpg" alt=""></span><b>Infoblätter</b><small>2 Arbeiten</small></a><a class="fcard" href="https://claude.ai/artifact/Fb4PomaQSsp4yY18TA8Uks" target="_blank" rel="noopener"><span class="fimg"><img src="img/h_song.jpg" alt=""></span><b>Grusskarten</b><small>Eigene Projektseite ↗</small></a><a class="fcard" href="#messegrafik"><span class="fimg"><img src="img/m_petro26.jpg" alt=""></span><b>Messegrafik</b><small>13 Arbeiten</small></a><a class="fcard" href="https://claude.ai/artifact/6FrfmXHa7BUcfu8ZvPWrZE" target="_blank" rel="noopener"><span class="fimg"><img src="img/h_info.jpg" alt=""></span><b>Infografiken</b><small>Eigene Projektseite ↗</small></a></div></section><section class="chapter"><p class="eyebrow">Corporate Design & Raum</p><div class="fgrid"><a class="fcard" href="https://claude.ai/artifact/3YqAhMFfdAX84mYeGeTHFW" target="_blank" rel="noopener"><span class="fimg"><img src="img/h_marke.jpg" alt=""></span><b>Raumgestaltung</b><small>Eigene Projektseite ↗</small></a><a class="fcard" href="#redesigns"><span class="fimg"><img src="img/mappe23-1.jpg" alt=""></span><b>Redesigns</b><small>5 Arbeiten</small></a><div class="fcard soon"><span class="fimg"></span><b>Markenidentität</b><small>folgt</small></div></div></section><section class="chapter"><p class="eyebrow">Digital & Social Media</p><div class="fgrid"><a class="fcard" href="#website"><span class="fimg"><img src="img/web_report.jpg" alt=""></span><b>Website</b><small>1 Arbeit</small></a><div class="fcard soon"><span class="fimg"></span><b>Newsletter</b><small>folgt</small></div><a class="fcard" href="#emailbanner"><span class="fimg"><img src="img/b_tfs_banner.jpg" alt=""></span><b>E-Mail-Banner</b><small>6 Arbeiten</small></a><a class="fcard" href="#webbanner"><span class="fimg"><img src="img/b_petro.jpg" alt=""></span><b>Web-Banner</b><small>1 Arbeit</small></a><a class="fcard" href="#linkedin"><span class="fimg"><img src="img/b_aug.jpg" alt=""></span><b>LinkedIn</b><small>2 Arbeiten</small></a><div class="fcard soon"><span class="fimg"></span><b>Instagram</b><small>folgt</small></div></div></section><section class="chapter"><p class="eyebrow">Foto & Video</p><div class="fgrid"><div class="fcard soon"><span class="fimg"></span><b>Firmenshooting</b><small>folgt</small></div><div class="fcard soon"><span class="fimg"></span><b>Reportage</b><small>folgt</small></div><a class="fcard" href="https://claude.ai/artifact/AWzk8y7iyFhZyJJQF4gszF" target="_blank" rel="noopener"><span class="fimg"><img src="img/h_reels.jpg" alt=""></span><b>Immobilienvideos</b><small>Eigene Projektseite ↗</small></a><div class="fcard soon"><span class="fimg"></span><b>Erklärvideos</b><small>folgt</small></div></div></section><section class="chapter"><p class="eyebrow">Werbeartikel</p><div class="fgrid"><div class="fcard soon"><span class="fimg"></span><b>Giveaways</b><small>folgt</small></div><a class="fcard" href="https://claude.ai/artifact/1ub6RRXMbhZQRUq33avRvH" target="_blank" rel="noopener"><span class="fimg"><img src="img/h_xmas.jpg" alt=""></span><b>Kunden- und Mitarbeitergeschenke</b><small>Eigene Projektseite ↗</small></a><div class="fcard soon"><span class="fimg"></span><b>Arbeits- und Messekleidung</b><small>folgt</small></div></div></section></div><section class="fview" id="inserate" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Grafik & Print</p><h1>Inserate</h1><p class="lead">Inserate in Fachzeitschriften, Messekatalogen, Magazinen und Regionalzeitungen, jeweils in der Sprache des Zielpublikums.</p><p class="sub">CP Pump Systems</p><div class="grid4"><figure><button class="zoom plan" data-gallery="ins1" data-n="0" aria-label="World Fertilizer, Fachzeitschrift gross ansehen"><img src="img/anzeige.jpg" alt="World Fertilizer, Fachzeitschrift"></button><figcaption class="tag">World Fertilizer, Fachzeitschrift</figcaption></figure><figure><button class="zoom plan" data-gallery="ins1" data-n="1" aria-label="The Fertilizer Show, Katalog gross ansehen"><img src="img/i_tfs.jpg" alt="The Fertilizer Show, Katalog"></button><figcaption class="tag">The Fertilizer Show, Katalog</figcaption></figure><figure><button class="zoom plan" data-gallery="ins1" data-n="2" aria-label="DK Hub, Katalog gross ansehen"><img src="img/i_dk.jpg" alt="DK Hub, Katalog"></button><figcaption class="tag">DK Hub, Katalog</figcaption></figure><figure><button class="zoom plan" data-gallery="ins1" data-n="3" aria-label="Petrochymia, Katalog gross ansehen"><img src="img/i_petro.jpg" alt="Petrochymia, Katalog"></button><figcaption class="tag">Petrochymia, Katalog</figcaption></figure><figure><button class="zoom plan" data-gallery="ins1" data-n="4" aria-label="ChemUK, Katalog gross ansehen"><img src="img/i_chemuk.jpg" alt="ChemUK, Katalog"></button><figcaption class="tag">ChemUK, Katalog</figcaption></figure></div><p class="sub">GOLDINGER Immobilien</p><div class="grid4"><figure><button class="zoom plan" data-gallery="ins2" data-n="0" aria-label="Hauseigentümer-Magazin: Website und 35 Jahre gross ansehen"><img src="img/g_hev22.jpg" alt="Hauseigentümer-Magazin: Website und 35 Jahre"></button><figcaption class="tag">Hauseigentümer-Magazin: Website und 35 Jahre</figcaption></figure><figure><button class="zoom plan" data-gallery="ins2" data-n="1" aria-label="Hauseigentümer-Magazin: Ratgeber gross ansehen"><img src="img/g_hev23.jpg" alt="Hauseigentümer-Magazin: Ratgeber"></button><figcaption class="tag">Hauseigentümer-Magazin: Ratgeber</figcaption></figure><figure><button class="zoom plan" data-gallery="ins2" data-n="2" aria-label="Messe WEGA gross ansehen"><img src="img/g_wega.jpg" alt="Messe WEGA"></button><figcaption class="tag">Messe WEGA</figcaption></figure><figure><button class="zoom plan" data-gallery="ins2" data-n="3" aria-label="Infoabende, grosses Format gross ansehen"><img src="img/g_sgkb.jpg" alt="Infoabende, grosses Format"></button><figcaption class="tag">Infoabende, grosses Format</figcaption></figure><figure><button class="zoom plan" data-gallery="ins2" data-n="4" aria-label="Infoabende, kleines Format gross ansehen"><img src="img/g_kreuz.jpg" alt="Infoabende, kleines Format"></button><figcaption class="tag">Infoabende, kleines Format</figcaption></figure><figure><button class="zoom plan" data-gallery="ins2" data-n="5" aria-label="Infoabende, Gesamtausgabe gross ansehen"><img src="img/g_tkb.jpg" alt="Infoabende, Gesamtausgabe"></button><figcaption class="tag">Infoabende, Gesamtausgabe</figcaption></figure><figure><button class="zoom plan" data-gallery="ins2" data-n="6" aria-label="Clubmagazin eines Sportclubs gross ansehen"><img src="img/sck.jpg" alt="Clubmagazin eines Sportclubs"></button><figcaption class="tag">Clubmagazin eines Sportclubs</figcaption></figure></div></section><section class="fview" id="flyer" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Grafik & Print</p><h1>Flyer</h1><p class="lead">Flyer für Veranstaltungen, Neubauprojekte und Angebote, mit allen Seiten.</p><div class="item"><div><span class="client">GOLDINGER Immobilien</span><h3>Gutschein Wertermittlung</h3><p class="meta">A5 quer, vier Seiten</p></div><div class="pages" style="--r:1398/985;--w:200px"><figure><button class="zoom page" data-gallery="gut" data-n="0" aria-label="Gutschein Wertermittlung, Seite 1 gross ansehen"><img src="img/g_gutschein-1.jpg" alt="Gutschein Wertermittlung, Seite 1"></button></figure><figure><button class="zoom page" data-gallery="gut" data-n="1" aria-label="Gutschein Wertermittlung, Seite 2 gross ansehen"><img src="img/g_gutschein-2.jpg" alt="Gutschein Wertermittlung, Seite 2"></button></figure><figure><button class="zoom page" data-gallery="gut" data-n="2" aria-label="Gutschein Wertermittlung, Seite 3 gross ansehen"><img src="img/g_gutschein-3.jpg" alt="Gutschein Wertermittlung, Seite 3"></button></figure><figure><button class="zoom page" data-gallery="gut" data-n="3" aria-label="Gutschein Wertermittlung, Seite 4 gross ansehen"><img src="img/g_gutschein-4.jpg" alt="Gutschein Wertermittlung, Seite 4"></button></figure></div></div><div class="item"><div><span class="client">GOLDINGER Immobilien</span><h3>Neubauprojekt Sonnenhof</h3><p class="meta">A5, zwei Seiten</p></div><div class="pages" style="--r:1399/1985;--w:130px"><figure><button class="zoom page" data-gallery="sonne" data-n="0" aria-label="Neubauprojekt Sonnenhof, Seite 1 gross ansehen"><img src="img/g_sonnenhof-1.jpg" alt="Neubauprojekt Sonnenhof, Seite 1"></button></figure><figure><button class="zoom page" data-gallery="sonne" data-n="1" aria-label="Neubauprojekt Sonnenhof, Seite 2 gross ansehen"><img src="img/g_sonnenhof-2.jpg" alt="Neubauprojekt Sonnenhof, Seite 2"></button></figure></div></div><div class="item"><div><span class="client">GOLDINGER Immobilien</span><h3>Tag der offenen Tür</h3><p class="meta">Flyer zu einem Neubauprojekt</p></div><div class="pages" style="--r:1400/1989;--w:130px"><figure><button class="zoom page" data-gallery="gruen" data-n="0" aria-label="Tag der offenen Tür gross ansehen"><img src="img/g_gruenblick.jpg" alt="Tag der offenen Tür"></button></figure></div></div><div class="item"><div><span class="client">CP Pump Systems</span><h3>Molten Sulphur</h3><p class="meta">US-Letter, zwei Seiten</p></div><div class="pages" style="--r:1400/1812;--w:130px"><figure><button class="zoom page" data-gallery="us" data-n="0" aria-label="Molten Sulphur, Seite 1 gross ansehen"><img src="img/ms_us-1.jpg" alt="Molten Sulphur, Seite 1"></button></figure><figure><button class="zoom page" data-gallery="us" data-n="1" aria-label="Molten Sulphur, Seite 2 gross ansehen"><img src="img/ms_us-2.jpg" alt="Molten Sulphur, Seite 2"></button></figure></div></div></section><section class="fview" id="infoblaetter" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Grafik & Print</p><h1>Infoblätter</h1><p class="lead">Kompakte Informationen zu Produkten und Angeboten, für Messen, Kundentermine und als Download.</p><div class="item"><div><span class="client">CP Pump Systems</span><h3>Factsheet Molten Sulphur</h3><p class="meta">A4, zwei Seiten, Englisch</p></div><div class="pages" style="--r:1398/1977;--w:130px"><figure><button class="zoom page" data-gallery="fact" data-n="0" aria-label="Factsheet Molten Sulphur, Seite 1 gross ansehen"><img src="img/ms_fact-1.jpg" alt="Factsheet Molten Sulphur, Seite 1"></button></figure><figure><button class="zoom page" data-gallery="fact" data-n="1" aria-label="Factsheet Molten Sulphur, Seite 2 gross ansehen"><img src="img/ms_fact-2.jpg" alt="Factsheet Molten Sulphur, Seite 2"></button></figure></div></div><div class="item"><div><span class="client">CP Pump Systems</span><h3>Sofort verfügbare Pumpensysteme</h3><p class="meta">A4, Deutsch und Englisch</p></div><div class="pages" style="--r:1398/1977;--w:130px"><figure><button class="zoom page" data-gallery="lead" data-n="0" aria-label="Sofort verfügbare Pumpensysteme gross ansehen"><img src="img/f_lead.jpg" alt="Sofort verfügbare Pumpensysteme"></button></figure></div></div></section><section class="fview" id="messegrafik" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Grafik & Print</p><h1>Messegrafik</h1><p class="lead">Rückwände, Blenden und Folien für die Messestände, jeweils in der Sprache des Messelandes und abgestimmt auf die Standgrösse.</p><p class="sub">Rückwände</p><div class="item wide"><div><span class="client">CP Pump Systems</span><h3>Petrochymia 2024</h3><p class="meta">Sechs Paneele, Französisch</p></div><div class="pages" style="--r:2724/1100;--w:900px"><figure><button class="zoom page" data-gallery="mw1" data-n="0" aria-label="Petrochymia 2024 gross ansehen"><img src="img/m_petro24.jpg" alt="Petrochymia 2024"></button></figure></div></div><div class="item wide"><div><span class="client">CP Pump Systems</span><h3>Pumps & Valves Dortmund 2025</h3><p class="meta">Zwei Wände eines Eckstands</p></div><div class="pages" style="--r:2400/663;--w:900px"><figure><button class="zoom page" data-gallery="mw2" data-n="0" aria-label="Pumps & Valves Dortmund 2025 gross ansehen"><img src="img/m_pv25.jpg" alt="Pumps & Valves Dortmund 2025"></button></figure></div></div><div class="item wide"><div><span class="client">CP Pump Systems</span><h3>Pétro+Chimie Le Havre 2025</h3><p class="meta">Design der Petrochymia 2024 weitergeführt</p></div><div class="pages" style="--r:2745/1100;--w:900px"><figure><button class="zoom page" data-gallery="mw3" data-n="0" aria-label="Pétro+Chimie Le Havre 2025 gross ansehen"><img src="img/m_lehavre.jpg" alt="Pétro+Chimie Le Havre 2025"></button></figure></div></div><div class="item wide"><div><span class="client">CP Pump Systems</span><h3>Fertilizer Latino Americano 2026</h3><p class="meta">Rückwand, Englisch</p></div><div class="pages" style="--r:2400/1033;--w:900px"><figure><button class="zoom page" data-gallery="mw4" data-n="0" aria-label="Fertilizer Latino Americano 2026 gross ansehen"><img src="img/m_fla.jpg" alt="Fertilizer Latino Americano 2026"></button></figure></div></div><div class="item wide"><div><span class="client">CP Pump Systems</span><h3>DK Hub Dunkerque 2026</h3><p class="meta">Paneele und Kabinentür, Französisch</p></div><div class="pages" style="--r:2639/1100;--w:900px"><figure><button class="zoom page" data-gallery="mw5" data-n="0" aria-label="DK Hub Dunkerque 2026 gross ansehen"><img src="img/m_dk.jpg" alt="DK Hub Dunkerque 2026"></button></figure></div></div><div class="item wide"><div><span class="client">CP Pump Systems</span><h3>ChemUK 2026</h3><p class="meta">Rückwand 6 m, Englisch</p></div><div class="pages" style="--r:2400/1017;--w:900px"><figure><button class="zoom page" data-gallery="mw6" data-n="0" aria-label="ChemUK 2026 gross ansehen"><img src="img/m_chemuk.jpg" alt="ChemUK 2026"></button></figure></div></div><div class="item wide"><div><span class="client">CP Pump Systems</span><h3>Petrochymia 2026</h3><p class="meta">Paneele mit Anlagenfoto und neuer Weltkarte</p></div><div class="pages" style="--r:2818/1100;--w:900px"><figure><button class="zoom page" data-gallery="mw7" data-n="0" aria-label="Petrochymia 2026 gross ansehen"><img src="img/m_petro26.jpg" alt="Petrochymia 2026"></button></figure></div></div><div class="item wide"><div><span class="client">CP Pump Systems</span><h3>CRU Sulphur + Sulphuric Acid Berlin 2026</h3><p class="meta">«Keep Your Molten Sulphur Flowing», drei Paneele</p></div><div class="pages" style="--r:2046/1710;--w:900px"><figure><button class="zoom page" data-gallery="mw8" data-n="0" aria-label="CRU Sulphur + Sulphuric Acid Berlin 2026 gross ansehen"><img src="img/ms_wand.jpg" alt="CRU Sulphur + Sulphuric Acid Berlin 2026"></button></figure></div></div><p class="sub">Blenden</p><div class="banners"><figure><button class="zoom plan" data-gallery="bl" data-n="0" aria-label="Petrochymia 2024, 6 m gross ansehen"><img src="img/f_p24_fac6.jpg" alt="Petrochymia 2024, 6 m"></button><figcaption class="tag">Petrochymia 2024, 6 m</figcaption></figure><figure><button class="zoom plan" data-gallery="bl" data-n="1" aria-label="DK Hub 2026 gross ansehen"><img src="img/f_dk.jpg" alt="DK Hub 2026"></button><figcaption class="tag">DK Hub 2026</figcaption></figure><figure><button class="zoom plan" data-gallery="bl" data-n="2" aria-label="ChemUK 2026, 6 m gross ansehen"><img src="img/f_uk_fascia.jpg" alt="ChemUK 2026, 6 m"></button><figcaption class="tag">ChemUK 2026, 6 m</figcaption></figure><figure><button class="zoom plan" data-gallery="bl" data-n="3" aria-label="Petrochymia 2026, 6 m gross ansehen"><img src="img/f_p26.jpg" alt="Petrochymia 2026, 6 m"></button><figcaption class="tag">Petrochymia 2026, 6 m</figcaption></figure></div><p class="sub">Folien</p><div class="grid4"><figure><button class="zoom plan" data-gallery="fo" data-n="0" aria-label="ACHEMA 2024: Folie für die Theke gross ansehen"><img src="img/m_achema.jpg" alt="ACHEMA 2024: Folie für die Theke"></button><figcaption class="tag">ACHEMA 2024: Folie für die Theke</figcaption></figure></div></section><section class="fview" id="redesigns" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Corporate Design & Raum</p><h1>Redesigns</h1><p class="lead">Bei GOLDINGER habe ich bestehende Werbemittel neu gestaltet: klares Blau und Weiss, grosse Bilder, wenig Text. Den Regler ziehen, um alt und neu zu vergleichen.</p><figure class="babox"><div class="ba" style="--r:3028/900"><img src="img/wand_alt.jpg" alt="Vorher: Messewand WEGA"><img class="after" src="img/wand_neu.jpg" alt="Nachher: Messewand WEGA"><span class="bar"></span><span class="lbl l1">Vorher</span><span class="lbl l2">Nachher</span><input type="range" min="0" max="100" value="50" aria-label="Vorher und Nachher vergleichen: Messewand WEGA"></div><figcaption class="tag">Messewand WEGA</figcaption></figure><figure class="babox"><div class="ba" style="--r:1583/875"><img src="img/mappe22-1.jpg" alt="Vorher: Faltmappe, Aussenseite"><img class="after" src="img/mappe23-1.jpg" alt="Nachher: Faltmappe, Aussenseite"><span class="bar"></span><span class="lbl l1">Vorher</span><span class="lbl l2">Nachher</span><input type="range" min="0" max="100" value="50" aria-label="Vorher und Nachher vergleichen: Faltmappe, Aussenseite"></div><figcaption class="tag">Faltmappe, Aussenseite</figcaption></figure><figure class="babox"><div class="ba" style="--r:1583/875"><img src="img/mappe22-2.jpg" alt="Vorher: Faltmappe, Innenseite"><img class="after" src="img/mappe23-2.jpg" alt="Nachher: Faltmappe, Innenseite"><span class="bar"></span><span class="lbl l1">Vorher</span><span class="lbl l2">Nachher</span><input type="range" min="0" max="100" value="50" aria-label="Vorher und Nachher vergleichen: Faltmappe, Innenseite"></div><figcaption class="tag">Faltmappe, Innenseite</figcaption></figure><figure class="babox"><div class="ba" style="--r:1400/987"><img src="img/g_info22-1.jpg" alt="Vorher: Flyer Infoabende, Vorderseite"><img class="after" src="img/g_info23-1.jpg" alt="Nachher: Flyer Infoabende, Vorderseite"><span class="bar"></span><span class="lbl l1">Vorher</span><span class="lbl l2">Nachher</span><input type="range" min="0" max="100" value="50" aria-label="Vorher und Nachher vergleichen: Flyer Infoabende, Vorderseite"></div><figcaption class="tag">Flyer Infoabende, Vorderseite</figcaption></figure><figure class="babox"><div class="ba" style="--r:1400/987"><img src="img/g_info22-2.jpg" alt="Vorher: Flyer Infoabende, Rückseite"><img class="after" src="img/g_info23-2.jpg" alt="Nachher: Flyer Infoabende, Rückseite"><span class="bar"></span><span class="lbl l1">Vorher</span><span class="lbl l2">Nachher</span><input type="range" min="0" max="100" value="50" aria-label="Vorher und Nachher vergleichen: Flyer Infoabende, Rückseite"></div><figcaption class="tag">Flyer Infoabende, Rückseite</figcaption></figure></section><section class="fview" id="website" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Digital & Social Media</p><h1>Website</h1><p class="lead">Beiträge für die Website von CP Pump Systems.</p><div class="report"><div class="rl"><small>Anwendungsbericht · Düngemittelproduktion</small><b>Dichtungslose Magnetkupplungspumpen für die Förderung von saurem Prozesswasser</b><p>Für ein neues Rückführungssystem von Pondwasser in einem Düngemittelwerk brauchte es eine dichte, korrosionsbeständige Lösung. Drei Magnetkupplungspumpen fördern das saure Wasser zurück in den Prozess. Den Bericht verfasste ich mit fachlicher Unterstützung des Verkaufsteams und veröffentlichte ihn in drei Sprachen.</p><div class="langs"><i>DE</i><i>EN</i><i>FR</i></div></div><div class="rr"><div><strong>3</strong><span>Pumpen MKP 200-150-500</span></div><div><strong>682 m³/h</strong><span>Förderstrom gesamt</span></div><div><strong>72,6 %</strong><span>hydraulischer Wirkungsgrad</span></div></div></div></section><section class="fview" id="emailbanner" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Digital & Social Media</p><h1>E-Mail-Banner</h1><p class="lead">Zu jeder Messe ein Banner für Einladungen und E-Mail-Signaturen, dazu ein Sammelbanner mit allen kommenden Messen.</p><div class="banners"><figure><button class="zoom plan" data-gallery="eb" data-n="0" aria-label="CRU Sulphur + Sulphuric Acid gross ansehen"><img src="img/b_cru_banner.jpg" alt="CRU Sulphur + Sulphuric Acid"></button><figcaption class="tag">CRU Sulphur + Sulphuric Acid</figcaption></figure><figure><button class="zoom plan" data-gallery="eb" data-n="1" aria-label="The Fertilizer Show gross ansehen"><img src="img/b_tfs_banner.jpg" alt="The Fertilizer Show"></button><figcaption class="tag">The Fertilizer Show</figcaption></figure><figure><button class="zoom plan" data-gallery="eb" data-n="2" aria-label="Fertilizer Latino Americano gross ansehen"><img src="img/b_fla.jpg" alt="Fertilizer Latino Americano"></button><figcaption class="tag">Fertilizer Latino Americano</figcaption></figure><figure><button class="zoom plan" data-gallery="eb" data-n="3" aria-label="Pumps & Valves gross ansehen"><img src="img/b_pv.jpg" alt="Pumps & Valves"></button><figcaption class="tag">Pumps & Valves</figcaption></figure><figure><button class="zoom plan" data-gallery="eb" data-n="4" aria-label="DK Hub gross ansehen"><img src="img/b_dk.jpg" alt="DK Hub"></button><figcaption class="tag">DK Hub</figcaption></figure><figure><button class="zoom plan" data-gallery="eb" data-n="5" aria-label="Sammelbanner aller Messen gross ansehen"><img src="img/b_sammel_de.jpg" alt="Sammelbanner aller Messen"></button><figcaption class="tag">Sammelbanner aller Messen</figcaption></figure></div></section><section class="fview" id="webbanner" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Digital & Social Media</p><h1>Web-Banner</h1><p class="lead">Banner für die Websites der Messeveranstalter.</p><div class="banners"><figure><button class="zoom plan" data-gallery="wb" data-n="0" aria-label="Petrochymia, 1000 × 90 gross ansehen"><img src="img/b_petro.jpg" alt="Petrochymia, 1000 × 90"></button><figcaption class="tag">Petrochymia, 1000 × 90</figcaption></figure></div></section><section class="fview" id="linkedin" hidden><a class="back" href="#">← Alle Arbeiten</a><p class="eyebrow">Digital & Social Media</p><h1>LinkedIn</h1><p class="lead">Grafiken für die LinkedIn-Seite von CP Pump Systems.</p><div class="grid4"><figure><button class="zoom plan" data-gallery="li" data-n="0" aria-label="1. August gross ansehen"><img src="img/b_aug.jpg" alt="1. August"></button><figcaption class="tag">1. August</figcaption></figure><figure><button class="zoom plan" data-gallery="li" data-n="1" aria-label="Fertilizer Latino Americano gross ansehen"><img src="img/b_fla_social.jpg" alt="Fertilizer Latino Americano"></button><figcaption class="tag">Fertilizer Latino Americano</figcaption></figure></div></section></div>
+<dialog id="lb" aria-label="Galerie">
+  <div class="lb">
+    <div class="lbScroll"><img id="lbImg" src="" alt=""></div>
+    <div class="lbBar"><span id="lbCap"></span><button id="prev">Zurück</button><button id="next">Weiter</button><button id="close">Schliessen</button></div>
+    <div class="thumbs" id="thumbs"></div>
+  </div>
+</dialog>
+
+<script>
+const G={
+ ins1:[["img/anzeige.jpg","World Fertilizer, Fachzeitschrift"],["img/i_tfs.jpg","The Fertilizer Show, Katalog"],["img/i_dk.jpg","DK Hub, Katalog"],["img/i_petro.jpg","Petrochymia, Katalog"],["img/i_chemuk.jpg","ChemUK, Katalog"]],
+ ins2:[["img/g_hev22.jpg","Hauseigentümer-Magazin: Website und 35 Jahre"],["img/g_hev23.jpg","Hauseigentümer-Magazin: Ratgeber"],["img/g_wega.jpg","Messe WEGA"],["img/g_sgkb.jpg","Infoabende, grosses Format"],["img/g_kreuz.jpg","Infoabende, kleines Format"],["img/g_tkb.jpg","Infoabende, Gesamtausgabe"],["img/sck.jpg","Clubmagazin eines Sportclubs"]],
+ gut:[["img/g_gutschein-1.jpg","Gutschein Wertermittlung, Seite 1"],["img/g_gutschein-2.jpg","Gutschein Wertermittlung, Seite 2"],["img/g_gutschein-3.jpg","Gutschein Wertermittlung, Seite 3"],["img/g_gutschein-4.jpg","Gutschein Wertermittlung, Seite 4"]],
+ sonne:[["img/g_sonnenhof-1.jpg","Neubauprojekt Sonnenhof, Seite 1"],["img/g_sonnenhof-2.jpg","Neubauprojekt Sonnenhof, Seite 2"]],
+ gruen:[["img/g_gruenblick.jpg","Tag der offenen Tür"]],
+ us:[["img/ms_us-1.jpg","Molten Sulphur, Seite 1"],["img/ms_us-2.jpg","Molten Sulphur, Seite 2"]],
+ fact:[["img/ms_fact-1.jpg","Factsheet Molten Sulphur, Seite 1"],["img/ms_fact-2.jpg","Factsheet Molten Sulphur, Seite 2"]],
+ lead:[["img/f_lead.jpg","Sofort verfügbare Pumpensysteme"]],
+ mw1:[["img/m_petro24.jpg","Petrochymia 2024"]],
+ mw2:[["img/m_pv25.jpg","Pumps & Valves Dortmund 2025"]],
+ mw3:[["img/m_lehavre.jpg","Pétro+Chimie Le Havre 2025"]],
+ mw4:[["img/m_fla.jpg","Fertilizer Latino Americano 2026"]],
+ mw5:[["img/m_dk.jpg","DK Hub Dunkerque 2026"]],
+ mw6:[["img/m_chemuk.jpg","ChemUK 2026"]],
+ mw7:[["img/m_petro26.jpg","Petrochymia 2026"]],
+ mw8:[["img/ms_wand.jpg","CRU Sulphur + Sulphuric Acid Berlin 2026"]],
+ bl:[["img/f_p24_fac6.jpg","Petrochymia 2024, 6 m"],["img/f_dk.jpg","DK Hub 2026"],["img/f_uk_fascia.jpg","ChemUK 2026, 6 m"],["img/f_p26.jpg","Petrochymia 2026, 6 m"]],
+ fo:[["img/m_achema.jpg","ACHEMA 2024: Folie für die Theke"]],
+ eb:[["img/b_cru_banner.jpg","CRU Sulphur + Sulphuric Acid"],["img/b_tfs_banner.jpg","The Fertilizer Show"],["img/b_fla.jpg","Fertilizer Latino Americano"],["img/b_pv.jpg","Pumps & Valves"],["img/b_dk.jpg","DK Hub"],["img/b_sammel_de.jpg","Sammelbanner aller Messen"]],
+ wb:[["img/b_petro.jpg","Petrochymia, 1000 × 90"]],
+ li:[["img/b_aug.jpg","1. August"],["img/b_fla_social.jpg","Fertilizer Latino Americano"]]
+};
+let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
+function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
+function open(g,n){pages=G[g];i=n||0;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
+document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
+document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
+document.getElementById('next').onclick=()=>{i=(i+1)%pages.length;show()};
+document.getElementById('close').onclick=()=>d.close();
+th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+d.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+
+// Ordner-Navigation und Vorher/Nachher
+function route(){const h=location.hash.slice(1);document.querySelectorAll('.fview').forEach(s=>s.hidden=h?s.id!==h:s.id!=='overview');window.scrollTo(0,0);}
+addEventListener('hashchange',route);route();
+document.querySelectorAll('.ba input').forEach(r=>r.addEventListener('input',()=>r.parentElement.style.setProperty('--p',r.value+'%')));
+</script>
