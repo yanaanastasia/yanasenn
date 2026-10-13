@@ -1,7 +1,7 @@
 # Messen v2: ruhige Übersicht + Detailansicht pro Messe
 exec(open(S+'/me/content.py',encoding='utf-8').read())
 import json
-IM=json.load(open(S+'/me/imgs.json'))
+IM=json.load(open(S+'/me/imgs2.json'))
 # Zusatzinfos pro Messe (aus content-plan.md, Kurz-Zeilen und Texte)
 FACT={
 'achema':[('Ort','Location','Messe Frankfurt','Messe Frankfurt'),('Rolle','Role','Projektleitung ab Frühling 2024','Project lead from spring 2024'),('Vor Ort','On site','im Standteam','in the booth team')],
@@ -33,13 +33,12 @@ MORE={
 'petro26':[('Über das Kommunikationspaket des Veranstalters ist CP im Messekatalog und auf der Messe-Website präsent, mit einer Anzeige, die vier Baureihen vorstellt, und zwei Web-Bannern.','Through the organiser’s communication package, CP is present in the fair catalogue and on the fair website, with an ad presenting four product series and two web banners.')],
 'dahej26':[('Gezeigt werden drei Magnetkupplungspumpen aus den Baureihen MKP, MKP-S und MKPL. Vor Ort betreut das Verkaufsteam den Stand.','Three magnetic drive pumps from the MKP, MKP-S and MKPL series are on show. On site, the sales team runs the booth.')],
 }
-CAT=[('stand',('Am Stand','At the booth')),('design',('Standdesign','Booth design')),('komm',('Kommunikation','Communication'))]
-COVER={'petro24':'d_petro24_design0.jpg','fla26':'d_fla26_design0.jpg','cru26':'d_cru26_design0.jpg','tfs26':'d_tfs26_komm0.jpg','petro26':'d_petro26_design0.jpg','dahej26':'d_dahej26_komm0.jpg','tps':'d_tps_stand2.jpg'}
-def cover(k):
-    if k in COVER: return COVER[k]
-    for c,_ in CAT:
-        if IM.get(k,{}).get(c): return IM[k][c][0]
-    return None
+CAT=[('design',('Standdesign','Booth design'),('Rückwände, Blenden und Grafik für den Stand.','Back walls, fascias and graphics for the booth.')),
+('stand',('Am Stand','At the booth'),('So sah der Auftritt vor Ort aus.','How the booth looked on site.')),
+('vor',('Vor der Messe','Before the fair'),('E-Mail-Signatur, Banner, Inserate und Social Media machen die Teilnahme im Vorfeld bekannt.','E-mail signature, banners, ads and social media announce the participation beforehand.')),
+('brief',('Briefing fürs Team','Briefing for the team'),('Vor jeder Messe erstelle ich ein Messebriefing für das Standteam: Fakten zur Messe, Standplan, Ablauf und Dresscode.','Before every fair I create a briefing for the booth team: fair facts, booth plan, schedule and dress code.')),
+('lead',('Leads','Leads'),('Mit dem Lead-Formular hält das Team jedes Gespräch am Stand fest: Branche, Einsatzbereich, Produktinteresse und nächste Schritte. Das Formular erstelle ich für jede Messe.','With the lead form the team records every conversation at the booth: industry, application, product interest and next steps. I create the form for every fair.'))]
+def cover(k): return (IM.get(k,{}).get('hero') or [None])[0]
 ORDER=[f[0] for f in F]
 LOGO={'achema':'achema','tps':'tps','petro24':'petro','petro26':'petro','pv25':'pv','pv26':'pv','tfs25':'tfs','tfs26':'tfs','leuna25':'leuna','cru25':'cru','cru26':'cru','lh25':'lh','fla26':'fla','dk26':'dk','uk26':'chemuk','cheme26':'cheme','dahej26':'dahej'}
 def card(f):
@@ -52,16 +51,16 @@ def sheet(f):
     facts=''.join(f'<div><dt>{T(a,b)}</dt><dd>{T(c,d)}</dd></div>' for a,b,c,d in FACT.get(k,[]))
     body=P(*(list(txt)+MORE.get(k,[])))
     gal=''
-    allimgs=[]
-    for c,lab in CAT:
+    for n_,(c,lab,blurb) in enumerate(CAT,1):
         fs=IM.get(k,{}).get(c,[])
         if not fs: continue
+        if k=='achema' and c=='design': blurb=('Standdesign und Standbau lagen bei einer Agentur. Von mir: die Infostelen zu den Exponaten.','Booth design and construction were by an agency. My part: the info columns for the exhibits.')
         gid=f'f_{k}_{c}'; G[gid]=[(x,f'{name} · {lab[0]}') for x in fs]
         tiles=''.join(f'<button class="gt{" fit" if c!="stand" else ""}" data-gallery="{gid}" data-n="{i}"><img src="img/{x}" alt="{name}, {lab[0]} {i+1}"></button>' for i,x in enumerate(fs))
-        gal+=f'<section class="gsec"><h4>{T(*lab)}</h4><div class="gg">{tiles}</div></section>'
-        allimgs+=fs
+        gal+=f'<section class="gsec"><div class="gh"><h4>{T(*lab)}</h4><p>{T(*blurb)}</p></div><div class="gg">{tiles}</div></section>'
     c=cover(k)
-    heroh=(f'<div class="sh-hero{" fit" if c and ("design" in c or "komm" in c) else ""}"><img src="img/{c}" alt="{name}"></div>' if c else '')
+    heroh=(f'<button class="sh-hero" data-gallery="h_{k}" data-n="0"><img src="img/{c}" alt="{name}"></button>' if c else '')
+    if c: G[f'h_{k}']=[(c,name)]
     lk=f'<a class="lnk" href="{A}{link}" target="_blank" rel="noopener">{T("Ganze Projektseite ansehen","View the full project page")} ↗</a>' if link else ''
     i=ORDER.index(k); pv=ORDER[i-1] if i>0 else None; nx=ORDER[i+1] if i+1<len(ORDER) else None
     nm={f[0]:f[1] for f in F}

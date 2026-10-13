@@ -1,0 +1,272 @@
+{
+"achema": {
+"hero": [
+"e_achema_hero0.jpg"
+],
+"design": [
+"e_achema_design0.jpg",
+"e_achema_design1.jpg"
+],
+"stand": [
+"e_achema_stand0.jpg"
+],
+"vor": [
+"e_achema_vor0.jpg",
+"e_achema_vor1.jpg",
+"e_achema_vor2.jpg"
+],
+"brief": [
+"e_achema_brief0.jpg",
+"e_achema_brief1.jpg",
+"e_achema_brief2.jpg"
+],
+"lead": [
+"e_achema_lead0.jpg"
+]
+},
+"tps": {
+"hero": [
+"e_tps_hero0.jpg"
+],
+"design": [
+"e_tps_design0.jpg",
+"e_tps_design1.jpg",
+"e_tps_design2.jpg"
+],
+"stand": [
+"e_tps_stand0.jpg",
+"e_tps_stand1.jpg",
+"e_tps_stand2.jpg"
+]
+},
+"petro24": {
+"hero": [
+"e_petro24_hero0.jpg"
+],
+"design": [
+"e_petro24_design0.jpg",
+"e_petro24_design1.jpg",
+"e_petro24_design2.jpg"
+],
+"stand": [
+"e_petro24_stand0.jpg"
+]
+},
+"pv25": {
+"hero": [
+"e_pv25_hero0.jpg"
+],
+"design": [
+"e_pv25_design0.jpg",
+"e_pv25_design1.jpg"
+],
+"stand": [
+"e_pv25_stand0.jpg",
+"e_pv25_stand1.jpg"
+],
+"vor": [
+"e_pv25_vor0.jpg"
+]
+},
+"tfs25": {
+"hero": [
+"e_tfs25_hero0.jpg"
+],
+"stand": [
+"e_tfs25_stand0.jpg",
+"e_tfs25_stand1.jpg"
+],
+"vor": [
+"e_tfs25_vor0.jpg",
+"e_tfs25_vor1.jpg"
+]
+},
+"leuna25": {},
+"cru25": {
+"hero": [
+"e_cru25_hero0.jpg"
+],
+"stand": [
+"e_cru25_stand0.jpg",
+"e_cru25_stand1.jpg"
+],
+"vor": [
+"e_cru25_vor0.jpg"
+]
+},
+"lh25": {
+"hero": [
+"e_lh25_hero0.jpg"
+],
+"design": [
+"e_lh25_design0.jpg",
+"e_lh25_design1.jpg"
+],
+"stand": [
+"e_lh25_stand0.jpg",
+"e_lh25_stand1.jpg"
+],
+"lead": [
+"e_lh25_lead0.jpg"
+]
+},
+"fla26": {
+"hero": [
+"e_fla26_hero0.jpg"
+],
+"design": [
+"e_fla26_design0.jpg"
+],
+"stand": [
+"e_fla26_stand0.jpg"
+],
+"vor": [
+"e_fla26_vor0.jpg",
+"e_fla26_vor1.jpg",
+"e_fla26_vor2.jpg"
+],
+"lead": [
+"e_fla26_lead0.jpg"
+]
+},
+"pv26": {
+"hero": [
+"e_pv26_hero0.jpg"
+],
+"design": [
+"e_pv26_design0.jpg",
+"e_pv26_design1.jpg"
+],
+"stand": [
+"e_pv26_stand0.jpg",
+"e_pv26_stand1.jpg"
+],
+"vor": [
+"e_pv26_vor0.jpg",
+"e_pv26_vor1.jpg"
+],
+"brief": [
+"e_pv26_brief0.jpg",
+"e_pv26_brief1.jpg",
+"e_pv26_brief2.jpg"
+],
+"lead": [
+"e_pv26_lead0.jpg"
+]
+},
+"dk26": {
+"hero": [
+"e_dk26_hero0.jpg"
+],
+"design": [
+"e_dk26_design0.jpg",
+"e_dk26_design1.jpg",
+"e_dk26_design2.jpg"
+],
+"stand": [
+"e_dk26_stand0.jpg",
+"e_dk26_stand1.jpg"
+],
+"vor": [
+"e_dk26_vor0.jpg",
+"e_dk26_vor1.jpg"
+],
+"brief": [
+"e_dk26_brief0.jpg",
+"e_dk26_brief1.jpg",
+"e_dk26_brief2.jpg"
+],
+"lead": [
+"e_dk26_lead0.jpg"
+]
+},
+"uk26": {
+"hero": [
+"e_uk26_hero0.jpg"
+],
+"design": [
+"e_uk26_design0.jpg",
+"e_uk26_design1.jpg"
+],
+"stand": [
+"e_uk26_stand0.jpg",
+"e_uk26_stand1.jpg"
+],
+"vor": [
+"e_uk26_vor0.jpg",
+"e_uk26_vor1.jpg"
+],
+"brief": [
+"e_uk26_brief0.jpg",
+"e_uk26_brief1.jpg",
+"e_uk26_brief2.jpg"
+],
+"lead": [
+"e_uk26_lead0.jpg"
+]
+},
+"cheme26": {
+"hero": [
+"e_cheme26_hero0.jpg"
+],
+"stand": [
+"e_cheme26_stand0.jpg",
+"e_cheme26_stand1.jpg"
+],
+"vor": [
+"e_cheme26_vor0.jpg"
+],
+"brief": [
+"e_cheme26_brief0.jpg",
+"e_cheme26_brief1.jpg",
+"e_cheme26_brief2.jpg"
+],
+"lead": [
+"e_cheme26_lead0.jpg"
+]
+},
+"cru26": {
+"hero": [
+"e_cru26_hero0.jpg"
+],
+"design": [
+"e_cru26_design0.jpg"
+],
+"vor": [
+"e_cru26_vor0.jpg"
+],
+"lead": [
+"e_cru26_lead0.jpg"
+]
+},
+"tfs26": {
+"vor": [
+"e_tfs26_vor0.jpg",
+"e_tfs26_vor1.jpg",
+"e_tfs26_vor2.jpg"
+],
+"lead": [
+"e_tfs26_lead0.jpg"
+],
+"design": [
+"e_tfs26_hero0.jpg"
+]
+},
+"petro26": {
+"hero": [
+"e_petro26_hero0.jpg"
+],
+"design": [
+"e_petro26_design0.jpg"
+],
+"vor": [
+"e_petro26_vor0.jpg",
+"e_petro26_vor1.jpg"
+]
+},
+"dahej26": {
+"vor": [
+"e_dahej26_vor0.jpg"
+]
+}
+}
