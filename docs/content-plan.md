@@ -1144,3 +1144,11 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 2. Monate der Allein-Phasen bei CP (für die Story in Case 2)
 3. Welche Services Yana anbieten will (Kapitel 5)
 4. Weitere Messen und Partner-Events: aufnehmen oder nicht (Case 2)
+
+
+### ✅ Neuaufbau nach Portfolio-Struktur (Yana 13.10.2026)
+- Seiten «Infografiken & Karten», «Songkran-Grusskarte», «Werbung: Print & Digital» gelöscht; **Inhalt gesichert in `docs/archiv/`** (Bilder, Seiten, Generatoren, README).
+- Prinzip: Kategorie-Seite (z. B. Grafik & Print) → Unterordner-Seiten (Broschüren und Magazin, Flyer, Inserate, Infoblätter, Grusskarten, Messegrafik, Infografiken). Pro Arbeit kurzes Intro + «Mehr Infos» zum Aufklappen; grosse Themen (z. B. Broschüren, Hausmagazin, einzelne Messen) auf eigene Detailseiten. Messen: Messen → International/Schweiz → einzelne Messe mit Infos.
+- Grusskarten: Weihnachtskarte und Songkran-Karte auf einer Seite.
+- Neue Drive-Inhalte, die nicht in der Struktur sind, prüfen und sinnvoll ergänzen.
+- Ziel: auf den ersten Blick professionell, clean, übersichtlich (Vorbilder Louis Plant, Olivia Hug).
