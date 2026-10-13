@@ -166,7 +166,15 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 .mxWrap{overflow-x:auto}
 @media (max-width:860px){.tiles{grid-template-columns:1fr 1fr}}
 
-.rneu{aspect-ratio:2400/920}.rA4p{aspect-ratio:1241/1754}.sw{display:grid;gap:10px}.sw .zoom[hidden]{display:none}.rmap{aspect-ratio:2400/1233}.ra4{aspect-ratio:1400/1897}.rsq{aspect-ratio:1600/1584}.rsp{aspect-ratio:2400/1696}
+.rneu{aspect-ratio:2400/920}.rA4p{aspect-ratio:1241/1754}.sw{display:grid;gap:10px}
+.steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.steps .zoom{aspect-ratio:16/10}
+.use{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:40px;align-items:start}
+@media (max-width:640px){.use{grid-template-columns:minmax(0,1fr)}.use figure{max-width:240px}}
+.steps .zoom.plan img{padding:18px}
+.steps figcaption{font-size:.85rem;color:var(--muted);display:flex;gap:8px;align-items:baseline}
+.steps figcaption b{color:var(--ink);font-weight:700}
+@media (max-width:640px){.steps{grid-template-columns:minmax(0,1fr)}}.sw .zoom[hidden]{display:none}.rmap{aspect-ratio:2400/1233}.ra4{aspect-ratio:1400/1897}.rsq{aspect-ratio:1600/1584}.rsp{aspect-ratio:2400/1696}
 .thumbrow{display:grid;grid-template-columns:repeat(auto-fill,200px);gap:12px}
 .thumbrow figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
 .thumbrow.sm{grid-template-columns:repeat(auto-fill,150px)}
@@ -189,9 +197,12 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     <div class="text">
       <h2>Weltkarte der Standorte</h2>
       <p>Die Karte zeigt die Standorte, Tochterfirmen und Niederlassungen von CP Pump Systems sowie Mitarbeitende in weiteren Ländern, mit einer Legende für CP Pump Systems und Partner.</p>
-      <p>Die ursprüngliche Karte war grau. In einer ersten Überarbeitung entstand eine flächige Fassung in CP-Blau für die Messewände. Die finale Fassung ist ein grünes Punktraster mit geordneten Beschriftungen, für Messewände und Broschüren.</p>
     </div>
-    <div class="grpbox"><p class="grp">Entwicklung</p><div class="thumbrow sm"><figure><button class="zoom page ra4" data-gallery="evo" data-n="0" aria-label="Ursprüngliche Karte gross ansehen"><img src="img/bro_grau.jpg" alt="Ursprüngliche Karte"></button><figcaption>Ursprüngliche Karte</figcaption></figure><figure><button class="zoom plan rmap" data-gallery="evo" data-n="1" aria-label="Erste Überarbeitung gross ansehen"><img src="img/alt_blau.jpg" alt="Erste Überarbeitung"></button><figcaption>Erste Überarbeitung</figcaption></figure><figure><button class="zoom page rA4p" data-gallery="evo" data-n="2" aria-label="Finale Fassung in der Broschüre gross ansehen"><img src="img/bro_neu.jpg" alt="Finale Fassung in der Broschüre"></button><figcaption>Finale Fassung in der Broschüre</figcaption></figure></div></div>
+    <div class="grpbox"><p class="grp">Vorher</p><div class="steps"><figure><button class="zoom plan" data-gallery="evo" data-n="0" aria-label="Ursprüngliche Karte gross ansehen"><img src="img/bro_grau.jpg" alt="Ursprüngliche Karte"></button><figcaption><b>1</b>Ursprüngliche Karte</figcaption></figure><figure><button class="zoom plan" data-gallery="evo" data-n="1" aria-label="Erste Überarbeitung für Messewände gross ansehen"><img src="img/alt_blau.jpg" alt="Erste Überarbeitung für Messewände"></button><figcaption><b>2</b>Erste Überarbeitung für Messewände</figcaption></figure></div></div>
+    <div class="use">
+      <div class="text"><p>Die ursprüngliche Karte war grau. In einer ersten Überarbeitung entstand eine flächige Fassung in CP-Blau für die Messewände. Die finale Fassung, oben im Bild, ist ein grünes Punktraster mit geordneten Beschriftungen. Sie ist auf Messewänden und in den Broschüren im Einsatz, als breite Fassung und im Hochformat für die A4-Seite.</p></div>
+      <figure><button class="zoom page rA4p" data-gallery="bro" data-n="0" aria-label="Finale Fassung im Company Profile gross ansehen"><img src="img/bro_neu.jpg" alt="Seite Locations im Company Profile mit der finalen Weltkarte"></button><figcaption class="cap">Finale Fassung im Company Profile</figcaption></figure>
+    </div>
   </section>
 
   <section class="chapter">
@@ -221,7 +232,8 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 <script>
 const G={
  hero:[["img/neu.jpg","Neue Weltkarte, Deutsch"],["img/neu_en.jpg","Neue Weltkarte, Englisch"]],
- evo:[["img/bro_grau.jpg","Ursprüngliche Karte"],["img/alt_blau.jpg","Erste Überarbeitung"],["img/bro_neu.jpg","Finale Fassung in der Broschüre"]],
+ evo:[["img/bro_grau.jpg","Ursprüngliche Karte"],["img/alt_blau.jpg","Erste Überarbeitung für Messewände"]],
+ bro:[["img/bro_neu.jpg","Finale Fassung im Company Profile"]],
  zs:[["img/zs_spread.jpg","Firmengeschichte, Deutsch"],["img/zs_spread_en.jpg","Firmengeschichte, Englisch"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
