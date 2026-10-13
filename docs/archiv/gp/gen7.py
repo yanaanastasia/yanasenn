@@ -146,9 +146,9 @@ for t_,de,en,f,bl in W8:
     walls+=f'<button class="mt" data-gallery="{g}" data-n="0"><span class="mi"><img src="img/{f}" alt="{t_}">'+(f'<span class="cnt">{T("+ Blende","+ fascia")}</span>' if bl else '')+f'</span><b>{t_}</b><small>{T(de,en)}</small></button>'
 gallery('x','Petrochymia 2026',['m_petro26.jpg','f_p26.jpg'])
 feat=row(CP,('Petrochymia 2026','Petrochymia 2026'),('Der aktuelle Auftritt: Paneele mit grossformatigem Anlagenfoto, der neuen Weltkarte und Swiss-Made-Zeichen, darüber die Blende mit Logo und Claim.','The latest booth: panels with a large plant photo, the new world map and the Swiss Made mark, topped by the fascia with logo and claim.'),'m_petro26.jpg',(('Französisch','French'),('mit Blende','with fascia'))).replace('class="row"','class="row feat"')
-gallery('x','ACHEMA 2024',['achema_mock.jpg','achema_front.jpg'])
-RID[0]+=1; take('w'+str(RID[0]),'achema_mock.jpg','ACHEMA 2024')
-walls+=f'<button class="mt" data-gallery="w{RID[0]}" data-n="0"><span class="mi st"><img src="img/achema_mock.jpg" alt="Stele ACHEMA 2024"></span><b>{T("Stele ACHEMA 2024","Display column ACHEMA 2024")}</b><small>{T("Vorne bedruckte Folie zu Service und Ersatzteilen, sonst weiss.","Printed foil on the front about service and spare parts, white elsewhere.")}</small></button>'
+gallery('x','ACHEMA 2024',['achema_stele.png'])
+RID[0]+=1; take('w'+str(RID[0]),'achema_stele.png','ACHEMA 2024')
+walls+=f'<button class="mt" data-gallery="w{RID[0]}" data-n="0"><span class="mi st"><img src="img/achema_stele.png" alt="Stele ACHEMA 2024"></span><b>{T("Stele ACHEMA 2024","Display column ACHEMA 2024")}</b><small>{T("Schmale, hohe Stele, vorne bedruckt zu Service und Ersatzteilen.","Slim, tall display column, printed on the front about service and spare parts.")}</small></button>'
 theke='';_x=(CP,('Stele ACHEMA 2024','Display column ACHEMA 2024'),('Freistehende Stele am Stand: vorne die bedruckte Folie zu Service und Ersatzteilen, hinten weiss.','Free-standing column at the booth: printed foil on the front about service and spare parts, white at the back.'),'achema_mock.jpg',(('Folie 1800 × 2200 mm','foil 1800 × 2200 mm'),))
 SEC.append(('messegrafik',('Messegrafik','Exhibition graphics'),('Rückwände, Blenden und Folien für die Messestände, abgestimmt auf Standgrösse, Messeland und Sprache. Die Wände bestehen aus einzelnen Paneelen, hier nebeneinander gezeigt. Bild anklicken, um es gross zu sehen.','Back walls, fascias and foils for trade fair booths, tailored to booth size, country and language. Walls consist of individual panels, shown side by side. Click an image to view it large.'),
  feat+f'<div class="sub"><h4>{T("Weitere Messen","More trade fairs")}</h4></div>'+'<div class="mgrid">'+walls+'</div>'))
@@ -261,7 +261,7 @@ html[lang=en] .l-de,html:not([lang=en]) .l-en{display:none}
 .vis .zoom img[src$="kat_mag.png"]{box-shadow:none}
 .mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:26px 22px}
 .mt{all:unset;cursor:pointer;display:grid;gap:6px;align-content:start}.mt .mi{position:relative;display:grid;place-items:center;aspect-ratio:16/10;background:var(--tint);border-radius:12px;padding:16px;overflow:hidden}
-.mt .mi img{position:absolute;inset:16px;width:calc(100% - 32px);height:calc(100% - 32px);object-fit:contain;transition:transform .3s}.mt:hover .mi img{transform:scale(1.03)}.mt .mi.st img{mix-blend-mode:multiply}
+.mt .mi img{position:absolute;inset:16px;width:calc(100% - 32px);height:calc(100% - 32px);object-fit:contain;transition:transform .3s}.mt:hover .mi img{transform:scale(1.03)}
 .mt b{font-size:.95rem;margin-top:4px}.mt small{color:var(--muted);font-size:.85rem}.mt:focus-visible .mi{outline:3px solid var(--accent);outline-offset:3px}
 #thumbs{display:flex;gap:6px;overflow-x:auto;justify-content:center;padding-bottom:4px}#thumbs button{all:unset;cursor:pointer;opacity:.5;flex:0 0 auto}#thumbs button[aria-current=true]{opacity:1;outline:2px solid #15181b}#thumbs img{box-shadow:0 2px 6px rgba(0,0,0,.2)}#thumbs img{height:52px;width:auto;display:block}
 .zoom .cnt,.pcov .cnt,.mt .cnt{z-index:2;position:absolute;left:10px;bottom:10px;background:rgba(0,0,0,.72);color:#fff;font:700 .7rem var(--font);padding:4px 9px;border-radius:99px}

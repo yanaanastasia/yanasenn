@@ -1163,3 +1163,4 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - Grafik & Print v7.1: Blätteransicht mit Milchglas-Hintergrund (Seite schimmert unscharf durch). Von Yana freigegeben («sonst sehr gut»).
 - Messekataloge: keine Collage mehr; Titelbild = aufgeschlagenes Magazin (links neutraler Platzhaltertext, rechts Inserat). In der Grossansicht jedes Inserat einzeln.
 - Weihnachtskarte Grossansicht: Vorderseite → Rätsel → Grusstext → Rückseite; Grusstext DE/EN per Umschalter.
+- ACHEMA-Stele: schmale, hohe Stele; nur die bedruckte Vorderseite zählt (Rest der Folie = Rückseite, nicht zeigen). Neues Mockup achema_stele.png, Grossansicht nur das Mockup.
