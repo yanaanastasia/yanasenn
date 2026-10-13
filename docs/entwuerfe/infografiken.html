@@ -166,7 +166,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 .mxWrap{overflow-x:auto}
 @media (max-width:860px){.tiles{grid-template-columns:1fr 1fr}}
 
-.rneu{aspect-ratio:2400/920}.rmap{aspect-ratio:2400/1233}.ra4{aspect-ratio:1400/1897}.rsq{aspect-ratio:1600/1584}.rsp{aspect-ratio:2400/1696}
+.rneu{aspect-ratio:2400/920}.rA4p{aspect-ratio:1241/1754}.sw{display:grid;gap:10px}.sw .zoom[hidden]{display:none}.rmap{aspect-ratio:2400/1233}.ra4{aspect-ratio:1400/1897}.rsq{aspect-ratio:1600/1584}.rsp{aspect-ratio:2400/1696}
 .thumbrow{display:grid;grid-template-columns:repeat(auto-fill,200px);gap:12px}
 .thumbrow figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
 .thumbrow.sm{grid-template-columns:repeat(auto-fill,150px)}
@@ -179,7 +179,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
   <header class="hero">
     <p class="eyebrow">Grafik · CP Pump Systems</p>
     <h1>Infografiken &amp; Karten</h1>
-    <figure><button class="zoom visual rneu" data-gallery="hero" data-n="0" aria-label="Weltkarte gross ansehen"><img src="img/neu.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster"></button><figcaption class="cap">Neue Weltkarte der Standorte</figcaption></figure>
+    <figure class="sw"><div class="langTabs" role="group" aria-label="Sprache wählen"><button type="button" data-sw="hero" data-i="0" aria-pressed="true">DE</button><button type="button" data-sw="hero" data-i="1" aria-pressed="false">EN</button></div><button class="zoom visual rneu" data-gallery="hero" data-n="0" aria-label="Neue Weltkarte, Deutsch gross ansehen"><img src="img/neu.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster, Deutsch"></button><button class="zoom visual rneu" data-gallery="hero" data-n="1" aria-label="Neue Weltkarte, Englisch gross ansehen" hidden><img src="img/neu_en.jpg" alt="Neue Weltkarte der Standorte von CP Pump Systems als grünes Punktraster, Englisch" loading="lazy"></button><figcaption class="cap">Neue Weltkarte der Standorte</figcaption></figure>
     <p class="lead">CP Pump Systems ist mit Standorten, Tochterfirmen und Partnern weltweit tätig und blickt auf eine lange Firmengeschichte zurück. Beides sollte auf einen Blick verständlich sein, in mehreren Sprachen und für ganz unterschiedliche Formate.</p>
     <p>Ich entwickelte die Weltkarte und den Zeitstrahl, von den ersten Entwürfen bis zu den fertigen Sprachversionen.</p>
   </header>
@@ -188,9 +188,10 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
     <p class="eyebrow">1 · Weltkarte</p>
     <div class="text">
       <h2>Weltkarte der Standorte</h2>
-      <p>Die Karte zeigt die Standorte, Tochterfirmen und Niederlassungen von CP Pump Systems sowie Mitarbeitende in weiteren Ländern, mit einer Legende für CP Pump Systems und Partner. In der neuen Fassung ist die Welt ein grünes Punktraster, die Beschriftungen stehen geordnet links und rechts der Karte. Sie ersetzt die frühere graue Fassung für Broschüren und die blaue für Messewände.</p>
+      <p>Die Karte zeigt die Standorte, Tochterfirmen und Niederlassungen von CP Pump Systems sowie Mitarbeitende in weiteren Ländern, mit einer Legende für CP Pump Systems und Partner.</p>
+      <p>Die ursprüngliche Karte war grau. In einer ersten Überarbeitung entstand eine flächige Fassung in CP-Blau für die Messewände. Die finale Fassung ist ein grünes Punktraster mit geordneten Beschriftungen, für Messewände und Broschüren.</p>
     </div>
-    <div class="grpbox"><p class="grp">Vorher</p><div class="thumbrow sm"><figure><button class="zoom page ra4" data-gallery="alt" data-n="0" aria-label="Frühere Fassung für Broschüren gross ansehen"><img src="img/bro_grau.jpg" alt="Frühere Fassung für Broschüren"></button><figcaption>Frühere Fassung für Broschüren</figcaption></figure><figure><button class="zoom plan rmap" data-gallery="alt" data-n="1" aria-label="Frühere Fassung für Messewände gross ansehen"><img src="img/alt_blau.jpg" alt="Frühere Fassung für Messewände"></button><figcaption>Frühere Fassung für Messewände</figcaption></figure></div></div>
+    <div class="grpbox"><p class="grp">Entwicklung</p><div class="thumbrow sm"><figure><button class="zoom page ra4" data-gallery="evo" data-n="0" aria-label="Ursprüngliche Karte gross ansehen"><img src="img/bro_grau.jpg" alt="Ursprüngliche Karte"></button><figcaption>Ursprüngliche Karte</figcaption></figure><figure><button class="zoom plan rmap" data-gallery="evo" data-n="1" aria-label="Erste Überarbeitung gross ansehen"><img src="img/alt_blau.jpg" alt="Erste Überarbeitung"></button><figcaption>Erste Überarbeitung</figcaption></figure><figure><button class="zoom page rA4p" data-gallery="evo" data-n="2" aria-label="Finale Fassung in der Broschüre gross ansehen"><img src="img/bro_neu.jpg" alt="Finale Fassung in der Broschüre"></button><figcaption>Finale Fassung in der Broschüre</figcaption></figure></div></div>
   </section>
 
   <section class="chapter">
@@ -200,7 +201,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
       <p>Für das Company Profile gestaltete ich die Firmengeschichte als Zeitstrahl über zwei A4-Seiten, unter dem Motto «passioniert – swiss made – innovativ». Die Meilensteine von der Gründung bis heute folgen einer Schlangenlinie, mit grünen Jahreszahlen und Bildern von Produkten, Maschinen, Gebäuden und Flaggen für neue Märkte.</p>
       <p>Den Zeitstrahl gibt es auf Deutsch, Englisch, Französisch, Italienisch, Polnisch und Chinesisch sowie in einer US-Version.</p>
     </div>
-    <figure><button class="zoom page rsp" data-gallery="zs" data-n="0" aria-label="Zeitstrahl gross ansehen"><img src="img/zs_spread.jpg" alt="Zeitstrahl Firmengeschichte über zwei A4-Seiten"></button><figcaption class="cap">Firmengeschichte, Doppelseite im Company Profile</figcaption></figure>
+    <figure class="sw"><div class="langTabs" role="group" aria-label="Sprache wählen"><button type="button" data-sw="zs" data-i="0" aria-pressed="true">DE</button><button type="button" data-sw="zs" data-i="1" aria-pressed="false">EN</button></div><button class="zoom page rsp" data-gallery="zs" data-n="0" aria-label="Firmengeschichte, Deutsch gross ansehen"><img src="img/zs_spread.jpg" alt="Zeitstrahl Firmengeschichte über zwei A4-Seiten, Deutsch"></button><button class="zoom page rsp" data-gallery="zs" data-n="1" aria-label="Firmengeschichte, Englisch gross ansehen" hidden><img src="img/zs_spread_en.jpg" alt="Zeitstrahl Firmengeschichte über zwei A4-Seiten, Englisch" loading="lazy"></button><figcaption class="cap">Firmengeschichte, Doppelseite im Company Profile</figcaption></figure>
   </section>
 
   <section class="chapter">
@@ -219,9 +220,9 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 
 <script>
 const G={
- hero:[["img/neu.jpg","Neue Weltkarte der Standorte, Punktraster in Grün"]],
- alt:[["img/bro_grau.jpg","Frühere Fassung für Broschüren"],["img/alt_blau.jpg","Frühere Fassung für Messewände"]],
- zs:[["img/zs_spread.jpg","Firmengeschichte, Doppelseite im Company Profile"]]
+ hero:[["img/neu.jpg","Neue Weltkarte, Deutsch"],["img/neu_en.jpg","Neue Weltkarte, Englisch"]],
+ evo:[["img/bro_grau.jpg","Ursprüngliche Karte"],["img/alt_blau.jpg","Erste Überarbeitung"],["img/bro_neu.jpg","Finale Fassung in der Broschüre"]],
+ zs:[["img/zs_spread.jpg","Firmengeschichte, Deutsch"],["img/zs_spread_en.jpg","Firmengeschichte, Englisch"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
 function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
@@ -233,4 +234,7 @@ document.getElementById('close').onclick=()=>d.close();
 th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
 d.addEventListener('click',e=>{if(e.target===d)d.close()});
 d.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+
+// DE/EN-Umschalter
+document.querySelectorAll('[data-sw]').forEach(btn=>btn.addEventListener('click',()=>{const g=btn.dataset.sw,i=btn.dataset.i;document.querySelectorAll('[data-sw="'+g+'"]').forEach(x=>x.setAttribute('aria-pressed',x===btn));document.querySelectorAll('.zoom[data-gallery="'+g+'"]').forEach(z=>z.hidden=z.dataset.n!==i);}));
 </script>
