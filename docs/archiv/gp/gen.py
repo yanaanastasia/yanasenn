@@ -101,14 +101,55 @@ F['infografiken']=('Infografiken','neu.jpg','Weltkarte und Firmengeschichte als 
  +entry('k2',CP,'Firmengeschichte als Zeitstrahl','Zwei A4-Seiten im Company Profile, «passioniert – swiss made – innovativ»: Meilensteine von der Gründung bis heute als Schlangenlinie mit Bildern von Produkten, Maschinen, Gebäuden und Flaggen für neue Märkte.',['zs_spread.jpg','zs_spread_en.jpg'],('7 Sprachfassungen',),w=300,open_label='Englische Fassung'))
 ORDER=['broschueren','flyer','inserate','infoblaetter','grusskarten','messegrafik','infografiken']
 N={'broschueren':'3 Arbeiten','flyer':'5 Arbeiten','inserate':'6 Arbeiten','infoblaetter':'2 Arbeiten','grusskarten':'2 Arbeiten','messegrafik':'9 Arbeiten','infografiken':'2 Arbeiten'}
-cards=''.join(f'<a class="fcard" href="#{k}"><span class="fimg"><img src="img/{F[k][1]}" alt=""></span><b>{F[k][0]}</b><small>{N[k]}</small></a>' for k in ORDER)
-over=f'<section id="overview" class="fview"><p class="crumb">Arbeiten</p><p class="eyebrow">Kategorie</p><h1>Grafik &amp; Print</h1><p class="lead">Broschüren, Flyer, Inserate, Karten und Messegrafik für CP Pump Systems und GOLDINGER Immobilien, vom Layout bis zur fertigen Druckdatei.</p><div class="fgrid">{cards}</div></section>'
-views=''.join(f'<section class="fview" id="{k}" hidden><a class="back" href="#">← Grafik &amp; Print</a><p class="crumb">Arbeiten · Grafik &amp; Print</p><h1>{F[k][0]}</h1><p class="lead">{F[k][2]}</p>{F[k][3]}</section>' for k in ORDER)
-body=f'<div class="wrap"><p class="note">Entwurf der Kategorie «Grafik &amp; Print»: Ordner anklicken, «Mehr Infos» aufklappen, Bilder vergrössern.</p>{over}{views}</div>'
+import re as _re
+INTRO={'broschueren':'Von der Produktbroschüre bis zum Hausmagazin: Ich entwickle Konzepte, gestalte die Layouts und begleite Sprachfassungen und Druck. Eine Auswahl:',
+'flyer':'Flyer für Veranstaltungen, Neubauprojekte und Messen, gestaltet für einen schnellen Überblick und eine klare Handlung: anmelden, vorbeikommen, Wert schätzen lassen.',
+'inserate':'Inserate müssen in Sekunden wirken. Für CP in Fachzeitschriften und Messekatalogen, in der Sprache des Zielmarkts; für GOLDINGER in Magazinen und Regionalzeitungen.',
+'infoblaetter':'Kompakte Infoblätter zu Produkten und Angeboten, für Messen, Kundentermine und als Download.',
+'grusskarten':'Karten zu Weihnachten und zum thailändischen Neujahr: von der Idee über Gestaltung und Text bis zum Druck.',
+'messegrafik':'Rückwände, Blenden und Folien für die Messestände, abgestimmt auf Standgrösse, Messeland und Sprache. Von den ersten Paneelen 2024 bis zum aktuellen Auftritt.',
+'infografiken':'Grafiken, die komplexe Inhalte auf einen Blick zeigen und in Broschüren, auf Messewänden und auf der Website wiederverwendet werden.'}
+sec=''; toc=''
+for n,k in enumerate(ORDER,1):
+    arts=_re.findall(r'<article class="entry".*?</article>',F[k][3],flags=_re.S)
+    tiles=''; panels=''
+    for j,a in enumerate(arts):
+        ti=_re.search(r'<h3>(.*?)</h3>',a).group(1); img=_re.search(r'src="img/([^"]+)"',a).group(1)
+        cl=_re.search(r'class="client">(.*?)</span>',a).group(1)
+        pid=f'{k}-{j}'
+        tiles+=f'<button class="tile" data-panel="{pid}" aria-expanded="false" aria-controls="{pid}"><span class="timg"><img src="img/{img}" alt=""></span><span class="tcl">{cl}</span><b>{ti}</b></button>'
+        ao=a.replace('<details class="more">','<details class="more" open>')
+        panels+=f'<div class="panel" id="{pid}" hidden>{ao}<button class="close" data-close="{pid}">Schliessen ×</button></div>'
+    toc+=f'<a href="#{k}"><span>{n:02d}</span>{F[k][0]}</a>'
+    sec+=f'<section class="cat" id="{k}"><div class="chead"><span class="num">{n:02d}</span><div><h2>{F[k][0]}</h2><p>{INTRO[k]}</p></div></div><div class="tiles">{tiles}</div>{panels}</section>'
+over=f'<header class="hero"><p class="crumb">Arbeiten</p><p class="eyebrow">Kategorie</p><h1>Grafik &amp; Print</h1><p class="lead">Broschüren, Flyer, Inserate, Karten und Messegrafik für CP Pump Systems und GOLDINGER Immobilien, vom Layout bis zur fertigen Druckdatei.</p><nav class="toc">{toc}</nav></header>{sec}'
+body=f'<div class="wrap"><p class="note">Entwurf «Grafik &amp; Print»: Arbeit anklicken, um die Details aufzuklappen.</p>{over}</div>'
+style=style.replace('</style>',"""
+.toc{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:6px}.toc a{color:var(--ink);text-decoration:none;font-weight:700;font-size:.92rem}.toc a span{color:var(--accent);font-size:.75rem;margin-right:6px}
+.cat{display:grid;gap:26px;padding-top:44px;border-top:1px solid var(--line);scroll-margin-top:20px}
+.chead{display:grid;grid-template-columns:90px minmax(0,1fr);gap:20px}.num{font:700 2.6rem/1 var(--font);color:var(--accent);opacity:.35}
+.chead p{color:var(--muted);margin-top:8px;max-width:62ch}
+.tiles{display:flex;gap:18px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.tile{all:unset;box-sizing:border-box;cursor:pointer;flex:0 0 210px;display:grid;gap:6px;scroll-snap-align:start}
+.timg{display:block;aspect-ratio:3/4;border-radius:10px;background:#fff;border:1px solid var(--line);overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.06);transition:transform .25s,box-shadow .25s}
+.timg img{width:100%;height:100%;object-fit:contain;padding:10px}
+.tile:hover .timg,.tile[aria-expanded=true] .timg{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,.12)}
+.tile[aria-expanded=true] .timg{outline:2px solid var(--accent)}
+.tile:focus-visible .timg{outline:3px solid var(--accent);outline-offset:3px}
+.tcl{font:700 .65rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.tile b{font-size:.95rem;line-height:1.3}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:6px 28px 24px;display:grid;gap:10px;animation:pin .3s ease}
+.panel[hidden]{display:none}.panel .entry{border-top:0}.close{all:unset;cursor:pointer;justify-self:end;color:var(--muted);font-size:.85rem}
+@keyframes pin{from{opacity:0;transform:translateY(-6px)}}
+@media (prefers-reduced-motion:reduce){.panel{animation:none}.timg{transition:none}}
+@media (max-width:760px){.chead{grid-template-columns:minmax(0,1fr);gap:4px}.tile{flex-basis:150px}.panel{padding:4px 14px 18px}}
+</style>""")
 NAV="""
 // Ordner-Navigation
-function route(){const h=location.hash.slice(1);document.querySelectorAll('.fview').forEach(s=>s.hidden=h?s.id!==h:s.id!=='overview');window.scrollTo(0,0);}
-addEventListener('hashchange',route);route();
+document.querySelectorAll('.tile').forEach(t=>t.addEventListener('click',()=>{const sec=t.closest('.cat');const id=t.dataset.panel;const was=t.getAttribute('aria-expanded')==='true';
+sec.querySelectorAll('.panel').forEach(p=>p.hidden=true);sec.querySelectorAll('.tile').forEach(x=>x.setAttribute('aria-expanded','false'));
+if(!was){document.getElementById(id).hidden=false;t.setAttribute('aria-expanded','true');}}));
+document.querySelectorAll('[data-close]').forEach(c=>c.addEventListener('click',()=>{document.getElementById(c.dataset.close).hidden=true;document.querySelector('[data-panel="'+c.dataset.close+'"]').setAttribute('aria-expanded','false');}));
 document.querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>document.querySelector('.zoom[data-gallery="'+b.dataset.open+'"][data-n="0"]').click()));
 """
 d=b[b.index('<dialog id="lb"'):b.index('</dialog>')+9]
