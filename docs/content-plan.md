@@ -1160,3 +1160,4 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - **v6 (13.10.2026):** Titelbilder als Broschüren-Mockup (leicht gedreht, Schatten, Rücken) · Messekataloge als Collage (4 Inserate gleich gross) · HEV-Inserat 2022 ohne Weichzeichner (✅ Stockfotos nie verwischen; Firmengeschichte darf lesbar sein) · Grusskarten grösser · Messegrafik: Petrochymia 2026 gross, übrige Messen kompakt mit kleinem Bild (Klick = gross), Blenden jeweils bei ihrer Messe, ohne Schnittmarken · ACHEMA: Mockup der Stele (vorne Folie, hinten weiss).
 
 - Grafik & Print v7: keine weissen Ränder; Mockups gerade (nicht gedreht); Blätteransicht hell mit Seiten als Mockup (Schatten, Buchfalz bei Doppelseiten); Grusskarte: 1. Klick öffnet, 2. Klick Grossansicht (kein «Alle Seiten»-Knopf); weitere Messen als Raster.
+- Grafik & Print v7.1: Blätteransicht mit Milchglas-Hintergrund (Seite schimmert unscharf durch). Von Yana freigegeben («sonst sehr gut»).
