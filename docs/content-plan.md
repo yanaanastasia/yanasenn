@@ -940,6 +940,7 @@ Quelle: Ordner «Goldinger» (Screenshots der alten Portfolio-Website, Ordner «
 - ✅ «20260825_Finale Version_CP_Pumpen_Panels» (InDesign, Aug. 2026) = die Wandpaneele der verschiedenen Abteilungen (Yana 05.10.2026); kombiniert eigene Fotos, Produktbilder, Betriebsfotos und Grafiken wie die Weltkarte. Gehört zusammen mit den Wandbildern zu «Raumgestaltung bei CP».
 - **Bilder 📌:** Weltkarte in zwei Varianten (Messewand blau, Broschüre Punktraster), Farbvarianten als Prozessbild, Zeitstrahl Seite 1, Stand mit Weltkarte.
 - ✅ Thailand = Niederlassung (Branch), nicht Tochterfirma (Yana 05.10.2026); Songkran-Text angepasst.
+- **Seitenentwurf v1 (13.10.2026):** `docs/entwuerfe/infografiken.html`, Artifact https://claude.ai/artifact/6FrfmXHa7BUcfu8ZvPWrZE. Titelbild = Weltkarte Messewand (CP-Blau, «20260504_DE_Weltkarte_Messen») · 1 Weltkarte: Text, Farbvarianten als kleine Bilder (Blau, Grün, Hellgrün, Grau, Schwarz, «20260415_DE_Weltkarte_BRO»), «Im Einsatz»: Broschüre Punktraster mit Partnern («Weltkarte grau BRO A4», EN) und Standfoto Pumps & Valves Dortmund (IMG_6076_kopie, eine Person von hinten) · 2 Zeitstrahl: Text + Doppelseite DE («20261001_Zeitstrahl_ bis 2026 DE») · Meine Aufgaben. Keine Zeitangaben (Regel). Offen: Icons/Explosionszeichnung (✏️) nicht gezeigt; auf Seite 2 des Zeitstrahls sind die Bildfelder 2027 noch leer.
 
 #### Case «Werbung: Print & Digital» ✏️ (Name-Vorschlag, ersetzt «Anzeigen & Fachartikel»; Yana 04.10.2026: zu eng)
 - EN: «Advertising: Print & Digital»
