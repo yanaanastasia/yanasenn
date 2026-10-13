@@ -1,0 +1,261 @@
+<title>Werbung Print und Digital</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: Projektseite Werbung (abgeleitet von Broschüren) – Titelbild, Konzept, Familie, Sprachen-Umschalter, Einblicke, Sprachmatrix, Aufgaben; basiert auf Messestand für die USA – Titelbild, Idee (Kreislauf), Standbox (Plan + Fotos), Rundum-Design, Aufbauanleitung, Herausforderung Houston, Einsätze (Zeitleiste), Aufgaben */
+:root{--bg:#f7f8f6;--surface:#fff;--ink:#1b2320;--muted:#5d6964;--line:#dde2de;--accent:#1f5fa8;--soft:#c9d6e6;--green:#4f8a1f;--forest:#1f3a2c;--font:"Lato",Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--font);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:80px}
+.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:0}
+h1{font:700 clamp(2.2rem,5vw,3.6rem)/1.05 var(--font);margin:0;text-wrap:balance}
+h2{font:700 clamp(1.5rem,3vw,2rem)/1.15 var(--font);margin:0;text-wrap:balance}
+h3{font:700 1.15rem/1.25 var(--font);margin:0}
+.eyebrow{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
+p{margin:0;max-width:62ch}.lead{font-size:1.15rem}
+img{display:block;width:100%;height:auto}
+figure{margin:0;display:grid;gap:8px;min-width:0;align-content:start}
+.cap{font-size:.82rem;color:var(--muted)}
+.hero{display:grid;gap:22px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.facts div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:4px}
+.facts b{font:700 1.5rem/1.1 var(--font)}.facts span{font-size:.85rem;color:var(--muted)}
+.chapter{display:grid;gap:24px}.text{display:grid;gap:14px}
+.split{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:start}
+.split>*,.g2>*,.g3>*,.g4>*{min-width:0}
+.g2,.g3,.g4{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+/* Klickbare Bilder */
+.zoom{all:unset;box-sizing:border-box;cursor:zoom-in;display:block;width:100%;border-radius:6px;overflow:hidden;background:var(--surface);position:relative}
+.zoom img{width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.zoom:hover img,.zoom:focus-visible img{transform:scale(1.02)}
+.zoom:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.zoom::after{content:"";position:absolute;right:10px;bottom:10px;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.92) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231b2320' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6'/%3E%3Cpath d='M15 15l5 5M10.5 8v5M8 10.5h5'/%3E%3C/svg%3E") center/18px no-repeat;box-shadow:0 2px 6px rgba(0,0,0,.18);opacity:0;transition:opacity .2s}
+.zoom:hover::after,.zoom:focus-visible::after{opacity:1}
+@media (prefers-reduced-motion:reduce){.zoom img,.zoom::after{transition:none}}
+.r169{aspect-ratio:16/9}.r43{aspect-ratio:4/3}.r34{aspect-ratio:3/4}.rpage{aspect-ratio:1132/1600}
+.zoom.visual{background:#f3f4f2}
+.zoom.plan{background:#fff;border:1px solid var(--line)}.zoom.plan img{object-fit:contain;padding:10px}
+.zoom.page{background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,0,0,.08)}.zoom.page img{object-fit:contain}
+/* Kreislauf */
+.cycle{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:stretch}
+.cs{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.cs .n{font:700 .72rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+.cs b{font-size:1.05rem}.cs span{font-size:.88rem;color:var(--muted)}
+.ca{display:flex;align-items:center;color:var(--muted);font-size:1.3rem}
+.loop{font-size:.85rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+.loop svg{flex:none}
+/* Ausstattung */
+.kit{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:12px;align-content:start}
+.box h3{display:flex;gap:10px;align-items:center}
+.box .tag{font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;background:var(--accent);color:#fff;border-radius:99px;padding:2px 9px}
+.box .tag.alt{background:var(--green)}
+.box ul{margin:0;padding-left:1.1em;display:grid;gap:4px}.box li{font-size:.95rem}
+.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.specs div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.specs b{font-size:1.05rem}.specs span{font-size:.86rem;color:var(--muted)}
+/* Birkenwald */
+.forest{background:var(--forest);color:#eef4ee;border-radius:16px;padding:clamp(20px,4vw,40px);display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:center}
+.forest .eyebrow{color:#a9d77d}.forest p{color:#d6e2d8}
+.forest .claim{font:italic 400 1.35rem/1.3 var(--font);color:#fff;border-left:3px solid #a9d77d;padding-left:14px}
+.forest .zoom{background:#0e1b14}
+/* Anleitung */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s}
+.steps figcaption{font-size:.88rem;color:var(--muted)}.steps figcaption b{display:block;color:var(--ink);font-size:.95rem}
+/* Herausforderung */
+.story{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.story div{padding:18px;display:grid;gap:6px;align-content:start;border-right:1px solid var(--line)}
+.story div:last-child{border-right:0;background:color-mix(in srgb,var(--green) 10%,var(--surface))}
+.story .when{font:700 .72rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.story div:last-child .when{color:var(--green)}
+.story b{font-size:1rem}.story span{font-size:.88rem;color:var(--muted)}
+/* Zeitleiste */
+.tl{display:grid;gap:0;position:relative}
+.tl::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.ev{display:grid;grid-template-columns:24px 150px 1fr;gap:16px;padding:14px 0;align-items:start;position:relative}
+.ev i{width:24px;height:24px;border-radius:50%;background:var(--surface);border:3px solid var(--accent);margin-top:2px;z-index:1}
+.ev.next i{border-style:dashed;border-color:var(--muted)}
+.ev .d{font-size:.88rem;color:var(--muted);padding-top:2px}.ev .d b{display:block;color:var(--ink);font-size:1rem}
+.ev .c{display:grid;gap:6px}.ev .c p{font-size:.95rem}
+.ev .badge{justify-self:start;font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--muted)}
+.ev .pics{display:grid;grid-template-columns:repeat(3,minmax(0,160px));gap:10px;margin-top:4px}
+.step{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+/* Vorher / Nachher */
+.ba{display:grid;gap:12px}
+.baFrame{position:relative;aspect-ratio:3/2;border-radius:10px;overflow:hidden;background:#eceeeb;border:1px solid var(--line)}
+.baFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .45s}
+.baFrame img.photo{object-fit:cover}
+.baFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.baFrame img{transition:none}}
+.baTag{position:absolute;left:14px;top:14px;background:rgba(27,35,32,.82);color:#fff;font:700 .78rem var(--font);letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:99px}
+.baTabs{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.baTabs button{font:700 .88rem var(--font);padding:8px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.baTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.baTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.baTabs .arr{color:var(--muted)}
+.mini{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,130px));gap:12px;margin-top:4px}
+.mini figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
+.mini .step{font-size:.66rem}
+.grp{font:700 .78rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:6px 0 -10px}
+.bt{font-size:.95rem;max-width:none}
+.box.wide{display:grid;grid-template-columns:3fr 2fr;gap:24px;align-items:start}
+.box.wide>div:first-child{display:grid;gap:12px}
+.box .mini{grid-template-columns:repeat(4,minmax(0,1fr));max-width:520px}
+@media (max-width:860px){.box.wide{grid-template-columns:1fr}}
+.groups{display:grid;gap:22px;border-top:1px solid var(--line);padding-top:18px}
+.grpbox{display:grid;gap:8px}
+.grpbox .grp{margin:0}
+.mini.m1{grid-template-columns:96px}.mini.m2{grid-template-columns:repeat(2,96px)}.mini.m3{grid-template-columns:repeat(3,96px)}.mini.m1w{grid-template-columns:250px}
+.box .mini.m4{grid-template-columns:repeat(4,minmax(0,96px))}
+.rw{aspect-ratio:2000/771}
+ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
+/* Lightbox */
+dialog{border:0;border-radius:14px;padding:0;max-width:min(1100px,94vw);width:100%;background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(10,14,12,.78)}
+.lb{display:grid;gap:12px;padding:16px}
+.lbScroll{max-height:76vh;overflow:auto;border-radius:6px;background:#eef1f4;display:grid;place-items:center}
+.lbScroll img{width:auto;max-width:100%;max-height:74vh;height:auto}
+.lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
+.lbBar button{font:700 .9rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.lbBar button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:6px}
+.thumbs button{all:unset;cursor:pointer;border-radius:4px;overflow:hidden;border:2px solid transparent;aspect-ratio:1;background:#fff}
+.thumbs button[aria-current="true"]{border-color:var(--accent)}.thumbs img{width:100%;height:100%;object-fit:cover}
+@media (max-width:860px){.cycle{grid-template-columns:1fr}.ca{justify-content:center;transform:rotate(90deg)}.facts,.specs{grid-template-columns:1fr 1fr}.forest,.split,.kit{grid-template-columns:1fr}.steps,.g4{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr 1fr}.story div:nth-child(2){border-right:0}.story div:nth-child(-n+2){border-bottom:1px solid var(--line)}.ev{grid-template-columns:24px 1fr}.ev .c{grid-column:2}.ev .pics{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.g3{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr}.story div{border-right:0;border-bottom:1px solid var(--line)}}
+
+/* Sprachen-Umschalter */
+.lang{display:grid;gap:12px}
+.langFrame{position:relative;aspect-ratio:1800/1273;border-radius:10px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.langFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .35s}
+.langFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.langFrame img{transition:none}}
+.langTabs{display:flex;gap:8px;flex-wrap:wrap}
+.langTabs button{font:700 .88rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;min-width:52px}
+.langTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.langTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* Familie */
+.rA4{aspect-ratio:595/842}
+/* Bausteine */
+.wrap>*,.chapter>*,.hero>*{min-width:0}.mxWrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fam{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.fam div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:3px;align-content:start}
+.fam small{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.fam b{font-size:1.02rem}.fam span{font-size:.85rem;color:var(--muted)}
+@media (max-width:640px){.fam{grid-template-columns:1fr}}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tiles div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.tiles b{font-size:1rem}.tiles span{font-size:.88rem;color:var(--muted)}
+/* Matrix */
+.mx{width:100%;border-collapse:separate;border-spacing:0;font-size:.88rem;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.mx th,.mx td{padding:9px 6px;text-align:center;border-bottom:1px solid var(--line)}
+.mx tr:last-child td,.mx tr:last-child th{border-bottom:0}
+.mx thead th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;background:color-mix(in srgb,var(--ink) 3%,var(--surface))}
+.mx tbody th{text-align:left;font-weight:700;padding-left:14px;white-space:nowrap}
+.mx tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,var(--surface))}
+.mx tr.sub th{text-align:left;padding:14px 14px 6px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;background:none}
+.mx tbody tr.sub:hover{background:none}
+.mx td.n{color:var(--muted);font-variant-numeric:tabular-nums;font-weight:700}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;vertical-align:middle}
+.dot.p{background:var(--accent)}
+.dot.d{border:2px solid var(--accent);background:transparent}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;gap:7px;align-items:center}
+.mxWrap{overflow-x:auto}
+@media (max-width:860px){.tiles{grid-template-columns:1fr 1fr}}
+
+.tile{display:grid;gap:16px}
+.t4{grid-template-columns:repeat(4,minmax(0,1fr))}.t3{grid-template-columns:repeat(3,minmax(0,1fr));max-width:820px}.t2{grid-template-columns:repeat(2,minmax(0,1fr));max-width:820px}
+.tile .zoom{aspect-ratio:3/4}.t3 .zoom{aspect-ratio:17/11}.t2 .zoom{aspect-ratio:4/3}
+.tile .zoom.plan img{padding:14px}
+.tag{font-size:.85rem;color:var(--muted)}
+.banners{display:grid;gap:14px;max-width:820px}
+.banners .zoom{aspect-ratio:auto}.banners .zoom img{height:auto;object-fit:contain}
+.dig{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:28px;align-items:start}
+.hero .zoom{aspect-ratio:2550/1650}
+@media (max-width:760px){.t4{grid-template-columns:repeat(2,minmax(0,1fr))}.t3{grid-template-columns:minmax(0,1fr)}.t2{grid-template-columns:minmax(0,1fr)}.dig{grid-template-columns:minmax(0,1fr)}.dig figure{max-width:220px}}
+</style>
+
+<div class="wrap">
+  <p class="note">Entwurf zur Anordnung. Alle Bilder lassen sich anklicken und gross ansehen.</p>
+  <header class="hero">
+    <p class="eyebrow">Grafik · CP Pump Systems</p>
+    <h1>Werbung: Print &amp; Digital</h1>
+    <figure><button class="zoom plan" data-gallery="hero" data-n="0" aria-label="Anzeige gross ansehen"><img src="img/anzeige.jpg" alt="Anzeige «Sulphur at the perfect temperature» mit Schwefel und Pumpe"></button><figcaption class="cap">Anzeige in der Fachzeitschrift World Fertilizer</figcaption></figure>
+    <p class="lead">CP Pump Systems wirbt dort, wo Fachleute aus Chemie, Düngemittel- und Prozessindustrie lesen und sich informieren: in Fachzeitschriften, Messekatalogen, auf Fachportalen und per E-Mail. Jede Anzeige muss in Sekunden zeigen, welches Problem die Pumpen lösen.</p>
+    <p>Ich gestalte die Anzeigen und digitalen Werbemittel von der ersten Headline-Variante bis zur Druckdatei und passe sie für jedes Format und jede Sprache an.</p>
+  </header>
+
+  <section class="chapter">
+    <p class="eyebrow">1 · Molten Sulphur</p>
+    <div class="text">
+      <h2>Eine Botschaft, viele Formate</h2>
+      <p>Für Pumpen, die flüssigen Schwefel fördern, entstand eine Reihe zusammengehöriger Werbemittel: die Anzeige in der Fachzeitschrift World Fertilizer, eine Messe-Rückwand mit «Keep Your Molten Sulphur Flowing», eine Broschüre, ein Factsheet und ein Flyer im US-Letter-Format. Gelb, das Dreiecksmuster und die Schnittzeichnung der beheizten Pumpe ziehen sich durch alle Formate.</p>
+      <p>Das Factsheet habe ich komplett gestaltet; die Texte basieren auf bestehendem Material und sind mit dem Verkauf abgestimmt.</p>
+    </div>
+    <div class="tile t4"><figure><button class="zoom page" data-gallery="serie" data-n="0" aria-label="Messe-Rückwand gross ansehen"><img src="img/wand.jpg" alt="Messe-Rückwand" loading="lazy"></button><figcaption class="tag">Messe-Rückwand</figcaption></figure><figure><button class="zoom page" data-gallery="serie" data-n="1" aria-label="Broschüre gross ansehen"><img src="img/bro1.jpg" alt="Broschüre" loading="lazy"></button><figcaption class="tag">Broschüre</figcaption></figure><figure><button class="zoom page" data-gallery="serie" data-n="2" aria-label="Factsheet gross ansehen"><img src="img/fact1.jpg" alt="Factsheet" loading="lazy"></button><figcaption class="tag">Factsheet</figcaption></figure><figure><button class="zoom page" data-gallery="serie" data-n="3" aria-label="Flyer im US-Letter-Format gross ansehen"><img src="img/letter1.jpg" alt="Flyer im US-Letter-Format" loading="lazy"></button><figcaption class="tag">Flyer im US-Letter-Format</figcaption></figure></div>
+    <div class="grpbox"><p class="grp">Headline-Varianten im Entwurf</p><div class="tile t3"><figure><button class="zoom plan" data-gallery="var" data-n="0" aria-label="Variante «Keeping molten sulphur warm» gross ansehen"><img src="img/v1.jpg" alt="Variante «Keeping molten sulphur warm»" loading="lazy"></button><figcaption class="tag">Variante «Keeping molten sulphur warm»</figcaption></figure><figure><button class="zoom plan" data-gallery="var" data-n="1" aria-label="Variante mit anderem Bildausschnitt gross ansehen"><img src="img/v2.jpg" alt="Variante mit anderem Bildausschnitt" loading="lazy"></button><figcaption class="tag">Variante mit anderem Bildausschnitt</figcaption></figure><figure><button class="zoom plan" data-gallery="var" data-n="2" aria-label="Variante «Always warm. Always liquid. Always safe.» gross ansehen"><img src="img/v3b.jpg" alt="Variante «Always warm. Always liquid. Always safe.»" loading="lazy"></button><figcaption class="tag">Variante «Always warm. Always liquid. Always safe.»</figcaption></figure></div></div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">2 · Messekataloge</p>
+    <div class="text">
+      <h2>Anzeigen in Messekatalogen</h2>
+      <p>Zu den Messen gestalte ich Anzeigen für die Kataloge der Veranstalter, jeweils in der Sprache des Messelandes und abgestimmt auf die ausgestellten Pumpen.</p>
+    </div>
+    <div class="tile t2"><figure><button class="zoom plan" data-gallery="kat" data-n="0" aria-label="Katalog-Anzeige, Französisch gross ansehen"><img src="img/petro_ins.jpg" alt="Katalog-Anzeige, Französisch" loading="lazy"></button><figcaption class="tag">Katalog-Anzeige, Französisch</figcaption></figure><figure><button class="zoom plan" data-gallery="kat" data-n="1" aria-label="Katalog-Anzeige, Englisch gross ansehen"><img src="img/chemuk.jpg" alt="Katalog-Anzeige, Englisch" loading="lazy"></button><figcaption class="tag">Katalog-Anzeige, Englisch</figcaption></figure></div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">3 · Digital</p>
+    <div class="text">
+      <h2>Banner und Social Media</h2>
+      <p>Zu jeder Messe entstehen E-Mail-Banner und -Signaturen sowie Web-Banner für die Messeportale, dazu ein Sammelbanner mit allen kommenden Messen in Deutsch, Englisch und Französisch und Grafiken für LinkedIn.</p>
+    </div>
+    <div class="dig"><div class="banners"><figure><button class="zoom plan" data-gallery="ban" data-n="0" aria-label="Web-Banner gross ansehen"><img src="img/cru_banner.jpg" alt="Web-Banner" loading="lazy"></button><figcaption class="tag">Web-Banner</figcaption></figure><figure><button class="zoom plan" data-gallery="ban" data-n="1" aria-label="Web-Banner gross ansehen"><img src="img/tfs_banner.jpg" alt="Web-Banner" loading="lazy"></button><figcaption class="tag">Web-Banner</figcaption></figure><figure><button class="zoom plan" data-gallery="ban" data-n="2" aria-label="E-Mail-Banner gross ansehen"><img src="img/fla_banner.jpg" alt="E-Mail-Banner" loading="lazy"></button><figcaption class="tag">E-Mail-Banner</figcaption></figure><figure><button class="zoom plan" data-gallery="ban" data-n="3" aria-label="Web-Banner 1000 × 90 gross ansehen"><img src="img/petro_web.jpg" alt="Web-Banner 1000 × 90" loading="lazy"></button><figcaption class="tag">Web-Banner 1000 × 90</figcaption></figure><figure><button class="zoom plan" data-gallery="ban" data-n="4" aria-label="Sammelbanner zu allen Messen gross ansehen"><img src="img/sammel_de.jpg" alt="Sammelbanner zu allen Messen" loading="lazy"></button><figcaption class="tag">Sammelbanner zu allen Messen</figcaption></figure></div><figure><button class="zoom plan" data-gallery="soc" data-n="0" aria-label="LinkedIn-Grafik zum 1. August gross ansehen"><img src="img/aug.jpg" alt="LinkedIn-Grafik zum 1. August" loading="lazy"></button><figcaption class="tag">LinkedIn-Grafik zum 1. August</figcaption></figure></div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">4 · Anwendungsbericht</p>
+    <div class="text">
+      <h2>Saures Prozesswasser sicher fördern</h2>
+      <p>«Dichtungslose Magnetkupplungspumpen für die Förderung von saurem Prozesswasser»: Der Bericht stellt ein Referenzprojekt aus der Düngemittelproduktion vor, drei Pumpen für ein Rückführungssystem von Pondwasser. Aufbau: Ausgangslage, Lösung, Gründe und technische Kennwerte. Den Anwendungsbericht verfasste ich mit fachlicher Unterstützung des Verkaufsteams und veröffentlichte ihn in drei Sprachen auf der Website.</p>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <p class="eyebrow">Meine Aufgaben</p>
+    <ul class="tasks"><li>Headlines und Varianten</li><li>Gestaltung</li><li>Druckdaten</li><li>Sprachversionen</li><li>Banner und Social Media</li><li>Anwendungsbericht</li></ul>
+  </section>
+</div>
+
+<dialog id="lb" aria-label="Galerie">
+  <div class="lb">
+    <div class="lbScroll"><img id="lbImg" src="" alt=""></div>
+    <div class="lbBar"><span id="lbCap"></span><button id="prev">Zurück</button><button id="next">Weiter</button><button id="close">Schliessen</button></div>
+    <div class="thumbs" id="thumbs"></div>
+  </div>
+</dialog>
+
+<script>
+const G={
+ hero:[["img/anzeige.jpg","Anzeige in World Fertilizer"]],
+ serie:[["img/wand.jpg","Messe-Rückwand"],["img/bro1.jpg","Broschüre"],["img/fact1.jpg","Factsheet"],["img/letter1.jpg","Flyer im US-Letter-Format"]],
+ var:[["img/v1.jpg","Variante «Keeping molten sulphur warm»"],["img/v2.jpg","Variante mit anderem Bildausschnitt"],["img/v3b.jpg","Variante «Always warm. Always liquid. Always safe.»"]],
+ kat:[["img/petro_ins.jpg","Katalog-Anzeige, Französisch"],["img/chemuk.jpg","Katalog-Anzeige, Englisch"]],
+ ban:[["img/cru_banner.jpg","Web-Banner"],["img/tfs_banner.jpg","Web-Banner"],["img/fla_banner.jpg","E-Mail-Banner"],["img/petro_web.jpg","Web-Banner 1000 × 90"],["img/sammel_de.jpg","Sammelbanner zu allen Messen"]],
+ soc:[["img/aug.jpg","LinkedIn-Grafik zum 1. August"]]
+};
+let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
+function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
+function open(g,n){pages=G[g];i=n||0;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
+document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
+document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
+document.getElementById('next').onclick=()=>{i=(i+1)%pages.length;show()};
+document.getElementById('close').onclick=()=>d.close();
+th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
+d.addEventListener('click',e=>{if(e.target===d)d.close()});
+d.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+</script>
