@@ -30,7 +30,7 @@ CAT=[
 ('foto','9yWsuDQj8HqKbDUfF7j4vK','Foto & Video','Photo & video','Firmenshooting, Reportagen und animierte Erklärvideos.','Company shoots, reportage and animated explainer videos.',['f1.jpg','f2.jpg','f3.jpg'],
  [('erklaervideos','Erklärvideos','Explainer videos'),('halloween','Halloween-Videoflyer','Halloween video flyer'),('shooting','Mitarbeitende bei der Arbeit','Employees at work'),('reportage','Reportage Maschinenlieferung','Machine delivery'),('immobilienvideos','Immobilienvideos','Property videos')],[('AWzk8y7iyFhZyJJQF4gszF','Immobilien-Reels','Property reels')]),
 ('werbeartikel','J5R7HvN9ixfCbeDmSsdBEf','Werbeartikel','Promotional items','Giveaways, Geschenke für Kunden und Mitarbeitende, Kleidung mit Logo.','Giveaways, gifts for clients and staff, branded clothing.',['k1.jpg'],
- [('giveaways','Giveaways','Giveaways'),('katalog','Katalog','Catalogue'),('goldinger','Fruchtgummis GOLDINGER','Fruit gums GOLDINGER')],[('XWP2ub9yg6MDibVE8ZQZ2c','ACHEMA 2024','ACHEMA 2024'),('1ub6RRXMbhZQRUq33avRvH','Weihnachten 2026','Christmas 2026')]),
+ [('giveaways','Giveaways','Giveaways'),('entwurf','Vom Entwurf zum Produkt','From design to product'),('katalog','Katalog','Catalogue'),('goldinger','Fruchtgummis GOLDINGER','Fruit gums GOLDINGER')],[('XWP2ub9yg6MDibVE8ZQZ2c','ACHEMA 2024','ACHEMA 2024'),('1ub6RRXMbhZQRUq33avRvH','Weihnachten 2026','Christmas 2026')]),
 ]
 
 CSS=r'''
