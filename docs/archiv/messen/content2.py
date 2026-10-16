@@ -66,6 +66,26 @@ SPEC[('wega','design')]=('Die neuen Messewände in Königsblau. Vorher und nachh
 SPEC[('immo','design')]=('Die neu gestalteten Messewände kamen auch an der Immozionale zum Einsatz.','The redesigned booth walls were also used at Immozionale.')
 ORDER=[f[0] for f in F2]
 LOGO={'wega':'wega','immo':'immo','achema':'achema','tps':'tps','petro24':'petro','petro26':'petro','pv25':'pv','pv26':'pv','tfs25':'tfs','tfs26':'tfs','leuna25':'leuna','cru25':'cru','cru26':'cru','lh25':'lh','fla26':'fla','dk26':'dk','uk26':'chemuk','cheme26':'cheme','dahej26':'dahej'}
+GRP=[('plan',('Planung und Organisation','Planning and organisation')),('design',('Gestaltung','Design')),('komm',('Kommunikation','Communication')),('team',('Team und vor Ort','Team and on site'))]
+KW={'design':['design','gestalt','rückwand','roll-up','grafik','anzeige','inserat','branding','infopanel','mockup','messewänd','standbox','blende','kabinentür','weltkarte','tisch'],
+'komm':['mailing','e-mail','linkedin','social','signatur','einladung','geschenk','werbung','web-banner','katalog'],
+'team':['briefing','lead','namensschild','standteam','vor ort','verpflegung','hotel','badges']}
+def _grp(x):
+    l=x.lower()
+    for g,ws in KW.items():
+        if any(w in l for w in ws): return g
+    return 'plan'
+def tasks2(k,de,en):
+    D=[x.strip() for x in de.split('·')];E=[x.strip() for x in en.split('·')]
+    if len(D)!=len(E): E=D
+    if not any(_grp(x)=='plan' for x in D) or k in ('fla26','pv26','dk26','uk26','cheme26','cru26','tfs26','petro26','dahej26','tfs25'):
+        if not any('planung' in x.lower() for x in D):
+            D=['Mitarbeit bei Planung und Organisation']+D;E=['Support with planning and organisation']+E
+    out=''
+    for g,lab in GRP:
+        it=[(d,e) for d,e in zip(D,E) if _grp(d)==g]
+        if it: out+=f'<div class="tg"><h5>{T(*lab)}</h5><ul>'+''.join(f'<li>{T(d,e)}</li>' for d,e in it)+'</ul></div>'
+    return f'<div class="tasks"><h4>{T("Meine Aufgaben","My tasks")}</h4>{out}</div>'
 def card(f):
     k,name,ort,dat=f[:4]
     vis=f'<img src="img/t_{LOGO[k]}.jpg" alt="Logo {name}">'; fit=''
@@ -121,7 +141,7 @@ def sheet(f):
     nm={f[0]:f[1] for f in F2}
     nav='<nav class="sh-nav">'+(f'<button data-fair="{pv}">‹ {nm[pv]}</button>' if pv else '<span></span>')+(f'<button data-fair="{nx}">{nm[nx]} ›</button>' if nx else '')+'</nav>'
     return (f'<article class="sheet" id="fs-{k}" hidden><p class="crumb">{T("Messen","Trade fairs")} · {T("Schweiz","Switzerland") if k in ("wega","immo") else "International"}</p><div class="sh-head"><div><h2>{name}</h2><p class="sh-sub">{T(*dat)} · {T(*ort)}</p></div><img class="sh-logo" src="img/t_{LOGO[k]}.jpg" alt="Logo {name}"></div>{heroh}'
-            f'<dl class="facts">{facts}</dl><div class="sh-body"><div class="sh-text">{body}{lk}</div><aside>{tasks(*tk)}</aside></div>{gal}{nav}</article>')
+            f'<dl class="facts">{facts}</dl><div class="sh-body"><div class="sh-text">{body}{lk}</div><aside>{tasks2(k,*tk)}</aside></div>{gal}{nav}</article>')
 yrs=[('2026',[f for f in F if '2026' in f[1]]),('2025',[f for f in F if '2025' in f[1]]),('2024',[f for f in F if '2024' in f[1]])]
 intl=''.join(f'<div class="yr"><h4>{y}</h4></div><div class="fgrid">'+''.join(card(f) for f in fs)+'</div>' for y,fs in yrs)
 SEC[0]=('international',('International','International'),('Messeauftritte von CP Pump Systems in Europa, den USA und Indien. Eine Messe anklicken, um Stand, Standdesign und Kommunikation im Detail zu sehen.','Trade fairs of CP Pump Systems in Europe, the USA and India. Click a fair to see the booth, booth design and communication in detail.'),intl)
