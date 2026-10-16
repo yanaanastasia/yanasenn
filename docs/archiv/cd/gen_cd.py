@@ -162,6 +162,7 @@ html[lang=en] .l-de,html:not([lang=en]) .l-en{display:none}
 .bk{position:relative;display:flex;max-width:100%;max-height:100%}.spread.two .bk::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:60px;transform:translateX(-50%);background:linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,.16) 48%,rgba(0,0,0,.16) 52%,rgba(0,0,0,0));pointer-events:none}
 .vis .zoom img[src$="kat_mag.png"]{box-shadow:none}
 .note2{display:inline-block;background:var(--tint);border-radius:99px;padding:6px 14px;font-size:.85rem;color:var(--muted);margin:0}
+.ag.more2{display:grid;place-items:center;text-align:center;font-weight:700;color:var(--accent);padding:14px}
 .agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}.ag{all:unset;cursor:pointer;aspect-ratio:1/1;border-radius:12px;overflow:hidden;background:var(--tint);display:block}.ag img{width:100%;height:100%;object-fit:contain;padding:10px;box-sizing:border-box;transition:transform .4s}.ag.fill img{object-fit:cover;padding:0}.ag:hover img{transform:scale(1.04)}
 .mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:26px 22px}
 .mt{all:unset;cursor:pointer;display:grid;gap:6px;align-content:start}.mt .mi{position:relative;display:grid;place-items:center;aspect-ratio:16/10;background:var(--tint);border-radius:12px;padding:16px;overflow:hidden}
