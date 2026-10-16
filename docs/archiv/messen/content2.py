@@ -66,8 +66,8 @@ SPEC[('wega','design')]=('Die neuen Messewände in Königsblau. Vorher und nachh
 SPEC[('immo','design')]=('Die neu gestalteten Messewände kamen auch an der Immozionale zum Einsatz.','The redesigned booth walls were also used at Immozionale.')
 ORDER=[f[0] for f in F2]
 LOGO={'wega':'wega','immo':'immo','achema':'achema','tps':'tps','petro24':'petro','petro26':'petro','pv25':'pv','pv26':'pv','tfs25':'tfs','tfs26':'tfs','leuna25':'leuna','cru25':'cru','cru26':'cru','lh25':'lh','fla26':'fla','dk26':'dk','uk26':'chemuk','cheme26':'cheme','dahej26':'dahej'}
-GRP=[('plan',('Planung und Organisation','Planning and organisation')),('design',('Gestaltung','Design')),('komm',('Kommunikation','Communication')),('team',('Team und vor Ort','Team and on site'))]
-KW={'design':['design','gestalt','rückwand','roll-up','grafik','anzeige','inserat','branding','infopanel','mockup','messewänd','standbox','blende','kabinentür','weltkarte','tisch'],
+GRP=[('plan',('Planung und Organisation','Planning and organisation')),('log',('Versand und Logistik','Shipping and logistics')),('design',('Gestaltung','Design')),('komm',('Kommunikation','Communication')),('team',('Team und vor Ort','Team and on site'))]
+KW={'log':['versand','logistik','transport','zwischenlager','spedit','einfuhr','messekist','messesystem'],'design':['design','gestalt','rückwand','roll-up','grafik','anzeige','inserat','branding','infopanel','mockup','messewänd','standbox','blende','kabinentür','weltkarte','tisch'],
 'komm':['mailing','e-mail','linkedin','social','signatur','einladung','geschenk','werbung','web-banner','katalog'],
 'team':['briefing','lead','namensschild','standteam','vor ort','verpflegung','hotel','badges']}
 def _grp(x):
@@ -85,11 +85,21 @@ def tasks2(k,de,en):
         if l in ('e-mail banner','e-mail banners'): return 'E-mail banners'
         return x
     D=[_sig(x) for x in D];E=[_sig(x,True) for x in E]
+    RN={'Versand':('Organisation des Versands','Organising the shipment'),'Standbuchung':('Anmeldung und Standbuchung','Registration and booth booking'),'Exponate und Material':('Auswahl der Exponate und Zusammenstellung des Materials','Selecting exhibits and putting together the material'),
+        'LinkedIn-Posts':('LinkedIn-Beiträge','LinkedIn posts'),'Messebriefing':('Messebriefing für das Standteam','Fair briefing for the booth team'),'Lead-Formular':('Lead-Formular zur Erfassung der Kontakte','Lead form for recording contacts'),
+        'Standdesign':('Standdesign und Messewände','Booth design and booth walls'),'Anzeige':('Inserat im Messekatalog','Ad in the fair catalogue'),'Standplanung':('Standplanung und Möblierung','Booth planning and furnishing')}
+    for i_,d_ in enumerate(D):
+        if d_ in RN: D[i_],E[i_]=RN[d_]
     seen=set();D2=[];E2=[]
     for d_,e_ in zip(D,E):
         if d_ in seen: continue
         seen.add(d_);D2.append(d_);E2.append(e_)
     D,E=D2,E2
+    Y=('achema','tps','petro24','pv25','tfs25','leuna25','cru25','lh25')
+    if not any(w in ' '.join(D).lower() for w in ('versand','logistik')):
+        D.append('Versand und Logistik in Abstimmung mit der Exportabteilung');E.append('Shipping and logistics in coordination with the export department')
+    if k in Y:
+        D.append('Transportplanung, Zwischenlagerung und Rücktransport des Messematerials');E.append('Transport planning, interim storage and return of the booth material')
     EXTRA_T=[('Abstimmung mit Verkauf und Standteam','Coordination with sales and the booth team'),('Exponate, Broschüren und Giveaways zusammenstellen','Putting together exhibits, brochures and giveaways'),('Nachbereitung und Übergabe der Leads','Follow-up and handover of leads')]
     low=' '.join(D).lower()
     for d_,e_ in EXTRA_T:
@@ -98,7 +108,7 @@ def tasks2(k,de,en):
             D.append(d_);E.append(e_)
     if not any(_grp(x)=='plan' for x in D) or k in ('fla26','pv26','dk26','uk26','cheme26','cru26','tfs26','petro26','dahej26','tfs25'):
         if not any('planung' in x.lower() for x in D):
-            D=['Mitarbeit bei Planung und Organisation']+D;E=['Support with planning and organisation']+E
+            D=[('Planung und Organisation' if k in Y else 'Mitarbeit bei Planung und Organisation')]+D;E=[('Planning and organisation' if k in Y else 'Support with planning and organisation')]+E
     out=''
     for g,lab in GRP:
         it=[(d,e) for d,e in zip(D,E) if _grp(d)==g]
