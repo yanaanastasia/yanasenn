@@ -13,22 +13,22 @@ HL=[('XWP2ub9yg6MDibVE8ZQZ2c','p_achema.jpg','Messen','Trade fairs','ACHEMA 2024
 
 # id, url, titleDE, titleEN, descDE, descEN, imgs, sections[(id,de,en)], projects[(url,de,en)]
 CAT=[
-('messen','NcW3BUdbXA5pKkgtA91Zvi','Messen','Trade fairs','Messeauftritte in Europa, den USA und Indien: Planung, Standdesign, Logistik und Kommunikation.','Trade fair presences in Europe, the USA and India: planning, stand design, logistics and communication.',['cat_messen.jpg'],
+('messen','NcW3BUdbXA5pKkgtA91Zvi','Messen','Trade fairs','Messeauftritte in Europa, den USA und Indien: Planung, Standdesign, Logistik und Kommunikation.','Trade fair presences in Europe, the USA and India: planning, stand design, logistics and communication.',['m2.jpg'],
  [('international','International','International'),('partner','Am Stand eines Partners','At a partner\'s stand'),('schweiz','Schweiz','Switzerland')],
  [('XWP2ub9yg6MDibVE8ZQZ2c','ACHEMA 2024','ACHEMA 2024'),('5CenZNzAZtaKJN37GonvR1','Mobiler Messestand USA','Mobile stand USA')]),
-('print','GZFTrhEhSPs7GJyEAEEvNi','Grafik & Print','Graphic & Print','Alles, was gedruckt wird: von der Broschüre über Inserate bis zur Messewand.','Everything that gets printed: from brochures and ads to trade fair walls.',['cat_print.jpg'],
+('print','GZFTrhEhSPs7GJyEAEEvNi','Grafik & Print','Graphic & Print','Alles, was gedruckt wird: von der Broschüre über Inserate bis zur Messewand.','Everything that gets printed: from brochures and ads to trade fair walls.',['g1.jpg','g2.jpg','g3.jpg'],
  [('broschueren','Broschüren und Magazin','Brochures and magazine'),('flyer','Flyer','Flyers'),('inserate','Inserate','Ads'),('infoblaetter','Infoblätter','Info sheets'),('grusskarten','Grusskarten','Greeting cards'),('messegrafik','Messegrafik','Trade fair graphics'),('infografiken','Infografiken','Infographics'),('redesigns','Redesigns','Redesigns')],
  [('6CM4QZGbNhy5bjxvvMbnbc','Broschüren in neun Sprachen','Brochures in nine languages'),('1ub6RRXMbhZQRUq33avRvH','Weihnachten 2026','Christmas 2026')]),
-('corporate','PvoLUQgLQFMc4gD6bygMcb','Corporate Design & Raum','Corporate design & space','Erscheinungsbild und Räume: die Marke im eigenen Gebäude und eine komplette Markenidentität.','Identity and spaces: the brand in its own building and a complete brand identity.',['cat_cd.jpg'],
+('corporate','PvoLUQgLQFMc4gD6bygMcb','Corporate Design & Raum','Corporate design & space','Erscheinungsbild und Räume: die Marke im eigenen Gebäude und eine komplette Markenidentität.','Identity and spaces: the brand in its own building and a complete brand identity.',['c1.jpg','c2.jpg','c3.jpg'],
  [('raum','Raumgestaltung','Interior design'),('marke','Markenidentität','Brand identity'),('redesigns','Redesigns','Redesigns')],
  [('3YqAhMFfdAX84mYeGeTHFW','Die Marke im eigenen Gebäude','The brand in its own building')]),
-('social','9pLQefB7tUVEDh7QPpWNy6','Social Media','Social media','Feed-Design, Storys, Reels, Feiertagsgrafiken und LinkedIn für zwei sehr unterschiedliche Marken.','Feed design, stories, reels, holiday graphics and LinkedIn for two very different brands.',['cat_social.png'],
+('social','9pLQefB7tUVEDh7QPpWNy6','Social Media','Social media','Feed-Design, Storys, Reels, Feiertagsgrafiken und LinkedIn für zwei sehr unterschiedliche Marken.','Feed design, stories, reels, holiday graphics and LinkedIn for two very different brands.',['s1.jpg','s2.jpg','s3.jpg'],
  [('raster','Feed-Design','Feed design'),('storys','Storys','Stories'),('reels','Reels','Reels'),('anlaesse','Anlässe','Occasions'),('linkedin','LinkedIn','LinkedIn')],
  [('AWzk8y7iyFhZyJJQF4gszF','Immobilien-Reels','Property reels')]),
-('digital','PdvNqJCMVj6QRj1SDPPNTW','Website und E-Mail','Website and email','Website-Pflege in Craft CMS, Newsletter und Mailings, E-Mail-Banner zu jeder Messe.','Website content in Craft CMS, newsletters and mailings, email banners for every trade fair.',['cat_web.jpg'],
+('digital','PdvNqJCMVj6QRj1SDPPNTW','Website und E-Mail','Website and email','Website-Pflege in Craft CMS, Newsletter und Mailings, E-Mail-Banner zu jeder Messe.','Website content in Craft CMS, newsletters and mailings, email banners for every trade fair.',['w1.jpg','w2.jpg','w3.jpg'],
  [('website','Website','Website'),('newsletter','Newsletter und Mailings','Newsletter and mailings'),('banner','E-Mail-Banner','Email banners')],[]),
-('foto','','Foto & Video','Photo & video','Firmenshooting, Reportagen und animierte Erklärvideos.','Company shoots, reportage and animated explainer videos.',['cat_foto.jpg'],[],[]),
-('werbeartikel','','Werbeartikel','Promotional items','Giveaways, Geschenke für Kunden und Mitarbeitende, Kleidung mit Logo.','Giveaways, gifts for clients and staff, branded clothing.',['cat_werbe.jpg'],[],[]),
+('foto','','Foto & Video','Photo & video','Firmenshooting, Reportagen und animierte Erklärvideos.','Company shoots, reportage and animated explainer videos.',['f1.jpg','f2.jpg','f3.jpg'],[],[]),
+('werbeartikel','','Werbeartikel','Promotional items','Giveaways, Geschenke für Kunden und Mitarbeitende, Kleidung mit Logo.','Giveaways, gifts for clients and staff, branded clothing.',['k1.jpg'],[],[]),
 ]
 
 CSS=r'''
@@ -54,9 +54,10 @@ section.blk{padding:48px 0;border-top:1px solid var(--line)}
 .hl a:focus-visible .pic{outline:3px solid var(--accent);outline-offset:3px}
 .cats{display:grid;gap:22px}
 .cat{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:36px;align-items:center;background:var(--tint);border-radius:20px;padding:26px}
-.cat .vis{display:flex;align-items:center;justify-content:center;height:300px}
-.cat .vis img{display:block;max-width:100%;max-height:300px;width:auto;height:auto;object-fit:contain;border-radius:6px;box-shadow:0 14px 30px rgba(0,0,0,.18);transition:transform .4s}
-.cat .vis img[src$=".png"]{box-shadow:none;border-radius:0}
+.cat .vis{display:flex;align-items:center;justify-content:center;height:300px;padding:0 10px}
+.cat .vis img{display:block;height:auto;width:auto;max-height:200px;max-width:44%;border-radius:3px;box-shadow:0 14px 30px rgba(0,0,0,.2);transition:transform .4s;position:relative}
+.cat .vis img:nth-child(2){max-height:250px;max-width:58%;z-index:2;margin:0 -26px}
+.cat .vis img:only-child{max-height:260px;max-width:100%;margin:0}
 .cat .vis:hover img{transform:translateY(-4px)}
 .cat .num{font:700 .8rem var(--font);color:var(--accent);letter-spacing:.08em}
 .cat h3{font-size:1.7rem;margin-top:4px}.cat p{color:var(--muted);margin-top:8px;max-width:58ch}
@@ -71,7 +72,7 @@ section.blk{padding:48px 0;border-top:1px solid var(--line)}
 .legend{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:.82rem;margin-top:10px}.legend span{display:inline-flex;gap:6px;align-items:center}.legend i{display:inline-block;width:22px;height:12px;border-radius:99px;border:1px solid var(--line);background:var(--bg)}.legend i.p{background:var(--ink);border-color:var(--ink)}
 footer{padding:30px 0 60px;color:var(--muted);font-size:.85rem}
 @media (prefers-reduced-motion:reduce){.hl .pic img,.cat .vis img{transition:none}}
-@media (max-width:860px){.hl a,.hl a:nth-child(1),.hl a:nth-child(2){grid-column:span 6}.cat{grid-template-columns:minmax(0,1fr);padding:18px}.cat .vis{height:auto}.cat .vis img{max-height:260px}.shead{display:block}}
+@media (max-width:860px){.hl a,.hl a:nth-child(1),.hl a:nth-child(2){grid-column:span 6}.cat{grid-template-columns:minmax(0,1fr);padding:18px}.cat .vis{height:230px}.cat .vis img{max-height:150px}.cat .vis img:nth-child(2){max-height:190px;margin:0 -18px}.shead{display:block}}
 '''
 def link(u,sec=''): return f'{A}{u}{"#"+sec if sec else ""}'
 hl='<div class="hl">'+''.join(f'<a href="{link(u)}" target="_blank" rel="noopener"><div class="pic"><img src="img/{im}" alt="" loading="lazy"><span class="tag">{T(cd,ce)}</span></div><div><b>{T(td,te)}</b><small>{T(dd,de)}</small></div></a>' for u,im,cd,ce,td,te,dd,de in HL)+'</div>'
