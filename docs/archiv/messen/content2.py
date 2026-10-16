@@ -38,6 +38,22 @@ CAT=[('design',('Standdesign','Booth design'),('Rückwände, Blenden und Grafik 
 ('vor',('Vor der Messe','Before the fair'),('E-Mail-Signatur, Banner, Inserate und Social Media machen die Teilnahme im Vorfeld bekannt.','E-mail signature, banners, ads and social media announce the participation beforehand.')),
 ('brief',('Briefing fürs Team','Briefing for the team'),('Vor jeder Messe erstelle ich ein Messebriefing für das Standteam: Fakten zur Messe, Standplan, Ablauf und Dresscode.','Before every fair I create a briefing for the booth team: fair facts, booth plan, schedule and dress code.')),
 ('lead',('Leads','Leads'),('Mit dem Lead-Formular hält das Team jedes Gespräch am Stand fest: Branche, Einsatzbereich, Produktinteresse und nächste Schritte. Das Formular erstelle ich für jede Messe.','With the lead form the team records every conversation at the booth: industry, application, product interest and next steps. I create the form for every fair.'))]
+import re as _re
+def _li(t): return _re.sub(r'(#\w+)',r'<span class="ht">\1</span>',t).replace('\n','<br>')
+POSTS={
+'pv26':[('CP Pumpen freut sich auf die Pumps & Valves Dortmund.\nBesuchen Sie uns an Stand 7238 und lernen Sie unsere Pumpenlösungen für anspruchsvolle industrielle Anwendungen kennen.\n\n📍 Messe Dortmund\n🎟️ Eintritt frei mit unserem Ticket-Link.\n\n#PumpsAndValvesDortmund #CPPumps #Industriepumpen #Pumpentechnik #ProcessSafety','e_pv26_vor1.jpg')],
+'fla26':[('Fertilizer Latino Americano 2026\nMiami, Florida | 26–28 January | 📌 Booth 22/23\nCP Pumps – your partner for reliable pump solutions in fertilizer and chemical processing.\n\nLet’s talk pumps.\n\n#CPPumps #FertilizerLatAm #IndustrialPumps #TradeShow','e_fla26_vor1.jpg'),
+ ('Day one at Fertilizer Latino Americano was a great start!\nThank you to everyone who visited CP Pumps at Booth 22/23. More to come!\n\n#FertilizerLatAm #CPPumps #TradeShow #Pumps','e_fla26_vor2.jpg')],
+}
+SPEC={
+('tfs25','vor'):('Die Anzeige im Messekatalog trug den Titel «Swiss Pump Technology for Sustainable and Decarbonized Fertilizer Production». Dazu kamen E-Mail-Banner mit Gratis-Ticket und drei Mailings; registrierte Kundinnen und Kunden holten ihr Geschenk am Stand ab.','The catalogue ad was titled “Swiss Pump Technology for Sustainable and Decarbonized Fertilizer Production”. E-mail banners with a free ticket and three mailings followed; registered customers collected their gift at the booth.'),
+('pv25','vor'):('E-Mail-Banner luden zum kostenlosen Messeticket ein, LinkedIn-Beiträge kündigten den Auftritt an. Kundinnen und Kunden konnten sich vorab für ein Geschenk anmelden.','E-mail banners invited visitors to a free ticket and LinkedIn posts announced the booth. Customers could register for a gift in advance.'),
+('dk26','vor'):('Ganzseitige Anzeige im Katalog mit den drei ausgestellten Baureihen, Web-Banner auf der Messe-Website und E-Mail-Banner. Am Eingang verteilte das Team Goodie-Bags, damit möglichst viele Besucher eine CP-Tasche durch die Messe trugen.','Full-page catalogue ad with the three product series on show, web banners on the fair website and e-mail banners. At the entrance the team handed out goodie bags so that many visitors carried a CP bag through the fair.'),
+('uk26','vor'):('Die Anzeige setzte auf zwei Argumente: Schweizer Qualität und geringer Wartungsaufwand. E-Mail-Banner, E-Mail-Signatur und ein Social-Media-Beitrag machten die Teilnahme bekannt.','The ad focused on two arguments: Swiss quality and low maintenance. E-mail banners, the e-mail signature and a social media post announced the participation.'),
+('achema','vor'):('Drei Mailings, ein Reminder und eine Dankesmail luden Kundinnen und Kunden ein, vorab ein Geschenk zu wählen: SIGG-Flasche, Badetuch oder Fussball im CP-Stil, passend zur Fussball-EM.','Three mailings, a reminder and a thank-you mail invited customers to choose a gift in advance: SIGG bottle, bath towel or a football in CP style, in time for the European Championship.'),
+('tps','design'):('Statt Mobiliar zu mieten, entstand ein eigenes Messesystem für die USA: eine aufklappbare Standbox mit Rundum-Design und eine Box für die Möbel. Beide lagern zwischen den Messen in den USA.','Instead of renting furniture, a booth system for the USA was created: a fold-out booth box with all-round design and a box for the furniture. Both are stored in the USA between fairs.'),
+('tps','lead'):('Nach der Messe gingen die Leads an die zuständigen Verkäufer und wurden zentral abgelegt.','After the fair, the leads went to the responsible sales staff and were stored centrally.'),
+}
 def cover(k): return (IM.get(k,{}).get('hero') or [None])[0]
 ORDER=[f[0] for f in F]
 LOGO={'achema':'achema','tps':'tps','petro24':'petro','petro26':'petro','pv25':'pv','pv26':'pv','tfs25':'tfs','tfs26':'tfs','leuna25':'leuna','cru25':'cru','cru26':'cru','lh25':'lh','fla26':'fla','dk26':'dk','uk26':'chemuk','cheme26':'cheme','dahej26':'dahej'}
@@ -54,10 +70,14 @@ def sheet(f):
     for n_,(c,lab,blurb) in enumerate(CAT,1):
         fs=IM.get(k,{}).get(c,[])
         if not fs: continue
+        if (k,c) in SPEC: blurb=SPEC[(k,c)]
         if k=='achema' and c=='design': blurb=('Standdesign und Standbau lagen bei einer Agentur. Von mir: die Infostelen zu den Exponaten.','Booth design and construction were by an agency. My part: the info columns for the exhibits.')
         gid=f'f_{k}_{c}'; G[gid]=[(x,f'{name} · {lab[0]}') for x in fs]
         tiles=''.join(f'<button class="gt{" fit" if c!="stand" else ""}" data-gallery="{gid}" data-n="{i}"><img src="img/{x}" alt="{name}, {lab[0]} {i+1}"></button>' for i,x in enumerate(fs))
         gal+=f'<section class="gsec"><div class="gh"><h4>{T(*lab)}</h4><p>{T(*blurb)}</p></div><div class="gg">{tiles}</div></section>'
+        if c=='vor' and k in POSTS:
+            cards=''.join(f'<article class="li"><header><img src="img/t_cplogo.png" alt=""><div><b>CP Pumpen AG</b><small>LinkedIn</small></div></header><p>{_li(t)}</p><img class="lim" src="img/{im}" alt=""><footer><span>👍 Gefällt mir</span><span>💬 Kommentieren</span><span>↗ Teilen</span></footer></article>' for t,im in POSTS[k])
+            gal+=f'<section class="gsec"><div class="gh"><h4>LinkedIn</h4><p>{T("Die Beiträge zur Messe schreibe und gestalte ich selbst: vor der Messe als Einladung, während der Messe mit Bildern vom Stand.","I write and design the posts for each fair myself: before the fair as an invitation, during the fair with pictures from the booth.")}</p></div><div class="lig">{cards}</div></section>'
     c=cover(k)
     heroh=(f'<button class="sh-hero" data-gallery="h_{k}" data-n="0"><img src="img/{c}" alt="{name}"></button>' if c else '')
     if c: G[f'h_{k}']=[(c,name)]
