@@ -212,7 +212,7 @@ f'''<div class="tools"><div><h4>{T("Planen","Plan")}</h4><p>{T("Redaktionsplan m
 <div><h4>{T("Veröffentlichen","Publish")}</h4><p>{T("Planung und Versand über Zoho One und Meta, Storys teils als Anzeigen beworben.","Scheduling and publishing via Zoho One and Meta, some stories promoted as ads.")}</p></div></div>''')
 
 nxt=f'<a class="next" href="{WEBURL}" target="_blank" rel="noopener"><div><span class="kick" style="color:inherit;opacity:.6">{T("Weiter","Next")}</span><h3>{T("Website, Newsletter und E-Mail-Banner","Website, newsletter and email banners")}</h3><p>{T("Wie eine Messe vom Kalender auf der Website bis in die E-Mail-Signatur kommt.","How a trade fair travels from the website calendar into every email signature.")}</p></div><span class="arr">→</span></a>'
-page('social-media.html','Social Media',('#',f'{T("Arbeiten","Work")} / <b>Social Media</b>'),hero+s1+s2+s3+s4+s5+s6+s7+nxt,feed)
+page('social-media.html','Social Media',('#',f'{T("Arbeiten","Work")} / <b>Social Media</b>'),hero+s1+s2+s3+s4+s5+s6+s7+'<div style="height:60px"></div>',feed)
 
 # ================= WEBSITE =================
 web=[('w_home.jpg','Startseite','Home page'),('w_messen.jpg','Messekalender mit Standnummern','Trade fair calendar with stand numbers'),('w_news.jpg','News und Blog','News and blog'),('w_post_dk.jpg','Messebeitrag DK HUB GLOBAL','Trade fair post DK HUB GLOBAL'),('w_post_prod.jpg','Produktbeitrag','Product post'),('w_downloads.jpg','Download-Bibliothek','Download library')]
@@ -237,7 +237,7 @@ EB=[('achema','ACHEMA 2024'),('pv25','Pumps & Valves 2025'),('tfs25','The Fertil
 w3=sec(3,'banner',('E-Mail-Banner','Email banners'),('Zu jeder Messe ein Banner für die E-Mails des ganzen Teams, meist mit Link zum Gratis-Ticket. Dieselben Banner setze ich auch auf Messeportalen ein.','For every trade fair a banner for the whole team\'s emails, usually linking to a free ticket. I also use the same banners on trade fair portals.'),
  '<div class="bgrid">'+''.join(f'<figure>{zb("eb",f"e_{k}_vor0.jpg",n)}<figcaption>{n}</figcaption></figure>' for k,n in EB)+'</div>')
 wnext=f'<a class="next" href="{A}9pLQefB7tUVEDh7QPpWNy6" target="_blank" rel="noopener"><div><span class="kick" style="color:inherit;opacity:.6">{T("Siehe auch","See also")}</span><h3>Social Media</h3><p>{T("Feed, Storys, Reels und LinkedIn.","Feed, stories, reels and LinkedIn.")}</p></div><span class="arr">→</span></a>'
-page('website.html','Website und E-Mail',('#',f'{T("Arbeiten","Work")} / <b>{T("Website und E-Mail","Website and email")}</b>'),whero+w1+w2+w3+wnext)
+page('website.html','Website und E-Mail',('#',f'{T("Arbeiten","Work")} / <b>{T("Website und E-Mail","Website and email")}</b>'),whero+w1+w2+w3+'<div style="height:60px"></div>')
 
 # ================= OVERVIEW =================
 ov=f'''<div class="hero" style="grid-template-columns:minmax(0,1fr);padding-bottom:36px"><div><span class="kick">{T("Arbeiten","Work")}</span><h1>{T("Digital und Social Media","Digital and Social Media")}</h1>
