@@ -40,11 +40,7 @@ CAT=[('design',('Standdesign','Booth design'),('Rückwände, Blenden und Grafik 
 ('lead',('Leads','Leads'),('Mit dem Lead-Formular hält das Team jedes Gespräch am Stand fest: Branche, Einsatzbereich, Produktinteresse und nächste Schritte. Das Formular erstelle ich für jede Messe.','With the lead form the team records every conversation at the booth: industry, application, product interest and next steps. I create the form for every fair.'))]
 import re as _re
 def _li(t): return _re.sub(r'(#\w+)',r'<span class="ht">\1</span>',t).replace('\n','<br>')
-POSTS={
-'pv26':[('CP Pumpen freut sich auf die Pumps & Valves Dortmund.\nBesuchen Sie uns an Stand 7238 und lernen Sie unsere Pumpenlösungen für anspruchsvolle industrielle Anwendungen kennen.\n\n📍 Messe Dortmund\n🎟️ Eintritt frei mit unserem Ticket-Link.\n\n#PumpsAndValvesDortmund #CPPumps #Industriepumpen #Pumpentechnik #ProcessSafety','e_pv26_vor1.jpg')],
-'fla26':[('Fertilizer Latino Americano 2026\nMiami, Florida | 26–28 January | 📌 Booth 22/23\nCP Pumps – your partner for reliable pump solutions in fertilizer and chemical processing.\n\nLet’s talk pumps.\n\n#CPPumps #FertilizerLatAm #IndustrialPumps #TradeShow','e_fla26_vor1.jpg'),
- ('Day one at Fertilizer Latino Americano was a great start!\nThank you to everyone who visited CP Pumps at Booth 22/23. More to come!\n\n#FertilizerLatAm #CPPumps #TradeShow #Pumps','e_fla26_vor2.jpg')],
-}
+POSTS=json.load(open(S+'/me/li.json',encoding='utf-8'))
 SPEC={
 ('tfs25','vor'):('Die Anzeige im Messekatalog trug den Titel «Swiss Pump Technology for Sustainable and Decarbonized Fertilizer Production». Dazu kamen E-Mail-Banner mit Gratis-Ticket und drei Mailings; registrierte Kundinnen und Kunden holten ihr Geschenk am Stand ab.','The catalogue ad was titled “Swiss Pump Technology for Sustainable and Decarbonized Fertilizer Production”. E-mail banners with a free ticket and three mailings followed; registered customers collected their gift at the booth.'),
 ('pv25','vor'):('E-Mail-Banner luden zum kostenlosen Messeticket ein, LinkedIn-Beiträge kündigten den Auftritt an. Kundinnen und Kunden konnten sich vorab für ein Geschenk anmelden.','E-mail banners invited visitors to a free ticket and LinkedIn posts announced the booth. Customers could register for a gift in advance.'),
@@ -76,8 +72,13 @@ def sheet(f):
         tiles=''.join(f'<button class="gt{" fit" if c!="stand" else ""}" data-gallery="{gid}" data-n="{i}"><img src="img/{x}" alt="{name}, {lab[0]} {i+1}"></button>' for i,x in enumerate(fs))
         gal+=f'<section class="gsec"><div class="gh"><h4>{T(*lab)}</h4><p>{T(*blurb)}</p></div><div class="gg">{tiles}</div></section>'
         if c=='vor' and k in POSTS:
-            cards=''.join(f'<article class="li"><header><img src="img/t_cplogo.png" alt=""><div><b>CP Pumpen AG</b><small>LinkedIn</small></div></header><p>{_li(t)}</p><img class="lim" src="img/{im}" alt=""><footer><span>👍 Gefällt mir</span><span>💬 Kommentieren</span><span>↗ Teilen</span></footer></article>' for t,im in POSTS[k])
-            gal+=f'<section class="gsec"><div class="gh"><h4>LinkedIn</h4><p>{T("Die Beiträge zur Messe schreibe und gestalte ich selbst: vor der Messe als Einladung, während der Messe mit Bildern vom Stand.","I write and design the posts for each fair myself: before the fair as an invitation, during the fair with pictures from the booth.")}</p></div><div class="lig">{cards}</div></section>'
+            def _card(q):
+                ims=q['images'];g=f'li_{k}_'+q['date'].replace('-',''); G[g]=[(x,'LinkedIn') for x in ims]
+                im=''.join(f'<button data-gallery="{g}" data-n="{i}"><img src="img/{x}" alt=""></button>' for i,x in enumerate(ims[:4]))
+                dd='.'.join(reversed(q['date'].split('-')))
+                return f'<article class="li"><header><img src="img/t_cplogo.png" alt=""><div><b>CP Pumpen AG</b><small>LinkedIn · {dd}</small></div></header><div class="lit"><p>{_li(q["text"])}</p></div><button class="limore">{T("mehr","more")}</button><div class="limg n{min(len(ims),4)}">{im}</div><footer><span>👍 Gefällt mir</span><span>💬 Kommentieren</span><span>↗ Teilen</span></footer></article>'
+            cards=''.join(_card(q) for q in POSTS[k])
+            gal+=f'<section class="gsec"><div class="gh"><h4>LinkedIn</h4><p>{T("Die Beiträge auf dem LinkedIn-Kanal von CP: vor der Messe als Einladung, während der Messe mit Bildern vom Stand und danach als Rückblick.","The posts on CP’s LinkedIn channel: an invitation before the fair, pictures from the booth during the fair and a recap afterwards.")}</p></div><div class="lig">{cards}</div></section>'
     c=cover(k)
     heroh=(f'<button class="sh-hero" data-gallery="h_{k}" data-n="0"><img src="img/{c}" alt="{name}"></button>' if c else '')
     if c: G[f'h_{k}']=[(c,name)]

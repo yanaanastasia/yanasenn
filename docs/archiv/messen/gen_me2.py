@@ -204,10 +204,11 @@ details summary{cursor:pointer;font-weight:700;list-style:none;display:inline-fl
 .gg{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
 .gt{all:unset;cursor:pointer;aspect-ratio:4/3;border-radius:12px;overflow:hidden;background:var(--tint);display:block}.gt img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}.gt:hover img{transform:scale(1.04)}
 .gt.fit img{object-fit:contain;padding:14px;box-sizing:border-box}
-.lig{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;align-items:start}
+.lig{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px;align-items:start}
 .li{background:#fff;color:#1d2226;border:1px solid #e0dfdc;border-radius:10px;overflow:hidden;font:400 .9rem/1.45 -apple-system,system-ui,sans-serif}
 .li header{display:flex;gap:10px;align-items:center;padding:12px 14px}.li header img{width:42px;height:42px;border-radius:50%;object-fit:contain;background:#fff;border:1px solid #eee}.li header small{display:block;color:#666;font-size:.75rem}
-.li p{padding:0 14px 10px;margin:0}.li .ht{color:#0a66c2;font-weight:600}.li .lim{width:100%;display:block}.li footer{display:flex;justify-content:space-around;border-top:1px solid #e0dfdc;padding:8px;color:#666;font-size:.8rem}
+.lit{max-height:9.5em;overflow:hidden;position:relative}.li.open .lit{max-height:none}.li p{padding:0 14px 10px;margin:0;white-space:normal}.limore{all:unset;cursor:pointer;color:#666;font-size:.8rem;padding:0 14px 10px;display:block}.li.open .limore{display:none}
+.limg{display:grid;gap:2px}.limg.n2,.limg.n4{grid-template-columns:1fr 1fr}.limg.n3{grid-template-columns:1fr 1fr}.limg.n3 button:first-child{grid-column:1/-1}.limg button{all:unset;cursor:pointer;display:block}.limg img{width:100%;height:100%;object-fit:cover;display:block;aspect-ratio:auto}.limg.n2 img,.limg.n3 img,.limg.n4 img{aspect-ratio:1/1}.limg.n3 button:first-child img{aspect-ratio:16/10}.li .ht{color:#0a66c2;font-weight:600}.li .lim{width:100%;display:block}.li footer{display:flex;justify-content:space-around;border-top:1px solid #e0dfdc;padding:8px;color:#666;font-size:.8rem}
 .sh-nav{display:flex;justify-content:space-between;margin-top:48px;padding-top:20px;border-top:1px solid var(--line)}.sh-nav button{all:unset;cursor:pointer;font-weight:700;color:var(--accent)}
 @media (max-width:760px){.sh-body{grid-template-columns:1fr}}
 #lb{z-index:10}
@@ -261,6 +262,7 @@ const fd=document.getElementById('fair');
 function showFair(k){fd.querySelectorAll('.sheet').forEach(x=>x.hidden=x.id!=='fs-'+k);if(!fd.open)fd.showModal();fd.scrollTop=0;}
 document.querySelectorAll('[data-fair]').forEach(b=>b.addEventListener('click',()=>showFair(b.dataset.fair)));
 document.getElementById('fclose').onclick=()=>fd.close();
+document.querySelectorAll('.limore').forEach(b=>b.addEventListener('click',()=>b.closest('.li').classList.add('open')));
 """
 d='<dialog id="lb" aria-label="Ansicht"><div class="vw"><div class="vwtop"><b id="vwT"></b><span id="vwC"></span><div class="vwl" id="vwL"><button data-vl="de">DE</button><button data-vl="en">EN</button></div><button id="close" aria-label="Schliessen">✕</button></div><div class="vwstage"><button id="prev" aria-label="Zurück">‹</button><div class="spread" id="sp"></div><button id="next" aria-label="Weiter">›</button></div><div class="thumbs" id="thumbs"></div></div></dialog>'
 scr=b[b.index('<script>'):b.index('</script>')+9]
