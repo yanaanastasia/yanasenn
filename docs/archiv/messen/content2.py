@@ -78,6 +78,13 @@ def _grp(x):
 def tasks2(k,de,en):
     D=[x.strip() for x in de.split('·')];E=[x.strip() for x in en.split('·')]
     if len(D)!=len(E): E=D
+    D=[_re.sub(r'\s*\([^)]*\)','',x).strip() for x in D];E=[_re.sub(r'\s*\([^)]*\)','',x).strip() for x in E]
+    EXTRA_T=[('Abstimmung mit Verkauf und Standteam','Coordination with sales and the booth team'),('Exponate, Broschüren und Giveaways zusammenstellen','Putting together exhibits, brochures and giveaways'),('Nachbereitung und Übergabe der Leads','Follow-up and handover of leads')]
+    low=' '.join(D).lower()
+    for d_,e_ in EXTRA_T:
+        key=d_.split()[0].lower()[:8]
+        if key not in low and not (d_.startswith('Exponate') and 'exponate' in low) and not (d_.startswith('Nachbereitung') and ('leads' in low or k in ('cru26','tfs26','petro26','dahej26'))):
+            D.append(d_);E.append(e_)
     if not any(_grp(x)=='plan' for x in D) or k in ('fla26','pv26','dk26','uk26','cheme26','cru26','tfs26','petro26','dahej26','tfs25'):
         if not any('planung' in x.lower() for x in D):
             D=['Mitarbeit bei Planung und Organisation']+D;E=['Support with planning and organisation']+E
