@@ -1,0 +1,556 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Social Media</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"><style>
+/* Layout: Projektseite Broschüren – Titelbild, Konzept, Familie, Sprachen-Umschalter, Einblicke, Sprachmatrix, Aufgaben; basiert auf Messestand für die USA – Titelbild, Idee (Kreislauf), Standbox (Plan + Fotos), Rundum-Design, Aufbauanleitung, Herausforderung Houston, Einsätze (Zeitleiste), Aufgaben */
+:root{--bg:#f7f8f6;--surface:#fff;--ink:#1b2320;--muted:#5d6964;--line:#dde2de;--accent:#1f5fa8;--soft:#c9d6e6;--green:#4f8a1f;--forest:#1f3a2c;--font:"Lato",Arial,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121715;--surface:#1a201d;--ink:#e9eeeb;--muted:#9ba8a2;--line:#2c3531;--accent:#7fb0ea;--soft:#34475e;--green:#9fd36a;--forest:#16271e;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--font);margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px;padding-block:28px 80px;display:grid;gap:80px}
+.note{font-size:.8rem;color:var(--muted);border:1px dashed var(--line);border-radius:8px;padding:8px 12px;margin:0}
+h1{font:700 clamp(2.2rem,5vw,3.6rem)/1.05 var(--font);margin:0;text-wrap:balance}
+h2{font:700 clamp(1.5rem,3vw,2rem)/1.15 var(--font);margin:0;text-wrap:balance}
+h3{font:700 1.15rem/1.25 var(--font);margin:0}
+.eyebrow{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
+p{margin:0;max-width:62ch}.lead{font-size:1.15rem}
+img{display:block;width:100%;height:auto}
+figure{margin:0;display:grid;gap:8px;min-width:0;align-content:start}
+.cap{font-size:.82rem;color:var(--muted)}
+.hero{display:grid;gap:22px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.facts div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:4px}
+.facts b{font:700 1.5rem/1.1 var(--font)}.facts span{font-size:.85rem;color:var(--muted)}
+.chapter{display:grid;gap:24px}.text{display:grid;gap:14px}
+.split{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:start}
+.split>*,.g2>*,.g3>*,.g4>*{min-width:0}
+.g2,.g3,.g4{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+/* Klickbare Bilder */
+.zoom{all:unset;box-sizing:border-box;cursor:zoom-in;display:block;width:100%;border-radius:6px;overflow:hidden;background:var(--surface);position:relative}
+.zoom img{width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.zoom:hover img,.zoom:focus-visible img{transform:scale(1.02)}
+.zoom:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.zoom::after{content:"";position:absolute;right:10px;bottom:10px;width:30px;height:30px;border-radius:50%;background:rgba(255,255,255,.92) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231b2320' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6'/%3E%3Cpath d='M15 15l5 5M10.5 8v5M8 10.5h5'/%3E%3C/svg%3E") center/18px no-repeat;box-shadow:0 2px 6px rgba(0,0,0,.18);opacity:0;transition:opacity .2s}
+.zoom:hover::after,.zoom:focus-visible::after{opacity:1}
+@media (prefers-reduced-motion:reduce){.zoom img,.zoom::after{transition:none}}
+.r169{aspect-ratio:16/9}.r43{aspect-ratio:4/3}.r34{aspect-ratio:3/4}.rpage{aspect-ratio:1132/1600}
+.zoom.visual{background:#f3f4f2}
+.zoom.plan{background:#fff;border:1px solid var(--line)}.zoom.plan img{object-fit:contain;padding:10px}
+.zoom.page{background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(0,0,0,.08)}.zoom.page img{object-fit:contain}
+/* Kreislauf */
+.cycle{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:stretch}
+.cs{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.cs .n{font:700 .72rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+.cs b{font-size:1.05rem}.cs span{font-size:.88rem;color:var(--muted)}
+.ca{display:flex;align-items:center;color:var(--muted);font-size:1.3rem}
+.loop{font-size:.85rem;color:var(--muted);display:flex;gap:8px;align-items:center}
+.loop svg{flex:none}
+/* Ausstattung */
+.kit{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;display:grid;gap:12px;align-content:start}
+.box h3{display:flex;gap:10px;align-items:center}
+.box .tag{font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;background:var(--accent);color:#fff;border-radius:99px;padding:2px 9px}
+.box .tag.alt{background:var(--green)}
+.box ul{margin:0;padding-left:1.1em;display:grid;gap:4px}.box li{font-size:.95rem}
+.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.specs div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.specs b{font-size:1.05rem}.specs span{font-size:.86rem;color:var(--muted)}
+/* Birkenwald */
+.forest{background:var(--forest);color:#eef4ee;border-radius:16px;padding:clamp(20px,4vw,40px);display:grid;grid-template-columns:5fr 7fr;gap:32px;align-items:center}
+.forest .eyebrow{color:#a9d77d}.forest p{color:#d6e2d8}
+.forest .claim{font:italic 400 1.35rem/1.3 var(--font);color:#fff;border-left:3px solid #a9d77d;padding-left:14px}
+.forest .zoom{background:#0e1b14}
+/* Anleitung */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:s}
+.steps figcaption{font-size:.88rem;color:var(--muted)}.steps figcaption b{display:block;color:var(--ink);font-size:.95rem}
+/* Herausforderung */
+.story{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+.story div{padding:18px;display:grid;gap:6px;align-content:start;border-right:1px solid var(--line)}
+.story div:last-child{border-right:0;background:color-mix(in srgb,var(--green) 10%,var(--surface))}
+.story .when{font:700 .72rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.story div:last-child .when{color:var(--green)}
+.story b{font-size:1rem}.story span{font-size:.88rem;color:var(--muted)}
+/* Zeitleiste */
+.tl{display:grid;gap:0;position:relative}
+.tl::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.ev{display:grid;grid-template-columns:24px 150px 1fr;gap:16px;padding:14px 0;align-items:start;position:relative}
+.ev i{width:24px;height:24px;border-radius:50%;background:var(--surface);border:3px solid var(--accent);margin-top:2px;z-index:1}
+.ev.next i{border-style:dashed;border-color:var(--muted)}
+.ev .d{font-size:.88rem;color:var(--muted);padding-top:2px}.ev .d b{display:block;color:var(--ink);font-size:1rem}
+.ev .c{display:grid;gap:6px}.ev .c p{font-size:.95rem}
+.ev .badge{justify-self:start;font:700 .7rem var(--font);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:99px;padding:2px 9px;color:var(--muted)}
+.ev .pics{display:grid;grid-template-columns:repeat(3,minmax(0,160px));gap:10px;margin-top:4px}
+.step{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--green)}
+/* Vorher / Nachher */
+.ba{display:grid;gap:12px}
+.baFrame{position:relative;aspect-ratio:3/2;border-radius:10px;overflow:hidden;background:#eceeeb;border:1px solid var(--line)}
+.baFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .45s}
+.baFrame img.photo{object-fit:cover}
+.baFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.baFrame img{transition:none}}
+.baTag{position:absolute;left:14px;top:14px;background:rgba(27,35,32,.82);color:#fff;font:700 .78rem var(--font);letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:99px}
+.baTabs{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.baTabs button{font:700 .88rem var(--font);padding:8px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.baTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.baTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.baTabs .arr{color:var(--muted)}
+.mini{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,130px));gap:12px;margin-top:4px}
+.mini figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
+.mini .step{font-size:.66rem}
+.grp{font:700 .78rem var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:6px 0 -10px}
+.bt{font-size:.95rem;max-width:none}
+.box.wide{display:grid;grid-template-columns:3fr 2fr;gap:24px;align-items:start}
+.box.wide>div:first-child{display:grid;gap:12px}
+.box .mini{grid-template-columns:repeat(4,minmax(0,1fr));max-width:520px}
+@media (max-width:860px){.box.wide{grid-template-columns:1fr}}
+.groups{display:grid;gap:22px;border-top:1px solid var(--line);padding-top:18px}
+.grpbox{display:grid;gap:8px}
+.grpbox .grp{margin:0}
+.mini.m1{grid-template-columns:96px}.mini.m2{grid-template-columns:repeat(2,96px)}.mini.m3{grid-template-columns:repeat(3,96px)}.mini.m1w{grid-template-columns:250px}
+.box .mini.m4{grid-template-columns:repeat(4,minmax(0,96px))}
+.rw{aspect-ratio:2000/771}
+ul.tasks{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+ul.tasks li{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:.88rem}
+/* Lightbox */
+dialog{border:0;border-radius:14px;padding:0;max-width:min(1100px,94vw);width:100%;background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(10,14,12,.78)}
+.lb{display:grid;gap:12px;padding:16px}
+.lbScroll{max-height:76vh;overflow:auto;border-radius:6px;background:#eef1f4;display:grid;place-items:center}
+.lbScroll img{width:auto;max-width:100%;max-height:74vh;height:auto}
+.lbBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.lbBar span{flex:1;font-size:.9rem;color:var(--muted);min-width:12ch}
+.lbBar button{font:700 .9rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.lbBar button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:6px}
+.thumbs button{all:unset;cursor:pointer;border-radius:4px;overflow:hidden;border:2px solid transparent;aspect-ratio:1;background:#fff}
+.thumbs button[aria-current="true"]{border-color:var(--accent)}.thumbs img{width:100%;height:100%;object-fit:cover}
+@media (max-width:860px){.cycle{grid-template-columns:1fr}.ca{justify-content:center;transform:rotate(90deg)}.facts,.specs{grid-template-columns:1fr 1fr}.forest,.split,.kit{grid-template-columns:1fr}.steps,.g4{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr 1fr}.story div:nth-child(2){border-right:0}.story div:nth-child(-n+2){border-bottom:1px solid var(--line)}.ev{grid-template-columns:24px 1fr}.ev .c{grid-column:2}.ev .pics{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.g3{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr}.story div{border-right:0;border-bottom:1px solid var(--line)}}
+
+/* Sprachen-Umschalter */
+.lang{display:grid;gap:12px}
+.langFrame{position:relative;aspect-ratio:1800/1273;border-radius:10px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.langFrame img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .35s}
+.langFrame img.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.langFrame img{transition:none}}
+.langTabs{display:flex;gap:8px;flex-wrap:wrap}
+.langTabs button{font:700 .88rem var(--font);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;min-width:52px}
+.langTabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.langTabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* Familie */
+.rA4{aspect-ratio:595/842}
+/* Bausteine */
+.wrap>*,.chapter>*,.hero>*{min-width:0}.mxWrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fam{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.fam div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:grid;gap:3px;align-content:start}
+.fam small{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.fam b{font-size:1.02rem}.fam span{font-size:.85rem;color:var(--muted)}
+@media (max-width:640px){.fam{grid-template-columns:1fr}}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tiles div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:6px;align-content:start}
+.tiles b{font-size:1rem}.tiles span{font-size:.88rem;color:var(--muted)}
+/* Matrix */
+.mx{width:100%;border-collapse:separate;border-spacing:0;font-size:.88rem;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.mx th,.mx td{padding:9px 6px;text-align:center;border-bottom:1px solid var(--line)}
+.mx tr:last-child td,.mx tr:last-child th{border-bottom:0}
+.mx thead th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;background:color-mix(in srgb,var(--ink) 3%,var(--surface))}
+.mx tbody th{text-align:left;font-weight:700;padding-left:14px;white-space:nowrap}
+.mx tbody tr:hover{background:color-mix(in srgb,var(--accent) 6%,var(--surface))}
+.mx tr.sub th{text-align:left;padding:14px 14px 6px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;background:none}
+.mx tbody tr.sub:hover{background:none}
+.mx td.n{color:var(--muted);font-variant-numeric:tabular-nums;font-weight:700}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;vertical-align:middle}
+.dot.p{background:var(--accent)}
+.dot.d{border:2px solid var(--accent);background:transparent}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;gap:7px;align-items:center}
+.mxWrap{overflow-x:auto}
+@media (max-width:860px){.tiles{grid-template-columns:1fr 1fr}}
+
+html[lang=en] .l-de,html:not([lang=en]) .l-en{display:none}
+body{background:var(--bg)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:22px;padding-bottom:22px}.stage{overflow:hidden}
+.crumb{font:700 .7rem var(--font);letter-spacing:.09em;text-transform:uppercase;color:var(--muted);text-decoration:none}.crumb b{color:var(--accent)}
+.lang{display:flex;gap:4px}.lang button{all:unset;cursor:pointer;font:700 .8rem var(--font);padding:6px 11px;border-radius:99px;border:1px solid var(--line)}.lang button[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:40px;align-items:center;padding:20px 0 60px}
+.hero h1{font-size:clamp(2.4rem,5vw,4rem);line-height:1.02;letter-spacing:-.02em}
+.hero .lead{font-size:1.12rem;color:var(--muted);max-width:52ch;margin-top:16px}
+.kick{font:700 .7rem var(--font);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}.chips span{font-size:.78rem;border:1px solid var(--line);border-radius:99px;padding:4px 11px;color:var(--muted)}
+.stage{position:relative;height:520px}
+.ph{position:absolute;background:#111;border-radius:30px;padding:9px;box-shadow:0 30px 60px rgba(0,0,0,.25)}
+.ph>*{border-radius:22px;overflow:hidden;display:block;width:100%;height:100%;object-fit:cover;background:#fff}
+.ph.a{width:230px;height:470px;left:0;top:30px}.ph.b{width:250px;height:510px;left:31%;top:0;z-index:2}.ph.c{width:230px;height:470px;right:0;top:40px}
+.ph .feed{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;align-content:start;padding-top:34px;position:relative}
+.ph .feed::before{content:"goldinger_immobilien";position:absolute;top:10px;left:12px;font:700 .72rem var(--font);color:#111}
+.ph .feed img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.cat{display:grid;gap:28px;padding:64px 0;border-top:1px solid var(--line)}
+.chead{display:grid;grid-template-columns:90px minmax(0,1fr);gap:20px}.num{font:700 2.8rem/1 var(--font);color:var(--accent);opacity:.3}.chead h2{font-size:clamp(1.6rem,3vw,2.2rem)}.chead p{color:var(--muted);margin-top:8px;max-width:64ch}
+.zoom{all:unset;cursor:zoom-in;display:block;position:relative}.zoom img{display:block;width:100%;height:auto}
+.zoom:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.duo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.brand{background:var(--tint);border-radius:16px;padding:28px;display:grid;gap:12px;align-content:start}
+.brand h3{font-size:1.3rem}.brand p{color:var(--muted)}
+.brand ul{margin:0;padding-left:18px;color:var(--muted)}.brand .client{font:700 .66rem var(--font);letter-spacing:.09em;text-transform:uppercase;color:var(--accent)}
+.split{display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:44px;align-items:center}
+.phone{background:#111;border-radius:36px;padding:12px;box-shadow:0 24px 50px rgba(0,0,0,.22)}
+.phone .scr{background:#fff;border-radius:26px;overflow:hidden}
+.phone .bar{display:flex;justify-content:space-between;padding:12px 16px;font:700 .8rem var(--font);color:#111}
+.igrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}.igrid .zoom img{aspect-ratio:1;object-fit:cover}
+.txt{display:grid;gap:12px}.txt h3{font-size:1.35rem}.txt p{color:var(--muted)}
+.pts{display:grid;gap:14px;margin-top:6px}.pts div{border-left:3px solid var(--accent);padding:2px 0 2px 14px}.pts b{display:block;font-size:.95rem}.pts span{color:var(--muted);font-size:.92rem}
+.rail{display:flex;gap:18px;overflow-x:auto;padding:6px 2px 18px;scroll-snap-type:x mandatory}
+.rail::-webkit-scrollbar{height:8px}.rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:9px}
+.sto{flex:0 0 200px;scroll-snap-align:start;background:#111;border-radius:26px;padding:7px;box-shadow:0 14px 30px rgba(0,0,0,.18)}
+.sto .zoom img{border-radius:20px;aspect-ratio:9/16;object-fit:cover}
+.sto small{display:block;color:#bbb;font-size:.72rem;text-align:center;padding:6px 0 2px}
+.reels{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}
+.reel{display:grid;gap:10px}.reel .frame{background:#111;border-radius:26px;padding:7px;box-shadow:0 14px 30px rgba(0,0,0,.18)}
+.reel video{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:20px;background:#000}
+.reel b{font-size:.92rem}.reel small{color:var(--muted);font-size:.82rem}
+.occ{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:18px}
+.occ figure{margin:0;display:grid;gap:8px}.occ .zoom img{border-radius:10px;box-shadow:0 10px 24px rgba(0,0,0,.14);aspect-ratio:1;object-fit:cover}
+.occ figcaption{font-size:.85rem;color:var(--muted)}.occ figcaption b{display:block;color:var(--ink);font-size:.9rem}
+.lipre{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:44px;align-items:center}
+.listack{position:relative;height:440px}
+.listack .lic{position:absolute;width:300px}
+.listack .lic:nth-child(1){left:0;top:40px;transform:rotate(-4deg)}.listack .lic:nth-child(2){left:22%;top:0;z-index:2}.listack .lic:nth-child(3){right:0;top:50px;transform:rotate(4deg)}
+.lic{background:#fff;color:#111;border:1px solid #e3e6ea;border-radius:12px;overflow:hidden;box-shadow:0 10px 28px rgba(0,0,0,.12)}
+.lih{display:flex;gap:10px;align-items:center;padding:12px 14px}.lih b{display:block;font-size:.88rem}.lih small{color:#6b7178;font-size:.74rem}
+.av{width:36px;height:36px;border-radius:50%;background:#1f6fb5;color:#fff;display:grid;place-items:center;font:700 .85rem var(--font);flex:0 0 auto}
+.lic p{padding:0 14px 12px;font-size:.86rem;line-height:1.45;white-space:pre-line}
+.lic img{display:block;width:100%}
+.lic .cut{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.lic .act{display:flex;justify-content:space-around;border-top:1px solid #e3e6ea;padding:8px;color:#6b7178;font-size:.78rem}
+.btn{all:unset;cursor:pointer;background:var(--accent);color:#fff;border-radius:99px;padding:11px 20px;font:700 .9rem var(--font);display:inline-block}
+.btn:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.lnk{color:var(--ink);font-weight:700;text-decoration:none;border-bottom:1px solid var(--line)}
+#feed{border:0;padding:0;max-width:none;max-height:none;width:100vw;height:100vh;background:rgba(236,238,242,.55);-webkit-backdrop-filter:blur(22px);backdrop-filter:blur(22px)}
+#feed::backdrop{background:transparent}
+.fwrap{height:100%;overflow-y:auto;padding:0 16px 40px}
+.fhead{position:sticky;top:0;z-index:3;display:flex;align-items:center;gap:12px;max-width:560px;margin:0 auto;padding:16px 0}
+.fhead b{font-size:1rem}.fhead small{color:#555}.fhead button{all:unset;cursor:pointer;margin-left:auto;font-size:1.4rem;padding:4px 10px;background:#fff;border-radius:99px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.flist{max-width:560px;margin:0 auto;display:grid;gap:16px}
+.ftabs{display:flex;gap:6px;flex-wrap:wrap;max-width:560px;margin:0 auto 14px}.ftabs button{all:unset;cursor:pointer;font:700 .78rem var(--font);padding:6px 12px;border-radius:99px;background:#fff;border:1px solid #d5d9de}.ftabs button[aria-pressed=true]{background:#111;color:#fff;border-color:#111}
+.tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.tools div{background:var(--tint);border-radius:14px;padding:22px}.tools h4{font-size:1rem;margin-bottom:6px}.tools p{color:var(--muted);font-size:.93rem}
+.next{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;background:var(--ink);color:var(--bg);border-radius:18px;padding:34px;margin:10px 0 70px;text-decoration:none}
+.next h3{font-size:1.5rem;color:var(--bg)}.next p{opacity:.75;margin-top:6px}.next span.arr{font-size:2.4rem}
+#lb{border:0;padding:0;max-width:none;max-height:none;width:100vw;height:100vh;background:rgba(236,238,242,.55);-webkit-backdrop-filter:blur(22px) saturate(1.2);backdrop-filter:blur(22px) saturate(1.2);color:#15181b}
+#lb::backdrop{background:transparent}
+.vw{display:grid;grid-template-rows:auto 1fr auto;height:100%;gap:10px;padding:14px 18px;box-sizing:border-box}
+.vwtop{display:flex;align-items:center;gap:16px}.vwtop #vwC{opacity:.7;font-size:.85rem}
+#close{all:unset;cursor:pointer;font-size:1.4rem;padding:4px 10px;margin-left:auto}
+.vwstage{display:grid;grid-template-columns:48px minmax(0,1fr) 48px;align-items:center;min-height:0}
+#prev,#next{all:unset;cursor:pointer;font-size:2.6rem;text-align:center;opacity:.8}#prev.off,#next.off{visibility:hidden}
+.sp{display:flex;justify-content:center;align-items:center;height:100%;min-height:0;overflow:auto}
+.sp img{max-height:calc(100vh - 150px);max-width:100%;object-fit:contain;box-shadow:0 3px 8px rgba(0,0,0,.1),0 24px 50px rgba(0,0,0,.22)}
+.sp.tall{align-items:flex-start}.sp.tall img{max-height:none;width:min(720px,100%)}
+#thumbs{display:flex;gap:6px;overflow-x:auto;justify-content:center}#thumbs button{all:unset;cursor:pointer;opacity:.5;flex:0 0 auto}#thumbs button[aria-current=true]{opacity:1;outline:2px solid #15181b}#thumbs img{height:48px;display:block}
+/* website page */
+.brw{margin:0;border-radius:10px;overflow:hidden;box-shadow:0 14px 34px rgba(0,0,0,.18);background:#2a2e33}
+.brw .bb{display:flex;align-items:center;gap:6px;padding:8px 12px}.brw .bb i{width:9px;height:9px;border-radius:50%;background:#6b7178}.brw .bb span{margin-left:12px;flex:1;background:#3a3f45;color:#c9ced4;font-size:.72rem;border-radius:6px;padding:3px 10px}
+.wlead{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:36px;align-items:center}
+.wgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:26px 22px}.wgrid small{display:block;margin-top:8px;color:var(--muted);font-size:.85rem}
+.blocks{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}.blocks h4{font-size:.95rem;margin-bottom:6px}.blocks p{color:var(--muted);font-size:.95rem}
+.mail{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:40px;align-items:start}
+.mail .scrollbox{height:520px;overflow-y:auto;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,.18);background:#fff}
+.mail .scrollbox img{display:block;width:100%}
+.mthumbs{display:flex;gap:10px;flex-wrap:wrap}.mthumbs button{all:unset;cursor:pointer;width:84px;border-radius:8px;overflow:hidden;opacity:.55;box-shadow:0 4px 10px rgba(0,0,0,.12)}.mthumbs button[aria-pressed=true]{opacity:1;outline:2px solid var(--accent)}.mthumbs img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px}
+.bgrid figure{margin:0;display:grid;gap:8px}.bgrid .zoom{background:var(--tint);border-radius:12px;padding:18px}.bgrid .zoom img{box-shadow:0 6px 16px rgba(0,0,0,.14)}.bgrid figcaption{color:var(--muted);font-size:.85rem}
+/* overview */
+.ov{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;padding-bottom:70px}
+.ovc{display:grid;grid-template-rows:auto 1fr;border-radius:20px;overflow:hidden;background:var(--tint);text-decoration:none;color:var(--ink);transition:transform .3s}
+.ovc:hover{transform:translateY(-4px)}.ovc:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.ovc .pic{height:300px;position:relative;overflow:hidden;background:#dfe4ea}
+.ovc .pic img{position:absolute;box-shadow:0 14px 30px rgba(0,0,0,.22);border-radius:10px}
+.ovc .body{padding:26px;display:grid;gap:10px;align-content:start}.ovc h2{font-size:1.6rem}.ovc p{color:var(--muted)}.ovc .go{font-weight:700;color:var(--accent)}
+@media (prefers-reduced-motion:reduce){.ovc{transition:none}}
+@media (max-width:860px){.hero,.split,.lipre,.wlead,.mail,.duo,.ov{grid-template-columns:minmax(0,1fr)}.stage{height:400px}.ph.a,.ph.c{width:170px;height:350px}.ph.b{width:190px;height:390px;left:26%}.reels{grid-template-columns:repeat(2,minmax(0,1fr))}.listack .lic{width:240px}.chead{grid-template-columns:minmax(0,1fr);gap:4px}.next{grid-template-columns:minmax(0,1fr)}.bgrid{grid-template-columns:minmax(0,1fr)}}
+</style></head>
+<body><div class="wrap topbar"><a class="crumb" href="digital.html"><span class="l-de">Arbeiten</span><span class="l-en" lang="en">Work</span> / <b><span class="l-de">Digital</span><span class="l-en" lang="en">Digital</span></b></a><div class="lang"><button data-lang="de" aria-pressed="true">DE</button><button data-lang="en" aria-pressed="false">EN</button></div></div><main class="wrap"><div class="hero"><div><span class="kick"><span class="l-de">Digital · Social Media</span><span class="l-en" lang="en">Digital · Social Media</span></span>
+<h1><span class="l-de">Inhalte, die man im Feed anhält.</span><span class="l-en" lang="en">Content that stops the scroll.</span></h1>
+<p class="lead"><span class="l-de">Für zwei sehr unterschiedliche Marken habe ich Social Media geplant, gestaltet und produziert: für ein Immobilienunternehmen, das Vertrauen bei Privatpersonen aufbaut, und für einen Schweizer Pumpenhersteller, der Fachleute in der Industrie erreicht.</span><span class="l-en" lang="en">I have planned, designed and produced social media for two very different brands: a real estate company building trust with private clients, and a Swiss pump manufacturer reaching industry professionals.</span></p>
+<div class="chips"><span>Instagram</span><span>Facebook</span><span>LinkedIn</span><span>YouTube</span><span><span class="l-de">Storys</span><span class="l-en" lang="en">Stories</span></span><span>Reels</span><span><span class="l-de">Redaktionsplanung</span><span class="l-en" lang="en">Editorial planning</span></span></div></div>
+<div class="stage" aria-hidden="true"><div class="ph a"><div class="feed"><img src="img/ig00.jpg" alt=""><img src="img/ig01.jpg" alt=""><img src="img/ig02.jpg" alt=""><img src="img/ig03.jpg" alt=""><img src="img/ig04.jpg" alt=""><img src="img/ig05.jpg" alt=""><img src="img/ig06.jpg" alt=""><img src="img/ig07.jpg" alt=""><img src="img/ig08.jpg" alt=""><img src="img/ig09.jpg" alt=""><img src="img/ig10.jpg" alt=""><img src="img/ig11.jpg" alt=""></div></div>
+<div class="ph b"><video src="vid/maerstetten.mp4" poster="vid/maerstetten.jpg" muted loop playsinline autoplay data-auto></video></div>
+<div class="ph c"><img src="img/st00.jpg" alt=""></div></div></div><section class="cat " id="marken"><div class="chead"><span class="num">01</span><div><h2><span class="l-de">Zwei Marken, zwei Tonalitäten</span><span class="l-en" lang="en">Two brands, two tones of voice</span></h2><p><span class="l-de">Dasselbe Handwerk, ganz andere Zielgruppen. Deshalb beginnt jeder Kanal mit der Frage, wen er erreichen soll.</span><span class="l-en" lang="en">The same craft, very different audiences. That is why every channel starts with the question of who it should reach.</span></p></div></div><div class="duo"><div class="brand"><span class="client">GOLDINGER Immobilien</span><h3><span class="l-de">Nahbar und vertrauensvoll</span><span class="l-en" lang="en">Approachable and trustworthy</span></h3>
+<p><span class="l-de">Instagram, Facebook, LinkedIn und YouTube. Ziel: Vertrauen in die Fachleute aufbauen und Objekte, Infoabende und das Hausmagazin bekannt machen.</span><span class="l-en" lang="en">Instagram, Facebook, LinkedIn and YouTube. Goal: build trust in the experts and promote properties, information evenings and the customer magazine.</span></p>
+<ul><li><span class="l-de">Redaktionsplan und Gestaltung aller Feed-Beiträge</span><span class="l-en" lang="en">Editorial plan and design of all feed posts</span></li><li><span class="l-de">Storys mit Umfragen, Fragerunden und Countdowns</span><span class="l-en" lang="en">Stories with polls, Q&As and countdowns</span></li><li><span class="l-de">Fotografie, Video und Schnitt, auch Luftaufnahmen mit Drohne</span><span class="l-en" lang="en">Photography, video and editing, including drone footage</span></li></ul></div>
+<div class="brand"><span class="client">CP Pump Systems</span><h3><span class="l-de">Fachlich und international</span><span class="l-en" lang="en">Technical and international</span></h3>
+<p><span class="l-de">LinkedIn und Facebook, in Deutsch, Englisch und Französisch. Ziel: Messeauftritte ankündigen, Produkte zeigen und die Marke als Schweizer Hersteller sichtbar machen.</span><span class="l-en" lang="en">LinkedIn and Facebook, in German, English and French. Goal: announce trade fairs, show products and make the brand visible as a Swiss manufacturer.</span></p>
+<ul><li><span class="l-de">Beiträge vor, während und nach jeder Messe</span><span class="l-en" lang="en">Posts before, during and after every trade fair</span></li><li><span class="l-de">Grafiken zu Feiertagen und Anlässen</span><span class="l-en" lang="en">Graphics for holidays and occasions</span></li><li><span class="l-de">Planung und Versand über Zoho One</span><span class="l-en" lang="en">Planning and publishing via Zoho One</span></li></ul></div></div></section><section class="cat " id="raster"><div class="chead"><span class="num">02</span><div><h2><span class="l-de">Feed-Design GOLDINGER</span><span class="l-en" lang="en">Feed design GOLDINGER</span></h2><p><span class="l-de">Ein klares Raster in Königsblau und Weiss: Serien, die man sofort wiedererkennt, und Inhalte, die Käuferinnen und Verkäufern wirklich weiterhelfen.</span><span class="l-en" lang="en">A clear grid in royal blue and white: series you recognise at once, and content that genuinely helps buyers and sellers.</span></p></div></div><div class="split"><div class="phone"><div class="scr"><div class="bar"><span>goldinger_immobilien</span><span>···</span></div><div class="igrid"><button class="zoom " data-gallery="ig" data-n="0" aria-label="GOLDINGER Beitrag 1 gross ansehen"><img src="img/ig00.jpg" alt="GOLDINGER Beitrag 1" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="1" aria-label="GOLDINGER Beitrag 2 gross ansehen"><img src="img/ig01.jpg" alt="GOLDINGER Beitrag 2" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="2" aria-label="GOLDINGER Beitrag 3 gross ansehen"><img src="img/ig02.jpg" alt="GOLDINGER Beitrag 3" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="3" aria-label="GOLDINGER Beitrag 4 gross ansehen"><img src="img/ig03.jpg" alt="GOLDINGER Beitrag 4" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="4" aria-label="GOLDINGER Beitrag 5 gross ansehen"><img src="img/ig04.jpg" alt="GOLDINGER Beitrag 5" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="5" aria-label="GOLDINGER Beitrag 6 gross ansehen"><img src="img/ig05.jpg" alt="GOLDINGER Beitrag 6" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="6" aria-label="GOLDINGER Beitrag 7 gross ansehen"><img src="img/ig06.jpg" alt="GOLDINGER Beitrag 7" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="7" aria-label="GOLDINGER Beitrag 8 gross ansehen"><img src="img/ig07.jpg" alt="GOLDINGER Beitrag 8" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="8" aria-label="GOLDINGER Beitrag 9 gross ansehen"><img src="img/ig08.jpg" alt="GOLDINGER Beitrag 9" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="9" aria-label="GOLDINGER Beitrag 10 gross ansehen"><img src="img/ig09.jpg" alt="GOLDINGER Beitrag 10" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="10" aria-label="GOLDINGER Beitrag 11 gross ansehen"><img src="img/ig10.jpg" alt="GOLDINGER Beitrag 11" loading="lazy"></button><button class="zoom " data-gallery="ig" data-n="11" aria-label="GOLDINGER Beitrag 12 gross ansehen"><img src="img/ig11.jpg" alt="GOLDINGER Beitrag 12" loading="lazy"></button></div></div></div>
+<div class="txt"><h3><span class="l-de">Ratgeber statt Werbung</span><span class="l-en" lang="en">Advice, not advertising</span></h3><p><span class="l-de">Alle Feed-Beiträge habe ich gestaltet. Statt reiner Objektwerbung standen nützliche Inhalte im Vordergrund, die das Fachwissen des Teams zeigen.</span><span class="l-en" lang="en">I designed all feed posts. Instead of pure property ads, the focus was on useful content that shows the team's expertise.</span></p>
+<div class="pts"><div><b><span class="l-de">Serien mit Nummern</span><span class="l-en" lang="en">Numbered series</span></b><span><span class="l-de">#1 Vorsorgeauftrag, #2 Steuern beim Verkauf, #3 Tipps für den privaten Verkauf</span><span class="l-en" lang="en">#1 Advance directive, #2 Taxes when selling, #3 Tips for private sales</span></span></div>
+<div><b><span class="l-de">Infografiken</span><span class="l-en" lang="en">Infographics</span></b><span><span class="l-de">Prozess zum Hauseigentum, Mieten oder Kaufen, Grundstückgewinnsteuer</span><span class="l-en" lang="en">The path to home ownership, rent or buy, property gains tax</span></span></div>
+<div><b><span class="l-de">Events und Print im Feed</span><span class="l-en" lang="en">Events and print in the feed</span></b><span><span class="l-de">Infoabende, neue Ausgabe des Hausmagazins, Online-Bewertung</span><span class="l-en" lang="en">Information evenings, new issue of the customer magazine, online valuation</span></span></div>
+<div><b><span class="l-de">Themen mit Haltung</span><span class="l-en" lang="en">Topics with a stance</span></b><span><span class="l-de">Stille Vermarktung, Immobilie im Alter, Empfehlungsprogramm</span><span class="l-en" lang="en">Silent marketing, property in old age, referral programme</span></span></div></div></div></div></section><section class="cat " id="storys"><div class="chead"><span class="num">03</span><div><h2><span class="l-de">Storys</span><span class="l-en" lang="en">Stories</span></h2><p><span class="l-de">Storys machen aus einem Kanal ein Gespräch: Umfragen zu Wohnträumen, Fragerunden mit den Fachleuten und Countdowns, die zu den Infoabenden einladen. Seitlich scrollen.</span><span class="l-en" lang="en">Stories turn a channel into a conversation: polls on dream homes, Q&As with the experts and countdowns inviting people to the information evenings. Scroll sideways.</span></p></div></div><div class="rail"><div class="sto"><button class="zoom " data-gallery="st" data-n="0" aria-label="Countdown Infoabend gross ansehen"><img src="img/st00.jpg" alt="Countdown Infoabend" loading="lazy"></button><small><span class="l-de">Countdown Infoabend</span><span class="l-en" lang="en">Countdown information evening</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="1" aria-label="Fragerunde gross ansehen"><img src="img/st01.jpg" alt="Fragerunde" loading="lazy"></button><small><span class="l-de">Fragerunde</span><span class="l-en" lang="en">Q&A</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="2" aria-label="Vor dem Infoabend gross ansehen"><img src="img/st02.jpg" alt="Vor dem Infoabend" loading="lazy"></button><small><span class="l-de">Vor dem Infoabend</span><span class="l-en" lang="en">Before the information evening</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="3" aria-label="Umfrage gross ansehen"><img src="img/st03.jpg" alt="Umfrage" loading="lazy"></button><small><span class="l-de">Umfrage</span><span class="l-en" lang="en">Poll</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="4" aria-label="Umfrage gross ansehen"><img src="img/st04.jpg" alt="Umfrage" loading="lazy"></button><small><span class="l-de">Umfrage</span><span class="l-en" lang="en">Poll</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="5" aria-label="Umfrage gross ansehen"><img src="img/st05.jpg" alt="Umfrage" loading="lazy"></button><small><span class="l-de">Umfrage</span><span class="l-en" lang="en">Poll</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="6" aria-label="Fragerunde gross ansehen"><img src="img/st06.jpg" alt="Fragerunde" loading="lazy"></button><small><span class="l-de">Fragerunde</span><span class="l-en" lang="en">Q&A</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="7" aria-label="Umfrage gross ansehen"><img src="img/st07.jpg" alt="Umfrage" loading="lazy"></button><small><span class="l-de">Umfrage</span><span class="l-en" lang="en">Poll</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="8" aria-label="Umfrage gross ansehen"><img src="img/st08.jpg" alt="Umfrage" loading="lazy"></button><small><span class="l-de">Umfrage</span><span class="l-en" lang="en">Poll</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="9" aria-label="Umfrage gross ansehen"><img src="img/st09.jpg" alt="Umfrage" loading="lazy"></button><small><span class="l-de">Umfrage</span><span class="l-en" lang="en">Poll</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="10" aria-label="Presse-Repost gross ansehen"><img src="img/st10.jpg" alt="Presse-Repost" loading="lazy"></button><small><span class="l-de">Presse-Repost</span><span class="l-en" lang="en">Press repost</span></small></div><div class="sto"><button class="zoom " data-gallery="st" data-n="11" aria-label="Live vom Infoabend gross ansehen"><img src="img/st11.jpg" alt="Live vom Infoabend" loading="lazy"></button><small><span class="l-de">Live vom Infoabend</span><span class="l-en" lang="en">Live from the event</span></small></div></div></section><section class="cat " id="reels"><div class="chead"><span class="num">04</span><div><h2><span class="l-de">Reels und Immobilienvideos</span><span class="l-en" lang="en">Reels and property videos</span></h2><p><span class="l-de">Gefilmt, mit Drohne aus der Luft aufgenommen und geschnitten: Rundgänge, die ein Objekt in Sekunden erlebbar machen, und Reels, die die Menschen hinter der Marke zeigen.</span><span class="l-en" lang="en">Filmed, shot from the air by drone and edited: tours that let you experience a property in seconds, and reels that show the people behind the brand.</span></p></div></div><div class="reels"><div class="reel"><div class="frame"><video src="vid/maerstetten.mp4" poster="vid/maerstetten.jpg" controls playsinline preload="none"></video></div><b>Märstetten</b><small><span class="l-de">Exklusive Attikawohnung</span><span class="l-en" lang="en">Exclusive penthouse</span></small></div><div class="reel"><div class="frame"><video src="vid/thundorf.mp4" poster="vid/thundorf.jpg" controls playsinline preload="none"></video></div><b>Thundorf</b><small><span class="l-de">Modernisiertes Riegelhaus</span><span class="l-en" lang="en">Modernised half-timbered house</span></small></div><div class="reel"><div class="frame"><video src="vid/amlikon.mp4" poster="vid/amlikon.jpg" controls playsinline preload="none"></video></div><b>Amlikon-Bissegg</b><small><span class="l-de">Ökologisches Einfamilienhaus</span><span class="l-en" lang="en">Ecological family home</span></small></div><div class="reel"><div class="frame"><video src="vid/interview.mp4" poster="vid/interview.jpg" controls playsinline preload="none"></video></div><b>Im Spotlight</b><small><span class="l-de">Interview aus der Bewirtschaftung</span><span class="l-en" lang="en">Interview from property management</span></small></div><div class="reel"><div class="frame"><video src="vid/jahresvorsaetze.mp4" poster="vid/jahresvorsaetze.jpg" controls playsinline preload="none"></video></div><b>Jahresvorsätze 2023</b><small><span class="l-de">Mitarbeitende über ihre Vorsätze</span><span class="l-en" lang="en">Team members on their resolutions</span></small></div></div><p><a class="lnk" href="https://claude.ai/artifact/AWzk8y7iyFhZyJJQF4gszF" target="_blank" rel="noopener"><span class="l-de">Mehr zum Aufbau der Immobilien-Reels</span><span class="l-en" lang="en">More on how the property reels are built</span> ↗</a></p></section><section class="cat " id="anlaesse"><div class="chead"><span class="num">05</span><div><h2><span class="l-de">Anlässe und Feiertage</span><span class="l-en" lang="en">Occasions and holidays</span></h2><p><span class="l-de">Feiertage sind eine Gelegenheit, Danke zu sagen und die Marke von ihrer persönlichen Seite zu zeigen. Jede Grafik ist eigens gestaltet, im Stil der jeweiligen Marke.</span><span class="l-en" lang="en">Holidays are a chance to say thank you and show the brand's personal side. Each graphic is designed from scratch, in the style of the brand.</span></p></div></div><div class="occ"><figure><button class="zoom " data-gallery="oc" data-n="0" aria-label="Frohe Ostern gross ansehen"><img src="img/an_7445757007560720384_0.jpg" alt="Frohe Ostern" loading="lazy"></button><figcaption><b><span class="l-de">Frohe Ostern</span><span class="l-en" lang="en">Happy Easter</span></b>CP Pump Systems</figcaption></figure><figure><button class="zoom " data-gallery="oc" data-n="1" aria-label="Songkran gross ansehen"><img src="img/an_7449750379623301120_0.jpg" alt="Songkran" loading="lazy"></button><figcaption><b><span class="l-de">Songkran</span><span class="l-en" lang="en">Songkran</span></b>CP Pump Systems · Thailand</figcaption></figure><figure><button class="zoom " data-gallery="oc" data-n="2" aria-label="Earth Day gross ansehen"><img src="img/an_7452662755553312768_0.jpg" alt="Earth Day" loading="lazy"></button><figcaption><b><span class="l-de">Earth Day</span><span class="l-en" lang="en">Earth Day</span></b>CP Pump Systems</figcaption></figure><figure><button class="zoom " data-gallery="oc" data-n="3" aria-label="1. August gross ansehen"><img src="img/an_7489198237002715136_0.jpg" alt="1. August" loading="lazy"></button><figcaption><b><span class="l-de">1. August</span><span class="l-en" lang="en">Swiss National Day</span></b>CP Pump Systems</figcaption></figure><figure><button class="zoom " data-gallery="oc" data-n="4" aria-label="Auffahrt gross ansehen"><img src="img/an_auffahrt.jpg" alt="Auffahrt" loading="lazy"></button><figcaption><b><span class="l-de">Auffahrt</span><span class="l-en" lang="en">Ascension Day</span></b>GOLDINGER Immobilien</figcaption></figure><figure><button class="zoom " data-gallery="oc" data-n="5" aria-label="Weihnachten gross ansehen"><img src="img/an_weihnacht.jpg" alt="Weihnachten" loading="lazy"></button><figcaption><b><span class="l-de">Weihnachten</span><span class="l-en" lang="en">Christmas</span></b>GOLDINGER Immobilien</figcaption></figure></div></section><section class="cat " id="linkedin"><div class="chead"><span class="num">06</span><div><h2><span class="l-de">LinkedIn CP Pump Systems</span><span class="l-en" lang="en">LinkedIn CP Pump Systems</span></h2><p><span class="l-de">Jede Messe erzählt auf LinkedIn eine kleine Geschichte: Ankündigung mit Stand und Gratis-Ticket, erster Messetag, Rückblick. Dazu Anlässe und Themen wie Nachhaltigkeit, oft in zwei oder drei Sprachen.</span><span class="l-en" lang="en">On LinkedIn, every trade fair tells a short story: announcement with stand and free ticket, first day, recap. Plus occasions and topics like sustainability, often in two or three languages.</span></p></div></div><div class="lipre"><div class="listack" aria-hidden="true"><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Jan. 2026 · LinkedIn</small></div></div><p class="cut">We’re excited to be part of Fertilizer Latino Americano in Miami, Florida! 🌍
+ 📅 26–28 January 2026
+ Join us at one of Latin America’s leading fertilizer industry events to connect with global professionals, exchange insights, and explore solutions that shape the future of fertilizer production and supply. 
+Let’s connect and drive innovation together.
+ #FertilizerLatinoAmericano #CPPumps #Pumps #FertilizerIndustry #ChemicalProcessing #Networking #Miami</p><img src="img/li_7418947336564797442_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Mai 2026 · LinkedIn</small></div></div><p class="cut">🧪 Ready for CHEMUK 2026?
+
+Join CP Pump Systems at CHEMUK 2026 in Birmingham, UK, and explore how sealless pump technology supports safer and more reliable chemical processes. ⚙️
+
+📍 Stand G60
+ 📅 20–21 May | NEC Birmingham
+ 🎟️ Claim your free ticket here:
+ Get Your Free CHEMUK Ticket
+https://lnkd.in/eXfiEYHn
+
+See you at the show!
+
+#CHEMUK2026 #MagneticDrivePumps #CPPumpSystems #ChemicalProcessing #PumpTechnology</p><img src="img/li_7459905847805259776_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="anlass"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Aug. 2026 · LinkedIn</small></div></div><p class="cut">Happy Birthday, Schweiz!
+
+Der 1. August erinnert uns daran, wo unsere Wurzeln liegen. Als Schweizer Unternehmen dürfen wir jeden Tag auf den Werten aufbauen, für die die Schweiz weltweit bekannt ist: Qualität, Präzision und Verlässlichkeit.
+
+Wir wünschen allen einen schönen Nationalfeiertag!
+
+#SwissNationalDay #CPPumpSystems #SwissEngineering #MadeInSwitzerland #Innovation
+
+Happy Birthday, Switzerland!
+
+Swiss National Day reminds us where our roots are. As a Swiss company, we are grateful to build on the values Switzerland is known for around the world: quality, precision and reliability.
+
+We wish everyone a happy Swiss National Day!</p><img src="img/li_7489198237002715136_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article></div>
+<div class="txt"><h3><span class="l-de">Text und Bild aus einer Hand</span><span class="l-en" lang="en">Copy and visuals from one source</span></h3><p><span class="l-de">Ich schreibe die Beiträge, gestalte die Grafiken im Stil der Marke und plane die Veröffentlichung. Bei Messen greifen LinkedIn, E-Mail-Banner, Website und Newsletter ineinander.</span><span class="l-en" lang="en">I write the posts, design the graphics in the brand style and schedule publication. For trade fairs, LinkedIn, email banners, website and newsletter work hand in hand.</span></p>
+<p><button class="btn" data-feed><span class="l-de">Feed öffnen · 19 Beiträge</span><span class="l-en" lang="en">Open feed · 19 posts</span></button></p>
+<p><a class="lnk" href="https://claude.ai/artifact/NcW3BUdbXA5pKkgtA91Zvi" target="_blank" rel="noopener"><span class="l-de">Beiträge pro Messe unter «Messen»</span><span class="l-en" lang="en">Posts per trade fair under «Trade Fairs»</span> ↗</a></p></div></div></section><section class="cat " id="arbeitsweise"><div class="chead"><span class="num">07</span><div><h2><span class="l-de">Arbeitsweise</span><span class="l-en" lang="en">How I work</span></h2><p><span class="l-de">Vom Plan bis zum fertigen Beitrag liegt alles in einer Hand.</span><span class="l-en" lang="en">From plan to published post, everything stays in one pair of hands.</span></p></div></div><div class="tools"><div><h4><span class="l-de">Planen</span><span class="l-en" lang="en">Plan</span></h4><p><span class="l-de">Redaktionsplan mit Themen, Anlässen und Messen.</span><span class="l-en" lang="en">Editorial plan with topics, occasions and trade fairs.</span></p></div>
+<div><h4><span class="l-de">Gestalten</span><span class="l-en" lang="en">Design</span></h4><p><span class="l-de">Grafiken, Serien und Vorlagen im Stil der Marke, mit Photoshop, Illustrator und Canva.</span><span class="l-en" lang="en">Graphics, series and templates in the brand style, with Photoshop, Illustrator and Canva.</span></p></div>
+<div><h4><span class="l-de">Produzieren</span><span class="l-en" lang="en">Produce</span></h4><p><span class="l-de">Fotografie, Video, Drohnenaufnahmen und Schnitt in Premiere Pro.</span><span class="l-en" lang="en">Photography, video, drone footage and editing in Premiere Pro.</span></p></div>
+<div><h4><span class="l-de">Veröffentlichen</span><span class="l-en" lang="en">Publish</span></h4><p><span class="l-de">Planung und Versand über Zoho One und Meta, Storys teils als Anzeigen beworben.</span><span class="l-en" lang="en">Scheduling and publishing via Zoho One and Meta, some stories promoted as ads.</span></p></div></div></section><a class="next" href="website.html"><div><span class="kick" style="color:inherit;opacity:.6"><span class="l-de">Weiter</span><span class="l-en" lang="en">Next</span></span><h3><span class="l-de">Website, Newsletter und E-Mail-Banner</span><span class="l-en" lang="en">Website, newsletter and email banners</span></h3><p><span class="l-de">Wie eine Messe vom Kalender auf der Website bis in die E-Mail-Signatur kommt.</span><span class="l-en" lang="en">How a trade fair travels from the website calendar into every email signature.</span></p></div><span class="arr">→</span></a></main><dialog id="lb" aria-label="Ansicht"><div class="vw"><div class="vwtop"><b id="vwT"></b><span id="vwC"></span><button id="close" aria-label="Schliessen">✕</button></div><div class="vwstage"><button id="prev" aria-label="Zurück">‹</button><div class="sp" id="sp"></div><button id="next" aria-label="Weiter">›</button></div><div id="thumbs"></div></div></dialog><dialog id="feed" aria-label="LinkedIn Feed"><div class="fwrap"><div class="fhead"><span class="av">cp</span><div><b>CP Pump Systems</b><br><small><span class="l-de">Auswahl LinkedIn-Beiträge 2025–2026</span><span class="l-en" lang="en">Selected LinkedIn posts 2025–2026</span></small></div><button id="fclose" aria-label="Schliessen">✕</button></div>
+<div class="ftabs"><button data-f="all" aria-pressed="true"><span class="l-de">Alle</span><span class="l-en" lang="en">All</span></button><button data-f="messe" aria-pressed="false"><span class="l-de">Messen</span><span class="l-en" lang="en">Trade fairs</span></button><button data-f="anlass" aria-pressed="false"><span class="l-de">Anlässe</span><span class="l-en" lang="en">Occasions</span></button></div>
+<div class="flist"><article class="lic" data-k="anlass"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Aug. 2026 · LinkedIn</small></div></div><p class="">Happy Birthday, Schweiz!
+
+Der 1. August erinnert uns daran, wo unsere Wurzeln liegen. Als Schweizer Unternehmen dürfen wir jeden Tag auf den Werten aufbauen, für die die Schweiz weltweit bekannt ist: Qualität, Präzision und Verlässlichkeit.
+
+Wir wünschen allen einen schönen Nationalfeiertag!
+
+#SwissNationalDay #CPPumpSystems #SwissEngineering #MadeInSwitzerland #Innovation
+
+Happy Birthday, Switzerland!
+
+Swiss National Day reminds us where our roots are. As a Swiss company, we are grateful to build on the values Switzerland is known for around the world: quality, precision and reliability.
+
+We wish everyone a happy Swiss National Day!</p><img src="img/li_7489198237002715136_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Juni 2026 · LinkedIn</small></div></div><p class="">📍 Houston, we&#x27;re here!
+
+The first conversations have already started, and we&#x27;re off to a great start at ChemE Show 2026.
+
+Over the next two days, our team will be meeting industry professionals, exchanging ideas, and discussing solutions for challenging chemical process applications.
+
+If you&#x27;re attending the show, we&#x27;d be delighted to meet you.
+📌 Booth 507
+See you in Houston!
+
+#CPPumps #ChemEShow2026 #Houston #ChemicalProcessing #PumpTechnology #ProcessIndustry</p><img src="img/li_7470111895358971905_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Juni 2026 · LinkedIn</small></div></div><p class="">🌎 Houston, here we come!
+
+The chemical industry never stands still—and neither do we.
+
+Join CP Pump Systems at CHEMIE SHOW 2026 and discover how innovative pump and dosing technologies can improve process reliability, safety, and efficiency.
+
+Whether you&#x27;re looking to optimize existing systems or planning your next project, our experts are ready to exchange ideas and discuss practical solutions.
+
+📅 June 9–10, 2026
+📍 Houston, TX
+📌 Booth 507
+
+Stop by, say hello, and let&#x27;s shape the future of fluid handling together.
+
+#ChemieShow2026 #Innovation #ChemicalProcessing #PumpSystems #FluidHandling #ProcessTechnology #EngineeringExcellence</p><img src="img/li_7467192207263997952_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Mai 2026 · LinkedIn</small></div></div><p class="">A great first day at DK HUB GLOBAL 2026. ⚙️
+
+We had many interesting discussions, met new contacts from across the industry and exchanged valuable insights around pump solutions and process applications.
+
+Thank you to everyone who visited us at booth C12 today — we are looking forward to tomorrow.
+
+📍 Dunkirk, France
+🤝 Booth C12
+
+#DKHubGlobal #IndustrialSolutions #PumpTechnology #ProcessIndustry #ChemicalIndustry #EnergyIndustry #IndustrialPumps #Dunkirk #Benelux #CPPumpSystems
+
+Une excellente première journée au DK HUB GLOBAL 2026. ⚙️
+
+Nous avons eu de nombreux échanges intéressants, rencontré de nouveaux contacts du secteur et partagé des discussions enrichissantes autour des solutions de pompage et des applications process.
+
+Merci à toutes les personnes venues nous rencontrer au stand C12 aujourd’hui — nous nous réjouissons déjà de demain.
+
+📍 Dunkerque, France
+🤝 Stand C12
+
+#DKHubGlobal #Industrie #PompesIndustrielles #ProcessIndustry #ChemicalIndustry #EnergyIndustry #IndustrialSolutions #Dunkerque #Benelux #CPPumpSystems</p><img src="img/li_7462878873559531520_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Mai 2026 · LinkedIn</small></div></div><p class="">🧪 CHEMUK 2026 is officially underway — and we’re here!
+
+Visit CP Pump Systems at CHEMUK 2026 and discover how our sealless pump technology supports safe, efficient, and reliable chemical processing. ⚙️
+
+📍 Stand G60
+📅 20–21 May 2026
+📌 National Exhibition Centre
+
+We’re excited to meet partners, customers, and industry professionals from across the sector. Come by for a conversation — we look forward to seeing you!
+
+🎟️ Free tickets:
+https://lnkd.in/eXfiEYHn
+
+#CHEMUK2026 #CPPumpSystems #MagneticDrivePumps #ChemicalProcessing #PumpTechnology</p><img src="img/li_7462801353191575554_1.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Mai 2026 · LinkedIn</small></div></div><p class="">DK HUB GLOBAL 2026 approche — et nous y serons. ⚙️
+
+Retrouvez CP Pump Systems au stand C12 les 20–21 mai 2026 au Kursaal de Dunkerque.
+ Deux journées dédiées aux échanges industriels, aux solutions de pompage et aux nouvelles opportunités dans les secteurs process et énergie.
+
+📍 Dunkerque, France
+ 🤝 Stand C12
+Passez nous voir à Dunkerque.
+
+#DKHubGlobal #Industrie #PompesIndustrielles #ProcessIndustry #ChemicalIndustry #EnergyIndustry #IndustrialSolutions #Dunkerque #Benelux #CPPumpSystems
+ 
+DK HUB GLOBAL 2026 is coming — and we’ll be there. ⚙️
+
+Meet CP Pump Systems at booth C12 on May 20–21, 2026 at the Kursaal de Dunkerque.
+
+ Two days of industrial exchange, pump technology discussions and new opportunities across process and energy industries.
+
+📍 Dunkirk, France
+ 🤝 Booth C12
+See you in Dunkirk.
+
+#DKHubGlobal #IndustrialSolutions #PumpTechnology #ProcessIndustry #ChemicalIndustry #EnergyIndustry #IndustrialPumps #Dunkirk #Benelux #CPPumpSystems</p><img src="img/li_7460259790200627200_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Mai 2026 · LinkedIn</small></div></div><p class="">🧪 Ready for CHEMUK 2026?
+
+Join CP Pump Systems at CHEMUK 2026 in Birmingham, UK, and explore how sealless pump technology supports safer and more reliable chemical processes. ⚙️
+
+📍 Stand G60
+ 📅 20–21 May | NEC Birmingham
+ 🎟️ Claim your free ticket here:
+ Get Your Free CHEMUK Ticket
+https://lnkd.in/eXfiEYHn
+
+See you at the show!
+
+#CHEMUK2026 #MagneticDrivePumps #CPPumpSystems #ChemicalProcessing #PumpTechnology</p><img src="img/li_7459905847805259776_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Mai 2026 · LinkedIn</small></div></div><p class="">IFAT Munich 2026
+
+Mittendrin statt nur dabei: Wir sind aktuell auf der IFAT Munich und bereits in zahlreichen Fachgesprächen mit Besuchern und Partnern.
+
+Die Themen sind klar:
+– Effizienz steigern
+– Prozesse absichern
+– individuelle Anforderungen gezielt umsetzen
+
+Gemeinsam mit VDMA zeigen wir, wie sich genau das technisch realisieren lässt – praxisnah und lösungsorientiert.
+
+📍 Halle B4, Stand 250/151 | noch bis 7. Mai
+Wir freuen uns auf weitere Gespräche vor Ort.
+
+Kostenlose Tickets🎟️ https://lnkd.in/eyESwDHe</p><img src="img/li_7457361699642277888_3.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Apr. 2026 · LinkedIn</small></div></div><p class="">IFAT Munich 2026 
+
+Auf der IFAT Munich 2026 zeigt CP Pump Systems gemeinsam mit VDMA, wie moderne Pumpentechnologie komplexe Anforderungen zuverlässig löst.
+
+📍 4.–7. Mai 2026 | Halle B4, Stand 250/151
+
+Freuen Sie sich auf konkrete Einblicke, praxisorientierte Lösungen und einen offenen fachlichen Austausch.
+Wir nehmen uns Zeit für Ihre Fragen und individuellen Anforderungen.
+
+🎟️ Kostenlose Tickets:
+https://lnkd.in/eyESwDHe</p><img src="img/li_7455156430019653632_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="anlass"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Apr. 2026 · LinkedIn</small></div></div><p class="">🌍 Earth Day ist ein Reminder: Prozesse müssen nicht nur funktionieren, sondern verantwortungsvoll sein.
+
+CP Pump Systems kombiniert Schweizer Präzision mit nachhaltigem Engineering – für langlebige Systeme und reduzierte Umweltbelastung über den gesamten Lifecycle.
+
+cleaner pumps, cleaner planet
+
+⚙️♻️ 
+
+🌍 Earth Day is a reminder: processes must be responsible, not just functional.
+
+CP Pump Systems combines Swiss precision with sustainable engineering – ensuring long service life and reduced environmental impact across the lifecycle.
+
+cleaner pumps , cleaner planet
+
+#EarthDay #Sustainability #Engineering #CPPumpssystems #Pumps</p><img src="img/li_7452662755553312768_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="anlass"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Apr. 2026 · LinkedIn</small></div></div><p class="">Songkran in Thailand – marking the beginning of a new year.
+This holiday stands for renewal, respect, and coming together – combined with vibrant celebrations throughout the country.
+
+We wish our Thai team and everyone celebrating a wonderful Songkran, full of joy, energy, and a great start into the year ahead.
+
+#Songkran #Thailand #HappySongkran #NewYear #Team #CPPumps</p><img src="img/li_7449750379623301120_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Apr. 2026 · LinkedIn</small></div></div><p class="">Am 23. April 2026 öffnet der Leuna-Dialog seine Türen. CP Pumpen ist vor Ort.
+
+Im cCe Kulturhaus Leuna präsentieren wir durchdachte Pumpenlösungen für komplexe industrielle Anforderungen.
+
+Nutzen Sie die Plattform für fachlichen Austausch und neue Impulse.
+
+Mehr Infos unter: www.cce-leuna.de
+
+Wir freuen uns auf interessante Gespräche.
+
+#LeunaDialog #CPPumps #Industrie #Pumpentechnik #Innovation</p><img src="img/li_7447654124722139136_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="anlass"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Apr. 2026 · LinkedIn</small></div></div><p class="">Happy Easter from CP Pump Systems 🐣
+
+To our employees, partners and customers, thank you for your trust and support. Wishing you joyful holidays, fresh energy and a beautiful start into spring.
+
+#HappyEaster #ThankYou #Partnership #SpringVibes #CPSYSTEMS
+
+Frohe Ostern von CP Pump Systems 🐣
+
+An unsere Mitarbeitenden, Partner und Kunden, vielen Dank für Ihr Vertrauen und Ihre Unterstützung. Wir wünschen schöne Feiertage, neue Energie und einen wunderbaren Start in den Frühling.
+
+#FroheOstern #Danke #Zusammenarbeit #Frühling #CPSYSTEMS</p><img src="img/li_7445757007560720384_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>März 2026 · LinkedIn</small></div></div><p class="">Behind every stable process is equipment you can rely on.
+
+CP Pump Systems develops chemical pumps built for continuous operation in demanding applications across chemicals, hydrogen, and pharma.
+
+Join us at ChemE Show 2026 and let’s talk about your process.
+
+Use code SAVE10 for 10% off your ticket.
+https://lnkd.in/g5uZpYR8
+June 9–10, 2026 · Houston
+
+#CPPumps #CPPumpssystems #CHEME26</p><img src="img/li_7442164052803592193_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Feb. 2026 · LinkedIn</small></div></div><p class="">Ein grossartiger Start auf der Pumps &amp; Valves Dortmund! 🚀
+
+Die Messe hat heute Morgen gestartet – wir freuen uns auf einen erfolgreichen Tag am Stand 7238 und darauf, weitere spannende Gespräche zu unseren effizienten Pumpenlösungen führen zu dürfen!
+
+📍 Messe Dortmund
+🎟️ Kostenloses Ticket weiterhin hier
+https://lnkd.in/eFmV2B7S
+
+Kommen Sie morgen noch vorbei und lernen Sie unsere Technologien kennen – wir freuen uns auf Sie!
+
+#PumpsAndValvesDortmund #CPPumps #Industriepumpen #Pumpentechnik #ProcessSafety</p><img src="img/li_7432384793536802816_1.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Feb. 2026 · LinkedIn</small></div></div><p class="">Nächste Woche auf der Pumps &amp; Valves Dortmund – besuchen Sie CP Pumpen!
+Entdecken Sie an Stand 7238 unsere massgeschneiderten Pumpenlösungen für anspruchsvolle industrielle Anwendungen. 
+Lassen Sie sich von unseren Experten beraten und erfahren Sie, wie unsere Technologien Ihre Prozesse effizienter und sicherer machen.
+
+📍 Messe Dortmund Rheinlanddamm 200
+🎟️ Eintritt frei mit Ticket-Link
+https://lnkd.in/eFmV2B7S
+
+Wir freuen uns auf Ihren Besuch!
+#PumpsAndValvesDortmund #CPPumps #Industriepumpen #Pumpentechnik #ProcessSafety</p><img src="img/li_7429848836312952832_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Jan. 2026 · LinkedIn</small></div></div><p class="">CP Pumpen freut sich auf die Pumps &amp; Valves Dortmund.
+ Besuchen Sie uns an Stand 7238 und lernen Sie unsere Pumpenlösungen für anspruchsvolle industrielle Anwendungen kennen.
+📍 Messe Dortmund, Rheinlanddamm 200
+ 🎟️ Eintritt frei mit unserem Ticket-Link.
+https://lnkd.in/eFmV2B7S
+#PumpsAndValvesDortmund #CPPumps #Industriepumpen #Pumpentechnik #ProcessSafety</p><img src="img/li_7419677481609154560_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Jan. 2026 · LinkedIn</small></div></div><p class="">We’re excited to be part of Fertilizer Latino Americano in Miami, Florida! 🌍
+ 📅 26–28 January 2026
+ Join us at one of Latin America’s leading fertilizer industry events to connect with global professionals, exchange insights, and explore solutions that shape the future of fertilizer production and supply. 
+Let’s connect and drive innovation together.
+ #FertilizerLatinoAmericano #CPPumps #Pumps #FertilizerIndustry #ChemicalProcessing #Networking #Miami</p><img src="img/li_7418947336564797442_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article><article class="lic" data-k="messe"><div class="lih"><span class="av">cp</span><div><b>CP Pump Systems</b><small>Nov. 2025 · LinkedIn</small></div></div><p class="">LH Pétro+Chimie 2025
+Join us at LH Pétro+Chimie 2025 to discover our range of CP sealless magnetic drive pumps – MKP, MKPL, MKP-Bio, and MKTP – optimised for safe, efficient, and reliable chemical processing.
+
+We look forward to connecting, exchanging ideas, and discussing innovative solutions with fellow professionals.
+
+#LHPetrochimie2025 #CPPumps #Innovation #ChemicalProcessing #Networking
+
+LH Pétro+Chimie 2025
+Rejoignez-nous à LH Pétro+Chimie 2025 pour découvrir notre gamme de pompes à entraînement magnétique sans garniture CP – MKP, MKPL, MKP-Bio et MKTP, optimisées pour des procédés chimiques sûrs, efficaces et fiables.
+Nous avons hâte de rencontrer les professionnels, d’échanger des idées et de discuter de solutions innovantes.</p><img src="img/li_7396564126686343168_0.jpg" alt="" loading="lazy"><div class="act"><span>👍 <span class="l-de">Gefällt mir</span><span class="l-en" lang="en">Like</span></span><span>💬 <span class="l-de">Kommentieren</span><span class="l-en" lang="en">Comment</span></span><span>↗ <span class="l-de">Teilen</span><span class="l-en" lang="en">Share</span></span></div></article></div></div></dialog><script>const G={"ig": [["img/ig00.jpg", "GOLDINGER Beitrag 1"], ["img/ig01.jpg", "GOLDINGER Beitrag 2"], ["img/ig02.jpg", "GOLDINGER Beitrag 3"], ["img/ig03.jpg", "GOLDINGER Beitrag 4"], ["img/ig04.jpg", "GOLDINGER Beitrag 5"], ["img/ig05.jpg", "GOLDINGER Beitrag 6"], ["img/ig06.jpg", "GOLDINGER Beitrag 7"], ["img/ig07.jpg", "GOLDINGER Beitrag 8"], ["img/ig08.jpg", "GOLDINGER Beitrag 9"], ["img/ig09.jpg", "GOLDINGER Beitrag 10"], ["img/ig10.jpg", "GOLDINGER Beitrag 11"], ["img/ig11.jpg", "GOLDINGER Beitrag 12"]], "st": [["img/st00.jpg", "Countdown Infoabend"], ["img/st01.jpg", "Fragerunde"], ["img/st02.jpg", "Vor dem Infoabend"], ["img/st03.jpg", "Umfrage"], ["img/st04.jpg", "Umfrage"], ["img/st05.jpg", "Umfrage"], ["img/st06.jpg", "Fragerunde"], ["img/st07.jpg", "Umfrage"], ["img/st08.jpg", "Umfrage"], ["img/st09.jpg", "Umfrage"], ["img/st10.jpg", "Presse-Repost"], ["img/st11.jpg", "Live vom Infoabend"]], "oc": [["img/an_7445757007560720384_0.jpg", "Frohe Ostern"], ["img/an_7449750379623301120_0.jpg", "Songkran"], ["img/an_7452662755553312768_0.jpg", "Earth Day"], ["img/an_7489198237002715136_0.jpg", "1. August"], ["img/an_auffahrt.jpg", "Auffahrt"], ["img/an_weihnacht.jpg", "Weihnachten"]]};
+let cur=[],i=0;const d=document.getElementById('lb'),sp=document.getElementById('sp'),th=document.getElementById('thumbs');
+function show(){const [s,a]=cur[i];const im=new Image();im.src=s;im.alt=a;sp.innerHTML='';sp.appendChild(im);
+ const t=()=>sp.classList.toggle('tall',im.naturalHeight>im.naturalWidth*2);im.onload=t;if(im.complete)t();
+ document.getElementById('vwT').textContent=a;document.getElementById('vwC').textContent=cur.length>1?`${i+1} / ${cur.length}`:'';
+ ['prev','next'].forEach(x=>document.getElementById(x).classList.toggle('off',cur.length<2));
+ th.innerHTML=cur.length>1?cur.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}" aria-current="${k===i}"><img src="${s}" alt=""></button>`).join(''):'';sp.scrollTop=0;}
+document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>{cur=G[b.dataset.gallery];i=+b.dataset.n;show();d.showModal()}));
+document.getElementById('prev').onclick=()=>{i=(i-1+cur.length)%cur.length;show()};document.getElementById('next').onclick=()=>{i=(i+1)%cur.length;show()};
+document.getElementById('close').onclick=()=>d.close();th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
+d.addEventListener('click',e=>{if(e.target===d||e.target===sp)d.close()});
+d.addEventListener('keydown',e=>{if(cur.length>1&&e.key==='ArrowRight')document.getElementById('next').click();if(cur.length>1&&e.key==='ArrowLeft')document.getElementById('prev').click()});
+function setLang(l){document.documentElement.lang=l;document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.lang===l));try{localStorage.setItem('ys-lang',l)}catch(e){}}
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));try{const l=localStorage.getItem('ys-lang');if(l)setLang(l)}catch(e){}
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.querySelectorAll('video[data-auto]').forEach(v=>{if(rm){v.removeAttribute('autoplay');v.pause()}});
+document.querySelectorAll('video').forEach(v=>v.addEventListener('play',()=>document.querySelectorAll('video').forEach(o=>{if(o!==v&&!o.muted)o.pause()})));
+const fd=document.getElementById('feed');if(fd){document.querySelectorAll('[data-feed]').forEach(b=>b.addEventListener('click',()=>{fd.showModal();fd.querySelector('.fwrap').scrollTop=0}));
+ document.getElementById('fclose').onclick=()=>fd.close();
+ fd.querySelectorAll('.ftabs button').forEach(b=>b.addEventListener('click',()=>{fd.querySelectorAll('.ftabs button').forEach(x=>x.setAttribute('aria-pressed',x===b));fd.querySelectorAll('.flist .lic').forEach(c=>c.hidden=b.dataset.f!=='all'&&c.dataset.k!==b.dataset.f)}));}
+document.querySelectorAll('.mthumbs button').forEach(b=>b.addEventListener('click',()=>{const box=document.querySelector('.mail .scrollbox');box.querySelector('img').src=b.dataset.src;box.querySelector('img').alt=b.dataset.alt;box.scrollTop=0;document.querySelectorAll('.mthumbs button').forEach(x=>x.setAttribute('aria-pressed',x===b))}));
+</script></body></html>
