@@ -27,9 +27,9 @@ MORE={
 'leuna25':[('Material, Exponate und Standausstattung entstanden in Abstimmung mit dem Verkauf in Deutschland und reisten aus der Schweiz an die Messe.','Material, exhibits and booth equipment were coordinated with sales in Germany and travelled from Switzerland to the fair.')],
 'cru25':[('Das Mobiliar kam aus dem Lager in den USA; die englischen Broschüren wurden in der Schweiz gedruckt und reisten zusammen mit Giveaways und Schweizer Spezialitäten an die Messe. Ein Messebriefing und das Lead-Formular bereiteten das Team vor Ort vor.','The furniture came from the warehouse in the USA; the English brochures were printed in Switzerland and travelled to the fair with giveaways and Swiss specialities. A fair briefing and the lead form prepared the team on site.')],
 'lh25':[('Broschüren, Explosionszeichnungen und Factsheets lagen auf Französisch bereit. Über das Kommunikationspaket des Veranstalters war CP zudem im Messekatalog und auf der Messe-Website präsent, mit eigens gestalteter Anzeige und eigenen Web-Bannern.','Brochures, exploded drawings and factsheets were available in French. Through the organiser’s communication package, CP was also present in the fair catalogue and on the fair website, with a custom ad and web banners.')],
-'uk26':[('Im Vorfeld machten E-Mail-Banner, E-Mail-Signatur, ein Eintrag in den Show News und ein Social-Media-Beitrag die Teilnahme bekannt. Messebriefing und Lead-Formular bereiteten das Team vor.','Beforehand, e-mail banners, the e-mail signature, an entry in the Show News and a social media post announced the participation. A fair briefing and the lead form prepared the team.')],
+'uk26':[('Im Vorfeld machten E-Mail-Banner, ein Eintrag in den Show News und ein Social-Media-Beitrag die Teilnahme bekannt. Messebriefing und Lead-Formular bereiteten das Team vor.','Beforehand, e-mail banners, an entry in the Show News and a social media post announced the participation. A fair briefing and the lead form prepared the team.')],
 'cheme26':[('Ein englisches Messebriefing bereitete das Team vor Ort vor: von den Fakten zur Messe über Hallenplan, Ausstellerliste und Programm bis zu Standausstattung, Dresscode und Giveaways.','An English fair briefing prepared the team on site: from fair facts, hall plan, exhibitor list and programme to booth equipment, dress code and giveaways.')],
-'cru26':[('Gezeigt werden zwei Magnetkupplungspumpen der Baureihe MKP und eine MKTP. Im Vorfeld laden ein E-Mail-Banner mit Gratis-Ticket und die E-Mail-Signatur zur Messe ein.','Two MKP magnetic drive pumps and one MKTP will be on show. Beforehand, an e-mail banner with a free ticket and the e-mail signature invite visitors to the fair.')],
+'cru26':[('Gezeigt werden zwei Magnetkupplungspumpen der Baureihe MKP und eine MKTP. Im Vorfeld laden ein E-Mail-Banner mit Gratis-Ticket zur Messe ein.','Two MKP magnetic drive pumps and one MKTP will be on show. Beforehand, an e-mail banner with a free ticket invites visitors to the fair.')],
 'petro26':[('Über das Kommunikationspaket des Veranstalters ist CP im Messekatalog und auf der Messe-Website präsent, mit einer Anzeige, die vier Baureihen vorstellt, und zwei Web-Bannern.','Through the organiser’s communication package, CP is present in the fair catalogue and on the fair website, with an ad presenting four product series and two web banners.')],
 'dahej26':[('Gezeigt werden drei Magnetkupplungspumpen aus den Baureihen MKP, MKP-S und MKPL. Vor Ort betreut das Verkaufsteam den Stand.','Three magnetic drive pumps from the MKP, MKP-S and MKPL series are on show. On site, the sales team runs the booth.')],
 }
@@ -79,6 +79,17 @@ def tasks2(k,de,en):
     D=[x.strip() for x in de.split('·')];E=[x.strip() for x in en.split('·')]
     if len(D)!=len(E): E=D
     D=[_re.sub(r'\s*\([^)]*\)','',x).strip() for x in D];E=[_re.sub(r'\s*\([^)]*\)','',x).strip() for x in E]
+    def _sig(x,en=False):
+        l=x.lower()
+        if 'signatur' in l or 'signature' in l: return 'E-mail banners' if en else 'E-Mail-Banner'
+        if l in ('e-mail banner','e-mail banners'): return 'E-mail banners'
+        return x
+    D=[_sig(x) for x in D];E=[_sig(x,True) for x in E]
+    seen=set();D2=[];E2=[]
+    for d_,e_ in zip(D,E):
+        if d_ in seen: continue
+        seen.add(d_);D2.append(d_);E2.append(e_)
+    D,E=D2,E2
     EXTRA_T=[('Abstimmung mit Verkauf und Standteam','Coordination with sales and the booth team'),('Exponate, Broschüren und Giveaways zusammenstellen','Putting together exhibits, brochures and giveaways'),('Nachbereitung und Übergabe der Leads','Follow-up and handover of leads')]
     low=' '.join(D).lower()
     for d_,e_ in EXTRA_T:
