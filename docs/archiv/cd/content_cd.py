@@ -7,12 +7,12 @@ def ag(g,lab,fs,fill=True):
     return '<div class="sub"><h4>'+T(*lab)+'</h4></div><div class="agrid">'+''.join(f'<button class="ag{" fill" if fill else ""}" data-gallery="{g}" data-n="{i}"><img src="img/{x}" alt="{lab[0]}"></button>' for i,x in enumerate(fs))+'</div>'
 def fix(h): return h.replace('>Seiten<','>Bilder<').replace('>pages<','>images<').replace('blättern','ansehen').replace('flip through','view')
 intro=('<p class="note2">'+T('Fotos der fertigen Räume folgen.','Photos of the finished rooms will follow.')+'</p>')
-r1=fix(row(CPN,('Sitzungszimmer und Lounge','Meeting room and lounge'),
+r1=fix(row(CPN,('Zwei Besprechungsräume','Two meeting rooms'),
  ('Ein Wandbild mit Birkenwald und dem Claim «cleaner pumps, cleaner planet™» prägt die beiden Besprechungsräume. Dazu Logo- und Claim-Paneele im Fensterband und Möbel in Grün- und Blautönen.','A birch forest mural with the claim “cleaner pumps, cleaner planet™” defines the two meeting rooms, with logo and claim panels along the windows and furniture in shades of green and blue.'),
  'v2_2.jpg',(('2 Besprechungsräume','2 meeting rooms'),('Digitaldruck-Tapete','digitally printed wallpaper'),('Einrichtung','furnishing')),
  more=blocks(('Vorgehen','Approach','Vom ersten Entwurf der Seitenwand über mehrere Layout-Varianten bis zur finalen Version. Die Möbel wählte ich nach einem Showroom-Besuch und anhand von Renderings der Möbelfirma nach Farbpaletten aus und organisierte die Lieferung.','From the first draft of the side wall through several layout variants to the final version. I selected the furniture by colour palette after a showroom visit and based on renderings by the furniture company, and organised the delivery.'),
   ('Elemente','Elements','Wandbild als Digitaldruck-Tapete, Logo- und Claim-Paneele im Fensterband, Whiteboard-Flächen und eine Möblierung, die die Farben des Wandbilds aufnimmt.','Mural as digitally printed wallpaper, logo and claim panels along the windows, whiteboard surfaces and furniture that picks up the colours of the mural.'))
- +gallery('rs','Sitzungszimmer',['v2_2.jpg','ly_1.jpg','ly_2.jpg','ly_3.jpg','v2_0.jpg','v2_1.jpg','ly_logo.jpg','ly_claim.jpg','rend_sitzung.jpg','rend_lounge.jpg'])))
+ +gallery('rs','Sitzungszimmer',['v2_2.jpg'])))
 def room(g,lab,vis,txt):
     G[g]=[(x,lab[0]) for x in vis]
     tiles=''.join(f'<button class="ag fill" data-gallery="{g}" data-n="{j}"><img src="img/{x}" alt="{lab[0]}"></button>' for j,x in enumerate(vis))
@@ -28,8 +28,10 @@ r2=fix(row(CPN,('Schilder für die Abteilungen','Department signs'),
  more=blocks(('Inhalt','Content','Von der Pumpenmontage über CNC-Bearbeitung, Lackiererei und Qualitätskontrolle bis zu Technik und Entwicklung, Verkauf, Export und Marketing: jede Abteilung mit eigenem Bild und eigenen Fakten.','From pump assembly, CNC machining, paint shop and quality control to engineering, sales, export and marketing: each department with its own image and facts.'),
   ('Meine Arbeit','My work','Fotos der Mitarbeitenden bei der Arbeit, Bildbearbeitung, Grafiken, Layout aller Schilder in einem einheitlichen System und Aufbereitung für den Druck.','Photos of employees at work, image editing, graphics, layout of all signs in one consistent system and preparation for print.'))
  +gallery('sm','Schilder',['sch_mock.jpg']+TOP10)))
-raum=r1+r2+f'<p><a class="lnk" href="{A}3YqAhMFfdAX84mYeGeTHFW" target="_blank" rel="noopener">{T("Ganze Projektseite «Die Marke im eigenen Gebäude»","Full project page “The brand in our own building”")} ↗</a></p>'
-SEC.append(('raum',('Raumgestaltung','Interior design'),('Die Marke CP sollte nicht nur an Messen und in Broschüren sichtbar sein, sondern auch im eigenen Gebäude: dort, wo Kundschaft empfangen wird, und dort, wo die Mitarbeitenden täglich arbeiten.','The CP brand was to be visible not only at trade fairs and in brochures, but also in its own building: where customers are welcomed and where employees work every day.'),raum))
+raum=r1+f'<p><a class="lnk" href="{A}3YqAhMFfdAX84mYeGeTHFW" target="_blank" rel="noopener">{T("Ganze Projektseite «Die Marke im eigenen Gebäude»","Full project page “The brand in our own building”")} ↗</a></p>'
+_raumsec=('raum',('Raumgestaltung','Interior design'),('Die Marke CP sollte nicht nur an Messen und in Broschüren sichtbar sein, sondern auch im eigenen Gebäude: dort, wo Kundschaft empfangen wird, und dort, wo die Mitarbeitenden täglich arbeiten.','The CP brand was to be visible not only at trade fairs and in brochures, but also in its own building: where customers are welcomed and where employees work every day.'),raum)
+SEC.append(_raumsec)
+SEC.append(('schilder',('Schilder für die Abteilungen','Department signs'),('Jede Abteilung stellt sich neben ihrer Tür vor: mit eigenem Bild und kurzen Fakten auf Deutsch und Englisch.','Each department introduces itself next to its door: with its own image and short facts in German and English.'),r2))
 # 02 Markenidentität
 tp=row(T('Kursprojekt','Course project'),('Trailer Park – Street Food','Trailer Park – Street Food'),
  ('Eine komplette Marke für einen Food-Truck: Logo, Claim, Farb-, Bild- und Schriftkonzept, zusammengefasst in einem Manual, dazu Plakat, Becher, Food-Box und Newsletter.','A complete brand for a food truck: logo, claim, colour, image and type concept, summarised in a manual, plus poster, cup, food box and newsletter.'),
