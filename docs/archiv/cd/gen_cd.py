@@ -181,7 +181,7 @@ const wide=()=>innerWidth>900;
 function pagesOf(){return lng==='en'&&alt?alt:base}
 function show(){cur=pagesOf();if(i>=cur.length)i=cur.length-1;let idx=[i];
  const portrait=im=>true;
- if(wide()&&cur.length>2&&i>0){const L=i%2?i:i-1;idx=[L];if(L+1<cur.length)idx.push(L+1);}
+ if(wide()&&cur.length>2&&!SINGLE.has(gid)&&i>0){const L=i%2?i:i-1;idx=[L];if(L+1<cur.length)idx.push(L+1);}
  sp.innerHTML='<div class="bk">'+idx.map(k=>`<img src="${cur[k][0]}" alt="${cur[k][1]}">`).join('')+'</div>';sp.classList.toggle('two',idx.length>1);
  document.getElementById('vwC').textContent=cur.length>1?`${idx.map(k=>k+1).join('–')} / ${cur.length}`:'';
  th.innerHTML=cur.length>1?cur.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}" aria-current="${idx.includes(k)}"><img src="${s}" alt=""></button>`).join(''):'';
@@ -189,8 +189,8 @@ function show(){cur=pagesOf();if(i>=cur.length)i=cur.length-1;let idx=[i];
 function step(dir){let L=i===0?0:(i%2?i:i-1);if(dir>0){L=L===0?1:L+2}else{L=L<=1?0:L-2}if(L<cur.length){i=L}show();}
 window.ysOpen=(g,n)=>open(g,n);function open(g,n){gid=g;base=G[g];alt=GEN[g]||null;lng=document.documentElement.lang==='en'&&alt?'en':'de';i=n||0;document.getElementById('vwT').textContent=(base[0][1]||'').replace(/, \d+$/,'');show();d.showModal();}
 document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
-document.getElementById('prev').onclick=()=>{if(wide()&&cur.length>2){step(-1)}else{i=Math.max(0,i-1);show()}};
-document.getElementById('next').onclick=()=>{if(wide()&&cur.length>2){step(1)}else{i=Math.min(cur.length-1,i+1);show()}};
+document.getElementById('prev').onclick=()=>{if(wide()&&cur.length>2&&!SINGLE.has(gid)){step(-1)}else{i=Math.max(0,i-1);show()}};
+document.getElementById('next').onclick=()=>{if(wide()&&cur.length>2&&!SINGLE.has(gid)){step(1)}else{i=Math.min(cur.length-1,i+1);show()}};
 document.getElementById('close').onclick=()=>d.close();
 vl.onclick=e=>{const b=e.target.closest('[data-vl]');if(b){lng=b.dataset.vl;show()}};
 th.onclick=e=>{const b=e.target.closest('button');if(b){i=+b.dataset.k;show()}};
@@ -214,7 +214,9 @@ d='<dialog id="lb" aria-label="Ansicht"><div class="vw"><div class="vwtop"><b id
 scr=b[b.index('<script>'):b.index('</script>')+9]
 gjs='const G={\n'+',\n'.join(f" {k}:["+','.join(f'["img/{s}","{c}"]' for s,c in v)+"]" for k,v in G.items())+'\n};'
 gje='const GEN={\n'+',\n'.join(f" {k}:["+','.join(f'["img/{s}","{c}"]' for s,c in v)+"]" for k,v in GEN.items())+'\n};'
-scr='<script>\n'+gjs+'\n'+gje+VIEW+'\n</script>'
+import json as _j
+SG=[k for k,v in G.items() if any(('sch_' in a_ or 'tp_mock' in a_ or 'tp_becher' in a_) for a_,_ in v)]
+scr='<script>\n'+gjs+'\n'+gje+'\nconst SINGLE=new Set('+_j.dumps(SG)+');'+VIEW+'\n</script>'
 scr=scr[:scr.rindex('</script>')]+NAV+'</script>'
 out='<title>Corporate Design und Raum</title>\n<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap">\n'+style+'\n'+body+'\n'+d+'\n\n'+scr+'\n'
 open(S+'/cd/page/corporate-design.html','w',encoding='utf-8').write(out)
