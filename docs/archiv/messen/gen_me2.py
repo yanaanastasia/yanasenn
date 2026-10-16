@@ -201,6 +201,8 @@ details summary{cursor:pointer;font-weight:700;list-style:none;display:inline-fl
 .sh-body{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:36px;margin-bottom:12px}.sh-text{display:grid;gap:14px}.sh-text p{margin:0;line-height:1.65}
 .sh-body aside{background:var(--tint);border-radius:14px;padding:18px 20px;align-self:start}.sh-body aside .tasks h4{margin-top:0}
 .gsec{margin-top:40px;padding-top:26px;border-top:1px solid var(--line)}.gh{display:grid;grid-template-columns:220px 1fr;gap:20px;margin-bottom:14px}.gh h4{font-size:1.15rem;margin:0}.gh p{margin:0;color:var(--muted)}@media (max-width:760px){.gh{grid-template-columns:1fr;gap:4px}}
+.spread.tall{overflow-y:auto;align-items:flex-start;display:block;text-align:center}.spread.tall .bk{max-height:none;display:inline-block}.spread.tall img{max-height:none;width:min(720px,100%)}
+.gsub{margin-top:14px}.gsub h5{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
 .gg{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
 .gt{all:unset;cursor:pointer;aspect-ratio:4/3;border-radius:12px;overflow:hidden;background:var(--tint);display:block}.gt img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}.gt:hover img{transform:scale(1.04)}
 .gt.fit img{object-fit:contain;padding:14px;box-sizing:border-box}
@@ -230,7 +232,7 @@ function pagesOf(){return lng==='en'&&alt?alt:base}
 function show(){cur=pagesOf();if(i>=cur.length)i=cur.length-1;let idx=[i];
  const portrait=im=>true;
  if(wide()&&cur.length>2&&i>0){const L=i%2?i:i-1;idx=[L];if(L+1<cur.length)idx.push(L+1);}
- sp.innerHTML='<div class="bk">'+idx.map(k=>`<img src="${cur[k][0]}" alt="${cur[k][1]}">`).join('')+'</div>';sp.classList.toggle('two',idx.length>1);
+ sp.innerHTML='<div class="bk">'+idx.map(k=>`<img src="${cur[k][0]}" alt="${cur[k][1]}">`).join('')+'</div>';sp.classList.toggle('two',idx.length>1);{const im0=sp.querySelector('img');const f=()=>sp.classList.toggle('tall',idx.length==1&&im0.naturalHeight>im0.naturalWidth*1.8);if(im0){im0.complete?f():im0.onload=f}}
  document.getElementById('vwC').textContent=cur.length>1?`${idx.map(k=>k+1).join('–')} / ${cur.length}`:'';
  th.innerHTML=cur.length>1?cur.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}" aria-current="${idx.includes(k)}"><img src="${s}" alt=""></button>`).join(''):'';
  vl.hidden=!alt;vl.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.vl===lng));}
