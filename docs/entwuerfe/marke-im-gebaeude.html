@@ -170,6 +170,9 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 .r169w{aspect-ratio:2051/1201}.r32{aspect-ratio:3/2}.r23{aspect-ratio:1078/1616}.r43m{aspect-ratio:4/3}
 .thumbrow{display:grid;grid-template-columns:repeat(auto-fill,150px);gap:12px}
 .thumbrow figcaption{font-size:.78rem;color:var(--muted);line-height:1.35}
+:root #lb{border:0;padding:0;max-width:none;max-height:none;width:100vw;height:100vh;background:rgba(236,238,242,.6);-webkit-backdrop-filter:blur(22px);backdrop-filter:blur(22px);border-radius:0;box-shadow:none}
+#lb::backdrop{background:transparent}#lb .lb{height:100%;box-sizing:border-box;grid-template-rows:1fr auto auto;padding:24px}
+#lb .lbScroll{background:transparent;max-height:none;min-height:0}#lb .lbScroll img{max-height:calc(100vh - 140px);box-shadow:0 3px 8px rgba(0,0,0,.1),0 24px 50px rgba(0,0,0,.22)}
 .split2{display:grid;grid-template-columns:5fr 7fr;gap:40px;align-items:start}
 @media (max-width:860px){.split2{grid-template-columns:1fr}}
 @media (max-width:520px){.thumbrow{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -206,7 +209,7 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
       <p>Für die Abteilungen fotografierte ich die Mitarbeitenden bei der Arbeit, unter anderem bei der PFA-Auskleidung, im CAM sowie in Technik und Entwicklung. Die Fotos bearbeitete ich in Farbe und Schwarzweiss und kombinierte sie mit Produkt- und Betriebsbildern und Grafiken wie der Weltkarte zu Wandbildern und Paneelen.</p>
       <p>Jedes Paneel stellt eine Abteilung oder ein Thema vor, zweisprachig auf Deutsch und Englisch, mit grossem Bild und kurzen Fakten.</p>
     </div>
-    <div class="grpbox"><p class="grp">Paneele, Auswahl</p><div class="thumbrow" style="grid-template-columns:repeat(auto-fill,150px)"><figure><button class="zoom page r23" data-gallery="pan" data-n="0" aria-label="Technik und Entwicklung gross ansehen"><img src="img/pan_21.jpg" alt="Technik und Entwicklung"></button><figcaption>Technik und Entwicklung</figcaption></figure><figure><button class="zoom page r23" data-gallery="pan" data-n="1" aria-label="CAM gross ansehen"><img src="img/pan_14.jpg" alt="CAM"></button><figcaption>CAM</figcaption></figure><figure><button class="zoom page r23" data-gallery="pan" data-n="2" aria-label="Pumpenmontage gross ansehen"><img src="img/pan_2.jpg" alt="Pumpenmontage"></button><figcaption>Pumpenmontage</figcaption></figure><figure><button class="zoom page r23" data-gallery="pan" data-n="3" aria-label="Export gross ansehen"><img src="img/pan_24.jpg" alt="Export"></button><figcaption>Export</figcaption></figure><figure><button class="zoom page r23" data-gallery="pan" data-n="4" aria-label="Verkauf gross ansehen"><img src="img/pan_25.jpg" alt="Verkauf"></button><figcaption>Verkauf</figcaption></figure></div></div>
+    <div class="grpbox"><p class="grp">Paneele, Auswahl</p><div class="thumbrow" style="grid-template-columns:repeat(auto-fill,150px)"><figure><button class="zoom visual r23" data-gallery="smock" data-n="0" aria-label="Mockup: Schild neben der Tür gross ansehen"><img src="img/sch_mock.jpg" alt="Mockup: Schild neben der Tür"></button><figcaption>Mockup: Schild neben der Tür</figcaption></figure><figure><button class="zoom visual r23" data-gallery="pan0" data-n="0" aria-label="Technik und Entwicklung gross ansehen"><img src="img/pan_21.jpg" alt="Technik und Entwicklung"></button><figcaption>Technik und Entwicklung</figcaption></figure><figure><button class="zoom visual r23" data-gallery="pan1" data-n="0" aria-label="CAM gross ansehen"><img src="img/pan_14.jpg" alt="CAM"></button><figcaption>CAM</figcaption></figure><figure><button class="zoom visual r23" data-gallery="pan2" data-n="0" aria-label="Pumpenmontage gross ansehen"><img src="img/pan_2.jpg" alt="Pumpenmontage"></button><figcaption>Pumpenmontage</figcaption></figure><figure><button class="zoom visual r23" data-gallery="pan3" data-n="0" aria-label="Export gross ansehen"><img src="img/pan_24.jpg" alt="Export"></button><figcaption>Export</figcaption></figure><figure><button class="zoom visual r23" data-gallery="pan4" data-n="0" aria-label="Verkauf gross ansehen"><img src="img/pan_25.jpg" alt="Verkauf"></button><figcaption>Verkauf</figcaption></figure></div></div>
   </section>
 
   <section class="chapter">
@@ -227,12 +230,17 @@ dialog::backdrop{background:rgba(10,14,12,.78)}
 const G={
  hero:[["img/v2_2.jpg","Wandbild Birkenwald mit Claim, Druckdaten"]],
  var:[["img/v2_1.jpg","Wandbild mit Claim"],["img/v2_0.jpg","Logo und Claim im Fensterband"]],
- pan:[["img/pan_21.jpg","Technik und Entwicklung"],["img/pan_14.jpg","CAM"],["img/pan_2.jpg","Pumpenmontage"],["img/pan_24.jpg","Export"],["img/pan_25.jpg","Verkauf"]],
- rend:[["img/rend_lounge.jpg","Rendering der Möbelfirma: Lounge"],["img/rend_sitzung.jpg","Rendering der Möbelfirma: Sitzungszimmer"]]
+ rend:[["img/rend_lounge.jpg","Rendering der Möbelfirma: Lounge"],["img/rend_sitzung.jpg","Rendering der Möbelfirma: Sitzungszimmer"]],
+ pan0:[["img/pan_21.jpg","Technik und Entwicklung"]],
+ pan1:[["img/pan_14.jpg","CAM"]],
+ pan2:[["img/pan_2.jpg","Pumpenmontage"]],
+ pan3:[["img/pan_24.jpg","Export"]],
+ pan4:[["img/pan_25.jpg","Verkauf"]],
+ smock:[["img/sch_mock.jpg","Schild neben der Tür, Mockup"]]
 };
 let pages=[],i=0;const d=document.getElementById('lb'),im=document.getElementById('lbImg'),cp=document.getElementById('lbCap'),th=document.getElementById('thumbs');
 function show(){im.src=pages[i][0];im.alt=pages[i][1];cp.textContent=`${pages[i][1]} · ${i+1}/${pages.length}`;th.querySelectorAll('button').forEach((b,n)=>b.setAttribute('aria-current',n===i))}
-function open(g,n){pages=G[g];i=n||0;th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
+function open(g,n){pages=G[g];i=n||0;const one=pages.length<2;document.getElementById('prev').hidden=one;document.getElementById('next').hidden=one;th.style.display=one?'none':'';th.innerHTML=pages.map(([s,a],k)=>`<button data-k="${k}" aria-label="${a}"><img src="${s}" alt=""></button>`).join('');show();d.showModal()}
 document.querySelectorAll('[data-gallery]').forEach(b=>b.addEventListener('click',()=>open(b.dataset.gallery,+(b.dataset.n||0))));
 document.getElementById('prev').onclick=()=>{i=(i+pages.length-1)%pages.length;show()};
 document.getElementById('next').onclick=()=>{i=(i+1)%pages.length;show()};
