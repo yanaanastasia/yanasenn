@@ -28,7 +28,7 @@ CAT=[
 ('digital','PdvNqJCMVj6QRj1SDPPNTW','Website und E-Mail','Website and email','Website-Pflege in Craft CMS, Newsletter und Mailings, E-Mail-Banner zu jeder Messe.','Website content in Craft CMS, newsletters and mailings, email banners for every trade fair.',['w1.jpg','w2.jpg','w3.jpg'],
  [('website','Website','Website'),('newsletter','Newsletter und Mailings','Newsletter and mailings'),('banner','E-Mail-Banner','Email banners')],[]),
 ('foto','9yWsuDQj8HqKbDUfF7j4vK','Foto & Video','Photo & video','Firmenshooting, Reportagen und animierte Erklärvideos.','Company shoots, reportage and animated explainer videos.',['f1.jpg','f2.jpg','f3.jpg'],
- [('shooting','Mitarbeitende bei der Arbeit','Employees at work'),('reportage','Reportage Maschinenlieferung','Machine delivery'),('erklaervideos','Erklärvideos','Explainer videos'),('immobilienvideos','Immobilienvideos','Property videos')],[('AWzk8y7iyFhZyJJQF4gszF','Immobilien-Reels','Property reels')]),
+ [('shooting','Mitarbeitende bei der Arbeit','Employees at work'),('reportage','Reportage Maschinenlieferung','Machine delivery'),('erklaervideos','Erklärvideos','Explainer videos'),('halloween','Halloween-Videoflyer','Halloween video flyer'),('immobilienvideos','Immobilienvideos','Property videos')],[('AWzk8y7iyFhZyJJQF4gszF','Immobilien-Reels','Property reels')]),
 ('werbeartikel','','Werbeartikel','Promotional items','Giveaways, Geschenke für Kunden und Mitarbeitende, Kleidung mit Logo.','Giveaways, gifts for clients and staff, branded clothing.',['k1.jpg'],[],[]),
 ]
 
